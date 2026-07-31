@@ -1,1 +1,418 @@
-Ly8gZ2xvYmFsIGhlYWRlcnMKI2luY2x1ZGUgPGlvc3RyZWFtPgojaW5jbHVkZSA8aW9tYW5pcD4KCi8vIGxpYnJhcnkgaGVhZGVycwojaW5jbHVkZSA8UUNsb3NlRXZlbnQ+CiNpbmNsdWRlIDxRRGlhbG9nQnV0dG9uQm94PgojaW5jbHVkZSA8UUZpbGVJbmZvPgojaW5jbHVkZSA8UUdyb3VwQm94PgojaW5jbHVkZSA8UUxhYmVsPgojaW5jbHVkZSA8UUxheW91dD4KI2luY2x1ZGUgPFFNZXNzYWdlQm94PgojaW5jbHVkZSA8UVBsYWluVGV4dEVkaXQ+CiNpbmNsdWRlIDxRUHJvZ3Jlc3NCYXI+CiNpbmNsdWRlIDxRUHVzaEJ1dHRvbj4KI2luY2x1ZGUgPFFQcm9ncmVzc0RpYWxvZz4KI2luY2x1ZGUgPFFUaW1lcj4KCi8vIGxvY2FsIGhlYWRlcnMKI2luY2x1ZGUgImFwcGltYWdlL3VwZGF0ZS9xdC11aS5oIgojaW5jbHVkZSAiYXBwaW1hZ2UvdXBkYXRlLmgiCiNpbmNsdWRlICJzcG9pbGVyLmgiCiNpbmNsdWRlICJ1dGlsL3V0aWwuaCIKCgpuYW1lc3BhY2UgYXBwaW1hZ2UgewogICAgbmFtZXNwYWNlIHVwZGF0ZSB7CiAgICAgICAgdXNpbmcgbmFtZXNwYWNlIHV0aWw7CgogICAgICAgIG5hbWVzcGFjZSBxdCB7CiAgICAgICAgICAgIGNsYXNzIFF0VXBkYXRlcjo6UHJpdmF0ZSB7CiAgICAgICAgICAgIHB1YmxpYzoKICAgICAgICAgICAgICAgIGNvbnN0IFFTdHJpbmcgcGF0aFRvQXBwSW1hZ2U7CiAgICAgICAgICAgICAgICBhcHBpbWFnZTo6dXBkYXRlOjpVcGRhdGVyKiB1cGRhdGVyOwoKICAgICAgICAgICAgICAgIFFMYWJlbCogbGFiZWw7CiAgICAgICAgICAgICAgICBRSEJveExheW91dCogbGFiZWxMYXlvdXQ7CiAgICAgICAgICAgICAgICBRTGFiZWwqIHByb2dyZXNzTGFiZWw7CiAgICAgICAgICAgICAgICBRTGFiZWwqIHZhbGlkYXRpb25TdGF0ZUxhYmVsOwogICAgICAgICAgICAgICAgUURpYWxvZ0J1dHRvbkJveCogYnV0dG9uQm94OwoKICAgICAgICAgICAgICAgIFFQcm9ncmVzc0JhciogcHJvZ3Jlc3NCYXI7CgogICAgICAgICAgICAgICAgUUxheW91dCogbWFpbkxheW91dDsKCiAgICAgICAgICAgICAgICBRU3RyaW5nIGFwcE5hbWU7CiAgICAgICAgICAgICAgICBRU3RyaW5nIGFwcEltYWdlRmlsZU5hbWU7CgogICAgICAgICAgICAgICAgUVRpbWVyKiBwcm9ncmVzc1RpbWVyOwoKICAgICAgICAgICAgICAgIFNwb2lsZXIqIHNwb2lsZXI7CiAgICAgICAgICAgICAgICBRVkJveExheW91dCogc3BvaWxlckxheW91dDsKICAgICAgICAgICAgICAgIFFQbGFpblRleHRFZGl0KiBzcG9pbGVyTG9nOwoKICAgICAgICAgICAgICAgIGJvb2wgZmluaXNoZWQ7CgogICAgICAgICAgICAgICAgY29uc3QgaW50IG1pbmltdW1XaWR0aDsKCiAgICAgICAgICAgICAgICBib29sIGVuYWJsZVJ1blVwZGF0ZWRBcHBJbWFnZUJ1dHRvbjsKCiAgICAgICAgICAgIHB1YmxpYzoKICAgICAgICAgICAgICAgIGV4cGxpY2l0IFByaXZhdGUoY29uc3QgUVN0cmluZyYgcGF0aFRvQXBwSW1hZ2UpIDogYnV0dG9uQm94KG51bGxwdHIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm9ncmVzc0JhcihudWxscHRyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFpbkxheW91dChudWxscHRyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwobnVsbHB0ciksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2dyZXNzVGltZXIobnVsbHB0ciksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2dyZXNzTGFiZWwobnVsbHB0ciksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhdGhUb0FwcEltYWdlKHBhdGhUb0FwcEltYWdlKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvaWxlcihudWxscHRyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvaWxlckxheW91dChudWxscHRyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvaWxlckxvZyhudWxscHRyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmluaXNoZWQoZmFsc2UpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5pbXVtV2lkdGgoNDAwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlUnVuVXBkYXRlZEFwcEltYWdlQnV0dG9uKGZhbHNlKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGlmICghaXNGaWxlKHBhdGhUb0FwcEltYWdlLnRvU3RkU3RyaW5nKCkpKQogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBzdGQ6OnJ1bnRpbWVfZXJyb3IoIk5vIHN1Y2ggZmlsZSBvciBkaXJlY3Rvcnk6ICIgKyBwYXRoVG9BcHBJbWFnZS50b1N0ZFN0cmluZygpKTsKCiAgICAgICAgICAgICAgICAgICAgdXBkYXRlciA9IG5ldyBVcGRhdGVyKHBhdGhUb0FwcEltYWdlLnRvU3RkU3RyaW5nKCkpOwoKICAgICAgICAgICAgICAgICAgICBhdXRvIGZpbGVJbmZvID0gUUZpbGVJbmZvKHBhdGhUb0FwcEltYWdlKTsKCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICBhdXRvIGFwcE5hbWUgPSBmaWxlSW5mby5iYXNlTmFtZSgpOwoKICAgICAgICAgICAgICAgICAgICAgICAgUVN0cmluZ0xpc3QgYXJjaHM7CiAgICAgICAgICAgICAgICAgICAgICAgIGFyY2hzIDw8ICJ4ODZfNjQiIDw8ICJpMzg2IiA8PCAiaTU4NiIgPDwgImk2ODYiIDw8ICJ4NjQiIDw8ICJ4ODYiOwogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IGF1dG8mIGFyY2ggOiBhcmNocykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcE5hbWUucmVwbGFjZShhcmNoLCAiIik7CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRvIHN0ZEFwcE5hbWUgPSBhcHBOYW1lLnRvU3RkU3RyaW5nKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyaW0oc3RkQXBwTmFtZSwgJy0nKTsKICAgICAgICAgICAgICAgICAgICAgICAgYXBwTmFtZSA9IFFTdHJpbmc6OmZyb21TdGRTdHJpbmcoc3RkQXBwTmFtZSk7CgogICAgICAgICAgICAgICAgICAgICAgICB0aGlzLT5hcHBOYW1lID0gYXBwTmFtZTsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGFwcEltYWdlRmlsZU5hbWUgPSBmaWxlSW5mby5iYXNlTmFtZSgpICsgIi4iICsgZmlsZUluZm8uc3VmZml4KCk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgflByaXZhdGUoKSB7CiAgICAgICAgICAgICAgICAgICAgZGVsZXRlIHVwZGF0ZXI7CiAgICAgICAgICAgICAgICAgICAgZGVsZXRlIGxhYmVsOwogICAgICAgICAgICAgICAgICAgIGRlbGV0ZSBwcm9ncmVzc0xhYmVsOwogICAgICAgICAgICAgICAgICAgIGRlbGV0ZSBidXR0b25Cb3g7CiAgICAgICAgICAgICAgICAgICAgZGVsZXRlIHByb2dyZXNzQmFyOwogICAgICAgICAgICAgICAgICAgIGRlbGV0ZSBtYWluTGF5b3V0OwogICAgICAgICAgICAgICAgICAgIGRlbGV0ZSBwcm9ncmVzc1RpbWVyOwogICAgICAgICAgICAgICAgICAgIGRlbGV0ZSBzcG9pbGVyOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgcHVibGljOgogICAgICAgICAgICAgICAgdm9pZCBzdGFydFVwZGF0ZSgpIHsKICAgICAgICAgICAgICAgICAgICB1cGRhdGVyLT5zdGFydCgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZvaWQgcHJpbnRTdGF0dXNNZXNzYWdlcyhjb25zdCBRdFVwZGF0ZXIqIHNlbGYsIFVwZGF0ZXImIHVwZGF0ZXIpIHsKICAgICAgICAgICAgICAgICAgICBzdGQ6OnN0cmluZyBuZXh0TWVzc2FnZTsKCiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHVwZGF0ZXIubmV4dFN0YXR1c01lc3NhZ2UobmV4dE1lc3NhZ2UpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVtaXQgc2VsZi0+bmV3U3RhdHVzTWVzc2FnZShuZXh0TWVzc2FnZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9OwoKICAgICAgICAgICAgUXRVcGRhdGVyOjpRdFVwZGF0ZXIoY29uc3QgUVN0cmluZyYgcGF0aFRvQXBwSW1hZ2UpIHsKICAgICAgICAgICAgICAgIGQgPSBuZXcgUHJpdmF0ZShwYXRoVG9BcHBJbWFnZSk7CgogICAgICAgICAgICAgICAgaW5pdCgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBRdFVwZGF0ZXI6On5RdFVwZGF0ZXIoKSB7CiAgICAgICAgICAgICAgICBkZWxldGUgZDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdm9pZCBRdFVwZGF0ZXI6OmluaXQoKSB7CiAgICAgICAgICAgICAgICAvLyByZXBsYWNlIGRlZmF1bHQgY2FuY2VsIGJ1dHRvbiBoYW5kbGluZwogICAgICAgICAgICAgICAgc2V0V2luZG93VGl0bGUoUVN0cmluZygiVXBkYXRpbmcgIiArIGQtPmFwcE5hbWUpKTsKICAgICAgICAgICAgICAgIC8vIG1ha2UgaXQgYSBtb2RhbCBkaWFsb2cKICAgICAgICAgICAgICAgIC8vIGRvZXNuJ3QgaGF2ZSBhbiBlZmZlY3QgaW4gdGhlIHN0YW5kYWxvbmUgQXBwSW1hZ2VVcGRhdGUtUXQgYXBwLCBidXQgc2hvdWxkIGltcHJvdmUgVVggd2hlbiBiZWluZwogICAgICAgICAgICAgICAgLy8gaW50ZWdyYXRlZCBpbiBvdGhlciBhcHBzCiAgICAgICAgICAgICAgICBzZXRNb2RhbCh0cnVlKTsKCiAgICAgICAgICAgICAgICBkLT5tYWluTGF5b3V0ID0gbmV3IFFWQm94TGF5b3V0KCk7CiAgICAgICAgICAgICAgICBzZXRMYXlvdXQoZC0+bWFpbkxheW91dCk7CgogICAgICAgICAgICAgICAgLy8gbWFrZSBzdXJlIHRoZSBRRGlhbG9nIHJlc2l6ZXMgd2l0aCB0aGUgc3BvaWxlcgogICAgICAgICAgICAgICAgbGF5b3V0KCktPnNldFNpemVDb25zdHJhaW50KFFMYXlvdXQ6OlNldEZpeGVkU2l6ZSk7CgogICAgICAgICAgICAgICAgZC0+bGFiZWwgPSBuZXcgUUxhYmVsKFFTdHJpbmcoIlVwZGF0aW5nICIgKyBkLT5hcHBJbWFnZUZpbGVOYW1lICsgIi4uLiIpKTsKICAgICAgICAgICAgICAgIGQtPmxhYmVsLT5zZXRNaW5pbXVtV2lkdGgoZC0+bWluaW11bVdpZHRoKTsKICAgICAgICAgICAgICAgIGxheW91dCgpLT5hZGRXaWRnZXQoZC0+bGFiZWwpOwoKICAgICAgICAgICAgICAgIGQtPnByb2dyZXNzQmFyID0gbmV3IFFQcm9ncmVzc0JhcigpOwogICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NCYXItPnNldE1pbmltdW1XaWR0aChkLT5taW5pbXVtV2lkdGgpOwogICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NCYXItPnNldE1pbmltdW0oMCk7CiAgICAgICAgICAgICAgICBkLT5wcm9ncmVzc0Jhci0+c2V0TWF4aW11bSgxMDApOwogICAgICAgICAgICAgICAgbGF5b3V0KCktPmFkZFdpZGdldChkLT5wcm9ncmVzc0Jhcik7CgogICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NMYWJlbCA9IG5ldyBRTGFiZWwodGhpcyk7CiAgICAgICAgICAgICAgICBkLT5wcm9ncmVzc0xhYmVsLT5zZXRNaW5pbXVtV2lkdGgoZC0+bWluaW11bVdpZHRoKTsKICAgICAgICAgICAgICAgIGQtPnByb2dyZXNzTGFiZWwtPnNldEFsaWdubWVudChRdDo6QWxpZ25SaWdodCB8IFF0OjpBbGlnblZDZW50ZXIpOwogICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NMYWJlbC0+c2V0VGV4dCgiU3RhcnRpbmcgdXBkYXRlLi4uIik7CiAgICAgICAgICAgICAgICBsYXlvdXQoKS0+YWRkV2lkZ2V0KGQtPnByb2dyZXNzTGFiZWwpOwoKICAgICAgICAgICAgICAgIGQtPnNwb2lsZXIgPSBuZXcgU3BvaWxlcigiRGV0YWlscyIpOwogICAgICAgICAgICAgICAgZC0+c3BvaWxlci0+cmVzaXplKFFTaXplKGQtPm1pbmltdW1XaWR0aCwgMjAwKSk7CiAgICAgICAgICAgICAgICBkLT5zcG9pbGVyTGF5b3V0ID0gbmV3IFFWQm94TGF5b3V0KCk7CiAgICAgICAgICAgICAgICBkLT5zcG9pbGVyTG9nID0gbmV3IFFQbGFpblRleHRFZGl0KCk7CiAgICAgICAgICAgICAgICBkLT5zcG9pbGVyTG9nLT5zZXRSZWFkT25seSh0cnVlKTsKICAgICAgICAgICAgICAgIGQtPnNwb2lsZXJMYXlvdXQtPmFkZFdpZGdldChkLT5zcG9pbGVyTG9nKTsKICAgICAgICAgICAgICAgIGQtPnNwb2lsZXItPnNldENvbnRlbnRMYXlvdXQoKmQtPnNwb2lsZXJMYXlvdXQpOwogICAgICAgICAgICAgICAgbGF5b3V0KCktPmFkZFdpZGdldChkLT5zcG9pbGVyKTsKCiAgICAgICAgICAgICAgICBkLT5idXR0b25Cb3ggPSBuZXcgUURpYWxvZ0J1dHRvbkJveChRRGlhbG9nQnV0dG9uQm94OjpDYW5jZWwpOwogICAgICAgICAgICAgICAgY29ubmVjdChkLT5idXR0b25Cb3gsIFNJR05BTChyZWplY3RlZCgpKSwgdGhpcywgU0xPVChzaG93Q2FuY2VsRGlhbG9nKCkpKTsKICAgICAgICAgICAgICAgIGxheW91dCgpLT5hZGRXaWRnZXQoZC0+YnV0dG9uQm94KTsKCiAgICAgICAgICAgICAgICBkLT5wcm9ncmVzc1RpbWVyID0gbmV3IFFUaW1lcih0aGlzKTsKICAgICAgICAgICAgICAgIGNvbm5lY3QoZC0+cHJvZ3Jlc3NUaW1lciwgU0lHTkFMKHRpbWVvdXQoKSksIHRoaXMsIFNMT1QodXBkYXRlUHJvZ3Jlc3MoKSkpOwogICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NUaW1lci0+c3RhcnQoMTAwKTsKCiAgICAgICAgICAgICAgICBhZGp1c3RTaXplKCk7CgogICAgICAgICAgICAgICAgLy8gZGVmYXVsdCBydW4gYWN0aW9uCiAgICAgICAgICAgICAgICBjb25uZWN0KHRoaXMsIFNJR05BTChydW5VcGRhdGVkQXBwSW1hZ2VDbGlja2VkKCkpLCB0aGlzLCBTTE9UKHJ1blVwZGF0ZWRBcHBJbWFnZSgpKSk7CgogICAgICAgICAgICAgICAgLy8gY29ubmVjdCBsb2cgbWV0aG9kCiAgICAgICAgICAgICAgICBjb25uZWN0KHRoaXMsIFNJR05BTChuZXdTdGF0dXNNZXNzYWdlKGNvbnN0IHN0ZDo6c3RyaW5nJikpLCB0aGlzLCBTTE9UKHByb2Nlc3NOZXdTdGF0dXNNZXNzYWdlKGNvbnN0IHN0ZDo6c3RyaW5nJikpKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdm9pZCBRdFVwZGF0ZXI6OnByb2Nlc3NOZXdTdGF0dXNNZXNzYWdlKGNvbnN0IHN0ZDo6c3RyaW5nJiBuZXh0TWVzc2FnZSkgewogICAgICAgICAgICAgICAgLy8gcHJpbnQgbWVzc2FnZSB0byBzdGRlcnIKICAgICAgICAgICAgICAgIHN0ZDo6Y2VyciA8PCBuZXh0TWVzc2FnZSA8PCBzdGQ6OmVuZGw7CgogICAgICAgICAgICAgICAgLy8gaWYgc3BvaWxlckxvZyBpcyBhdmFpbGFibGUsIGFsc28gcHJpbnQgbWVzc2FnZSB0aGVyZQogICAgICAgICAgICAgICAgaWYgKGQtPnNwb2lsZXJMb2cgIT0gbnVsbHB0cikgewogICAgICAgICAgICAgICAgICAgIGQtPnNwb2lsZXJMb2ctPm1vdmVDdXJzb3IoUVRleHRDdXJzb3I6OkVuZCk7CiAgICAgICAgICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIG9zczsKICAgICAgICAgICAgICAgICAgICBvc3MgPDwgbmV4dE1lc3NhZ2UgPDwgc3RkOjplbmRsOwogICAgICAgICAgICAgICAgICAgIGQtPnNwb2lsZXJMb2ctPmluc2VydFBsYWluVGV4dChRU3RyaW5nOjpmcm9tU3RkU3RyaW5nKG9zcy5zdHIoKSkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB2b2lkIFF0VXBkYXRlcjo6dXBkYXRlUHJvZ3Jlc3MoKSB7CiAgICAgICAgICAgICAgICBkb3VibGUgcHJvZ3Jlc3M7CgogICAgICAgICAgICAgICAgaWYgKCFkLT51cGRhdGVyLT5wcm9ncmVzcyhwcm9ncmVzcykpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwoKICAgICAgICAgICAgICAgIGQtPnByb2dyZXNzQmFyLT5zZXRWYWx1ZShpbnQocHJvZ3Jlc3MgKiAxMDApKTsKCiAgICAgICAgICAgICAgICBvZmZfdCBmaWxlU2l6ZTsKICAgICAgICAgICAgICAgIGlmIChkLT51cGRhdGVyLT5yZW1vdGVGaWxlU2l6ZShmaWxlU2l6ZSkpIHsKICAgICAgICAgICAgICAgICAgICBkb3VibGUgZG93bmxvYWRlZFNpemUgPSBwcm9ncmVzcyAqIGZpbGVTaXplOwogICAgICAgICAgICAgICAgICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHNzOwogICAgICAgICAgICAgICAgICAgIHNzIDw8IHN0ZDo6Zml4ZWQgPDwgc3RkOjpzZXRwcmVjaXNpb24oMSkKICAgICAgICAgICAgICAgICAgICAgICA8PCBkb3dubG9hZGVkU2l6ZSAvIDEwMjQuMGYgLyAxMDI0LjBmIDw8ICIgTWlCIG9mICIgPDwgZmlsZVNpemUgLyAxMDI0LjBmIC8gMTAyNC4wZiA8PCAiIE1pQiI7CiAgICAgICAgICAgICAgICAgICAgZC0+cHJvZ3Jlc3NMYWJlbC0+c2V0VGV4dChRU3RyaW5nOjpmcm9tU3RkU3RyaW5nKHNzLnN0cigpKSk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZC0+cHJpbnRTdGF0dXNNZXNzYWdlcyh0aGlzLCAqZC0+dXBkYXRlcik7CgogICAgICAgICAgICAgICAgaWYgKGQtPnVwZGF0ZXItPmlzRG9uZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgZC0+ZmluaXNoZWQgPSB0cnVlOwoKICAgICAgICAgICAgICAgICAgICBkLT5wcm9ncmVzc1RpbWVyLT5zdG9wKCk7CgogICAgICAgICAgICAgICAgICAgIGF1dG8gcGFsZXR0ZSA9IGQtPnByb2dyZXNzQmFyLT5wYWxldHRlKCk7CgogICAgICAgICAgICAgICAgICAgIC8vIGNhbiBvbmx5IHZhbGlkYXRlIHNpZ25hdHVyZSBvbmNlIHRoZSB1cGRhdGUgaGFzIGZpbmlzaGVkLCBvdGhlcndpd3MKICAgICAgICAgICAgICAgICAgICBVcGRhdGVyOjpWYWxpZGF0aW9uU3RhdGUgdmFsaWRhdGlvblJlc3VsdCA9IFVwZGF0ZXI6OlZBTElEQVRJT05fRkFJTEVEOwogICAgICAgICAgICAgICAgICAgIFFTdHJpbmcgdmFsaWRhdGlvbk1lc3NhZ2U7CgogICAgICAgICAgICAgICAgICAgIC8vIFRPRE86IHJlZmFjdG9yIHRoaXMgYmxvY2ssIGl0J3MgcXVpdGUgZGlmZmljdWx0IHRvIHVuZGVyc3RhbmQgcmlnaHQgbm93CiAgICAgICAgICAgICAgICAgICAgaWYgKGQtPnVwZGF0ZXItPmhhc0Vycm9yKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZC0+bGFiZWwtPnNldFRleHQoIlVwZGF0ZSBmYWlsZWQhIik7CiAgICAgICAgICAgICAgICAgICAgICAgIHBhbGV0dGUuc2V0Q29sb3IoUVBhbGV0dGU6OkhpZ2hsaWdodCwgUXQ6OnJlZCk7CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gY2FuCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbGlkYXRpb25SZXN1bHQgPSBkLT51cGRhdGVyLT52YWxpZGF0ZVNpZ25hdHVyZSgpOwogICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0aW9uTWVzc2FnZSA9IFFTdHJpbmc6OmZyb21TdGRTdHJpbmcoZC0+dXBkYXRlci0+c2lnbmF0dXJlVmFsaWRhdGlvbk1lc3NhZ2UodmFsaWRhdGlvblJlc3VsdCkpOwoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHZhbGlkYXRpb25SZXN1bHQgIT0gZC0+dXBkYXRlci0+VkFMSURBVElPTl9QQVNTRUQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICh2YWxpZGF0aW9uUmVzdWx0ID49IGQtPnVwZGF0ZXItPlZBTElEQVRJT05fV0FSTklORyAmJiB2YWxpZGF0aW9uUmVzdWx0IDwgZC0+dXBkYXRlci0+VkFMSURBVElPTl9GQUlMRUQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodmFsaWRhdGlvblJlc3VsdCA9PSBkLT51cGRhdGVyLT5WQUxJREFUSU9OX05PVF9TSUdORUQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gY29weSBwZXJtaXNzaW9ucyBvZiB0aGUgb2xkIEFwcEltYWdlIHRvIHRoZSBuZXcgdmVyc2lvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkLT51cGRhdGVyLT5jb3B5UGVybWlzc2lvbnNUb05ld0ZpbGUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQtPmxhYmVsLT5zZXRUZXh0KCJTaWduYXR1cmUgdmFsaWRhdGlvbiBwcm9ibGVtOiAiICsgdmFsaWRhdGlvbk1lc3NhZ2UpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhbGV0dGUuc2V0Q29sb3IoUVBhbGV0dGU6OkhpZ2hsaWdodCwgUXQ6OnllbGxvdyk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFsZXR0ZS5zZXRDb2xvcihRUGFsZXR0ZTo6SGlnaGxpZ2h0ZWRUZXh0LCBRdDo6YmxhY2spOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkLT51cGRhdGVyLT5yZXN0b3JlT3JpZ2luYWxGaWxlKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgUVN0cmluZyBtZXNzYWdlID0gIlNpZ25hdHVyZSB2YWxpZGF0aW9uIGVycm9yOiAiICsgdmFsaWRhdGlvbk1lc3NhZ2U7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZC0+bGFiZWwtPnNldFRleHQobWVzc2FnZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFsZXR0ZS5zZXRDb2xvcihRUGFsZXR0ZTo6SGlnaGxpZ2h0LCBRdDo6cmVkKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBRTWVzc2FnZUJveDo6Y3JpdGljYWwodGhpcywgIkVycm9yIiwgbWVzc2FnZSArICJcblxuUmVzdG9yaW5nIG9yaWdpbmFsIGZpbGUiKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGNvcHkgcGVybWlzc2lvbnMgb2YgdGhlIG9sZCBBcHBJbWFnZSB0byB0aGUgbmV3IHZlcnNpb24KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGQtPnVwZGF0ZXItPmNvcHlQZXJtaXNzaW9uc1RvTmV3RmlsZSgpOwoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICh2YWxpZGF0aW9uUmVzdWx0ID09IGQtPnVwZGF0ZXItPlZBTElEQVRJT05fUEFTU0VEKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5ld1N0YXR1c01lc3NhZ2UoIlNpZ25hdHVyZSB2YWxpZGF0aW9uIHBhc3NlZCIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZC0+bGFiZWwtPnNldFRleHQoIlVwZGF0ZSBzdWNjZXNzZnVsISIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFsZXR0ZS5zZXRDb2xvcihRUGFsZXR0ZTo6SGlnaGxpZ2h0LCBRdDo6Z3JlZW4pOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFsZXR0ZS5zZXRDb2xvcihRUGFsZXR0ZTo6SGlnaGxpZ2h0ZWRUZXh0LCBRdDo6YmxhY2spOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAvLyBUT0RPOiBkb2Vzbid0IHdvcmsgd2l0aCB0aGUgR3RrKyBwbGF0Zm9ybSB0aGVtZQogICAgICAgICAgICAgICAgICAgIGQtPnByb2dyZXNzQmFyLT5zZXRQYWxldHRlKHBhbGV0dGUpOwoKICAgICAgICAgICAgICAgICAgICAvLyByZXBsYWNlIGJ1dHRvbiBib3gKICAgICAgICAgICAgICAgICAgICBkaXNjb25uZWN0KGQtPmJ1dHRvbkJveCwgU0lHTkFMKHJlamVjdGVkKCkpKTsKICAgICAgICAgICAgICAgICAgICBkZWxldGUgZC0+YnV0dG9uQm94OwoKICAgICAgICAgICAgICAgICAgICBkLT5idXR0b25Cb3ggPSBuZXcgUURpYWxvZ0J1dHRvbkJveCgpOwoKICAgICAgICAgICAgICAgICAgICBpZiAoIWQtPnVwZGF0ZXItPmhhc0Vycm9yKCkgJiYgdmFsaWRhdGlvblJlc3VsdCA8IGQtPnVwZGF0ZXItPlZBTElEQVRJT05fRkFJTEVEICYmIGQtPmVuYWJsZVJ1blVwZGF0ZWRBcHBJbWFnZUJ1dHRvbikgewogICAgICAgICAgICAgICAgICAgICAgICBkLT5idXR0b25Cb3gtPmFkZEJ1dHRvbigiUnVuIHVwZGF0ZWQgQXBwSW1hZ2UiLCBRRGlhbG9nQnV0dG9uQm94OjpBY2NlcHRSb2xlKTsKICAgICAgICAgICAgICAgICAgICAgICAgY29ubmVjdChkLT5idXR0b25Cb3gsICZRRGlhbG9nQnV0dG9uQm94OjphY2NlcHRlZCwgdGhpcywgW3RoaXNdKCl7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbWl0IHJ1blVwZGF0ZWRBcHBJbWFnZUNsaWNrZWQoKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkLT5idXR0b25Cb3gtPmFkZEJ1dHRvbigiQ2xvc2UiLCBRRGlhbG9nQnV0dG9uQm94OjpSZWplY3RSb2xlKTsKCiAgICAgICAgICAgICAgICAgICAgY29ubmVjdChkLT5idXR0b25Cb3gsICZRRGlhbG9nQnV0dG9uQm94OjpyZWplY3RlZCwgdGhpcywgW3RoaXNdKCkgewogICAgICAgICAgICAgICAgICAgICAgICB0aGlzLT5kb25lKDApOwogICAgICAgICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICAgICAgICBsYXlvdXQoKS0+YWRkV2lkZ2V0KGQtPmJ1dHRvbkJveCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGludCBRdFVwZGF0ZXI6OmNoZWNrRm9yVXBkYXRlcyhib29sIHdyaXRlVG9TdGRlcnIpIGNvbnN0IHsKICAgICAgICAgICAgICAgIGFwcGltYWdlOjp1cGRhdGU6OlVwZGF0ZXIgdXBkYXRlcihkLT5wYXRoVG9BcHBJbWFnZS50b1N0ZFN0cmluZygpKTsKCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGlmICh1cGRhdGVyLnVwZGF0ZUluZm9ybWF0aW9uKCkuZW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gLTE7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoY29uc3Qgc3RkOjpydW50aW1lX2Vycm9yJiBlKSB7CiAgICAgICAgICAgICAgICAgICAgc3RkOjpjZXJyIDw8IGUud2hhdCgpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAtMTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBib29sIGNoYW5nZXNBdmFpbGFibGUgPSBmYWxzZTsKCiAgICAgICAgICAgICAgICBhdXRvIHJlc3VsdCA9IHVwZGF0ZXIuY2hlY2tGb3JDaGFuZ2VzKGNoYW5nZXNBdmFpbGFibGUpOwoKICAgICAgICAgICAgICAgIC8vIHByaW50IGFsbCBtZXNzYWdlcyB0aGF0IG1pZ2h0IGJlIGF2YWlsYWJsZQogICAgICAgICAgICAgICAgZC0+cHJpbnRTdGF0dXNNZXNzYWdlcyh0aGlzLCB1cGRhdGVyKTsKCiAgICAgICAgICAgICAgICBpZiAoIXJlc3VsdCkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gMjsKCiAgICAgICAgICAgICAgICBpZiAoY2hhbmdlc0F2YWlsYWJsZSkgewogICAgICAgICAgICAgICAgICAgIGlmICh3cml0ZVRvU3RkZXJyKQogICAgICAgICAgICAgICAgICAgICAgICBzdGQ6OmNlcnIgPDwgIlVwZGF0ZSBhdmFpbGFibGUiIDw8IHN0ZDo6ZW5kbDsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHdyaXRlVG9TdGRlcnIpCiAgICAgICAgICAgICAgICAgICAgICAgIHN0ZDo6Y2VyciA8PCAiQXBwSW1hZ2UgYWxyZWFkeSB1cCB0byBkYXRlIiA8PCBzdGQ6OmVuZGw7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIDA7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZvaWQgUXRVcGRhdGVyOjpjbG9zZUV2ZW50KFFDbG9zZUV2ZW50KiBldmVudCkgewogICAgICAgICAgICAgICAgaWYgKCFkLT5maW5pc2hlZCkgewogICAgICAgICAgICAgICAgICAgIC8vIGlnbm9yZSBldmVudC4uLgogICAgICAgICAgICAgICAgICAgIGV2ZW50LT5pZ25vcmUoKTsKICAgICAgICAgICAgICAgICAgICAvLyAuLi4gYW5kIHNob3cgY2FuY2VsIGRpYWxvZwogICAgICAgICAgICAgICAgICAgIHNob3dDYW5jZWxEaWFsb2coKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdm9pZCBRdFVwZGF0ZXI6OnNob3dFdmVudChRU2hvd0V2ZW50KiBldmVudCkgewogICAgICAgICAgICAgICAgUURpYWxvZzo6c2hvd0V2ZW50KGV2ZW50KTsKCiAgICAgICAgICAgICAgICBkLT5zdGFydFVwZGF0ZSgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBib29sIFF0VXBkYXRlcjo6cGF0aFRvTmV3RmlsZShRU3RyaW5nJiBwYXRoVG9OZXdBcHBJbWFnZSkgY29uc3QgewogICAgICAgICAgICAgICAgc3RkOjpzdHJpbmcgc3RkUGF0aFRvTmV3QXBwSW1hZ2U7CgogICAgICAgICAgICAgICAgaWYgKCFkLT51cGRhdGVyLT5wYXRoVG9OZXdGaWxlKHN0ZFBhdGhUb05ld0FwcEltYWdlKSkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CgogICAgICAgICAgICAgICAgcGF0aFRvTmV3QXBwSW1hZ2UgPSBRU3RyaW5nOjpmcm9tU3RkU3RyaW5nKHN0ZFBhdGhUb05ld0FwcEltYWdlKTsKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICB9CgogICAgICAgICAgICB2b2lkIFF0VXBkYXRlcjo6cnVuVXBkYXRlZEFwcEltYWdlKCkgewogICAgICAgICAgICAgICAgUVN0cmluZyBwYXRoVG9OZXdBcHBJbWFnZTsKCiAgICAgICAgICAgICAgICBpZiAoIXBhdGhUb05ld0ZpbGUocGF0aFRvTmV3QXBwSW1hZ2UpKQogICAgICAgICAgICAgICAgICAgIHRocm93IHN0ZDo6cnVudGltZV9lcnJvcigiQ291bGQgbm90IGRldGVjdCBwYXRoIHRvIG5ldyBBcHBJbWFnZSIpOwoKICAgICAgICAgICAgICAgIHJ1bkFwcChwYXRoVG9OZXdBcHBJbWFnZS50b1N0ZFN0cmluZygpKTsKICAgICAgICAgICAgICAgIGRvbmUoMCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZvaWQgUXRVcGRhdGVyOjpzaG93Q2FuY2VsRGlhbG9nKCkgewogICAgICAgICAgICAgICAgLy8gcHJlcGFyZSBtZXNzYWdlIGJveAogICAgICAgICAgICAgICAgYXV0byBidXR0b24gPSBRTWVzc2FnZUJveDo6Y3JpdGljYWwoCiAgICAgICAgICAgICAgICAgICAgdGhpcywKICAgICAgICAgICAgICAgICAgICAiQ2FuY2VsIHVwZGF0ZSIsICJEbyB5b3Ugd2FudCB0byBjYW5jZWwgdGhlIHVwZGF0ZSBwcm9jZXNzPyIsCiAgICAgICAgICAgICAgICAgICAgUU1lc3NhZ2VCb3g6Ok5vIHwgUU1lc3NhZ2VCb3g6OlllcywKICAgICAgICAgICAgICAgICAgICBRTWVzc2FnZUJveDo6WWVzCiAgICAgICAgICAgICAgICApOwoKICAgICAgICAgICAgICAgIHN3aXRjaCAoYnV0dG9uKSB7CiAgICAgICAgICAgICAgICAgICAgY2FzZSBRTWVzc2FnZUJveDo6WWVzOgogICAgICAgICAgICAgICAgICAgICAgICBjYW5jZWxVcGRhdGUoKTsKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZvaWQgUXRVcGRhdGVyOjpjYW5jZWxVcGRhdGUoKSB7CiAgICAgICAgICAgICAgICBzdGQ6OmNlcnIgPDwgImNhbmNlbGVkIiA8PCBzdGQ6OmVuZGw7CgogICAgICAgICAgICAgICAgaWYgKCFkLT51cGRhdGVyLT5pc0RvbmUoKSkKICAgICAgICAgICAgICAgICAgICBkLT51cGRhdGVyLT5zdG9wKCk7CgogICAgICAgICAgICAgICAgZG9uZSgxKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgUXRVcGRhdGVyKiBRdFVwZGF0ZXI6OmZyb21FbnYoKSB7CiAgICAgICAgICAgICAgICBhdXRvKiBBUFBJTUFHRSA9IGdldGVudigiQVBQSU1BR0UiKTsKCiAgICAgICAgICAgICAgICBpZiAoQVBQSU1BR0UgPT0gbnVsbHB0ciB8fCAhaXNGaWxlKEFQUElNQUdFKSkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbHB0cjsKCiAgICAgICAgICAgICAgICBhdXRvIHBhdGhUb0FwcEltYWdlID0gUVN0cmluZyhBUFBJTUFHRSk7CiAgICAgICAgICAgICAgICByZXR1cm4gbmV3IFF0VXBkYXRlcihwYXRoVG9BcHBJbWFnZSk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZvaWQgUXRVcGRhdGVyOjprZXlQcmVzc0V2ZW50KFFLZXlFdmVudCogZXZlbnQpIHsKICAgICAgICAgICAgICAgIGlmIChldmVudC0+a2V5KCkgPT0gUXQ6OktleV9Fc2NhcGUpIHsKICAgICAgICAgICAgICAgICAgICBldmVudC0+aWdub3JlKCk7CiAgICAgICAgICAgICAgICAgICAgc2hvd0NhbmNlbERpYWxvZygpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBRRGlhbG9nOjprZXlQcmVzc0V2ZW50KGV2ZW50KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdm9pZCBRdFVwZGF0ZXI6OmVuYWJsZVJ1blVwZGF0ZWRBcHBJbWFnZUJ1dHRvbihib29sIGVuYWJsZSkgewogICAgICAgICAgICAgICAgZC0+ZW5hYmxlUnVuVXBkYXRlZEFwcEltYWdlQnV0dG9uID0gZW5hYmxlOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+// global headers
+#include <iostream>
+#include <iomanip>
+
+// library headers
+#include <QCloseEvent>
+#include <QDialogButtonBox>
+#include <QFileInfo>
+#include <QGroupBox>
+#include <QLabel>
+#include <QLayout>
+#include <QMessageBox>
+#include <QPlainTextEdit>
+#include <QProgressBar>
+#include <QPushButton>
+#include <QProgressDialog>
+#include <QTimer>
+
+// local headers
+#include "appimage/update/qt-ui.h"
+#include "appimage/update.h"
+#include "spoiler.h"
+#include "util/util.h"
+
+
+namespace appimage {
+    namespace update {
+        using namespace util;
+
+        namespace qt {
+            class QtUpdater::Private {
+            public:
+                const QString pathToAppImage;
+                appimage::update::Updater* updater;
+
+                QLabel* label;
+                QHBoxLayout* labelLayout;
+                QLabel* progressLabel;
+                QLabel* validationStateLabel;
+                QDialogButtonBox* buttonBox;
+
+                QProgressBar* progressBar;
+
+                QLayout* mainLayout;
+
+                QString appName;
+                QString appImageFileName;
+
+                QTimer* progressTimer;
+
+                Spoiler* spoiler;
+                QVBoxLayout* spoilerLayout;
+                QPlainTextEdit* spoilerLog;
+
+                bool finished;
+
+                const int minimumWidth;
+
+                bool enableRunUpdatedAppImageButton;
+
+            public:
+                explicit Private(const QString& pathToAppImage) : buttonBox(nullptr),
+                                                                  progressBar(nullptr),
+                                                                  mainLayout(nullptr),
+                                                                  label(nullptr),
+                                                                  progressTimer(nullptr),
+                                                                  progressLabel(nullptr),
+                                                                  pathToAppImage(pathToAppImage),
+                                                                  spoiler(nullptr),
+                                                                  spoilerLayout(nullptr),
+                                                                  spoilerLog(nullptr),
+                                                                  finished(false),
+                                                                  minimumWidth(400),
+                                                                  enableRunUpdatedAppImageButton(false)
+                {
+                    if (!isFile(pathToAppImage.toStdString()))
+                        throw std::runtime_error("No such file or directory: " + pathToAppImage.toStdString());
+
+                    updater = new Updater(pathToAppImage.toStdString());
+
+                    auto fileInfo = QFileInfo(pathToAppImage);
+
+                    {
+                        auto appName = fileInfo.baseName();
+
+                        QStringList archs;
+                        archs << "x86_64" << "i386" << "i586" << "i686" << "x64" << "x86";
+                        for (const auto& arch : archs)
+                            appName.replace(arch, "");
+
+                        auto stdAppName = appName.toStdString();
+                        trim(stdAppName, '-');
+                        appName = QString::fromStdString(stdAppName);
+
+                        this->appName = appName;
+                    }
+
+                    appImageFileName = fileInfo.baseName() + "." + fileInfo.suffix();
+                }
+
+                ~Private() {
+                    delete updater;
+                    delete label;
+                    delete progressLabel;
+                    delete buttonBox;
+                    delete progressBar;
+                    delete mainLayout;
+                    delete progressTimer;
+                    delete spoiler;
+                }
+
+            public:
+                void startUpdate() {
+                    updater->start();
+                }
+
+                void printStatusMessages(const QtUpdater* self, Updater& updater) {
+                    std::string nextMessage;
+
+                    while (updater.nextStatusMessage(nextMessage)) {
+                        emit self->newStatusMessage(nextMessage);
+                    }
+                }
+            };
+
+            QtUpdater::QtUpdater(const QString& pathToAppImage) {
+                d = new Private(pathToAppImage);
+
+                init();
+            }
+
+            QtUpdater::~QtUpdater() {
+                delete d;
+            }
+
+            void QtUpdater::init() {
+                // replace default cancel button handling
+                setWindowTitle(QString("Updating " + d->appName));
+                // make it a modal dialog
+                // doesn't have an effect in the standalone AppImageUpdate-Qt app, but should improve UX when being
+                // integrated in other apps
+                setModal(true);
+
+                d->mainLayout = new QVBoxLayout();
+                setLayout(d->mainLayout);
+
+                // make sure the QDialog resizes with the spoiler
+                layout()->setSizeConstraint(QLayout::SetFixedSize);
+
+                d->label = new QLabel(QString("Updating " + d->appImageFileName + "..."));
+                d->label->setMinimumWidth(d->minimumWidth);
+                layout()->addWidget(d->label);
+
+                d->progressBar = new QProgressBar();
+                d->progressBar->setMinimumWidth(d->minimumWidth);
+                d->progressBar->setMinimum(0);
+                d->progressBar->setMaximum(100);
+                layout()->addWidget(d->progressBar);
+
+                d->progressLabel = new QLabel(this);
+                d->progressLabel->setMinimumWidth(d->minimumWidth);
+                d->progressLabel->setAlignment(Qt::AlignRight | Qt::AlignVCenter);
+                d->progressLabel->setText("Starting update...");
+                layout()->addWidget(d->progressLabel);
+
+                d->spoiler = new Spoiler("Details");
+                d->spoiler->resize(QSize(d->minimumWidth, 200));
+                d->spoilerLayout = new QVBoxLayout();
+                d->spoilerLog = new QPlainTextEdit();
+                d->spoilerLog->setReadOnly(true);
+                d->spoilerLayout->addWidget(d->spoilerLog);
+                d->spoiler->setContentLayout(*d->spoilerLayout);
+                layout()->addWidget(d->spoiler);
+
+                d->buttonBox = new QDialogButtonBox(QDialogButtonBox::Cancel);
+                connect(d->buttonBox, SIGNAL(rejected()), this, SLOT(showCancelDialog()));
+                layout()->addWidget(d->buttonBox);
+
+                d->progressTimer = new QTimer(this);
+                connect(d->progressTimer, SIGNAL(timeout()), this, SLOT(updateProgress()));
+                d->progressTimer->start(100);
+
+                adjustSize();
+
+                // default run action
+                connect(this, SIGNAL(runUpdatedAppImageClicked()), this, SLOT(runUpdatedAppImage()));
+
+                // connect log method
+                connect(this, SIGNAL(newStatusMessage(const std::string&)), this, SLOT(processNewStatusMessage(const std::string&)));
+            }
+
+            void QtUpdater::processNewStatusMessage(const std::string& nextMessage) {
+                // print message to stderr
+                std::cerr << nextMessage << std::endl;
+
+                // if spoilerLog is available, also print message there
+                if (d->spoilerLog != nullptr) {
+                    d->spoilerLog->moveCursor(QTextCursor::End);
+                    std::ostringstream oss;
+                    oss << nextMessage << std::endl;
+                    d->spoilerLog->insertPlainText(QString::fromStdString(oss.str()));
+                }
+            }
+
+            void QtUpdater::updateProgress() {
+                double progress;
+
+                if (!d->updater->progress(progress))
+                    return;
+
+                d->progressBar->setValue(int(progress * 100));
+
+                off_t fileSize;
+                if (d->updater->remoteFileSize(fileSize)) {
+                    double downloadedSize = progress * fileSize;
+                    std::stringstream ss;
+                    ss << std::fixed << std::setprecision(1)
+                       << downloadedSize / 1024.0f / 1024.0f << " MiB of " << fileSize / 1024.0f / 1024.0f << " MiB";
+                    d->progressLabel->setText(QString::fromStdString(ss.str()));
+                }
+
+                d->printStatusMessages(this, *d->updater);
+
+                if (d->updater->isDone()) {
+                    d->finished = true;
+
+                    d->progressTimer->stop();
+
+                    auto palette = d->progressBar->palette();
+
+                    // can only validate signature once the update has finished, otherwiws
+                    Updater::ValidationState validationResult = Updater::VALIDATION_FAILED;
+                    QString validationMessage;
+
+                    // TODO: refactor this block, it's quite difficult to understand right now
+                    if (d->updater->hasError()) {
+                        d->label->setText("Update failed!");
+                        palette.setColor(QPalette::Highlight, Qt::red);
+                    } else {
+                        // can
+                        validationResult = d->updater->validateSignature();
+                        validationMessage = QString::fromStdString(d->updater->signatureValidationMessage(validationResult));
+
+                        if (validationResult != d->updater->VALIDATION_PASSED) {
+                            if (validationResult >= d->updater->VALIDATION_WARNING && validationResult < d->updater->VALIDATION_FAILED) {
+                                if (validationResult == d->updater->VALIDATION_NOT_SIGNED) {
+                                    // copy permissions of the old AppImage to the new version
+                                    d->updater->copyPermissionsToNewFile();
+                                }
+
+                                d->label->setText("Signature validation problem: " + validationMessage);
+                                palette.setColor(QPalette::Highlight, Qt::yellow);
+                                palette.setColor(QPalette::HighlightedText, Qt::black);
+                            } else {
+                                d->updater->restoreOriginalFile();
+                                const QString message = "Signature validation error: " + validationMessage;
+                                d->label->setText(message);
+                                palette.setColor(QPalette::Highlight, Qt::red);
+                                QMessageBox::critical(this, "Error", message + "\n\nRestoring original file");
+                            }
+                        } else {
+                            // copy permissions of the old AppImage to the new version
+                            d->updater->copyPermissionsToNewFile();
+
+                            if (validationResult == d->updater->VALIDATION_PASSED)
+                                newStatusMessage("Signature validation passed");
+                            d->label->setText("Update successful!");
+                            palette.setColor(QPalette::Highlight, Qt::green);
+                            palette.setColor(QPalette::HighlightedText, Qt::black);
+                        }
+                    }
+
+                    // TODO: doesn't work with the Gtk+ platform theme
+                    d->progressBar->setPalette(palette);
+
+                    // replace button box
+                    disconnect(d->buttonBox, SIGNAL(rejected()));
+                    delete d->buttonBox;
+
+                    d->buttonBox = new QDialogButtonBox();
+
+                    if (!d->updater->hasError() && validationResult < d->updater->VALIDATION_FAILED && d->enableRunUpdatedAppImageButton) {
+                        d->buttonBox->addButton("Run updated AppImage", QDialogButtonBox::AcceptRole);
+                        connect(d->buttonBox, &QDialogButtonBox::accepted, this, [this](){
+                            emit runUpdatedAppImageClicked();
+                        });
+                    }
+
+                    d->buttonBox->addButton("Close", QDialogButtonBox::RejectRole);
+
+                    connect(d->buttonBox, &QDialogButtonBox::rejected, this, [this]() {
+                        this->done(0);
+                    });
+
+                    layout()->addWidget(d->buttonBox);
+                }
+            }
+
+            int QtUpdater::checkForUpdates(bool writeToStderr) const {
+                appimage::update::Updater updater(d->pathToAppImage.toStdString());
+
+                try {
+                    if (updater.updateInformation().empty()) {
+                        return -1;
+                    }
+                } catch (const std::runtime_error& e) {
+                    std::cerr << e.what();
+                    return -1;
+                }
+
+                bool changesAvailable = false;
+
+                auto result = updater.checkForChanges(changesAvailable);
+
+                // print all messages that might be available
+                d->printStatusMessages(this, updater);
+
+                if (!result)
+                    return 2;
+
+                if (changesAvailable) {
+                    if (writeToStderr)
+                        std::cerr << "Update available" << std::endl;
+                    return 1;
+                } else {
+                    if (writeToStderr)
+                        std::cerr << "AppImage already up to date" << std::endl;
+                    return 0;
+                }
+            }
+
+            void QtUpdater::closeEvent(QCloseEvent* event) {
+                if (!d->finished) {
+                    // ignore event...
+                    event->ignore();
+                    // ... and show cancel dialog
+                    showCancelDialog();
+                }
+            }
+
+            void QtUpdater::showEvent(QShowEvent* event) {
+                QDialog::showEvent(event);
+
+                d->startUpdate();
+            }
+
+            bool QtUpdater::pathToNewFile(QString& pathToNewAppImage) const {
+                std::string stdPathToNewAppImage;
+
+                if (!d->updater->pathToNewFile(stdPathToNewAppImage))
+                    return false;
+
+                pathToNewAppImage = QString::fromStdString(stdPathToNewAppImage);
+                return true;
+            }
+
+            void QtUpdater::runUpdatedAppImage() {
+                QString pathToNewAppImage;
+
+                if (!pathToNewFile(pathToNewAppImage))
+                    throw std::runtime_error("Could not detect path to new AppImage");
+
+                runApp(pathToNewAppImage.toStdString());
+                done(0);
+            }
+
+            void QtUpdater::showCancelDialog() {
+                // prepare message box
+                auto button = QMessageBox::critical(
+                    this,
+                    "Cancel update", "Do you want to cancel the update process?",
+                    QMessageBox::No | QMessageBox::Yes,
+                    QMessageBox::Yes
+                );
+
+                switch (button) {
+                    case QMessageBox::Yes:
+                        cancelUpdate();
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            void QtUpdater::cancelUpdate() {
+                std::cerr << "canceled" << std::endl;
+
+                if (!d->updater->isDone())
+                    d->updater->stop();
+
+                done(1);
+            }
+
+            QtUpdater* QtUpdater::fromEnv() {
+                auto* APPIMAGE = getenv("APPIMAGE");
+
+                if (APPIMAGE == nullptr || !isFile(APPIMAGE))
+                    return nullptr;
+
+                auto pathToAppImage = QString(APPIMAGE);
+                return new QtUpdater(pathToAppImage);
+            }
+
+            void QtUpdater::keyPressEvent(QKeyEvent* event) {
+                if (event->key() == Qt::Key_Escape) {
+                    event->ignore();
+                    showCancelDialog();
+                } else {
+                    QDialog::keyPressEvent(event);
+                }
+            }
+
+            void QtUpdater::enableRunUpdatedAppImageButton(bool enable) {
+                d->enableRunUpdatedAppImageButton = enable;
+            }
+        }
+    }
+}

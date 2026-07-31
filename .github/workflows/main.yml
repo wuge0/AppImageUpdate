@@ -1,1 +1,59 @@
-bmFtZTogQ0kKCm9uOiBbcHVzaCwgcHVsbF9yZXF1ZXN0XQoKam9iczoKICBhcHBpbWFnZS1idWlsZDoKICAgIHN0cmF0ZWd5OgogICAgICBmYWlsLWZhc3Q6IGZhbHNlCiAgICAgIG1hdHJpeDoKICAgICAgICBpbmNsdWRlOgogICAgICAgICAgLSBBUkNIOiB4ODZfNjQKICAgICAgICAgICAgUlVOU19PTjogdWJ1bnR1LTI0LjA0CiAgICAgICAgICAtIEFSQ0g6IGk2ODYKICAgICAgICAgICAgUlVOU19PTjogdWJ1bnR1LTI0LjA0CiAgICAgICAgICAtIEFSQ0g6IGFhcmNoNjQKICAgICAgICAgICAgUlVOU19PTjogdWJ1bnR1LTI0LjA0LWFybQogICAgICAgICAgLSBBUkNIOiBhcm1oZgogICAgICAgICAgICBSVU5TX09OOiB1YnVudHUtMjQuMDQtYXJtCgogICAgbmFtZTogQXBwSW1hZ2UgJHt7IG1hdHJpeC5BUkNIIH19CiAgICBydW5zLW9uOiAke3sgbWF0cml4LlJVTlNfT04gfX0KICAgIGVudjoKICAgICAgQVJDSDogJHt7IG1hdHJpeC5BUkNIIH19CiAgICAgIERJU1Q6IGJpb25pYwogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBzdWJtb2R1bGVzOiByZWN1cnNpdmUKICAgICAgLSBuYW1lOiBCdWlsZCBBcHBJbWFnZSBpbiBEb2NrZXIKICAgICAgICBydW46IGJhc2ggLWV4IGNpL2J1aWxkLWluLWRvY2tlci5zaAogICAgICAtIG5hbWU6IEFyY2hpdmUgYXJ0aWZhY3RzCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogQXBwSW1hZ2UgYnVpbGQgJHt7IG1hdHJpeC5BUkNIIH19CiAgICAgICAgICBwYXRoOiB8CiAgICAgICAgICAgIEFwcEltYWdlVXBkYXRlKi5BcHBJbWFnZSoKICAgICAgICAgICAgYXBwaW1hZ2V1cGRhdGV0b29sKi5BcHBJbWFnZSoKICAgICAgICAgICAgdmFsaWRhdGUqLkFwcEltYWdlKgoKICB1cGxvYWQ6CiAgICBuYW1lOiBDcmVhdGUgcmVsZWFzZSBhbmQgdXBsb2FkIGFydGlmYWN0cwogICAgbmVlZHM6CiAgICAgIC0gYXBwaW1hZ2UtYnVpbGQKICAgIHJ1bnMtb246IHVidW50dS0yNC4wNAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogRG93bmxvYWQgYXJ0aWZhY3RzCiAgICAgICAgdXNlczogYWN0aW9ucy9kb3dubG9hZC1hcnRpZmFjdEB2NAogICAgICAtIG5hbWU6IEluc3BlY3QgZGlyZWN0b3J5IGFmdGVyIGRvd25sb2FkaW5nIGFydGlmYWN0cwogICAgICAgIHJ1bjogbHMgLWFsRlIKICAgICAgLSBuYW1lOiBDcmVhdGUgcmVsZWFzZSBhbmQgdXBsb2FkIGFydGlmYWN0cwogICAgICAgIGVudjoKICAgICAgICAgIEdJVEhVQl9UT0tFTjogJHt7IHNlY3JldHMuR0lUSFVCX1RPS0VOIH19CiAgICAgICAgICBXRUJEQVZfVVJMOiAke3sgc2VjcmV0cy5XRUJEQVZfVVJMIH19CiAgICAgICAgICBXRUJEQVZfVVNFUjogJHt7IHNlY3JldHMuV0VCREFWX1VTRVIgfX0KICAgICAgICAgIFdFQkRBVl9QQVNTV09SRDogJHt7IHNlY3JldHMuV0VCREFWX1BBU1NXT1JEIH19CiAgICAgICAgcnVuOiB8CiAgICAgICAgICAgIHdnZXQgLXEgaHR0cHM6Ly9naXRodWIuY29tL1RoZUFzc2Fzc2luL3B5dXBsb2FkdG9vbC9yZWxlYXNlcy9kb3dubG9hZC9jb250aW51b3VzL3B5dXBsb2FkdG9vbC14ODZfNjQuQXBwSW1hZ2UKICAgICAgICAgICAgY2htb2QgK3ggcHl1cGxvYWR0b29sLXg4Nl82NC5BcHBJbWFnZQogICAgICAgICAgICAuL3B5dXBsb2FkdG9vbC14ODZfNjQuQXBwSW1hZ2UgKiovQXBwSW1hZ2VVcGRhdGUqLkFwcEltYWdlKiAqKi9hcHBpbWFnZXVwZGF0ZXRvb2wqLkFwcEltYWdlKiAqKi92YWxpZGF0ZSouQXBwSW1hZ2UqCg==
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  appimage-build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - ARCH: x86_64
+            RUNS_ON: ubuntu-24.04
+          - ARCH: i686
+            RUNS_ON: ubuntu-24.04
+          - ARCH: aarch64
+            RUNS_ON: ubuntu-24.04-arm
+          - ARCH: armhf
+            RUNS_ON: ubuntu-24.04-arm
+
+    name: AppImage ${{ matrix.ARCH }}
+    runs-on: ${{ matrix.RUNS_ON }}
+    env:
+      ARCH: ${{ matrix.ARCH }}
+      DIST: bionic
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Build AppImage in Docker
+        run: bash -ex ci/build-in-docker.sh
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AppImage build ${{ matrix.ARCH }}
+          path: |
+            AppImageUpdate*.AppImage*
+            appimageupdatetool*.AppImage*
+            validate*.AppImage*
+
+  upload:
+    name: Create release and upload artifacts
+    needs:
+      - appimage-build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+      - name: Inspect directory after downloading artifacts
+        run: ls -alFR
+      - name: Create release and upload artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+          WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+          WEBDAV_PASSWORD: ${{ secrets.WEBDAV_PASSWORD }}
+        run: |
+            wget -q https://github.com/TheAssassin/pyuploadtool/releases/download/continuous/pyuploadtool-x86_64.AppImage
+            chmod +x pyuploadtool-x86_64.AppImage
+            ./pyuploadtool-x86_64.AppImage **/AppImageUpdate*.AppImage* **/appimageupdatetool*.AppImage* **/validate*.AppImage*

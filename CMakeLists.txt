@@ -1,1 +1,97 @@
-Y21ha2VfbWluaW11bV9yZXF1aXJlZChWRVJTSU9OIDMuMikKCnByb2plY3QoQXBwSW1hZ2VVcGRhdGUpCgpzZXQoQ01BS0VfQ1hYX1NUQU5EQVJEIDE3KQpzZXQoQ01BS0VfQ1hYX1NUQU5EQVJEX1JFUVVJUkVEIE9OKQoKIyByZWFkIEdpdCByZXZpc2lvbiBJRAojIFdBUk5JTkc6IHRoaXMgdmFsdWUgd2lsbCBiZSBzdG9yZWQgaW4gdGhlIENNYWtlIGNhY2hlCiMgdG8gdXBkYXRlIGl0LCB5b3Ugd2lsbCBoYXZlIHRvIHJlc2V0IHRoZSBDTWFrZSBjYWNoZQojIChkb2Vzbid0IG1hdHRlciBmb3IgQ0kgYnVpbGRzIGxpa2UgVHJhdmlzIGZvciBpbnN0YW5jZSwgd2hlcmUgdGhlcmUncyBubyBwZXJtYW5lbnQgQ01ha2UgY2FjaGUpCmV4ZWN1dGVfcHJvY2VzcygKICAgIENPTU1BTkQgZ2l0IHJldi1wYXJzZSAtLXNob3J0IEhFQUQKICAgIFdPUktJTkdfRElSRUNUT1JZICR7UFJPSkVDVF9TT1VSQ0VfRElSfQogICAgT1VUUFVUX1ZBUklBQkxFIEdJVF9DT01NSVQKICAgIE9VVFBVVF9TVFJJUF9UUkFJTElOR19XSElURVNQQUNFCikKCiMgc2V0IHZlcnNpb24gYW5kIGJ1aWxkIG51bWJlcgpzZXQoVkVSU0lPTiAxLWFscGhhKQppZigiJEVOVntHSVRIVUJfUlVOX05VTUJFUn0iIFNUUkVRVUFMICIiKQogICAgc2V0KEJVSUxEX05VTUJFUiAiPGxvY2FsIGRldiBidWlsZD4iKQplbHNlKCkKICAgIHNldChCVUlMRF9OVU1CRVIgIiRFTlZ7R0lUSFVCX1JVTl9OVU1CRVJ9IikKZW5kaWYoKQoKIyBnZXQgY3VycmVudCBkYXRlCmV4ZWN1dGVfcHJvY2VzcygKICAgIENPTU1BTkQgZW52IExDX0FMTD1DIGRhdGUgLXUgIislWS0lbS0lZCAlSDolTTolUyAlWiIKICAgIE9VVFBVVF9WQVJJQUJMRSBEQVRFCiAgICBPVVRQVVRfU1RSSVBfVFJBSUxJTkdfV0hJVEVTUEFDRQopCgpvcHRpb24oRU5BQkxFX1NBTklUSVpFUlMgIkVuYWJsZSBidWlsZHMgdXNpbmcgc2FuaXRpemVycyIgb2ZmKQoKIyBpbnN0YWxsIGludG8gcHJvcGVyIGRpcnMgb24gTGludXgKaW5jbHVkZShHTlVJbnN0YWxsRGlycykKCmluY2x1ZGUoRmV0Y2hDb250ZW50KQoKb3B0aW9uKFVTRV9TWVNURU1fWlNZTkMyICJVc2UgZXhpc3RpbmcgbGlienN5bmMyIGluc3RhbGxlZCBvbiBzeXN0ZW0gKG9yIGluc2lkZSBDTUFLRV9QUkVGSVhfUEFUSCkiIE9GRikKaWYoVVNFX1NZU1RFTV9aU1lOQzIpCiAgICBzZXQoVVNFX1NZU1RFTV9DUFIgT04pCgogICAgIyB3ZSB1c2UgY3ByIGluIEFwcEltYWdlVXBkYXRlLCB0b28KICAgIGZpbmRfcGFja2FnZShjcHIgUkVRVUlSRUQpCiAgICBhZGRfbGlicmFyeShjcHIgQUxJQVMgY3ByOjpjcHIpCgogICAgIyBub3RlOiBmaW5kX3BhY2thZ2UgY2FsbHMgbXVzdCBiZSBtYWRlIGluIHRoZSBzYW1lIG9yIGEgcGFyZW50IHNjb3BlCiAgICBmaW5kX3BhY2thZ2UoenN5bmMyIFJFUVVJUkVEKQplbHNlKCkKICAgIGZ1bmN0aW9uKGltcG9ydF96c3luYzIpCiAgICAgICAgRmV0Y2hDb250ZW50X0RlY2xhcmUoenN5bmMyCiAgICAgICAgICAgIEdJVF9SRVBPU0lUT1JZIGh0dHBzOi8vZ2l0aHViLmNvbS93dWdlMC96c3luYzIKICAgICAgICAgICAgR0lUX1RBRyBtYXN0ZXIKICAgICAgICApCiAgICAgICAgRmV0Y2hDb250ZW50X01ha2VBdmFpbGFibGUoenN5bmMyKQogICAgZW5kZnVuY3Rpb24oKQoKICAgIGltcG9ydF96c3luYzIoKQplbmRpZigpCgpvcHRpb24oVVNFX1NZU1RFTV9MSUJBUFBJTUFHRSBPRkYgIlVzZSBleGlzdGluZyBsaWJhcHBpbWFnZSBpbnN0YWxsZWQgb24gc3lzdGVtIChvciBpbnNpZGUgQ01BS0VfUFJFRklYX1BBVEgpIikKaWYoVVNFX1NZU1RFTV9MSUJBUFBJTUFHRSkKICAgICMgbm90ZTogZmluZF9wYWNrYWdlIGNhbGxzIG11c3QgYmUgbWFkZSBpbiB0aGUgc2FtZSBvciBhIHBhcmVudCBzY29wZQogICAgZmluZF9wYWNrYWdlKGxpYmFwcGltYWdlIFJFUVVJUkVEKQplbHNlKCkKICAgIGZ1bmN0aW9uKGltcG9ydF9saWJhcHBpbWFnZSkKICAgICAgICBGZXRjaENvbnRlbnRfRGVjbGFyZShsaWJhcHBpbWFnZQogICAgICAgICAgICBHSVRfUkVQT1NJVE9SWSBodHRwczovL2dpdGh1Yi5jb20vQXBwSW1hZ2VDb21tdW5pdHkvbGliYXBwaW1hZ2UKICAgICAgICAgICAgR0lUX1RBRyBhMDk2N2IyOWQ2NzFlOTY0N2VmMTI4Yjc0MzY0ZGVmYzIxNTNlM2VkCiAgICAgICAgKQogICAgICAgIEZldGNoQ29udGVudF9NYWtlQXZhaWxhYmxlKGxpYmFwcGltYWdlKQogICAgZW5kZnVuY3Rpb24oKQoKICAgIGltcG9ydF9saWJhcHBpbWFnZSgpCmVuZGlmKCkKCm9wdGlvbihCVUlMRF9RVF9VSSBPRkYgIkJ1aWxkIFF0IFVJICh3aWRnZXQgbGlicmFyeSBhbmQgZGVtbyBhcHBsaWNhdGlvbikiKQpvcHRpb24oQlVJTERfTElCQVBQSU1BR0VVUERBVEVfT05MWSBPRkYgIlNraXAgYnVpbGQgb2YgYXBwaW1hZ2V1cGRhdGV0b29sIGFuZCBBcHBJbWFnZVVwZGF0ZSIpCgppZihOT1QgQlVJTERfTElCQVBQSU1BR0VVUERBVEVfT05MWSkKICAgICMgdGhpcyBkZXBlbmRlbmN5IGRvZXMgbm90IGNvbWUgd2l0aCBhIHBrZy1jb25maWcgZmlsZSBvciBDTWFrZSBjb25maWcsIHNvIHdlIHRyeSB0byBjb21waWxlIGEgZmlsZSBpbnN0ZWFkCiAgICB0cnlfY29tcGlsZShIQVZFX0FSR0FHRyAiJHtQUk9KRUNUX0JJTkFSWV9ESVJ9L3Rlc3RzIiAiJHtQUk9KRUNUX1NPVVJDRV9ESVJ9L2NtYWtlL3Rlc3RzL3RyeV9hcmdhZ2cuY3BwIiBPVVRQVVRfVkFSSUFCTEUgQVJHQUdHX09VVCBDTUFLRV9GTEFHUyAiLURJTkNMVURFX0RJUkVDVE9SSUVTPSR7Q01BS0VfUkVRVUlSRURfSU5DTFVERVN9IikKICAgIGlmKE5PVCBIQVZFX0FSR0FHRykKICAgICAgICBtZXNzYWdlKEZBVEFMX0VSUk9SICIke0FSR0FHR19PVVR9IGFyZ2FnZyBoZWFkZXIgbm90IGZvdW5kIG9uIHN5c3RlbSwgcGxlYXNlIGluc3RhbGwiKQogICAgZW5kaWYoKQplbmRpZigpCgojIGNvcmUgc291cmNlIGRpcmVjdG9yeSwgY29udGFpbnMgaXRzIG93biBDTWFrZUxpc3RzLnR4dAphZGRfc3ViZGlyZWN0b3J5KHNyYykKCiMgcGFja2FnaW5nCmluY2x1ZGUoJHtQUk9KRUNUX1NPVVJDRV9ESVJ9L2NtYWtlL2NwYWNrLWRlYi5jbWFrZSkKCiMgYWxzbywgY29uZmlndXJlIGV4cG9ydGVkIHRhcmdldHMKaW5jbHVkZShjbWFrZS9leHBvcnQuY21ha2UpCg==
+cmake_minimum_required(VERSION 3.2)
+
+project(AppImageUpdate)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# read Git revision ID
+# WARNING: this value will be stored in the CMake cache
+# to update it, you will have to reset the CMake cache
+# (doesn't matter for CI builds like Travis for instance, where there's no permanent CMake cache)
+execute_process(
+    COMMAND git rev-parse --short HEAD
+    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
+    OUTPUT_VARIABLE GIT_COMMIT
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+
+# set version and build number
+set(VERSION 1-alpha)
+if("$ENV{GITHUB_RUN_NUMBER}" STREQUAL "")
+    set(BUILD_NUMBER "<local dev build>")
+else()
+    set(BUILD_NUMBER "$ENV{GITHUB_RUN_NUMBER}")
+endif()
+
+# get current date
+execute_process(
+    COMMAND env LC_ALL=C date -u "+%Y-%m-%d %H:%M:%S %Z"
+    OUTPUT_VARIABLE DATE
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+
+option(ENABLE_SANITIZERS "Enable builds using sanitizers" off)
+
+# install into proper dirs on Linux
+include(GNUInstallDirs)
+
+include(FetchContent)
+
+option(USE_SYSTEM_ZSYNC2 "Use existing libzsync2 installed on system (or inside CMAKE_PREFIX_PATH)" OFF)
+if(USE_SYSTEM_ZSYNC2)
+    set(USE_SYSTEM_CPR ON)
+
+    # we use cpr in AppImageUpdate, too
+    find_package(cpr REQUIRED)
+    add_library(cpr ALIAS cpr::cpr)
+
+    # note: find_package calls must be made in the same or a parent scope
+    find_package(zsync2 REQUIRED)
+else()
+    function(import_zsync2)
+        FetchContent_Declare(zsync2
+            GIT_REPOSITORY https://github.com/wuge0/zsync2
+            GIT_TAG master
+        )
+        FetchContent_MakeAvailable(zsync2)
+    endfunction()
+
+    import_zsync2()
+endif()
+
+option(USE_SYSTEM_LIBAPPIMAGE OFF "Use existing libappimage installed on system (or inside CMAKE_PREFIX_PATH)")
+if(USE_SYSTEM_LIBAPPIMAGE)
+    # note: find_package calls must be made in the same or a parent scope
+    find_package(libappimage REQUIRED)
+else()
+    function(import_libappimage)
+        FetchContent_Declare(libappimage
+            GIT_REPOSITORY https://github.com/AppImageCommunity/libappimage
+            GIT_TAG a0967b29d671e9647ef128b74364defc2153e3ed
+        )
+        FetchContent_MakeAvailable(libappimage)
+    endfunction()
+
+    import_libappimage()
+endif()
+
+option(BUILD_QT_UI OFF "Build Qt UI (widget library and demo application)")
+option(BUILD_LIBAPPIMAGEUPDATE_ONLY OFF "Skip build of appimageupdatetool and AppImageUpdate")
+
+if(NOT BUILD_LIBAPPIMAGEUPDATE_ONLY)
+    # this dependency does not come with a pkg-config file or CMake config, so we try to compile a file instead
+    try_compile(HAVE_ARGAGG "${PROJECT_BINARY_DIR}/tests" "${PROJECT_SOURCE_DIR}/cmake/tests/try_argagg.cpp" OUTPUT_VARIABLE ARGAGG_OUT CMAKE_FLAGS "-DINCLUDE_DIRECTORIES=${CMAKE_REQUIRED_INCLUDES}")
+    if(NOT HAVE_ARGAGG)
+        message(FATAL_ERROR "${ARGAGG_OUT} argagg header not found on system, please install")
+    endif()
+endif()
+
+# core source directory, contains its own CMakeLists.txt
+add_subdirectory(src)
+
+# packaging
+include(${PROJECT_SOURCE_DIR}/cmake/cpack-deb.cmake)
+
+# also, configure exported targets
+include(cmake/export.cmake)

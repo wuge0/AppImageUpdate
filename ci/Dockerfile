@@ -1,1 +1,49 @@
-IyBjdXJyZW50IERlYmlhbiBvbGRzdGFibGUgYXMgb2YgRGVjIDIwMjMKIyB3ZSB1c2UgRGViaWFuIGJlY2F1c2UgdGhleSBzdGlsbCBwcm92aWRlIGkzODYgYnVpbGRzCiMgKGFsc28sIHRoZXkgc2hpcCBRdCA1LjE1LjIsIHNvIHdlIG5vIGxvbmdlciBoYXZlIHRvIHJlbHkgb24gdGhpcmQtcGFydHkgYnVpbGRzKQojIGFuZCBpdCBwcm92aWRlcyBhIEMrKzE3IGNvbXBhdGlibGUgY29tcGlsZXIgb3V0IG9mIHRoZSBib3ghCkZST00gZGViaWFuOmJ1bGxzZXllCgpBUkcgQVJDSApBUkcgRE9DS0VSX0FSQ0gKQVJHIENNQUtFX0FSQ0gKRU5WIEFSQ0g9JHtBUkNIfSBET0NLRVJfQVJDSD0ke0RPQ0tFUl9BUkNIfSBDTUFLRV9BUkNIPSR7Q01BS0VfQVJDSH0KCkVOViBERUJJQU5fRlJPTlRFTkQ9bm9uaW50ZXJhY3RpdmUKClJVTiBhcHQtZ2V0IHVwZGF0ZSAmJiBcCiAgICBhcHQtZ2V0IGluc3RhbGwgLXkgcXRiYXNlNS1kZXYgcXR0b29sczUtZGV2LXRvb2xzIHF0d2F5bGFuZDUtZGV2LXRvb2xzIHF0d2F5bGFuZDUtcHJpdmF0ZS1kZXYgXAogICAgICAgIGxpYmdsMSBsaWJkcm0tZGV2IG1lc2EtY29tbW9uLWRldiBcCiAgICAgICAgYnVpbGQtZXNzZW50aWFsIGxpYnNzbC1kZXYgYXV0b2NvbmYgYXV0b21ha2UgbGlidG9vbCBcCiAgICAgICAgd2dldCB2aW0tY29tbW9uIGRlc2t0b3AtZmlsZS11dGlscyBwa2djb25mIGxpYmdwZ21lLWRldiBcCiAgICAgICAgbGliZ2xpYjIuMC1kZXYgbGliY2Fpcm8yLWRldiBsaWJyc3ZnMi1kZXYgbGliZnVzZS1kZXYgZ2l0IGxpYmN1cmw0LW9wZW5zc2wtZGV2IGFyZ2FnZy1kZXYgbGliZ2NyeXB0MjAtZGV2IGxpYmJvb3N0LWRldiBcCiAgICAgICAgbGlibHptYS1kZXYgbGlienN0ZC1kZXYgemxpYjFnLWRldiBsaWJhcmNoaXZlLWRldgoKUlVOIHdnZXQgLXFPLSBodHRwczovL2FydGlmYWN0cy5hc3Nhc3NpbmF0ZS15b3UubmV0L3ByZWJ1aWx0LWNtYWtlL2NtYWtlLXYzLjI4LjAtZGViaWFuLWJ1bGxzZXllLSIke0NNQUtFX0FSQ0h9Ii50YXIuZ3ogfCBcCiAgICB0YXIgeHp2IC1DL3VzciAtLXN0cmlwLWNvbXBvbmVudHM9MQoKQ09QWSAuL2luc3RhbGwtZ3Rlc3Quc2ggLwpSVU4gYmFzaCAvaW5zdGFsbC1ndGVzdC5zaAoKQ09QWSBwa2djb25maWcvKi5wYyAvClJVTiBtdiAvKi5wYyAvdXNyL2xpYi8qLWxpbnV4LWdudSovcGtnY29uZmlnLwoKRU5WIEFQUElNQUdFX0VYVFJBQ1RfQU5EX1JVTj0xCgpFTlYgRE9DS0VSPTEKCiNSVU4gZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9ubG9obWFubi9qc29uLmdpdCAtYiB2My4xMS4yIC0tZGVwdGg9MSAmJiBcCiMgICAgY2QganNvbiAmJiBcCiMgICAgbWtkaXIgYnVpbGQgJiYgXAojICAgIGNkIGJ1aWxkICYmIFwKIyAgICBjbWFrZSAuLiAtRENNQUtFX0lOU1RBTExfUFJFRklYPS91c3IvbG9jYWwgJiYgXAojICAgIG1ha2UgLWogIiQobnByb2MgLS1pZ25vcmU9MSkiIGluc3RhbGwgJiYgXAojICAgIGNkIC4uLy4uICYmIFwKIyAgICBybSAtcmYganNvbi8KClJVTiBhcHQtZ2V0IHVwZGF0ZSAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgbmxvaG1hbm4tanNvbjMtZGV2CgojIHdvcmsgYXJvdW5kIGJ1ZyBpbiBGaW5kQ1VSTC5jbWFrZSwgd2hpY2ggZG9lcyBub3QgcGFyc2UgdGhlIHBrZy1jb25maWcgcHJvdmlkZWQgcHJvdG9jb2xzIGFuZCBmZWF0dXJlcyBpbnRvIGxpc3RzIGNhdXNpbmcKIyB0aGUgY29tcGFyaXNvbiBpbiB0aGUgbG9vcCB0byB5aWVsZCBmYWxzZSBuZWdhdGl2ZSByZXN1bHRzCiMgdGhpcyBtYWtlcyBpdCB1c2UgY3VybC1jb25maWcgd2hpY2ggd29ya3MgbXVjaCBiZXR0ZXIKUlVOIHJtIC91c3IvbGliLyotbGludXgtZ251Ki9wa2djb25maWcvbGliY3VybC5wYwo=
+# current Debian oldstable as of Dec 2023
+# we use Debian because they still provide i386 builds
+# (also, they ship Qt 5.15.2, so we no longer have to rely on third-party builds)
+# and it provides a C++17 compatible compiler out of the box!
+FROM debian:bullseye
+
+ARG ARCH
+ARG DOCKER_ARCH
+ARG CMAKE_ARCH
+ENV ARCH=${ARCH} DOCKER_ARCH=${DOCKER_ARCH} CMAKE_ARCH=${CMAKE_ARCH}
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y qtbase5-dev qttools5-dev-tools qtwayland5-dev-tools qtwayland5-private-dev \
+        libgl1 libdrm-dev mesa-common-dev \
+        build-essential libssl-dev autoconf automake libtool \
+        wget vim-common desktop-file-utils pkgconf libgpgme-dev \
+        libglib2.0-dev libcairo2-dev librsvg2-dev libfuse-dev git libcurl4-openssl-dev argagg-dev libgcrypt20-dev libboost-dev \
+        liblzma-dev libzstd-dev zlib1g-dev libarchive-dev
+
+RUN wget -qO- https://artifacts.assassinate-you.net/prebuilt-cmake/cmake-v3.28.0-debian-bullseye-"${CMAKE_ARCH}".tar.gz | \
+    tar xzv -C/usr --strip-components=1
+
+COPY ./install-gtest.sh /
+RUN bash /install-gtest.sh
+
+COPY pkgconfig/*.pc /
+RUN mv /*.pc /usr/lib/*-linux-gnu*/pkgconfig/
+
+ENV APPIMAGE_EXTRACT_AND_RUN=1
+
+ENV DOCKER=1
+
+#RUN git clone https://github.com/nlohmann/json.git -b v3.11.2 --depth=1 && \
+#    cd json && \
+#    mkdir build && \
+#    cd build && \
+#    cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local && \
+#    make -j "$(nproc --ignore=1)" install && \
+#    cd ../.. && \
+#    rm -rf json/
+
+RUN apt-get update && apt-get install -y nlohmann-json3-dev
+
+# work around bug in FindCURL.cmake, which does not parse the pkg-config provided protocols and features into lists causing
+# the comparison in the loop to yield false negative results
+# this makes it use curl-config which works much better
+RUN rm /usr/lib/*-linux-gnu*/pkgconfig/libcurl.pc

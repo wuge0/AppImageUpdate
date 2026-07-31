@@ -1,1 +1,7 @@
-W0Rlc2t0b3AgRW50cnldCk5hbWU9QXBwSW1hZ2VVcGRhdGUKVHlwZT1BcHBsaWNhdGlvbgpJY29uPWFwcGltYWdlCkV4ZWM9QXBwSW1hZ2VVcGRhdGUKQ29tbWVudD1VcGRhdGUgYXBwbGljYXRpb25zIGRpc3RyaWJ1dGVkIGluIEFwcEltYWdlIGZvcm1hdApDYXRlZ29yaWVzPVV0aWxpdHk7Cg==
+[Desktop Entry]
+Name=AppImageUpdate
+Type=Application
+Icon=appimage
+Exec=AppImageUpdate
+Comment=Update applications distributed in AppImage format
+Categories=Utility;

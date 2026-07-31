@@ -1,1 +1,284 @@
-Ly8gc3lzdGVtIGhlYWRlcgojaW5jbHVkZSA8YWxnb3JpdGhtPgojaW5jbHVkZSA8Y2xpbWl0cz4KI2luY2x1ZGUgPGNzdHJpbmc+CiNpbmNsdWRlIDxmc3RyZWFtPgojaW5jbHVkZSA8aW9zdHJlYW0+CiNpbmNsdWRlIDxtZW1vcnk+CiNpbmNsdWRlIDxzc3RyZWFtPgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8dmVjdG9yPgojaW5jbHVkZSA8c3lzL3N0YXQuaD4KI2luY2x1ZGUgPHVuaXN0ZC5oPgoKLy8gbGlicmFyeSBoZWFkZXIKI2lmZGVmIFFUX1VJCiAgICAjaW5jbHVkZSA8UU1lc3NhZ2VCb3g+CiNlbmRpZgojaW5jbHVkZSA8enN1dGlsLmg+CgovLyBBcHBJbWFnZUtpdCBpbmNsdWRlcwpleHRlcm4gIkMiIHsKICAgICNpbmNsdWRlICJhcHBpbWFnZS9hcHBpbWFnZV9zaGFyZWQuaCIKfQoKLy8gbG9jYWwgaGVhZGVyCiNpbmNsdWRlICJ1dGlsL3V0aWwuaCIKCm5hbWVzcGFjZSBhcHBpbWFnZTo6dXBkYXRlOjp1dGlsIHsKCiAgICB2b2lkIHJlbW92ZU5ld2xpbmVDaGFyYWN0ZXJzKHN0ZDo6c3RyaW5nJiBzdHIpIHsKICAgICAgICBzdHIuZXJhc2Uoc3RkOjpyZW1vdmUoc3RyLmJlZ2luKCksIHN0ci5lbmQoKSwgJ1xuJyksIHN0ci5lbmQoKSk7CiAgICB9CgogICAgYm9vbCBsdHJpbShzdGQ6OnN0cmluZyYgcywgY2hhciB0b190cmltKSB7CiAgICAgICAgLy8gVE9ETzogZmluZCBtb3JlIGVmZmljaWVudCB3YXkgdG8gY2hlY2sgd2hldGhlciBlbGVtZW50cyBoYXZlIGJlZW4gcmVtb3ZlZAogICAgICAgIHNpemVfdCBpbml0aWFsTGVuZ3RoID0gcy5sZW5ndGgoKTsKICAgICAgICBzLmVyYXNlKHMuYmVnaW4oKSwgc3RkOjpmaW5kX2lmKHMuYmVnaW4oKSwgcy5lbmQoKSwgW3RvX3RyaW1dKGludCBjaCkgewogICAgICAgICAgICByZXR1cm4gY2ggIT0gdG9fdHJpbTsKICAgICAgICB9KSk7CiAgICAgICAgcmV0dXJuIHMubGVuZ3RoKCkgPCBpbml0aWFsTGVuZ3RoOwogICAgfQoKICAgIGJvb2wgcnRyaW0oc3RkOjpzdHJpbmcmIHMsIGNoYXIgdG9fdHJpbSkgewogICAgICAgIC8vIFRPRE86IGZpbmQgbW9yZSBlZmZpY2llbnQgd2F5IHRvIGNoZWNrIHdoZXRoZXIgZWxlbWVudHMgaGF2ZSBiZWVuIHJlbW92ZWQKICAgICAgICBhdXRvIGluaXRpYWxMZW5ndGggPSBzLmxlbmd0aCgpOwogICAgICAgIHMuZXJhc2Uoc3RkOjpmaW5kX2lmKHMucmJlZ2luKCksIHMucmVuZCgpLCBbdG9fdHJpbV0oaW50IGNoKSB7CiAgICAgICAgICAgIHJldHVybiBjaCAhPSB0b190cmltOwogICAgICAgIH0pLmJhc2UoKSwgcy5lbmQoKSk7CiAgICAgICAgcmV0dXJuIHMubGVuZ3RoKCkgPCBpbml0aWFsTGVuZ3RoOwogICAgfQoKICAgIGJvb2wgdHJpbShzdGQ6OnN0cmluZyYgcywgY2hhciB0b190cmltKSB7CiAgICAgICAgLy8gcmV0dXJucyB0cnVlIGlmIGVpdGhlciBtb2RpZmllcyBzCiAgICAgICAgYXV0byBsdHJpbV9yZXN1bHQgPSBsdHJpbShzLCB0b190cmltKTsKICAgICAgICByZXR1cm4gcnRyaW0ocywgdG9fdHJpbSkgJiYgbHRyaW1fcmVzdWx0OwogICAgfQoKICAgIHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiBzcGxpdChjb25zdCBzdGQ6OnN0cmluZyYgcywgY2hhciBkZWxpbSkgewogICAgICAgIHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiByZXN1bHQ7CgogICAgICAgIHN0ZDo6c3RyaW5nc3RyZWFtIHNzKHMpOwogICAgICAgIHN0ZDo6c3RyaW5nIGl0ZW07CgogICAgICAgIHdoaWxlIChzdGQ6OmdldGxpbmUoc3MsIGl0ZW0sIGRlbGltKSkgewogICAgICAgICAgICByZXN1bHQucHVzaF9iYWNrKGl0ZW0pOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBqb2luKGNvbnN0IHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiYgc3RyaW5ncywgY29uc3Qgc3RkOjpzdHJpbmcmIGRlbGltKSB7CiAgICAgICAgaWYgKHN0cmluZ3MuZW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4ge307CiAgICAgICAgfQoKICAgICAgICBzdGQ6OnN0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgb3NzIDw8IHN0cmluZ3MuZnJvbnQoKTsKCiAgICAgICAgZm9yIChhdXRvIGl0ID0gc3RyaW5ncy5iZWdpbigpICsgMTsgaXQgIT0gc3RyaW5ncy5lbmQoKTsgKytpdCkgewogICAgICAgICAgICBvc3MgPDwgZGVsaW0gPDwgKml0OwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG9zcy5zdHIoKTsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyB0b0xvd2VyKHN0ZDo6c3RyaW5nIHMpIHsKICAgICAgICBzdGQ6OnRyYW5zZm9ybShzLmJlZ2luKCksIHMuZW5kKCksIHMuYmVnaW4oKSwgW10odW5zaWduZWQgY2hhciBjKSB7IHJldHVybiBzdGQ6OnRvbG93ZXIoYyk7IH0pOwogICAgICAgIHJldHVybiBzOwogICAgfQoKICAgIGJvb2wgdG9Mb25nKGNvbnN0IHN0ZDo6c3RyaW5nJiBzdHIsIGxvbmcmIHJldHZhbCwgaW50IGJhc2UpIHsKICAgICAgICBjaGFyKiBlbmQgPSBudWxscHRyOwogICAgICAgIGNvbnN0IGF1dG8qIGNzdHIgPSBzdHIuY19zdHIoKTsKCiAgICAgICAgYXV0byBydiA9IHN0ZDo6c3RydG9sKGNzdHIsICZlbmQsIGJhc2UpOwogICAgICAgIGlmIChlcnJubyA9PSBFUkFOR0UgfHwgY3N0ciA9PSBlbmQgfHwgcmV0dmFsID4gTE9OR19NQVggfHwgcmV0dmFsIDwgTE9OR19NSU4pCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKCiAgICAgICAgcmV0dmFsID0gcnY7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgYm9vbCBpc0ZpbGUoY29uc3Qgc3RkOjpzdHJpbmcmIHBhdGgpIHsKICAgICAgICBzdGQ6Omlmc3RyZWFtIGlmcyhwYXRoKTsKICAgICAgICByZXR1cm4gKGJvb2wpIGlmcyAmJiBpZnMuZ29vZCgpOwogICAgfQoKICAgIHZvaWQgY29weVBlcm1pc3Npb25zKGNvbnN0IHN0ZDo6c3RyaW5nJiBvbGRQYXRoLCBjb25zdCBzdGQ6OnN0cmluZyYgbmV3UGF0aCkgewogICAgICAgIG1vZGVfdCBvbGRQZXJtczsKICAgICAgICBhdXRvIGVyckNvZGUgPSB6c3luYzI6OmdldFBlcm1zKG9sZFBhdGgsIG9sZFBlcm1zKTsKCiAgICAgICAgaWYgKGVyckNvZGUgIT0gMCkgewogICAgICAgICAgICBzdGQ6Om9zdHJpbmdzdHJlYW0gc3M7CiAgICAgICAgICAgIHNzIDw8ICJFcnJvciBjYWxsaW5nIHN0YXQoKTogIiA8PCBzdHJlcnJvcihlcnJDb2RlKTsKI2lmZGVmIEZMVEtfVUkKICAgICAgICAgICAgZmxfbWVzc2FnZSgiJXMiLCBzcy5zdHIoKS5jX3N0cigpKTsKI2VuZGlmCiNpZmRlZiBRVF9VSQogICAgICAgICAgICBRTWVzc2FnZUJveDo6Y3JpdGljYWwobnVsbHB0ciwgIkVycm9yIiwgUVN0cmluZzo6ZnJvbVN0ZFN0cmluZyhzcy5zdHIoKSksIFFNZXNzYWdlQm94OjpDbG9zZSk7CiNlbmRpZgogICAgICAgICAgICBleGl0KDEpOwogICAgICAgIH0KCiAgICAgICAgY2htb2QobmV3UGF0aC5jX3N0cigpLCBvbGRQZXJtcyk7CiAgICB9CgogICAgdm9pZCBydW5BcHAoY29uc3Qgc3RkOjpzdHJpbmcmIHBhdGgpIHsKICAgICAgICAvLyBtYWtlIGV4ZWN1dGFibGUKICAgICAgICBtb2RlX3QgbmV3UGVybXM7CiAgICAgICAgYXV0byBlcnJDb2RlID0genN5bmMyOjpnZXRQZXJtcyhwYXRoLCBuZXdQZXJtcyk7CgogICAgICAgIGlmIChlcnJDb2RlICE9IDApIHsKICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIHNzOwogICAgICAgICAgICBzcyA8PCAiRXJyb3IgY2FsbGluZyBzdGF0KCk6ICIgPDwgc3RyZXJyb3IoZXJyQ29kZSk7CiNpZmRlZiBGTFRLX1VJCiAgICAgICAgICAgIGZsX21lc3NhZ2UoIiVzIiwgc3Muc3RyKCkuY19zdHIoKSk7CiNlbmRpZgojaWZkZWYgUVRfVUkKICAgICAgICAgICAgUU1lc3NhZ2VCb3g6OmNyaXRpY2FsKG51bGxwdHIsICJFcnJvciIsIFFTdHJpbmc6OmZyb21TdGRTdHJpbmcoc3Muc3RyKCkpLCBRTWVzc2FnZUJveDo6Q2xvc2UpOwojZW5kaWYKICAgICAgICAgICAgZXhpdCgxKTsKICAgICAgICB9CgogICAgICAgIGNobW9kKHBhdGguY19zdHIoKSwgbmV3UGVybXMgfCBTX0lYVVNSKTsKCiAgICAgICAgLy8gZnVsbCBwYXRoIHRvIEFwcEltYWdlLCByZXF1aXJlZCBmb3IgZXhlY2wKICAgICAgICBjaGFyKiByZWFsUGF0aFRvQXBwSW1hZ2U7CiAgICAgICAgaWYgKChyZWFsUGF0aFRvQXBwSW1hZ2UgPSByZWFscGF0aChwYXRoLmNfc3RyKCksIG51bGxwdHIpKSA9PSBudWxscHRyKSB7CiAgICAgICAgICAgIGF1dG8gZXJyb3IgPSBlcnJubzsKICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIHNzOwogICAgICAgICAgICBzcyA8PCAiRXJyb3IgcmVzb2x2aW5nIGZ1bGwgcGF0aCBvZiBBcHBJbWFnZTogY29kZSAiIDw8IGVycm9yIDw8ICI6ICIgPDwgc3RyZXJyb3IoZXJyb3IpIDw8IHN0ZDo6ZW5kbDsKI2lmZGVmIEZMVEtfVUkKICAgICAgICAgICAgZmxfbWVzc2FnZSgiJXMiLCBzcy5zdHIoKS5jX3N0cigpKTsKI2VuZGlmCiNpZmRlZiBRVF9VSQogICAgICAgICAgICBRTWVzc2FnZUJveDo6Y3JpdGljYWwobnVsbHB0ciwgIkVycm9yIiwgUVN0cmluZzo6ZnJvbVN0ZFN0cmluZyhzcy5zdHIoKSksIFFNZXNzYWdlQm94OjpDbG9zZSk7CiNlbmRpZgogICAgICAgICAgICBleGl0KDEpOwogICAgICAgIH0KCiAgICAgICAgaWYgKGZvcmsoKSA9PSAwKSB7CiAgICAgICAgICAgIHB1dGVudihzdHJkdXAoIlNUQVJURURfQllfQVBQSU1BR0VVUERBVEU9MSIpKTsKCiAgICAgICAgICAgIHN0ZDo6Y2VyciA8PCAiUnVubmluZyAiIDw8IHJlYWxQYXRoVG9BcHBJbWFnZSA8PCBzdGQ6OmVuZGw7CgogICAgICAgICAgICAvLyBtYWtlIHN1cmUgdG8gZGVhY3RpdmF0ZSB1cGRhdGVyIGNvbnRhaW5lZCBpbiB0aGUgQXBwSW1hZ2Ugd2hlbiBydW5uaW5nIGZyb20gQXBwSW1hZ2VVcGRhdGUKICAgICAgICAgICAgZXhlY2wocmVhbFBhdGhUb0FwcEltYWdlLCByZWFsUGF0aFRvQXBwSW1hZ2UsIG51bGxwdHIpOwoKICAgICAgICAgICAgLy8gZXhlY2xlIHNob3VsZCBuZXZlciByZXR1cm4sIHNvIGlmIHRoaXMgY29kZSBpcyByZWFjaGVkLCB0aGVyZSBtdXN0IGJlIGFuIGVycm9yCiAgICAgICAgICAgIGF1dG8gZXJyb3IgPSBlcnJubzsKICAgICAgICAgICAgc3RkOjpjZXJyIDw8ICJFcnJvciBleGVjdXRpbmcgQXBwSW1hZ2UgIiA8PCByZWFsUGF0aFRvQXBwSW1hZ2UgPDwgIjogY29kZSAiIDw8IGVycm9yIDw8ICI6ICIKICAgICAgICAgICAgICAgICAgICAgIDw8IHN0cmVycm9yKGVycm9yKSA8PCBzdGQ6OmVuZGw7CiAgICAgICAgICAgIGV4aXQoMSk7CiAgICAgICAgfQogICAgfQoKICAgIHN0ZDo6c3RyaW5nIHJlYWRFbGZTZWN0aW9uKGNvbnN0IHN0ZDo6c3RyaW5nJiBmaWxlUGF0aCwgY29uc3Qgc3RkOjpzdHJpbmcmIHNlY3Rpb25OYW1lKSB7CiAgICAgICAgdW5zaWduZWQgbG9uZyBvZmZzZXQgPSAwLCBsZW5ndGggPSAwOwoKICAgICAgICBhdXRvIHJ2ID0gYXBwaW1hZ2VfZ2V0X2VsZl9zZWN0aW9uX29mZnNldF9hbmRfbGVuZ3RoKGZpbGVQYXRoLmNfc3RyKCksIHNlY3Rpb25OYW1lLmNfc3RyKCksICZvZmZzZXQsICZsZW5ndGgpOwoKICAgICAgICBpZiAoIXJ2IHx8IG9mZnNldCA9PSAwIHx8IGxlbmd0aCA9PSAwKQogICAgICAgICAgICByZXR1cm4gIiI7CgogICAgICAgIHN0ZDo6aWZzdHJlYW0gaWZzKGZpbGVQYXRoKTsKICAgICAgICBpZnMuc2Vla2cob2Zmc2V0KTsKCiAgICAgICAgc3RkOjp2ZWN0b3I8Y2hhcj4gYnVmZmVyKGxlbmd0aCsxLCAwKTsKICAgICAgICBpZnMucmVhZChidWZmZXIuZGF0YSgpLCBsZW5ndGgpOwoKICAgICAgICByZXR1cm4gYnVmZmVyLmRhdGEoKTsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBmaW5kSW5QQVRIKGNvbnN0IHN0ZDo6c3RyaW5nJiBuYW1lKSB7CiAgICAgICAgY29uc3Qgc3RkOjpzdHJpbmcgUEFUSCA9IGdldGVudigiUEFUSCIpOwoKICAgICAgICBmb3IgKGNvbnN0IGF1dG8mIHBhdGggOiBzcGxpdChQQVRILCAnOicpKSB7CiAgICAgICAgICAgIHN0ZDo6b3N0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgICAgIG9zcyA8PCBwYXRoIDw8ICIvIiA8PCBuYW1lOwoKICAgICAgICAgICAgYXV0byBmdWxsUGF0aCA9IG9zcy5zdHIoKTsKCiAgICAgICAgICAgIC8vIFRPRE86IGNoZWNrIHdoZXRoZXIgZmlsZSBpcyBhY3R1YWxseSBleGVjdXRhYmxlCiAgICAgICAgICAgIGlmIChpc0ZpbGUoZnVsbFBhdGgpKQogICAgICAgICAgICAgICAgcmV0dXJuIGZ1bGxQYXRoOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuICIiOwogICAgfQoKICAgIGJvb2wgc3RyaW5nU3RhcnRzV2l0aChjb25zdCBzdGQ6OnN0cmluZyYgc3RyaW5nLCBjb25zdCBzdGQ6OnN0cmluZyYgcHJlZml4KSB7CiAgICAgICAgcmV0dXJuIHN0cm5jbXAoc3RyaW5nLmNfc3RyKCksIHByZWZpeC5jX3N0cigpLCBwcmVmaXguc2l6ZSgpKSA9PSAwOwogICAgfQoKICAgIHN0ZDo6c3RyaW5nIGFic3BhdGgoY29uc3Qgc3RkOjpzdHJpbmcmIHBhdGgpIHsKICAgICAgICBjaGFyKiBmdWxsUGF0aCA9IG51bGxwdHI7CgogICAgICAgIGlmICgoZnVsbFBhdGggPSByZWFscGF0aChwYXRoLmNfc3RyKCksIG51bGxwdHIpKSA9PSBudWxscHRyKSB7CiAgICAgICAgICAgIGF1dG8gZXJyb3IgPSBlcnJubzsKICAgICAgICAgICAgc3RkOjpjZXJyIDw8ICJGYWlsZWQgdG8gcmVzb2x2ZSBmdWxsIHBhdGggdG8gQXBwSW1hZ2U6ICIgPDwgc3RyZXJyb3IoZXJyb3IpIDw8IHN0ZDo6ZW5kbDsKICAgICAgICAgICAgcmV0dXJuICIiOwogICAgICAgIH0KCiAgICAgICAgc3RkOjpzdHJpbmcgcnYgPSBmdWxsUGF0aDsKCiAgICAgICAgLy8gY2xlYW4gdXAKICAgICAgICBmcmVlKGZ1bGxQYXRoKTsKICAgICAgICBmdWxsUGF0aCA9IG51bGxwdHI7CgogICAgICAgIHJldHVybiBydjsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBwYXRoVG9PbGRBcHBJbWFnZShjb25zdCBzdGQ6OnN0cmluZyYgb2xkUGF0aCwgY29uc3Qgc3RkOjpzdHJpbmcmIG5ld1BhdGgpIHsKICAgICAgICBpZiAob2xkUGF0aCA9PSBuZXdQYXRoKSB7CiAgICAgICAgICAgIHJldHVybiBuZXdQYXRoICsgIi56cy1vbGQiOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGFic3BhdGgob2xkUGF0aCk7CiAgICB9CgogICAgc3RkOjpzdHJpbmcgYWlsZnNSZWFscGF0aChjb25zdCBzdGQ6OnN0cmluZyYgcGF0aCkgewogICAgICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGFpbGZzQmFzZVBhdGg7CiAgICAgICAgYWlsZnNCYXNlUGF0aCA8PCAiL3J1bi91c2VyLyIgPDwgZ2V0dWlkKCkgPDwgIi9hcHBpbWFnZWxhdW5jaGVyZnMvIjsKCiAgICAgICAgaWYgKHBhdGguZmluZChhaWxmc0Jhc2VQYXRoLnN0cigpKSA9PSBzdGQ6OnN0cmluZzo6bnBvcykKICAgICAgICAgICAgcmV0dXJuIHBhdGg7CgogICAgICAgIHN0ZDo6c3RyaW5nc3RyZWFtIG1hcEZpbGVQYXRoOwogICAgICAgIG1hcEZpbGVQYXRoIDw8IGFpbGZzQmFzZVBhdGguc3RyKCkgPDwgIi9tYXAiOwoKICAgICAgICBzdGQ6Omlmc3RyZWFtIGlmcyhtYXBGaWxlUGF0aC5zdHIoKSk7CgogICAgICAgIGlmICghaWZzKQogICAgICAgICAgICB0aHJvdyBzdGQ6OnJ1bnRpbWVfZXJyb3IoIkNvdWxkIG5vdCBvcGVuIGFwcGltYWdlbGF1bmNoZXJmcyBtYXAgZmlsZSIpOwoKICAgICAgICBzdGQ6OnN0cmluZyBwYXRoRmlsZU5hbWU7CiAgICAgICAgewogICAgICAgICAgICBzdGQ6OnVuaXF1ZV9wdHI8Y2hhcj4gcGF0aENTdHIoc3RyZHVwKHBhdGguY19zdHIoKSkpOwogICAgICAgICAgICBwYXRoRmlsZU5hbWUgPSBiYXNlbmFtZShwYXRoQ1N0ci5nZXQoKSk7CiAgICAgICAgfQoKICAgICAgICBzdGQ6OnN0cmluZyBjdXJyZW50TGluZTsKICAgICAgICB3aGlsZSAoc3RkOjpnZXRsaW5lKGlmcywgY3VycmVudExpbmUpKSB7CiAgICAgICAgICAgIGNvbnN0IHN0ZDo6c3RyaW5nIGRlbGltID0gIiAtPiAiOwogICAgICAgICAgICBjb25zdCBhdXRvIGRlbGltaXRlclBvcyA9IGN1cnJlbnRMaW5lLmZpbmQoZGVsaW0pOwoKICAgICAgICAgICAgY29uc3QgYXV0byBhaWxmc0ZpbGVOYW1lID0gY3VycmVudExpbmUuc3Vic3RyKDAsIGRlbGltaXRlclBvcyk7CiAgICAgICAgICAgIGNvbnN0IGF1dG8gdGFyZ2V0RmlsZVBhdGggPSBjdXJyZW50TGluZS5zdWJzdHIoZGVsaW1pdGVyUG9zICsgZGVsaW0ubGVuZ3RoKCkpOwoKICAgICAgICAgICAgaWYgKGFpbGZzRmlsZU5hbWUgPT0gcGF0aEZpbGVOYW1lKQogICAgICAgICAgICAgICAgcmV0dXJuIHRhcmdldEZpbGVQYXRoOwogICAgICAgIH0KCiAgICAgICAgdGhyb3cgc3RkOjpydW50aW1lX2Vycm9yKCJDb3VsZCBub3QgcmVzb2x2ZSBwYXRoIGluIGFwcGltYWdlbGF1bmNoZXJmcyBtYXAgZmlsZSIpOwogICAgfQoKICAgIHN0ZDo6dmVjdG9yPGNoYXI+IG1ha2VCdWZmZXIoY29uc3Qgc3RkOjpzdHJpbmcmIHN0cikgewogICAgICAgIHN0ZDo6dmVjdG9yPGNoYXI+IGJ1ZmZlcjsKICAgICAgICBidWZmZXIucmVzaXplKHN0ci5zaXplKCkpOwogICAgICAgIHN0ZDo6Y29weShzdHIuYmVnaW4oKSwgc3RyLmVuZCgpLCBidWZmZXIuYmVnaW4oKSk7CiAgICAgICAgYnVmZmVyLmVtcGxhY2VfYmFjaygnXDAnKTsKICAgICAgICByZXR1cm4gYnVmZmVyOwogICAgfQp9Cg==
+// system header
+#include <algorithm>
+#include <climits>
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <memory>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <sys/stat.h>
+#include <unistd.h>
+
+// library header
+#ifdef QT_UI
+    #include <QMessageBox>
+#endif
+#include <zsutil.h>
+
+// AppImageKit includes
+extern "C" {
+    #include "appimage/appimage_shared.h"
+}
+
+// local header
+#include "util/util.h"
+
+namespace appimage::update::util {
+
+    void removeNewlineCharacters(std::string& str) {
+        str.erase(std::remove(str.begin(), str.end(), '\n'), str.end());
+    }
+
+    bool ltrim(std::string& s, char to_trim) {
+        // TODO: find more efficient way to check whether elements have been removed
+        size_t initialLength = s.length();
+        s.erase(s.begin(), std::find_if(s.begin(), s.end(), [to_trim](int ch) {
+            return ch != to_trim;
+        }));
+        return s.length() < initialLength;
+    }
+
+    bool rtrim(std::string& s, char to_trim) {
+        // TODO: find more efficient way to check whether elements have been removed
+        auto initialLength = s.length();
+        s.erase(std::find_if(s.rbegin(), s.rend(), [to_trim](int ch) {
+            return ch != to_trim;
+        }).base(), s.end());
+        return s.length() < initialLength;
+    }
+
+    bool trim(std::string& s, char to_trim) {
+        // returns true if either modifies s
+        auto ltrim_result = ltrim(s, to_trim);
+        return rtrim(s, to_trim) && ltrim_result;
+    }
+
+    std::vector<std::string> split(const std::string& s, char delim) {
+        std::vector<std::string> result;
+
+        std::stringstream ss(s);
+        std::string item;
+
+        while (std::getline(ss, item, delim)) {
+            result.push_back(item);
+        }
+
+        return result;
+    }
+
+    std::string join(const std::vector<std::string>& strings, const std::string& delim) {
+        if (strings.empty()) {
+            return {};
+        }
+
+        std::stringstream oss;
+        oss << strings.front();
+
+        for (auto it = strings.begin() + 1; it != strings.end(); ++it) {
+            oss << delim << *it;
+        }
+
+        return oss.str();
+    }
+
+    std::string toLower(std::string s) {
+        std::transform(s.begin(), s.end(), s.begin(), [](unsigned char c) { return std::tolower(c); });
+        return s;
+    }
+
+    bool toLong(const std::string& str, long& retval, int base) {
+        char* end = nullptr;
+        const auto* cstr = str.c_str();
+
+        auto rv = std::strtol(cstr, &end, base);
+        if (errno == ERANGE || cstr == end || retval > LONG_MAX || retval < LONG_MIN)
+            return false;
+
+        retval = rv;
+        return true;
+    }
+
+    bool isFile(const std::string& path) {
+        std::ifstream ifs(path);
+        return (bool) ifs && ifs.good();
+    }
+
+    void copyPermissions(const std::string& oldPath, const std::string& newPath) {
+        mode_t oldPerms;
+        auto errCode = zsync2::getPerms(oldPath, oldPerms);
+
+        if (errCode != 0) {
+            std::ostringstream ss;
+            ss << "Error calling stat(): " << strerror(errCode);
+#ifdef FLTK_UI
+            fl_message("%s", ss.str().c_str());
+#endif
+#ifdef QT_UI
+            QMessageBox::critical(nullptr, "Error", QString::fromStdString(ss.str()), QMessageBox::Close);
+#endif
+            exit(1);
+        }
+
+        chmod(newPath.c_str(), oldPerms);
+    }
+
+    void runApp(const std::string& path) {
+        // make executable
+        mode_t newPerms;
+        auto errCode = zsync2::getPerms(path, newPerms);
+
+        if (errCode != 0) {
+            std::ostringstream ss;
+            ss << "Error calling stat(): " << strerror(errCode);
+#ifdef FLTK_UI
+            fl_message("%s", ss.str().c_str());
+#endif
+#ifdef QT_UI
+            QMessageBox::critical(nullptr, "Error", QString::fromStdString(ss.str()), QMessageBox::Close);
+#endif
+            exit(1);
+        }
+
+        chmod(path.c_str(), newPerms | S_IXUSR);
+
+        // full path to AppImage, required for execl
+        char* realPathToAppImage;
+        if ((realPathToAppImage = realpath(path.c_str(), nullptr)) == nullptr) {
+            auto error = errno;
+            std::ostringstream ss;
+            ss << "Error resolving full path of AppImage: code " << error << ": " << strerror(error) << std::endl;
+#ifdef FLTK_UI
+            fl_message("%s", ss.str().c_str());
+#endif
+#ifdef QT_UI
+            QMessageBox::critical(nullptr, "Error", QString::fromStdString(ss.str()), QMessageBox::Close);
+#endif
+            exit(1);
+        }
+
+        if (fork() == 0) {
+            putenv(strdup("STARTED_BY_APPIMAGEUPDATE=1"));
+
+            std::cerr << "Running " << realPathToAppImage << std::endl;
+
+            // make sure to deactivate updater contained in the AppImage when running from AppImageUpdate
+            execl(realPathToAppImage, realPathToAppImage, nullptr);
+
+            // execle should never return, so if this code is reached, there must be an error
+            auto error = errno;
+            std::cerr << "Error executing AppImage " << realPathToAppImage << ": code " << error << ": "
+                      << strerror(error) << std::endl;
+            exit(1);
+        }
+    }
+
+    std::string readElfSection(const std::string& filePath, const std::string& sectionName) {
+        unsigned long offset = 0, length = 0;
+
+        auto rv = appimage_get_elf_section_offset_and_length(filePath.c_str(), sectionName.c_str(), &offset, &length);
+
+        if (!rv || offset == 0 || length == 0)
+            return "";
+
+        std::ifstream ifs(filePath);
+        ifs.seekg(offset);
+
+        std::vector<char> buffer(length+1, 0);
+        ifs.read(buffer.data(), length);
+
+        return buffer.data();
+    }
+
+    std::string findInPATH(const std::string& name) {
+        const std::string PATH = getenv("PATH");
+
+        for (const auto& path : split(PATH, ':')) {
+            std::ostringstream oss;
+            oss << path << "/" << name;
+
+            auto fullPath = oss.str();
+
+            // TODO: check whether file is actually executable
+            if (isFile(fullPath))
+                return fullPath;
+        }
+
+        return "";
+    }
+
+    bool stringStartsWith(const std::string& string, const std::string& prefix) {
+        return strncmp(string.c_str(), prefix.c_str(), prefix.size()) == 0;
+    }
+
+    std::string abspath(const std::string& path) {
+        char* fullPath = nullptr;
+
+        if ((fullPath = realpath(path.c_str(), nullptr)) == nullptr) {
+            auto error = errno;
+            std::cerr << "Failed to resolve full path to AppImage: " << strerror(error) << std::endl;
+            return "";
+        }
+
+        std::string rv = fullPath;
+
+        // clean up
+        free(fullPath);
+        fullPath = nullptr;
+
+        return rv;
+    }
+
+    std::string pathToOldAppImage(const std::string& oldPath, const std::string& newPath) {
+        if (oldPath == newPath) {
+            return newPath + ".zs-old";
+        }
+
+        return abspath(oldPath);
+    }
+
+    std::string ailfsRealpath(const std::string& path) {
+        std::stringstream ailfsBasePath;
+        ailfsBasePath << "/run/user/" << getuid() << "/appimagelauncherfs/";
+
+        if (path.find(ailfsBasePath.str()) == std::string::npos)
+            return path;
+
+        std::stringstream mapFilePath;
+        mapFilePath << ailfsBasePath.str() << "/map";
+
+        std::ifstream ifs(mapFilePath.str());
+
+        if (!ifs)
+            throw std::runtime_error("Could not open appimagelauncherfs map file");
+
+        std::string pathFileName;
+        {
+            std::unique_ptr<char> pathCStr(strdup(path.c_str()));
+            pathFileName = basename(pathCStr.get());
+        }
+
+        std::string currentLine;
+        while (std::getline(ifs, currentLine)) {
+            const std::string delim = " -> ";
+            const auto delimiterPos = currentLine.find(delim);
+
+            const auto ailfsFileName = currentLine.substr(0, delimiterPos);
+            const auto targetFilePath = currentLine.substr(delimiterPos + delim.length());
+
+            if (ailfsFileName == pathFileName)
+                return targetFilePath;
+        }
+
+        throw std::runtime_error("Could not resolve path in appimagelauncherfs map file");
+    }
+
+    std::vector<char> makeBuffer(const std::string& str) {
+        std::vector<char> buffer;
+        buffer.resize(str.size());
+        std::copy(str.begin(), str.end(), buffer.begin());
+        buffer.emplace_back('\0');
+        return buffer;
+    }
+}

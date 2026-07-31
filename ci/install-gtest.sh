@@ -1,1 +1,21 @@
-IyEgL2Jpbi9iYXNoCgpzZXQgLWV1eG8gcGlwZWZhaWwKCnRlbXBkaXI9IiQobWt0ZW1wIC1kKSIKCl9jbGVhbnVwKCkgewogICAgW1sgLWQgIiR0ZW1wZGlyIiBdXSAmJiBybSAtciAiJHRlbXBkaXIiCn0KdHJhcCBfY2xlYW51cCBFWElUCgpjZCAiJHRlbXBkaXIiCgpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL2dvb2dsZS9nb29nbGV0ZXN0IC1iIHYxLjEzLjAgLgoKbWtkaXIgYnVpbGQKY2QgYnVpbGQKCmNtYWtlIC4uIC1EQ01BS0VfQlVJTERfVFlQRT1SZWxlYXNlIC1EQ01BS0VfSU5TVEFMTF9QUkVGSVg9L3VzcgptYWtlIC1qNgptYWtlIGluc3RhbGwK
+#! /bin/bash
+
+set -euxo pipefail
+
+tempdir="$(mktemp -d)"
+
+_cleanup() {
+    [[ -d "$tempdir" ]] && rm -r "$tempdir"
+}
+trap _cleanup EXIT
+
+cd "$tempdir"
+
+git clone https://github.com/google/googletest -b v1.13.0 .
+
+mkdir build
+cd build
+
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+make -j6
+make install

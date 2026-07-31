@@ -1,1 +1,14 @@
-cHJlZml4PS91c3IKZXhlY19wcmVmaXg9JHtwcmVmaXh9CmluY2x1ZGVkaXI9JHtwcmVmaXh9L2luY2x1ZGUKbGliZGlyPSR7cHJlZml4fS9saWIveDg2XzY0LWxpbnV4LWdudQpob3N0PXg4Nl82NC1wYy1saW51eC1nbnUKYXBpX3ZlcnNpb249MQoKTmFtZTogZ3BnbWUKRGVzY3JpcHRpb246IEdudVBHIE1hZGUgRWFzeSB0byBhY2Nlc3MgR251UEcKUmVxdWlyZXM6IGdwZy1lcnJvciwgbGliYXNzdWFuClZlcnNpb246IDEuMTAuMC11bmtub3duCkNmbGFnczogCkxpYnM6IC1sZ3BnbWUKVVJMOiBodHRwczovL3d3dy5nbnVwZy5vcmcvc29mdHdhcmUvZ3BnbWUvaW5kZXguaHRtbAo=
+prefix=/usr
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib/x86_64-linux-gnu
+host=x86_64-pc-linux-gnu
+api_version=1
+
+Name: gpgme
+Description: GnuPG Made Easy to access GnuPG
+Requires: gpg-error, libassuan
+Version: 1.10.0-unknown
+Cflags: 
+Libs: -lgpgme
+URL: https://www.gnupg.org/software/gpgme/index.html

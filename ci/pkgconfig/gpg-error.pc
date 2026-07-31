@@ -1,1 +1,15 @@
-cHJlZml4PS91c3IKZXhlY19wcmVmaXg9JHtwcmVmaXh9CmluY2x1ZGVkaXI9JHtwcmVmaXh9L2luY2x1ZGUKbGliZGlyPSR7cHJlZml4fS9saWIveDg2XzY0LWxpbnV4LWdudQpob3N0PXg4Nl82NC1wYy1saW51eC1nbnUKbXRjZmxhZ3M9Cm10bGlicz0KCk5hbWU6IGdwZy1lcnJvcgpEZXNjcmlwdGlvbjogR1BHIFJ1bnRpbWUKVmVyc2lvbjogMS4yNwpDZmxhZ3M6IApMaWJzOiAtTCR7cHJlZml4fS9saWIveDg2XzY0LWxpbnV4LWdudSAtbGdwZy1lcnJvcgpMaWJzLnByaXZhdGU6IApVUkw6IGh0dHBzOi8vd3d3LmdudXBnLm9yZy9zb2Z0d2FyZS9saWJncGctZXJyb3IvaW5kZXguaHRtbAo=
+prefix=/usr
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib/x86_64-linux-gnu
+host=x86_64-pc-linux-gnu
+mtcflags=
+mtlibs=
+
+Name: gpg-error
+Description: GPG Runtime
+Version: 1.27
+Cflags: 
+Libs: -L${prefix}/lib/x86_64-linux-gnu -lgpg-error
+Libs.private: 
+URL: https://www.gnupg.org/software/libgpg-error/index.html

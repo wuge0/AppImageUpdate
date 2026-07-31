@@ -1,1 +1,113 @@
-Ly8gc3lzdGVtIGhlYWRlcnMKI2luY2x1ZGUgPGNocm9ubz4KI2luY2x1ZGUgPGl0ZXJhdG9yPgojaW5jbHVkZSA8aW9zdHJlYW0+CiNpbmNsdWRlIDx0aHJlYWQ+CgovLyBsaWJyYXJ5IGhlYWRlcnMKI2luY2x1ZGUgPFFDb21tYW5kTGluZVBhcnNlcj4KI2luY2x1ZGUgPFFGaWxlRGlhbG9nPgojaW5jbHVkZSA8UUFwcGxpY2F0aW9uPgojaW5jbHVkZSA8enN1dGlsLmg+CgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJhcHBpbWFnZS91cGRhdGUuaCIKI2luY2x1ZGUgImFwcGltYWdlL3VwZGF0ZS9xdC11aS5oIgojaW5jbHVkZSAidXRpbC91dGlsLmgiCgp1c2luZyBuYW1lc3BhY2Ugc3RkOwp1c2luZyBuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZTsKCmludCBtYWluKGludCBhcmdjLCBjaGFyKiogYXJndikgewogICAgY2VyciA8PCAiQXBwSW1hZ2VVcGRhdGUgdmVyc2lvbiAiIDw8IEFQUElNQUdFVVBEQVRFX1ZFUlNJT04gPDwgIiAoY29tbWl0ICIgPDwgQVBQSU1BR0VVUERBVEVfR0lUX0NPTU1JVCA8PCAiKSwgIgogICAgICAgICA8PCAiYnVpbGQgIiA8PCBCVUlMRF9OVU1CRVIgPDwgIiBidWlsdCBvbiAiIDw8IEJVSUxEX0RBVEUgPDwgZW5kbDsKCiAgICBRQ29tbWFuZExpbmVQYXJzZXIgcGFyc2VyOwoKICAgIHBhcnNlci5hZGRIZWxwT3B0aW9uKCk7Ci8vICAgIHBhcnNlci5zZXRTaW5nbGVEYXNoV29yZE9wdGlvbk1vZGUoUUNvbW1hbmRMaW5lUGFyc2VyOjpQYXJzZUFzTG9uZ09wdGlvbnMpOwoKICAgIHBhcnNlci5zZXRBcHBsaWNhdGlvbkRlc2NyaXB0aW9uKFFPYmplY3Q6OnRyKAogICAgICAgICJBcHBJbWFnZVVwZGF0ZSAtLSBHVUkgZm9yIHVwZGF0aW5nIEFwcEltYWdlcywgUXQgZWRpdGlvbiIKICAgICkpOwoKICAgIFFDb21tYW5kTGluZU9wdGlvbiBzaG93VmVyc2lvbih7InYiLCAidmVyc2lvbiJ9LCAiRGlzcGxheSB2ZXJzaW9uIGFuZCBleGl0LiIpOwogICAgcGFyc2VyLmFkZE9wdGlvbihzaG93VmVyc2lvbik7CgogICAgUUNvbW1hbmRMaW5lT3B0aW9uIGNoZWNrRm9yVXBkYXRlKAogICAgICAgIHsiaiIsICJjaGVjay1mb3ItdXBkYXRlIn0sCiAgICAgICAgIkNoZWNrIGZvciB1cGRhdGUuIEV4aXRzIHdpdGggY29kZSAxIGlmIGNoYW5nZXMgYXJlIGF2YWlsYWJsZSwgMCBpZiB0aGVyZSBhcmUgbm90LCIKICAgICAgICAgICAgIm90aGVyIG5vbi16ZXJvIGNvZGUgaW4gY2FzZSBvZiBlcnJvcnMuIgogICAgKTsKICAgIHBhcnNlci5hZGRPcHRpb24oY2hlY2tGb3JVcGRhdGUpOwoKICAgIFFDb21tYW5kTGluZU9wdGlvbiBzZWxmVXBkYXRlKCJzZWxmLXVwZGF0ZSIsICJVcGRhdGUgdGhlIHRvb2wgaXRzZWxmIGFuZCBleGl0LiIpOwogICAgcGFyc2VyLmFkZE9wdGlvbihzZWxmVXBkYXRlKTsKCiAgICBwYXJzZXIuYWRkUG9zaXRpb25hbEFyZ3VtZW50KCJwYXRoIiwgIlBhdGggdG8gQXBwSW1hZ2UgdGhhdCBzaG91bGQgYmUgdXBkYXRlZCIsICI8cGF0aD4iKTsKCiAgICBRU3RyaW5nTGlzdCBhcmd1bWVudHM7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGFyZ2M7IGkrKykKICAgICAgICBhcmd1bWVudHMucHVzaF9iYWNrKGFyZ3ZbaV0pOwoKICAgIHBhcnNlci5wYXJzZShhcmd1bWVudHMpOwoKICAgIGlmIChwYXJzZXIuaXNTZXQoc2hvd1ZlcnNpb24pKSB7CiAgICAgICAgLy8gdmVyc2lvbiBoYXMgYmVlbiBwcmludGVkIGFscmVhZHksIHNvIHdlIGNhbiBqdXN0IGV4aXQgaGVyZQogICAgICAgIHJldHVybiAwOwogICAgfQoKICAgIFFBcHBsaWNhdGlvbiBhcHAoYXJnYywgYXJndik7CgogICAgUVN0cmluZyBwYXRoVG9BcHBJbWFnZTsKCiAgICBhcHBpbWFnZTo6dXBkYXRlOjpxdDo6UXRVcGRhdGVyKiB1cGRhdGVyOwoKICAgIC8vIGlmIGEgc2VsZi11cGRhdGUgaXMgcmVxdWVzdGVkLCBjaGVjayB3aGV0aGVyIHRoZSBwYXRoIGFyZ3VtZW50IGhhcyBiZWVuIHBhc3NlZCwgYW5kIHNob3cgYW4gZXJyb3IKICAgIC8vIG90aGVyd2lzZSBjaGVjayB3aGV0aGVyIHBhdGggaGFzIGJlZW4gcGFzc2VkIG9uIHRoZSBDTEksIG90aGVyd2lzZSBzaG93IGZpbGUgY2hvb3NlcgogICAgaWYgKHBhcnNlci5pc1NldChzZWxmVXBkYXRlKSkgewogICAgICAgIGlmICghcGFyc2VyLnBvc2l0aW9uYWxBcmd1bWVudHMoKS5lbXB0eSgpKSB7CiAgICAgICAgICAgIGNlcnIgPDwgIkVycm9yOiAtLXNlbGYtdXBkYXRlIGRvZXMgbm90IHRha2UgYSBwYXRoLiIgPDwgZW5kbDsKICAgICAgICAgICAgcGFyc2VyLnNob3dIZWxwKDEpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHVwZGF0ZXIgPSBhcHBpbWFnZTo6dXBkYXRlOjpxdDo6UXRVcGRhdGVyOjpmcm9tRW52KCk7CgogICAgICAgICAgICBpZiAodXBkYXRlciA9PSBudWxscHRyKSB7CiAgICAgICAgICAgICAgICBjZXJyIDw8ICJFcnJvcjogc2VsZiB1cGRhdGUgcmVxdWVzdGVkIGJ1dCBjb3VsZCBub3QgZGV0ZXJtaW5lIHBhdGggdG8gQXBwSW1hZ2UgIgogICAgICAgICAgICAgICAgICAgICA8PCAiKCRBUFBJTUFHRSBlbnZpcm9ubWVudCB2YXJpYWJsZSBtaXNzaW5nKS4iCiAgICAgICAgICAgICAgICAgICAgIDw8IGVuZGw7CiAgICAgICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgICAgaWYgKCFwYXJzZXIucG9zaXRpb25hbEFyZ3VtZW50cygpLmVtcHR5KCkpIHsKICAgICAgICAgICAgcGF0aFRvQXBwSW1hZ2UgPSBwYXJzZXIucG9zaXRpb25hbEFyZ3VtZW50cygpLmZyb250KCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcGF0aFRvQXBwSW1hZ2UgPSBRRmlsZURpYWxvZzo6Z2V0T3BlbkZpbGVOYW1lKAogICAgICAgICAgICAgICAgUV9OVUxMUFRSLAogICAgICAgICAgICAgICAgIlBsZWFzZSBjaG9vc2UgYW4gQXBwSW1hZ2UgZm9yIHVwZGF0aW5nIiwKICAgICAgICAgICAgICAgIFFEaXI6OmN1cnJlbnRQYXRoKCksCiAgICAgICAgICAgICAgICAiQXBwSW1hZ2UgKCouYXBwaW1hZ2UgKi5BcHBJbWFnZSk7O0FsbCBmaWxlcyAoKikiCiAgICAgICAgICAgICk7CiAgICAgICAgICAgIGlmIChwYXRoVG9BcHBJbWFnZS5pc051bGwoKSkgewogICAgICAgICAgICAgICAgY2VyciA8PCAiTm8gZmlsZSBzZWxlY3RlZCwgZXhpdGluZy4iIDw8IHN0ZDo6ZW5kbDsKICAgICAgICAgICAgICAgIHJldHVybiAxOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBtYWtlIGFic29sdXRlCiAgICAgICAgcGF0aFRvQXBwSW1hZ2UgPSBRRmlsZUluZm8ocGF0aFRvQXBwSW1hZ2UpLmFic29sdXRlRmlsZVBhdGgoKTsKCiAgICAgICAgdXBkYXRlciA9IG5ldyBhcHBpbWFnZTo6dXBkYXRlOjpxdDo6UXRVcGRhdGVyKHBhdGhUb0FwcEltYWdlKTsKICAgIH0KCiAgICBpZiAocGFyc2VyLmlzU2V0KGNoZWNrRm9yVXBkYXRlKSkKICAgICAgICByZXR1cm4gdXBkYXRlci0+Y2hlY2tGb3JVcGRhdGVzKHRydWUpOwoKICAgIHVwZGF0ZXItPnNob3coKTsKCiAgICBhdXRvIHJ2ID0gYXBwLmV4ZWMoKTsKCiAgICBkZWxldGUgdXBkYXRlcjsKICAgIHJldHVybiBydjsKfQo=
+// system headers
+#include <chrono>
+#include <iterator>
+#include <iostream>
+#include <thread>
+
+// library headers
+#include <QCommandLineParser>
+#include <QFileDialog>
+#include <QApplication>
+#include <zsutil.h>
+
+// local headers
+#include "appimage/update.h"
+#include "appimage/update/qt-ui.h"
+#include "util/util.h"
+
+using namespace std;
+using namespace appimage::update;
+
+int main(int argc, char** argv) {
+    cerr << "AppImageUpdate version " << APPIMAGEUPDATE_VERSION << " (commit " << APPIMAGEUPDATE_GIT_COMMIT << "), "
+         << "build " << BUILD_NUMBER << " built on " << BUILD_DATE << endl;
+
+    QCommandLineParser parser;
+
+    parser.addHelpOption();
+//    parser.setSingleDashWordOptionMode(QCommandLineParser::ParseAsLongOptions);
+
+    parser.setApplicationDescription(QObject::tr(
+        "AppImageUpdate -- GUI for updating AppImages, Qt edition"
+    ));
+
+    QCommandLineOption showVersion({"v", "version"}, "Display version and exit.");
+    parser.addOption(showVersion);
+
+    QCommandLineOption checkForUpdate(
+        {"j", "check-for-update"},
+        "Check for update. Exits with code 1 if changes are available, 0 if there are not,"
+            "other non-zero code in case of errors."
+    );
+    parser.addOption(checkForUpdate);
+
+    QCommandLineOption selfUpdate("self-update", "Update the tool itself and exit.");
+    parser.addOption(selfUpdate);
+
+    parser.addPositionalArgument("path", "Path to AppImage that should be updated", "<path>");
+
+    QStringList arguments;
+    for (int i = 0; i < argc; i++)
+        arguments.push_back(argv[i]);
+
+    parser.parse(arguments);
+
+    if (parser.isSet(showVersion)) {
+        // version has been printed already, so we can just exit here
+        return 0;
+    }
+
+    QApplication app(argc, argv);
+
+    QString pathToAppImage;
+
+    appimage::update::qt::QtUpdater* updater;
+
+    // if a self-update is requested, check whether the path argument has been passed, and show an error
+    // otherwise check whether path has been passed on the CLI, otherwise show file chooser
+    if (parser.isSet(selfUpdate)) {
+        if (!parser.positionalArguments().empty()) {
+            cerr << "Error: --self-update does not take a path." << endl;
+            parser.showHelp(1);
+        } else {
+            updater = appimage::update::qt::QtUpdater::fromEnv();
+
+            if (updater == nullptr) {
+                cerr << "Error: self update requested but could not determine path to AppImage "
+                     << "($APPIMAGE environment variable missing)."
+                     << endl;
+                return 1;
+            }
+        }
+    } else {
+        if (!parser.positionalArguments().empty()) {
+            pathToAppImage = parser.positionalArguments().front();
+        } else {
+            pathToAppImage = QFileDialog::getOpenFileName(
+                Q_NULLPTR,
+                "Please choose an AppImage for updating",
+                QDir::currentPath(),
+                "AppImage (*.appimage *.AppImage);;All files (*)"
+            );
+            if (pathToAppImage.isNull()) {
+                cerr << "No file selected, exiting." << std::endl;
+                return 1;
+            }
+        }
+
+        // make absolute
+        pathToAppImage = QFileInfo(pathToAppImage).absoluteFilePath();
+
+        updater = new appimage::update::qt::QtUpdater(pathToAppImage);
+    }
+
+    if (parser.isSet(checkForUpdate))
+        return updater->checkForUpdates(true);
+
+    updater->show();
+
+    auto rv = app.exec();
+
+    delete updater;
+    return rv;
+}

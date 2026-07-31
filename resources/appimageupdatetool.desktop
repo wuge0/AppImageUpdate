@@ -1,1 +1,7 @@
-W0Rlc2t0b3AgRW50cnldCk5hbWU9YXBwaW1hZ2V1cGRhdGV0b29sClR5cGU9QXBwbGljYXRpb24KVGVybWluYWw9dHJ1ZQpJY29uPWFwcGltYWdlCkV4ZWM9YXBwaW1hZ2V1cGRhdGV0b29sCkNhdGVnb3JpZXM9VXRpbGl0eTsK
+[Desktop Entry]
+Name=appimageupdatetool
+Type=Application
+Terminal=true
+Icon=appimage
+Exec=appimageupdatetool
+Categories=Utility;

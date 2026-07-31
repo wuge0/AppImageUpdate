@@ -1,1 +1,15 @@
-I3ByYWdtYSBvbmNlCgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJjb21tb24uaCIKI2luY2x1ZGUgIkFic3RyYWN0VXBkYXRlSW5mb3JtYXRpb24uaCIKCm5hbWVzcGFjZSBhcHBpbWFnZTo6dXBkYXRlOjp1cGRhdGVpbmZvcm1hdGlvbiB7CiAgICBjbGFzcyBHZW5lcmljWnN5bmNVcGRhdGVJbmZvcm1hdGlvbiA6IHB1YmxpYyBBYnN0cmFjdFVwZGF0ZUluZm9ybWF0aW9uIHsKICAgIHB1YmxpYzoKICAgICAgICBleHBsaWNpdCBHZW5lcmljWnN5bmNVcGRhdGVJbmZvcm1hdGlvbihjb25zdCBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4mIHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyk7CgogICAgcHVibGljOgogICAgICAgIFtbbm9kaXNjYXJkXV0gc3RkOjpzdHJpbmcgYnVpbGRVcmwoY29uc3QgU3RhdHVzTWVzc2FnZUNhbGxiYWNrJiBpc3N1ZVN0YXR1c01lc3NhZ2UpIGNvbnN0IG92ZXJyaWRlOwogICAgfTsKfQo=
+#pragma once
+
+// local headers
+#include "common.h"
+#include "AbstractUpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+    class GenericZsyncUpdateInformation : public AbstractUpdateInformation {
+    public:
+        explicit GenericZsyncUpdateInformation(const std::vector<std::string>& updateInformationComponents);
+
+    public:
+        [[nodiscard]] std::string buildUrl(const StatusMessageCallback& issueStatusMessage) const override;
+    };
+}

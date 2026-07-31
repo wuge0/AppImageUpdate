@@ -1,1 +1,32 @@
-I3ByYWdtYSBvbmNlCgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJjb21tb24uaCIKI2luY2x1ZGUgIkFic3RyYWN0VXBkYXRlSW5mb3JtYXRpb24uaCIKCm5hbWVzcGFjZSBhcHBpbWFnZTo6dXBkYXRlOjp1cGRhdGVpbmZvcm1hdGlvbiB7CiAgICAvKioKICAgICAqIFBsaW5nIGlzIGEgZmFtaWx5IG9mIHNlcnZpY2VzIHdoaWNoIGluY2x1ZGUgYW4gQXBwSW1hZ2Ugc3RvcmUgYW1vbmcgbWFueSBvdGhlciB0aGluZ3MuIEFwcEltYWdlIGZpbGVzIGFyZQogICAgICogc2VydmVkIGZyb20gdGhlIHd3dy5hcHBpbWFnZWh1Yi5jb20gYW5kIHd3dy5wbGluZy5jb20gdXJscy4gVGhleSBhcmUgYWxzbyBhdmFpbGFibGUgdGhyb3VnaCBhbiB4bWwgQVBJCiAgICAgKiBgaHR0cHM6Ly9hcGkucGxpbmcuY29tL29jcy92MS9gCiAgICAgKgogICAgICogZm9ybWF0OiBwbGluZy12MS16c3luY3w8Y29udGVudCBpZD58PGZpbGUgbmFtZSBtYXRjaGluZyBwYXR0ZXJuPgogICAgICovCiAgICBjbGFzcyBQbGluZ1YxVXBkYXRlSW5mb3JtYXRpb24gOiBwdWJsaWMgQWJzdHJhY3RVcGRhdGVJbmZvcm1hdGlvbiB7CiAgICBwcml2YXRlOgogICAgICAgIHN0ZDo6c3RyaW5nIF9maWxlTWF0Y2hpbmdQYXR0ZXJuOwogICAgICAgIHN0ZDo6c3RyaW5nIF9wcm9kdWN0SWQ7CgogICAgcHVibGljOgogICAgICAgIGV4cGxpY2l0IFBsaW5nVjFVcGRhdGVJbmZvcm1hdGlvbihjb25zdCBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4mIHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyk7CgogICAgcHJpdmF0ZToKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiBfZ2V0QXZhaWxhYmxlRG93bmxvYWRzKCkgY29uc3Q7CgogICAgICAgIHN0YXRpYyBzdGQ6OnN0cmluZyBfZmluZExhdGVzdFJlbGVhc2UoY29uc3Qgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+JiBkb3dubG9hZHMpOwoKICAgICAgICBzdGF0aWMgc3RkOjpzdHJpbmcgX3Jlc29sdmVac3luY1VybChjb25zdCBzdGQ6OnN0cmluZyYgZG93bmxvYWRVcmwpOwoKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6c3RyaW5nIGJ1aWxkVXJsKGNvbnN0IFN0YXR1c01lc3NhZ2VDYWxsYmFjayYgaXNzdWVTdGF0dXNNZXNzYWdlKSBjb25zdCBvdmVycmlkZTsKICAgIH07Cn0K
+#pragma once
+
+// local headers
+#include "common.h"
+#include "AbstractUpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+    /**
+     * Pling is a family of services which include an AppImage store among many other things. AppImage files are
+     * served from the www.appimagehub.com and www.pling.com urls. They are also available through an xml API
+     * `https://api.pling.com/ocs/v1/`
+     *
+     * format: pling-v1-zsync|<content id>|<file name matching pattern>
+     */
+    class PlingV1UpdateInformation : public AbstractUpdateInformation {
+    private:
+        std::string _fileMatchingPattern;
+        std::string _productId;
+
+    public:
+        explicit PlingV1UpdateInformation(const std::vector<std::string>& updateInformationComponents);
+
+    private:
+        [[nodiscard]] std::vector<std::string> _getAvailableDownloads() const;
+
+        static std::string _findLatestRelease(const std::vector<std::string>& downloads);
+
+        static std::string _resolveZsyncUrl(const std::string& downloadUrl);
+
+        [[nodiscard]] std::string buildUrl(const StatusMessageCallback& issueStatusMessage) const override;
+    };
+}

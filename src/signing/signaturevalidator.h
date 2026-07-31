@@ -1,1 +1,62 @@
-I3ByYWdtYSBvbmNlCgovLyBzeXN0ZW0gaGVhZGVycwojaW5jbHVkZSA8bWVtb3J5PgojaW5jbHVkZSA8ZmlsZXN5c3RlbT4KCi8vIGxpYnJhcnkgaGVhZGVycwojaW5jbHVkZSA8Z3BnLWVycm9yLmg+CgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJ1dGlsL3VwZGF0YWJsZWFwcGltYWdlLmgiCgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZTo6c2lnbmluZyB7CiAgICBjbGFzcyBHcGdFcnJvciA6IHB1YmxpYyBzdGQ6OmV4Y2VwdGlvbiB7CiAgICBwdWJsaWM6CiAgICAgICAgZXhwbGljaXQgR3BnRXJyb3IoZ3BnX2Vycm9yX3QgZXJyb3IsIGNvbnN0IHN0ZDo6c3RyaW5nJiBtZXNzYWdlKTsKICAgICAgICB+R3BnRXJyb3IoKSBub2V4Y2VwdDsKCiAgICAgICAgY29uc3QgY2hhciogd2hhdCgpIGNvbnN0IG5vZXhjZXB0IG92ZXJyaWRlOwoKICAgIHByaXZhdGU6CiAgICAgICAgY2xhc3MgUHJpdmF0ZTsKICAgICAgICBzdGQ6OnVuaXF1ZV9wdHI8UHJpdmF0ZT4gZDsKICAgIH07CgogICAgY2xhc3MgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdCB7CiAgICBwdWJsaWM6CiAgICAgICAgZW51bSBjbGFzcyBSZXN1bHRUeXBlIHsKICAgICAgICAgICAgU1VDQ0VTUywKICAgICAgICAgICAgV0FSTklORywKICAgICAgICAgICAgRVJST1IsCiAgICAgICAgfTsKCiAgICAgICAgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdChSZXN1bHRUeXBlIHR5cGUsIGNvbnN0IHN0ZDo6c3RyaW5nJiBkZXNjcmlwdGlvbiwgY29uc3Qgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+JiBrZXlGaW5nZXJwcmludHMgPSB7fSk7CgogICAgICAgIC8vIHJlcXVpcmVkIHRvIG1ha2UgUEltcGwgd29yayB3aXRoIHVuaXF1ZV9wdHIKICAgICAgICB+U2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdCgpIG5vZXhjZXB0OwoKICAgICAgICBSZXN1bHRUeXBlIHR5cGUoKSBjb25zdDsKICAgICAgICBzdGQ6OnN0cmluZyBtZXNzYWdlKCkgY29uc3Q7CiAgICAgICAgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+IGtleUZpbmdlcnByaW50cygpIGNvbnN0OwoKICAgIHByaXZhdGU6CiAgICAgICAgY2xhc3MgUHJpdmF0ZTsKICAgICAgICBzdGQ6OnVuaXF1ZV9wdHI8UHJpdmF0ZT4gZDsKICAgIH07CgogICAgY2xhc3MgU2lnbmF0dXJlVmFsaWRhdG9yIHsKICAgIHB1YmxpYzoKICAgICAgICBleHBsaWNpdCBTaWduYXR1cmVWYWxpZGF0b3IoKTsKCiAgICAgICAgLy8gcmVxdWlyZWQgdG8gbWFrZSBQSW1wbCB3b3JrIHdpdGggdW5pcXVlX3B0cgogICAgICAgIH5TaWduYXR1cmVWYWxpZGF0b3IoKSBub2V4Y2VwdDsKCiAgICAgICAgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdCB2YWxpZGF0ZShjb25zdCBVcGRhdGFibGVBcHBJbWFnZSYgYXBwSW1hZ2UpOwoKICAgIHByaXZhdGU6CiAgICAgICAgY2xhc3MgUHJpdmF0ZTsKICAgICAgICBzdGQ6OnVuaXF1ZV9wdHI8UHJpdmF0ZT4gZDsKICAgIH07Cn0KCg==
+#pragma once
+
+// system headers
+#include <memory>
+#include <filesystem>
+
+// library headers
+#include <gpg-error.h>
+
+// local headers
+#include "util/updatableappimage.h"
+
+namespace appimage::update::signing {
+    class GpgError : public std::exception {
+    public:
+        explicit GpgError(gpg_error_t error, const std::string& message);
+        ~GpgError() noexcept;
+
+        const char* what() const noexcept override;
+
+    private:
+        class Private;
+        std::unique_ptr<Private> d;
+    };
+
+    class SignatureValidationResult {
+    public:
+        enum class ResultType {
+            SUCCESS,
+            WARNING,
+            ERROR,
+        };
+
+        SignatureValidationResult(ResultType type, const std::string& description, const std::vector<std::string>& keyFingerprints = {});
+
+        // required to make PImpl work with unique_ptr
+        ~SignatureValidationResult() noexcept;
+
+        ResultType type() const;
+        std::string message() const;
+        std::vector<std::string> keyFingerprints() const;
+
+    private:
+        class Private;
+        std::unique_ptr<Private> d;
+    };
+
+    class SignatureValidator {
+    public:
+        explicit SignatureValidator();
+
+        // required to make PImpl work with unique_ptr
+        ~SignatureValidator() noexcept;
+
+        SignatureValidationResult validate(const UpdatableAppImage& appImage);
+
+    private:
+        class Private;
+        std::unique_ptr<Private> d;
+    };
+}
+

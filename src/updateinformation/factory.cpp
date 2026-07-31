@@ -1,1 +1,25 @@
-I2luY2x1ZGUgImZhY3RvcnkuaCIKI2luY2x1ZGUgIkdlbmVyaWNac3luY1VwZGF0ZUluZm9ybWF0aW9uLmgiCiNpbmNsdWRlICJHaXRodWJSZWxlYXNlc1pzeW5jVXBkYXRlSW5mb3JtYXRpb24uaCIKI2luY2x1ZGUgIlBsaW5nVjFVcGRhdGVJbmZvcm1hdGlvbi5oIgoKbmFtZXNwYWNlIGFwcGltYWdlOjp1cGRhdGU6OnVwZGF0ZWluZm9ybWF0aW9uIHsKICAgIHN0ZDo6c2hhcmVkX3B0cjxBYnN0cmFjdFVwZGF0ZUluZm9ybWF0aW9uPiBtYWtlVXBkYXRlSW5mb3JtYXRpb24oY29uc3Qgc3RkOjpzdHJpbmcmIHJhd1VwZGF0ZUluZm9ybWF0aW9uKSB7CiAgICAgICAgY29uc3QgYXV0byB1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHMgPSBzcGxpdFJhd1VwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyhyYXdVcGRhdGVJbmZvcm1hdGlvbik7CgogICAgICAgIGlmICh1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHMuZW1wdHkoKSkgewogICAgICAgICAgICB0aHJvdyBVcGRhdGVJbmZvcm1hdGlvbkVycm9yKCJVcGRhdGUgaW5mb3JtYXRpb24gaW52YWxpZDogfCBub3QgZm91bmQiKTsKICAgICAgICB9CgogICAgICAgIGlmICh1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHNbMF0gPT0gInpzeW5jIikgewogICAgICAgICAgICByZXR1cm4gc3RkOjptYWtlX3NoYXJlZDxHZW5lcmljWnN5bmNVcGRhdGVJbmZvcm1hdGlvbj4odXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzKTsKICAgICAgICB9IGVsc2UgaWYgKHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50c1swXSA9PSAiZ2gtcmVsZWFzZXMtenN5bmMiKSB7CiAgICAgICAgICAgIC8vIFRPRE86IEdpdEh1YiByZWxlYXNlcyB0eXBlIHNob3VsZCBjb25zaWRlciBwcmUtcmVsZWFzZXMgd2hlbiB0aGVyZSdzIG5vIG90aGVyIHR5cGVzIG9mIHJlbGVhc2VzCiAgICAgICAgICAgIHJldHVybiBzdGQ6Om1ha2Vfc2hhcmVkPEdpdGh1YlJlbGVhc2VzVXBkYXRlSW5mb3JtYXRpb24+KHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyk7CiAgICAgICAgfSBlbHNlIGlmICh1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHNbMF0gPT0gInBsaW5nLXYxLXpzeW5jIikgewogICAgICAgICAgICByZXR1cm4gc3RkOjptYWtlX3NoYXJlZDxQbGluZ1YxVXBkYXRlSW5mb3JtYXRpb24+KHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyk7CiAgICAgICAgfQoKICAgICAgICB0aHJvdyBVcGRhdGVJbmZvcm1hdGlvbkVycm9yKCJVbmtub3duIHVwZGF0ZSBpbmZvcm1hdGlvbiB0eXBlOiAiICsgdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzWzBdKTsKICAgIH0KfQo=
+#include "factory.h"
+#include "GenericZsyncUpdateInformation.h"
+#include "GithubReleasesZsyncUpdateInformation.h"
+#include "PlingV1UpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+    std::shared_ptr<AbstractUpdateInformation> makeUpdateInformation(const std::string& rawUpdateInformation) {
+        const auto updateInformationComponents = splitRawUpdateInformationComponents(rawUpdateInformation);
+
+        if (updateInformationComponents.empty()) {
+            throw UpdateInformationError("Update information invalid: | not found");
+        }
+
+        if (updateInformationComponents[0] == "zsync") {
+            return std::make_shared<GenericZsyncUpdateInformation>(updateInformationComponents);
+        } else if (updateInformationComponents[0] == "gh-releases-zsync") {
+            // TODO: GitHub releases type should consider pre-releases when there's no other types of releases
+            return std::make_shared<GithubReleasesUpdateInformation>(updateInformationComponents);
+        } else if (updateInformationComponents[0] == "pling-v1-zsync") {
+            return std::make_shared<PlingV1UpdateInformation>(updateInformationComponents);
+        }
+
+        throw UpdateInformationError("Unknown update information type: " + updateInformationComponents[0]);
+    }
+}

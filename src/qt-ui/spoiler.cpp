@@ -1,1 +1,70 @@
-Ly8gYmFzZWQgb24gaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzM3OTI3MjU2CgojaW5jbHVkZSA8UUFwcGxpY2F0aW9uPgojaW5jbHVkZSA8UVByb3BlcnR5QW5pbWF0aW9uPgoKI2luY2x1ZGUgInNwb2lsZXIuaCIKClNwb2lsZXI6OlNwb2lsZXIoY29uc3QgUVN0cmluZyYgdGl0bGUsIGNvbnN0IGludCBhbmltYXRpb25EdXJhdGlvbiwgUVdpZGdldCogcGFyZW50KSA6IFFXaWRnZXQocGFyZW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uRHVyYXRpb24oYW5pbWF0aW9uRHVyYXRpb24pCnsKICAgIHRvZ2dsZUJ1dHRvbi5zZXRTdHlsZVNoZWV0KCJRVG9vbEJ1dHRvbiB7IGJvcmRlcjogbm9uZTsgfSIpOwogICAgdG9nZ2xlQnV0dG9uLnNldFRvb2xCdXR0b25TdHlsZShRdDo6VG9vbEJ1dHRvblRleHRCZXNpZGVJY29uKTsKICAgIHRvZ2dsZUJ1dHRvbi5zZXRBcnJvd1R5cGUoUXQ6OkFycm93VHlwZTo6UmlnaHRBcnJvdyk7CiAgICB0b2dnbGVCdXR0b24uc2V0VGV4dCh0aXRsZSk7CiAgICB0b2dnbGVCdXR0b24uc2V0Q2hlY2thYmxlKHRydWUpOwogICAgdG9nZ2xlQnV0dG9uLnNldENoZWNrZWQoZmFsc2UpOwoKICAgIGhlYWRlckxpbmUuc2V0RnJhbWVTaGFwZShRRnJhbWU6OkhMaW5lKTsKICAgIGhlYWRlckxpbmUuc2V0RnJhbWVTaGFkb3coUUZyYW1lOjpTdW5rZW4pOwogICAgaGVhZGVyTGluZS5zZXRTaXplUG9saWN5KFFTaXplUG9saWN5OjpFeHBhbmRpbmcsIFFTaXplUG9saWN5OjpNYXhpbXVtKTsKCiAgICBjb250ZW50QXJlYS5zZXRTdHlsZVNoZWV0KCJRU2Nyb2xsQXJlYSB7IGJhY2tncm91bmQtY29sb3I6IHdoaXRlOyBib3JkZXI6IG5vbmU7IH0iKTsKICAgIGNvbnRlbnRBcmVhLnNldFNpemVQb2xpY3koUVNpemVQb2xpY3k6OkV4cGFuZGluZywgUVNpemVQb2xpY3k6OkZpeGVkKTsKCiAgICAvLyBzdGFydCBvdXQgY29sbGFwc2VkCiAgICBjb250ZW50QXJlYS5zZXRNYXhpbXVtSGVpZ2h0KDApOwogICAgY29udGVudEFyZWEuc2V0TWluaW11bUhlaWdodCgwKTsKCiAgICAvLyBsZXQgdGhlIGVudGlyZSB3aWRnZXQgZ3JvdyBhbmQgc2hyaW5rIHdpdGggaXRzIGNvbnRlbnQKICAgIHRvZ2dsZUFuaW1hdGlvbi5hZGRBbmltYXRpb24obmV3IFFQcm9wZXJ0eUFuaW1hdGlvbih0aGlzLCAibWluaW11bUhlaWdodCIpKTsKICAgIHRvZ2dsZUFuaW1hdGlvbi5hZGRBbmltYXRpb24obmV3IFFQcm9wZXJ0eUFuaW1hdGlvbih0aGlzLCAibWF4aW11bUhlaWdodCIpKTsKICAgIHRvZ2dsZUFuaW1hdGlvbi5hZGRBbmltYXRpb24obmV3IFFQcm9wZXJ0eUFuaW1hdGlvbigmY29udGVudEFyZWEsICJtYXhpbXVtSGVpZ2h0IikpOwoKICAgIC8vIGRvbid0IHdhc3RlIHNwYWNlCiAgICBtYWluTGF5b3V0LnNldFZlcnRpY2FsU3BhY2luZygwKTsKICAgIG1haW5MYXlvdXQuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApOwogICAgaW50IHJvdyA9IDA7CgogICAgbWFpbkxheW91dC5hZGRXaWRnZXQoJnRvZ2dsZUJ1dHRvbiwgcm93LCAwLCAxLCAxLCBRdDo6QWxpZ25MZWZ0KTsKICAgIG1haW5MYXlvdXQuYWRkV2lkZ2V0KCZoZWFkZXJMaW5lLCByb3crKywgMiwgMSwgMSk7CiAgICBtYWluTGF5b3V0LmFkZFdpZGdldCgmY29udGVudEFyZWEsIHJvdywgMCwgMSwgMyk7CiAgICBzZXRMYXlvdXQoJm1haW5MYXlvdXQpOwoKICAgIFFPYmplY3Q6OmNvbm5lY3QoJnRvZ2dsZUJ1dHRvbiwgJlFUb29sQnV0dG9uOjpjbGlja2VkLCBbdGhpc10oY29uc3QgYm9vbCBjaGVja2VkKSB7CiAgICAgICAgdG9nZ2xlQnV0dG9uLnNldEFycm93VHlwZShjaGVja2VkID8gUXQ6OkFycm93VHlwZTo6RG93bkFycm93IDogUXQ6OkFycm93VHlwZTo6UmlnaHRBcnJvdyk7CiAgICAgICAgdG9nZ2xlQW5pbWF0aW9uLnNldERpcmVjdGlvbihjaGVja2VkID8gUUFic3RyYWN0QW5pbWF0aW9uOjpGb3J3YXJkIDogUUFic3RyYWN0QW5pbWF0aW9uOjpCYWNrd2FyZCk7CiAgICAgICAgdG9nZ2xlQW5pbWF0aW9uLnN0YXJ0KCk7CiAgICB9KTsKfQoKdm9pZCBTcG9pbGVyOjpzZXRDb250ZW50TGF5b3V0KFFMYXlvdXQmIGNvbnRlbnRMYXlvdXQpIHsKICAgIGRlbGV0ZSBjb250ZW50QXJlYS5sYXlvdXQoKTsKICAgIGNvbnRlbnRBcmVhLnNldExheW91dCgmY29udGVudExheW91dCk7CiAgICBjb25zdCBhdXRvIGNvbGxhcHNlZEhlaWdodCA9IHNpemVIaW50KCkuaGVpZ2h0KCkgLSBjb250ZW50QXJlYS5tYXhpbXVtSGVpZ2h0KCk7CiAgICBhdXRvIGNvbnRlbnRIZWlnaHQgPSBjb250ZW50TGF5b3V0LnNpemVIaW50KCkuaGVpZ2h0KCk7CgogICAgZm9yIChpbnQgaSA9IDA7IGkgPCB0b2dnbGVBbmltYXRpb24uYW5pbWF0aW9uQ291bnQoKSAtIDE7ICsraSkgewogICAgICAgIGF1dG8qIHNwb2lsZXJBbmltYXRpb24gPSBkeW5hbWljX2Nhc3Q8UVByb3BlcnR5QW5pbWF0aW9uKj4odG9nZ2xlQW5pbWF0aW9uLmFuaW1hdGlvbkF0KGkpKTsKICAgICAgICBzcG9pbGVyQW5pbWF0aW9uLT5zZXREdXJhdGlvbihhbmltYXRpb25EdXJhdGlvbik7CiAgICAgICAgc3BvaWxlckFuaW1hdGlvbi0+c2V0U3RhcnRWYWx1ZShjb2xsYXBzZWRIZWlnaHQpOwogICAgICAgIHNwb2lsZXJBbmltYXRpb24tPnNldEVuZFZhbHVlKGNvbGxhcHNlZEhlaWdodCArIGNvbnRlbnRIZWlnaHQpOwogICAgfQoKICAgIGF1dG8qIHcgPSBRQXBwbGljYXRpb246OmFjdGl2ZVdpbmRvdygpOwoKICAgIGF1dG8qIGNvbnRlbnRBbmltYXRpb24gPSBkeW5hbWljX2Nhc3Q8UVByb3BlcnR5QW5pbWF0aW9uKj4odG9nZ2xlQW5pbWF0aW9uLmFuaW1hdGlvbkF0KHRvZ2dsZUFuaW1hdGlvbi5hbmltYXRpb25Db3VudCgpIC0gMSkpOwogICAgY29udGVudEFuaW1hdGlvbi0+c2V0RHVyYXRpb24oYW5pbWF0aW9uRHVyYXRpb24pOwogICAgY29udGVudEFuaW1hdGlvbi0+c2V0U3RhcnRWYWx1ZSgwKTsKICAgIGNvbnRlbnRBbmltYXRpb24tPnNldEVuZFZhbHVlKGNvbnRlbnRIZWlnaHQpOwp9
+// based on https://stackoverflow.com/a/37927256
+
+#include <QApplication>
+#include <QPropertyAnimation>
+
+#include "spoiler.h"
+
+Spoiler::Spoiler(const QString& title, const int animationDuration, QWidget* parent) : QWidget(parent),
+                                                                                       animationDuration(animationDuration)
+{
+    toggleButton.setStyleSheet("QToolButton { border: none; }");
+    toggleButton.setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    toggleButton.setArrowType(Qt::ArrowType::RightArrow);
+    toggleButton.setText(title);
+    toggleButton.setCheckable(true);
+    toggleButton.setChecked(false);
+
+    headerLine.setFrameShape(QFrame::HLine);
+    headerLine.setFrameShadow(QFrame::Sunken);
+    headerLine.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Maximum);
+
+    contentArea.setStyleSheet("QScrollArea { background-color: white; border: none; }");
+    contentArea.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+
+    // start out collapsed
+    contentArea.setMaximumHeight(0);
+    contentArea.setMinimumHeight(0);
+
+    // let the entire widget grow and shrink with its content
+    toggleAnimation.addAnimation(new QPropertyAnimation(this, "minimumHeight"));
+    toggleAnimation.addAnimation(new QPropertyAnimation(this, "maximumHeight"));
+    toggleAnimation.addAnimation(new QPropertyAnimation(&contentArea, "maximumHeight"));
+
+    // don't waste space
+    mainLayout.setVerticalSpacing(0);
+    mainLayout.setContentsMargins(0, 0, 0, 0);
+    int row = 0;
+
+    mainLayout.addWidget(&toggleButton, row, 0, 1, 1, Qt::AlignLeft);
+    mainLayout.addWidget(&headerLine, row++, 2, 1, 1);
+    mainLayout.addWidget(&contentArea, row, 0, 1, 3);
+    setLayout(&mainLayout);
+
+    QObject::connect(&toggleButton, &QToolButton::clicked, [this](const bool checked) {
+        toggleButton.setArrowType(checked ? Qt::ArrowType::DownArrow : Qt::ArrowType::RightArrow);
+        toggleAnimation.setDirection(checked ? QAbstractAnimation::Forward : QAbstractAnimation::Backward);
+        toggleAnimation.start();
+    });
+}
+
+void Spoiler::setContentLayout(QLayout& contentLayout) {
+    delete contentArea.layout();
+    contentArea.setLayout(&contentLayout);
+    const auto collapsedHeight = sizeHint().height() - contentArea.maximumHeight();
+    auto contentHeight = contentLayout.sizeHint().height();
+
+    for (int i = 0; i < toggleAnimation.animationCount() - 1; ++i) {
+        auto* spoilerAnimation = dynamic_cast<QPropertyAnimation*>(toggleAnimation.animationAt(i));
+        spoilerAnimation->setDuration(animationDuration);
+        spoilerAnimation->setStartValue(collapsedHeight);
+        spoilerAnimation->setEndValue(collapsedHeight + contentHeight);
+    }
+
+    auto* w = QApplication::activeWindow();
+
+    auto* contentAnimation = dynamic_cast<QPropertyAnimation*>(toggleAnimation.animationAt(toggleAnimation.animationCount() - 1));
+    contentAnimation->setDuration(animationDuration);
+    contentAnimation->setStartValue(0);
+    contentAnimation->setEndValue(contentHeight);
+}

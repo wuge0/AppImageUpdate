@@ -1,1 +1,12 @@
-IyBJTlRFUkZBQ0UgbGlicmFyeSB3aXRoIHNvdXJjZSBmaWxlcyByZXF1aXJlcyBDTWFrZSAzLjE5CmNtYWtlX21pbmltdW1fcmVxdWlyZWQoVkVSU0lPTiAzLjE5KQoKYWRkX2xpYnJhcnkodXRpbCBTVEFUSUMKICAgIHV0aWwuY3BwCiAgICB1cGRhdGFibGVhcHBpbWFnZS5jcHAKKQojIGluY2x1ZGUgdGhlIGNvbXBsZXRlIHNvdXJjZSB0byBmb3JjZSB0aGUgdXNlIG9mIHByb2plY3QtcmVsYXRpdmUgaW5jbHVkZSBwYXRocwp0YXJnZXRfaW5jbHVkZV9kaXJlY3Rvcmllcyh1dGlsCiAgICBQVUJMSUMgJDxCVUlMRF9JTlRFUkZBQ0U6JHtQUk9KRUNUX1NPVVJDRV9ESVJ9Pi9zcmMKKQp0YXJnZXRfbGlua19saWJyYXJpZXModXRpbCBQUklWQVRFIGxpYmFwcGltYWdlX3NoYXJlZCAke1pTWU5DMl9MSUJSQVJZX05BTUV9IGNwcikK
+# INTERFACE library with source files requires CMake 3.19
+cmake_minimum_required(VERSION 3.19)
+
+add_library(util STATIC
+    util.cpp
+    updatableappimage.cpp
+)
+# include the complete source to force the use of project-relative include paths
+target_include_directories(util
+    PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/src
+)
+target_link_libraries(util PRIVATE libappimage_shared ${ZSYNC2_LIBRARY_NAME} cpr)

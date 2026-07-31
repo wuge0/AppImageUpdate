@@ -1,1 +1,10 @@
-IyAiZGVtb25zdHJhdGlvbiIgYXBwbGljYXRpb24gZm9yIHNpZ25pbmcgbGlicmFyeQojIHRoZXJlIHVzZWQgdG8gYmUgYW4gaW1wbGVtZW50YXRpb24gaW4gQXBwSW1hZ2VLaXQsIGJ1dCB0aGVyZSBpcyBubyBzZW5zZSBpbiBtYWludGFpbmluZyB0d28gdmFyaWFudHMKYWRkX2V4ZWN1dGFibGUodmFsaWRhdGUgdmFsaWRhdGVfbWFpbi5jcHApCnRhcmdldF9saW5rX2xpYnJhcmllcyh2YWxpZGF0ZSBzaWduaW5nICR7Q01BS0VfVEhSRUFEX0xJQlNfSU5JVH0pCgojIGluc3RhbGwgdGFyZ2V0Cmluc3RhbGwoCiAgICBUQVJHRVRTIHZhbGlkYXRlCiAgICBSVU5USU1FIERFU1RJTkFUSU9OICR7Q01BS0VfSU5TVEFMTF9CSU5ESVJ9IENPTVBPTkVOVCB2YWxpZGF0ZQopCg==
+# "demonstration" application for signing library
+# there used to be an implementation in AppImageKit, but there is no sense in maintaining two variants
+add_executable(validate validate_main.cpp)
+target_link_libraries(validate signing ${CMAKE_THREAD_LIBS_INIT})
+
+# install target
+install(
+    TARGETS validate
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} COMPONENT validate
+)

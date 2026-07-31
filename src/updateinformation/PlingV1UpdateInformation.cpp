@@ -1,1 +1,87 @@
-Ly8gc3lzdGVtIGhlYWRlcnMKI2luY2x1ZGUgPHJlZ2V4PgojaW5jbHVkZSA8Zm5tYXRjaC5oPgoKLy8gbGlicmFyeSBoZWFkZXJzCiNpbmNsdWRlIDxjcHIvY3ByLmg+CgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJQbGluZ1YxVXBkYXRlSW5mb3JtYXRpb24uaCIKCm5hbWVzcGFjZSBhcHBpbWFnZTo6dXBkYXRlOjp1cGRhdGVpbmZvcm1hdGlvbiB7CiAgICBuYW1lc3BhY2UgewogICAgICAgIGNvbnN0IGNoYXIqIHBsaW5nQ29udGVudEVuZHBvaW50VXJsID0gImh0dHBzOi8vYXBpLnBsaW5nLmNvbS9vY3MvdjEvY29udGVudC9kYXRhLyI7CiAgICB9CgoKICAgIFBsaW5nVjFVcGRhdGVJbmZvcm1hdGlvbjo6UGxpbmdWMVVwZGF0ZUluZm9ybWF0aW9uKGNvbnN0IHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiYgdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzKSA6CiAgICAgICAgQWJzdHJhY3RVcGRhdGVJbmZvcm1hdGlvbih1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHMsIFpTWU5DX1BMSU5HX1YxKSwKICAgICAgICBfcHJvZHVjdElkKHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50c1sxXSksCiAgICAgICAgX2ZpbGVNYXRjaGluZ1BhdHRlcm4odXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzWzJdKQogICAgewogICAgICAgIC8vIHZhbGlkYXRpb24KICAgICAgICBhc3NlcnRQYXJhbWV0ZXJDb3VudChfdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzLCAzKTsKICAgIH0KCiAgICBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gUGxpbmdWMVVwZGF0ZUluZm9ybWF0aW9uOjpfZ2V0QXZhaWxhYmxlRG93bmxvYWRzKCkgY29uc3QgewogICAgICAgIHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiBkb3dubG9hZHM7CgogICAgICAgIGNwcjo6VXJsIHByb2R1Y3REZXRhaWxzVXJsID0gcGxpbmdDb250ZW50RW5kcG9pbnRVcmwgKyBfcHJvZHVjdElkOwogICAgICAgIGF1dG8gcmVzcG9uc2UgPSBjcHI6OkdldChwcm9kdWN0RGV0YWlsc1VybCk7CiAgICAgICAgaWYgKHJlc3BvbnNlLnN0YXR1c19jb2RlID49IDIwMCAmJiByZXNwb25zZS5zdGF0dXNfY29kZSA8IDMwMCkgewogICAgICAgICAgICBzdGQ6OnJlZ2V4IHVybFJlZ2V4KFIiKCg/Olw8ZG93bmxvYWRsaW5rXGQrXD4pKC4qPykoPzo8XC9kb3dubG9hZGxpbmtcZCtcPikpIik7CgogICAgICAgICAgICBzdGQ6OnN0cmluZyB0ZXh0ID0gcmVzcG9uc2UudGV4dDsKICAgICAgICAgICAgc3RkOjpzbWF0Y2ggbWF0Y2g7CgogICAgICAgICAgICAvLyBtYXRjaCBkb3dubG9hZCBsaW5rCiAgICAgICAgICAgIHdoaWxlIChzdGQ6OnJlZ2V4X3NlYXJjaCh0ZXh0LCBtYXRjaCwgdXJsUmVnZXgpKSB7CiAgICAgICAgICAgICAgICAvLyBleHRyYWN0IHNlY29uZCBtYXRjaGVkIGdyb3VwIHdoaWNoIGNvbnRhaW5zIHRoZSBhY3R1YWwgdXJsCiAgICAgICAgICAgICAgICBzdGQ6OnN0cmluZyB1cmwgPSBtYXRjaFsxXS5zdHIoKTsKCiAgICAgICAgICAgICAgICAvLyBhcHBseSBmaWxlIG1hdGNoaW5nIHBhdHRlciB0byB0aGUgZmlsZSBuYW1lCiAgICAgICAgICAgICAgICBhdXRvIGZpbGVOYW1lID0gdXJsLnN1YnN0cih1cmwucmZpbmQoJy8nKSArIDEpOwogICAgICAgICAgICAgICAgaWYgKGZubWF0Y2goX2ZpbGVNYXRjaGluZ1BhdHRlcm4uZGF0YSgpLCBmaWxlTmFtZS5kYXRhKCksIDApID09IDApCiAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRzLnB1c2hfYmFjayh1cmwpOwoKICAgICAgICAgICAgICAgIHRleHQgPSBtYXRjaC5zdWZmaXgoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGRvd25sb2FkczsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBQbGluZ1YxVXBkYXRlSW5mb3JtYXRpb246Ol9maW5kTGF0ZXN0UmVsZWFzZShjb25zdCBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4mIGRvd25sb2FkcykgewogICAgICAgIHN0ZDo6c3RyaW5nIGxhdGVzdFJlbGVhc2VVcmw7CiAgICAgICAgc3RkOjpzdHJpbmcgbGF0ZXN0UmVsZWFzZUZpbGVOYW1lOwoKICAgICAgICBmb3IgKGNvbnN0IGF1dG8mIHVybDogZG93bmxvYWRzKSB7CiAgICAgICAgICAgIGF1dG8gZmlsZV9uYW1lID0gdXJsLnN1YnN0cih1cmwucmZpbmQoJy8nKSArIDEpOwoKICAgICAgICAgICAgLy8ga2VlcCBvbmx5IHRoZSBsYXRlc3QgcmVsZWFzZQogICAgICAgICAgICBpZiAoZmlsZV9uYW1lID4gbGF0ZXN0UmVsZWFzZUZpbGVOYW1lKSB7CiAgICAgICAgICAgICAgICBsYXRlc3RSZWxlYXNlVXJsID0gc3RkOjpzdHJpbmcodXJsKTsKICAgICAgICAgICAgICAgIGxhdGVzdFJlbGVhc2VGaWxlTmFtZSA9IHN0ZDo6c3RyaW5nKGZpbGVfbmFtZSk7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGxhdGVzdFJlbGVhc2VVcmw7CiAgICB9CgogICAgc3RkOjpzdHJpbmcgUGxpbmdWMVVwZGF0ZUluZm9ybWF0aW9uOjpfcmVzb2x2ZVpzeW5jVXJsKGNvbnN0IHN0ZDo6c3RyaW5nJiBkb3dubG9hZFVybCkgewogICAgICAgIC8vIHBsaW5nLmNvbSBjcmVhdGVzIHpzeW5jIGZpbGVzIGZvciBldmVyeSB1cGxvYWRlZCBmaWxlLCB3ZSBqdXN0IG5lZWQgdG8gYXBwZW5kIC56c3luYwogICAgICAgIHJldHVybiBkb3dubG9hZFVybCArICIuenN5bmMiOwogICAgfQoKICAgIHN0ZDo6c3RyaW5nIFBsaW5nVjFVcGRhdGVJbmZvcm1hdGlvbjo6YnVpbGRVcmwoY29uc3QgU3RhdHVzTWVzc2FnZUNhbGxiYWNrJiBpc3N1ZVN0YXR1c01lc3NhZ2UpIGNvbnN0IHsKICAgICAgICBjb25zdCBhdXRvJiBwcm9kdWN0SWQgPSBfdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzWzFdOwogICAgICAgIGNvbnN0IGF1dG8mIGZpbGVNYXRjaGluZ1BhdHRlcm4gPSBfdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzWzJdOwoKICAgICAgICBjb25zdCBhdXRvIGF2YWlsYWJsZURvd25sb2FkcyA9IF9nZXRBdmFpbGFibGVEb3dubG9hZHMoKTsKICAgICAgICBjb25zdCBhdXRvIGxhdGVzdFJlbGVhc2VVcmwgPSBfZmluZExhdGVzdFJlbGVhc2UoYXZhaWxhYmxlRG93bmxvYWRzKTsKICAgICAgICBhdXRvIHpzeW5jVXJsID0gX3Jlc29sdmVac3luY1VybChsYXRlc3RSZWxlYXNlVXJsKTsKCiAgICAgICAgcmV0dXJuIHpzeW5jVXJsOwogICAgfQp9Cg==
+// system headers
+#include <regex>
+#include <fnmatch.h>
+
+// library headers
+#include <cpr/cpr.h>
+
+// local headers
+#include "PlingV1UpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+    namespace {
+        const char* plingContentEndpointUrl = "https://api.pling.com/ocs/v1/content/data/";
+    }
+
+
+    PlingV1UpdateInformation::PlingV1UpdateInformation(const std::vector<std::string>& updateInformationComponents) :
+        AbstractUpdateInformation(updateInformationComponents, ZSYNC_PLING_V1),
+        _productId(updateInformationComponents[1]),
+        _fileMatchingPattern(updateInformationComponents[2])
+    {
+        // validation
+        assertParameterCount(_updateInformationComponents, 3);
+    }
+
+    std::vector<std::string> PlingV1UpdateInformation::_getAvailableDownloads() const {
+        std::vector<std::string> downloads;
+
+        cpr::Url productDetailsUrl = plingContentEndpointUrl + _productId;
+        auto response = cpr::Get(productDetailsUrl);
+        if (response.status_code >= 200 && response.status_code < 300) {
+            std::regex urlRegex(R"((?:\<downloadlink\d+\>)(.*?)(?:<\/downloadlink\d+\>))");
+
+            std::string text = response.text;
+            std::smatch match;
+
+            // match download link
+            while (std::regex_search(text, match, urlRegex)) {
+                // extract second matched group which contains the actual url
+                std::string url = match[1].str();
+
+                // apply file matching patter to the file name
+                auto fileName = url.substr(url.rfind('/') + 1);
+                if (fnmatch(_fileMatchingPattern.data(), fileName.data(), 0) == 0)
+                    downloads.push_back(url);
+
+                text = match.suffix();
+            }
+        }
+
+        return downloads;
+    }
+
+    std::string PlingV1UpdateInformation::_findLatestRelease(const std::vector<std::string>& downloads) {
+        std::string latestReleaseUrl;
+        std::string latestReleaseFileName;
+
+        for (const auto& url: downloads) {
+            auto file_name = url.substr(url.rfind('/') + 1);
+
+            // keep only the latest release
+            if (file_name > latestReleaseFileName) {
+                latestReleaseUrl = std::string(url);
+                latestReleaseFileName = std::string(file_name);
+                break;
+            }
+        }
+
+        return latestReleaseUrl;
+    }
+
+    std::string PlingV1UpdateInformation::_resolveZsyncUrl(const std::string& downloadUrl) {
+        // pling.com creates zsync files for every uploaded file, we just need to append .zsync
+        return downloadUrl + ".zsync";
+    }
+
+    std::string PlingV1UpdateInformation::buildUrl(const StatusMessageCallback& issueStatusMessage) const {
+        const auto& productId = _updateInformationComponents[1];
+        const auto& fileMatchingPattern = _updateInformationComponents[2];
+
+        const auto availableDownloads = _getAvailableDownloads();
+        const auto latestReleaseUrl = _findLatestRelease(availableDownloads);
+        auto zsyncUrl = _resolveZsyncUrl(latestReleaseUrl);
+
+        return zsyncUrl;
+    }
+}

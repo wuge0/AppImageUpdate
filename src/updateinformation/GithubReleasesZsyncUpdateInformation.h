@@ -1,1 +1,22 @@
-I3ByYWdtYSBvbmNlCgovLyBzeXN0ZW0gaGVhZGVycwojaW5jbHVkZSA8Zm5tYXRjaC5oPgoKLy8gbGlicmFyeSBoZWFkZXJzCiNpbmNsdWRlIDxubG9obWFubi9qc29uLmhwcD4KI2luY2x1ZGUgPGNwci9jcHIuaD4KCi8vIGxvY2FsIGhlYWRlcnMKI2luY2x1ZGUgImNvbW1vbi5oIgojaW5jbHVkZSAiQWJzdHJhY3RVcGRhdGVJbmZvcm1hdGlvbi5oIgoKbmFtZXNwYWNlIGFwcGltYWdlOjp1cGRhdGU6OnVwZGF0ZWluZm9ybWF0aW9uIHsKICAgIGNsYXNzIEdpdGh1YlJlbGVhc2VzVXBkYXRlSW5mb3JtYXRpb24gOiBwdWJsaWMgQWJzdHJhY3RVcGRhdGVJbmZvcm1hdGlvbiB7CiAgICBwdWJsaWM6CiAgICAgICAgZXhwbGljaXQgR2l0aHViUmVsZWFzZXNVcGRhdGVJbmZvcm1hdGlvbihjb25zdCBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4mIHVwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cyk7CgogICAgcHVibGljOgogICAgICAgIFtbbm9kaXNjYXJkXV0gc3RkOjpzdHJpbmcgYnVpbGRVcmwoY29uc3QgU3RhdHVzTWVzc2FnZUNhbGxiYWNrJiBpc3N1ZVN0YXR1c01lc3NhZ2UpIGNvbnN0IG92ZXJyaWRlOwogICAgfTsKfQo=
+#pragma once
+
+// system headers
+#include <fnmatch.h>
+
+// library headers
+#include <nlohmann/json.hpp>
+#include <cpr/cpr.h>
+
+// local headers
+#include "common.h"
+#include "AbstractUpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+    class GithubReleasesUpdateInformation : public AbstractUpdateInformation {
+    public:
+        explicit GithubReleasesUpdateInformation(const std::vector<std::string>& updateInformationComponents);
+
+    public:
+        [[nodiscard]] std::string buildUrl(const StatusMessageCallback& issueStatusMessage) const override;
+    };
+}

@@ -1,1 +1,24 @@
-Ly8gYmFzZWQgb24gaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzM3OTI3MjU2CgojcHJhZ21hIG9uY2UKCiNpbmNsdWRlIDxRRnJhbWU+CiNpbmNsdWRlIDxRR3JpZExheW91dD4KI2luY2x1ZGUgPFFQYXJhbGxlbEFuaW1hdGlvbkdyb3VwPgojaW5jbHVkZSA8UVNjcm9sbEFyZWE+CiNpbmNsdWRlIDxRVG9vbEJ1dHRvbj4KI2luY2x1ZGUgPFFXaWRnZXQ+CgpjbGFzcyBTcG9pbGVyIDogcHVibGljIFFXaWRnZXQgewogICAgUV9PQkpFQ1QKICAgIHByaXZhdGU6CiAgICAgICAgUUdyaWRMYXlvdXQgbWFpbkxheW91dDsKICAgICAgICBRVG9vbEJ1dHRvbiB0b2dnbGVCdXR0b247CiAgICAgICAgUUZyYW1lIGhlYWRlckxpbmU7CiAgICAgICAgUVBhcmFsbGVsQW5pbWF0aW9uR3JvdXAgdG9nZ2xlQW5pbWF0aW9uOwogICAgICAgIFFTY3JvbGxBcmVhIGNvbnRlbnRBcmVhOwogICAgICAgIGludCBhbmltYXRpb25EdXJhdGlvbnszMDB9OwogICAgcHVibGljOgogICAgICAgIGV4cGxpY2l0IFNwb2lsZXIoY29uc3QgUVN0cmluZyAmIHRpdGxlID0gIiIsIGludCBhbmltYXRpb25EdXJhdGlvbiA9IDMwMCwgUVdpZGdldCAqcGFyZW50ID0gMCk7CiAgICAgICAgdm9pZCBzZXRDb250ZW50TGF5b3V0KFFMYXlvdXQgJiBjb250ZW50TGF5b3V0KTsKfTsK
+// based on https://stackoverflow.com/a/37927256
+
+#pragma once
+
+#include <QFrame>
+#include <QGridLayout>
+#include <QParallelAnimationGroup>
+#include <QScrollArea>
+#include <QToolButton>
+#include <QWidget>
+
+class Spoiler : public QWidget {
+    Q_OBJECT
+    private:
+        QGridLayout mainLayout;
+        QToolButton toggleButton;
+        QFrame headerLine;
+        QParallelAnimationGroup toggleAnimation;
+        QScrollArea contentArea;
+        int animationDuration{300};
+    public:
+        explicit Spoiler(const QString & title = "", int animationDuration = 300, QWidget *parent = 0);
+        void setContentLayout(QLayout & contentLayout);
+};

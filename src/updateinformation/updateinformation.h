@@ -1,1 +1,6 @@
-I3ByYWdtYSBvbmNlCgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJjb21tb24uaCIKCiNpbmNsdWRlICJmYWN0b3J5LmgiCg==
+#pragma once
+
+// local headers
+#include "common.h"
+
+#include "factory.h"

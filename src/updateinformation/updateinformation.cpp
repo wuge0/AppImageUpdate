@@ -1,1 +1,5 @@
-I2luY2x1ZGUgInVwZGF0ZWluZm9ybWF0aW9uLmgiCgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZTo6dXBkYXRlaW5mb3JtYXRpb24gewoKfQo=
+#include "updateinformation.h"
+
+namespace appimage::update::updateinformation {
+
+}

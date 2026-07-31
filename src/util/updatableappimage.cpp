@@ -1,1 +1,287 @@
-Ly8gbGlicmFyeSBoZWFkZXJzCiNpbmNsdWRlIDxhcHBpbWFnZS9hcHBpbWFnZV9zaGFyZWQuaD4KI2luY2x1ZGUgPHpzaGFzaC5oPgoKLy8gbG9jYWwgaGVhZGVycwojaW5jbHVkZSAidXBkYXRhYmxlYXBwaW1hZ2UuaCIKI2luY2x1ZGUgInVwZGF0ZWluZm9ybWF0aW9uL3VwZGF0ZWluZm9ybWF0aW9uLmgiCiNpbmNsdWRlICJ1dGlsL3V0aWwuaCIKCm5hbWVzcGFjZSBhcHBpbWFnZTo6dXBkYXRlIHsKICAgIHVzaW5nIG5hbWVzcGFjZSB1cGRhdGVpbmZvcm1hdGlvbjsKICAgIHVzaW5nIG5hbWVzcGFjZSB1dGlsOwogICAgdXNpbmcgbmFtZXNwYWNlIHpzeW5jMjsKCiAgICB2b2lkIFVwZGF0YWJsZUFwcEltYWdlOjphc3NlcnRJZnN0cmVhbUdvb2QoY29uc3Qgc3RkOjppZnN0cmVhbSYgaWZzKSBjb25zdCB7CiAgICAgICAgaWYgKCFpZnMgfHwgIWlmcy5nb29kKCkpIHsKICAgICAgICAgICAgdGhyb3cgQXBwSW1hZ2VFcnJvcigiRXJyb3Igd2hpbGUgb3BlbmluZy9hY2Nlc3NpbmcvcmVhZGluZyBmcm9tIEFwcEltYWdlOiAiICsgX3BhdGgpOwogICAgICAgIH0KICAgIH0KCiAgICBzdGQ6Omlmc3RyZWFtIFVwZGF0YWJsZUFwcEltYWdlOjpfb3BlbigpIGNvbnN0ICB7CiAgICAgICAgLy8gY2hlY2sgd2hldGhlciBmaWxlIGV4aXN0cwogICAgICAgIHN0ZDo6aWZzdHJlYW0gaWZzKF9wYXRoKTsKICAgICAgICBhc3NlcnRJZnN0cmVhbUdvb2QoaWZzKTsKICAgICAgICByZXR1cm4gaWZzOwogICAgfQoKICAgIGJvb2wgVXBkYXRhYmxlQXBwSW1hZ2U6Ol9oYXNFbGZNYWdpY1ZhbHVlKHN0ZDo6aWZzdHJlYW0mIGlmcykgY29uc3QgewogICAgICAgIHN0YXRpYyBjb25zdGV4cHIgaW50IGVsZk1hZ2ljUG9zID0gMDsKICAgICAgICBzdGF0aWMgY29uc3Qgc3RkOjpzdHJpbmcgZWxmTWFnaWNWYWx1ZSA9ICJcN0VMRiI7CgogICAgICAgIGlmcy5zZWVrZyhlbGZNYWdpY1Bvcyk7CiAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CgogICAgICAgIHN0ZDo6dmVjdG9yPGNoYXI+IGVsZk1hZ2ljUG9zRGF0YShlbGZNYWdpY1ZhbHVlLnNpemUoKSArIDEsICdcMCcpOwoKICAgICAgICBpZnMucmVhZChlbGZNYWdpY1Bvc0RhdGEuZGF0YSgpLCBlbGZNYWdpY1ZhbHVlLnNpemUoKSk7CiAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CgogICAgICAgIHJldHVybiBlbGZNYWdpY1Bvc0RhdGEuZGF0YSgpID09IGVsZk1hZ2ljVmFsdWU7CiAgICB9CgogICAgYm9vbCBVcGRhdGFibGVBcHBJbWFnZTo6X2hhc0lzb01hZ2ljVmFsdWUoc3RkOjppZnN0cmVhbSYgaWZzKSBjb25zdCB7CiAgICAgICAgc3RhdGljIGNvbnN0ZXhwciBpbnQgaXNvTWFnaWNQb3MgPSAzMjc2OTsKICAgICAgICBzdGF0aWMgY29uc3Qgc3RkOjpzdHJpbmcgaXNvTWFnaWNWYWx1ZSA9ICJDRDAwMSI7CgogICAgICAgIGlmcy5zZWVrZyhpc29NYWdpY1Bvcyk7CiAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CgogICAgICAgIHN0ZDo6dmVjdG9yPGNoYXI+IGlzb01hZ2ljUG9zRGF0YShpc29NYWdpY1ZhbHVlLnNpemUoKSArIDEsICdcMCcpOwoKICAgICAgICBpZnMucmVhZChpc29NYWdpY1Bvc0RhdGEuZGF0YSgpLCBpc29NYWdpY1ZhbHVlLnNpemUoKSk7CiAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CgogICAgICAgIHJldHVybiBpc29NYWdpY1Bvc0RhdGEuZGF0YSgpID09IGlzb01hZ2ljVmFsdWU7CiAgICB9CgogICAgVXBkYXRhYmxlQXBwSW1hZ2U6OlVwZGF0YWJsZUFwcEltYWdlKHN0ZDo6c3RyaW5nIHBhdGgpIDogX3BhdGgoc3RkOjptb3ZlKHBhdGgpKSB7fQoKICAgIHN0ZDo6c3RyaW5nIFVwZGF0YWJsZUFwcEltYWdlOjpwYXRoKCkgY29uc3QgewogICAgICAgIHJldHVybiBfcGF0aDsKICAgIH0KCiAgICBpbnQgVXBkYXRhYmxlQXBwSW1hZ2U6OmFwcEltYWdlVHlwZSgpIGNvbnN0IHsKICAgICAgICBhdXRvIGlmcyA9IF9vcGVuKCk7CgogICAgICAgIC8vIHJlYWQgbWFnaWMgbnVtYmVyCiAgICAgICAgaWZzLnNlZWtnKDgsIHN0ZDo6aW9zOjpiZWcpOwogICAgICAgIGFzc2VydElmc3RyZWFtR29vZChpZnMpOwoKICAgICAgICBzdGQ6OnZlY3RvcjxjaGFyPiBtYWdpY0J5dGUoNCwgJ1wwJyk7CgogICAgICAgIGlmcy5yZWFkKG1hZ2ljQnl0ZS5kYXRhKCksIDMpOwogICAgICAgIGFzc2VydElmc3RyZWFtR29vZChpZnMpOwoKICAgICAgICAvLyB2YWxpZGF0ZSBmaXJzdCB0d28gYnl0ZXMgYXJlIEEgYW5kIEkKICAgICAgICBpZiAobWFnaWNCeXRlWzBdICE9ICdBJyAmJiBtYWdpY0J5dGVbMV0gIT0gJ0knKSB7CiAgICAgICAgICAgIHN0ZDo6b3N0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgICAgIG9zcyA8PCAiSW52YWxpZCBtYWdpYyBieXRlczogIiA8PCAoaW50KSBtYWdpY0J5dGVbMF0gPDwgKGludCkgbWFnaWNCeXRlWzFdOwogICAgICAgICAgICB0aHJvdyBBcHBJbWFnZUVycm9yKG9zcy5zdHIoKSk7CiAgICAgICAgfQoKICAgICAgICAvLyBmb3IgdHlwZXMgMSBhbmQgMiwgdGhlIHRoaXJkIGJ5dGUgY29udGFpbnMgdGhlIHR5cGUgSUQKICAgICAgICBhdXRvIGFwcEltYWdlVHlwZSA9IG1hZ2ljQnl0ZVsyXTsKCiAgICAgICAgaWYgKGFwcEltYWdlVHlwZSA+PSAxICYmIGFwcEltYWdlVHlwZSA8PSAyKSB7CiAgICAgICAgICAgIHJldHVybiBhcHBJbWFnZVR5cGU7CiAgICAgICAgfQoKICAgICAgICAvLyBmaW5hbCB0cnk6IHR5cGUgMSBBcHBJbWFnZXMgZG8gbm90IGhhdmUgdG8gc2V0IHRoZSBtYWdpYyBieXRlcywgYWx0aG91Z2ggdGhleSBzaG91bGQKICAgICAgICAvLyBpZiB0aGUgZmlsZSBpcyBib3RoIGFuIEVMRiBhbmQgYW4gSVNPOTY2MCBmaWxlLCB3ZSdsbCBzdXNwZWN0IGl0IHRvIGJlIGEgdHlwZSAxIEFwcEltYWdlLCBhbmQKICAgICAgICAvLyBwcm9jZWVkIHdpdGggYSB3YXJuaW5nCiAgICAgICAgaWYgKF9oYXNFbGZNYWdpY1ZhbHVlKGlmcykgJiYgX2hhc0lzb01hZ2ljVmFsdWUoaWZzKSkgewogICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICB9CgogICAgICAgIHRocm93IEFwcEltYWdlRXJyb3IoIlVua25vd24gQXBwSW1hZ2UgdHlwZSBvciBub3QgYW4gQXBwSW1hZ2UiKTsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBVcGRhdGFibGVBcHBJbWFnZTo6cmVhZFNpZ25hdHVyZSgpIGNvbnN0IHsKICAgICAgICBjb25zdCBhdXRvIHR5cGUgPSBhcHBJbWFnZVR5cGUoKTsKCiAgICAgICAgaWYgKHR5cGUgIT0gMikgewogICAgICAgICAgICB0aHJvdyBBcHBJbWFnZUVycm9yKCJTaWduYXR1cmUgcmVhZGluZyBpcyBub3Qgc3VwcG9ydGVkIGZvciB0eXBlICIgKyBzdGQ6OnRvX3N0cmluZyh0eXBlKSk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcmVhZEVsZlNlY3Rpb24oX3BhdGgsICIuc2hhMjU2X3NpZyIpOwogICAgfQoKICAgIHN0ZDo6c3RyaW5nIFVwZGF0YWJsZUFwcEltYWdlOjpyZWFkU2lnbmluZ0tleSgpIGNvbnN0IHsKICAgICAgICBjb25zdCBhdXRvIHR5cGUgPSBhcHBJbWFnZVR5cGUoKTsKCiAgICAgICAgaWYgKHR5cGUgIT0gMikgewogICAgICAgICAgICB0aHJvdyBBcHBJbWFnZUVycm9yKCJSZWFkaW5nIHNpZ25pbmcga2V5IGlzIG5vdCBzdXBwb3J0ZWQgZm9yIHR5cGUgIiArIHN0ZDo6dG9fc3RyaW5nKHR5cGUpKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiByZWFkRWxmU2VjdGlvbihfcGF0aCwgIi5zaWdfa2V5Iik7CiAgICB9CgogICAgc3RkOjpzdHJpbmcgVXBkYXRhYmxlQXBwSW1hZ2U6OnJlYWRSYXdVcGRhdGVJbmZvcm1hdGlvbigpIGNvbnN0IHsKICAgICAgICBhdXRvIGlmcyA9IF9vcGVuKCk7CgogICAgICAgIGludCB0eXBlOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHR5cGUgPSBhcHBJbWFnZVR5cGUoKTsKICAgICAgICB9IGNhdGNoIChjb25zdCBBcHBJbWFnZUVycm9yJiBlKSB7CiAgICAgICAgICAgIC8vIGluIGNhc2UgdGhlIElTTyBtYWdpYyBieXRlcyBjYW4gYmUgZm91bmQsIHdlIHRyZWF0IHRoaXMgZmlsZSBsaWtlIGEgdHlwZSAxIEFwcEltYWdlIGluIHRoaXMKICAgICAgICAgICAgLy8gc3BlY2lhbCBjYXNlCiAgICAgICAgICAgIC8vIHRoaXMgaXMgbGVnYWN5IGJlaGF2aW9yIGFkb3B0ZWQgZnJvbSB0aGUgY3VycmVudCBBcHBJbWFnZVVwZGF0ZSdzIHByZWRlY2Vzc29yCiAgICAgICAgICAgIGlmIChfaGFzSXNvTWFnaWNWYWx1ZShpZnMpKSB7CiAgICAgICAgICAgICAgICB0eXBlID0gMTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHN0ZDo6cmV0aHJvd19leGNlcHRpb24oc3RkOjpjdXJyZW50X2V4Y2VwdGlvbigpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKHR5cGUgPT0gMSkgewogICAgICAgICAgICAvLyB1cGRhdGUgaW5mb3JtYXRpb24gaXMgYWx3YXlzIGF0IHRoZSBzYW1lIHBvc2l0aW9uLCBhbmQgaGFzIGEgZml4ZWQgbGVuZ3RoCiAgICAgICAgICAgIHN0YXRpYyBjb25zdGV4cHIgYXV0byBwb3NpdGlvbiA9IDB4ODM3MzsKICAgICAgICAgICAgc3RhdGljIGNvbnN0ZXhwciBhdXRvIGxlbmd0aCA9IDUxMjsKCiAgICAgICAgICAgIGlmcy5zZWVrZyhwb3NpdGlvbik7CgogICAgICAgICAgICBzdGQ6OnZlY3RvcjxjaGFyPiByYXdVcGRhdGVJbmZvcm1hdGlvbihsZW5ndGgsIDApOwogICAgICAgICAgICBpZnMucmVhZChyYXdVcGRhdGVJbmZvcm1hdGlvbi5kYXRhKCksIGxlbmd0aCk7CgogICAgICAgICAgICByZXR1cm4gcmF3VXBkYXRlSW5mb3JtYXRpb24uZGF0YSgpOwogICAgICAgIH0KCiAgICAgICAgaWYgKHR5cGUgPT0gMikgewogICAgICAgICAgICAvLyB0cnkgdG8gcmVhZCBFTEYgc2VjdGlvbiAudXBkX2luZm8KICAgICAgICAgICAgcmV0dXJuIHJlYWRFbGZTZWN0aW9uKF9wYXRoLCAiLnVwZF9pbmZvIik7CiAgICAgICAgfQoKICAgICAgICAvLyBzaG91bGQgYmUgdW5yZWFjaGFibGUKICAgICAgICB0aHJvdyBBcHBJbWFnZUVycm9yKCJSZWFkaW5nIHVwZGF0ZSBpbmZvcm1hdGlvbiBub3Qgc3VwcG9ydGVkIGZvciB0eXBlICIgKyBzdGQ6OnRvX3N0cmluZyh0eXBlKSk7CiAgICB9CgogICAgc3RkOjpzdHJpbmcgVXBkYXRhYmxlQXBwSW1hZ2U6OmNhbGN1bGF0ZUhhc2goKSBjb25zdCB7CiAgICAgICAgLy8gcmVhZCBvZmZzZXQgYW5kIGxlbmd0aCBvZiBzaWduYXR1cmUgc2VjdGlvbiB0byBza2lwIGl0IGxhdGVyCiAgICAgICAgdW5zaWduZWQgbG9uZyBzaWdPZmZzZXQgPSAwLCBzaWdMZW5ndGggPSAwOwogICAgICAgIHVuc2lnbmVkIGxvbmcga2V5T2Zmc2V0ID0gMCwga2V5TGVuZ3RoID0gMDsKCiAgICAgICAgaWYgKCFhcHBpbWFnZV9nZXRfZWxmX3NlY3Rpb25fb2Zmc2V0X2FuZF9sZW5ndGgoX3BhdGguY19zdHIoKSwgIi5zaGEyNTZfc2lnIiwgJnNpZ09mZnNldCwgJnNpZ0xlbmd0aCkpIHsKICAgICAgICAgICAgdGhyb3cgQXBwSW1hZ2VFcnJvcigiQ291bGQgbm90IGZpbmQgLnNoYTI1Nl9zaWcgc2VjdGlvbiBpbiBBcHBJbWFnZSIpOwogICAgICAgIH0KCiAgICAgICAgaWYgKCFhcHBpbWFnZV9nZXRfZWxmX3NlY3Rpb25fb2Zmc2V0X2FuZF9sZW5ndGgoX3BhdGguY19zdHIoKSwgIi5zaWdfa2V5IiwgJmtleU9mZnNldCwgJmtleUxlbmd0aCkpIHsKICAgICAgICAgICAgdGhyb3cgQXBwSW1hZ2VFcnJvcigiQ291bGQgbm90IGZpbmQgLnNpZ19rZXkgc2VjdGlvbiBpbiBBcHBJbWFnZSIpOwogICAgICAgIH0KCiAgICAgICAgYXV0byBpZnMgPSBfb3BlbigpOwoKICAgICAgICBaU3luY0hhc2g8R0NSWV9NRF9TSEEyNTY+IGRpZ2VzdDsKCiAgICAgICAgLy8gdmFsaWRhdGUuYyB1c2VzICJvZmZzZXQiIGFzIGNodW5rIHNpemUsIGJ1dCB0aGF0IHZhbHVlIG1pZ2h0IGJlIHF1aXRlIGhpZ2gsIGFuZCB0aGVyZWZvcmUgdXNlcwogICAgICAgIC8vIGEgbG90IG9mIG1lbW9yeQogICAgICAgIC8vIFRPRE86IHVzZSBhIHNtYWxsZXIgdmFsdWUgKG1heWJlIHVzZSBhIHByaW1lIGZhY3Rvcml6YXRpb24gYW5kIHVzZSB0aGUgYmlnZ2VzdCBwcmltZSBmYWN0b3I/KQogICAgICAgIGNvbnN0IHN0ZDo6c3RyZWFtc2l6ZSBjaHVua1NpemUgPSA0MDk2OwoKICAgICAgICBzdGQ6OnZlY3RvcjxjaGFyPiBidWZmZXIoY2h1bmtTaXplLCAwKTsKCiAgICAgICAgc3NpemVfdCB0b3RhbEJ5dGVzUmVhZCA9IDA7CgogICAgICAgIC8vIGJ5dGVzIHRoYXQgc2hvdWxkIGJlIHNraXBwZWQgd2hlbiByZWFkaW5nIHRoZSBuZXh0IGNodW5rCiAgICAgICAgLy8gd2hlbiBlLmcuLCBhIHNlY3Rpb24gdGhhdCBtdXN0IGJlIGlnbm9yZWQgc3BhbnMgb3ZlciBtb3JlIHRoYW4gb25lIGNodW5rLCB0aGlzIGFtb3VudCBvZiBieXRlcyBpcwogICAgICAgIC8vIGJlaW5nIG51bGxlZCAmIHNraXBwZWQgYmVmb3JlIHJlYWRpbmcgZGF0YSBmcm9tIHRoZSBmaWxlIGFnYWluCiAgICAgICAgc3RkOjpzdHJlYW1zaXplIGJ5dGVzVG9Ta2lwID0gMDsKCiAgICAgICAgaWZzLnNlZWtnKDAsIHN0ZDo6aW9zOjplbmQpOwogICAgICAgIGFzc2VydElmc3RyZWFtR29vZChpZnMpOwogICAgICAgIGNvbnN0IHNzaXplX3QgZmlsZVNpemUgPSBpZnMudGVsbGcoKTsKICAgICAgICBhc3NlcnRJZnN0cmVhbUdvb2QoaWZzKTsKICAgICAgICBpZnMuc2Vla2coMCwgc3RkOjppb3M6OmJlZyk7CiAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CgogICAgICAgIHdoaWxlIChpZnMpIHsKICAgICAgICAgICAgLy8gaW4gY2FzZSB3ZSByZWFkIGxlc3MgYnl0ZXMgdGhhbiB0aGUgY2h1bmsgc2l6ZSwgd2UgcmVzaXplIHRoZSB2ZWN0b3IgdG8gdGhlIG51bWJlciBvZiBieXRlcyByZWFkCiAgICAgICAgICAgIC8vIHdlIGhhdmUgdG8gcmVzZXQgdGhpcyB1cG9uIHRoZSBuZXh0IGl0ZXJhdGlvbgogICAgICAgICAgICAvLyB0aGlzIHNob3VsZCBiZSBhIG5vLW9wIHdoZW4gdGhlIHNpemUgaGFzIG5vdCBjaGFuZ2VkLCBhbmQgc2hvdWxkIG5vdCBiZSBuZWNlc3NhcnksIGFzIHRoZSBvbmx5IHRpbWUKICAgICAgICAgICAgLy8gd2UgcmVjZWl2ZSBsZXNzIGJ5dGVzIHRoYW4gcmVxdWVzdGVkIHNob3VsZCBiZSB0aGUgZmluYWwgcmVhZCBjYWxsCiAgICAgICAgICAgIGJ1ZmZlci5yZXNpemUoY2h1bmtTaXplKTsKCiAgICAgICAgICAgIHN0ZDo6c3RyZWFtc2l6ZSBieXRlc1JlYWQgPSAwOwoKICAgICAgICAgICAgYXV0byBieXRlc0xlZnRJbkNodW5rID0gc3RkOjptaW4oY2h1bmtTaXplLCAoZmlsZVNpemUgLSB0b3RhbEJ5dGVzUmVhZCkpOwoKICAgICAgICAgICAgaWYgKGJ5dGVzTGVmdEluQ2h1bmsgPD0gMCkKICAgICAgICAgICAgICAgIGJyZWFrOwoKICAgICAgICAgICAgYXV0byBza2lwQnl0ZXMgPSBbJmJ5dGVzUmVhZCwgJmJ5dGVzTGVmdEluQ2h1bmssICZidWZmZXIsICZpZnMsICZ0b3RhbEJ5dGVzUmVhZCwgdGhpc10oc3NpemVfdCBjb3VudCkgewogICAgICAgICAgICAgICAgaWYgKGNvdW50IDw9IDApCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwoKICAgICAgICAgICAgICAgIGNvbnN0IGF1dG8gc3RhcnQgPSBidWZmZXIuYmVnaW4oKSArIHN0YXRpY19jYXN0PGxvbmc+KGJ5dGVzUmVhZCk7CiAgICAgICAgICAgICAgICBzdGQ6OmZpbGxfbihzdGFydCwgY291bnQsICdcMCcpOwoKICAgICAgICAgICAgICAgIGJ5dGVzUmVhZCArPSBjb3VudDsKICAgICAgICAgICAgICAgIHRvdGFsQnl0ZXNSZWFkICs9IGNvdW50OwogICAgICAgICAgICAgICAgYnl0ZXNMZWZ0SW5DaHVuayAtPSBjb3VudDsKCiAgICAgICAgICAgICAgICBpZnMuc2Vla2coY291bnQsIHN0ZDo6aW9zOjpjdXIpOwogICAgICAgICAgICAgICAgYXNzZXJ0SWZzdHJlYW1Hb29kKGlmcyk7CiAgICAgICAgICAgIH07CgogICAgICAgICAgICBhdXRvIHJlYWRCeXRlcyA9IFsmYnl0ZXNSZWFkLCAmYnl0ZXNMZWZ0SW5DaHVuaywgJmJ1ZmZlciwgJmlmcywgJnRvdGFsQnl0ZXNSZWFkLCB0aGlzXShzc2l6ZV90IGNvdW50KSB7CiAgICAgICAgICAgICAgICBpZiAoY291bnQgPD0gMCkKICAgICAgICAgICAgICAgICAgICByZXR1cm47CgogICAgICAgICAgICAgICAgaWZzLnJlYWQoYnVmZmVyLmRhdGEoKSArIGJ5dGVzUmVhZCwgY291bnQpOwoKICAgICAgICAgICAgICAgIGJ5dGVzUmVhZCArPSBpZnMuZ2NvdW50KCk7CiAgICAgICAgICAgICAgICBhc3NlcnRJZnN0cmVhbUdvb2QoaWZzKTsKCiAgICAgICAgICAgICAgICB0b3RhbEJ5dGVzUmVhZCArPSBjb3VudDsKICAgICAgICAgICAgICAgIGJ5dGVzTGVmdEluQ2h1bmsgLT0gYnl0ZXNSZWFkOwogICAgICAgICAgICB9OwoKICAgICAgICAgICAgYXV0byBjaGVja1NraXBTZWN0aW9uID0gWyZdKGNvbnN0IHN0ZDo6c3RyZWFtc2l6ZSBzZWN0aW9uT2Zmc2V0LCBjb25zdCBzdGQ6OnN0cmVhbXNpemUgc2VjdGlvbkxlbmd0aCkgewogICAgICAgICAgICAgICAgLy8gY2hlY2sgd2hldGhlciBzaWduYXR1cmUgc3RhcnRzIGluIGN1cnJlbnQgY2h1bmsKICAgICAgICAgICAgICAgIGNvbnN0IGF1dG8gc2VjdGlvbk9mZnNldERlbHRhID0gc2VjdGlvbk9mZnNldCAtIHRvdGFsQnl0ZXNSZWFkOwoKICAgICAgICAgICAgICAgIGlmIChzZWN0aW9uT2Zmc2V0RGVsdGEgPj0gMCAmJiBzZWN0aW9uT2Zmc2V0RGVsdGEgPCBieXRlc0xlZnRJbkNodW5rKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gcmVhZCB1bnRpbCBzZWN0aW9uIGJlZ2lucwogICAgICAgICAgICAgICAgICAgIHJlYWRCeXRlcyhzZWN0aW9uT2Zmc2V0RGVsdGEpOwoKICAgICAgICAgICAgICAgICAgICAvLyBjYWxjdWxhdGUgaG93IG1hbnkgYnl0ZXMgbXVzdCBiZSBudWxsZWQgaW4gdGhpcyBjaHVuawogICAgICAgICAgICAgICAgICAgIC8vIHRoZSByZXN0IHdpbGwgYmUgbnVsbGVkIGluIHRoZSBmb2xsb3dpbmcgY2h1bmsocykKICAgICAgICAgICAgICAgICAgICBhdXRvIGJ5dGVzTGVmdCA9IHNlY3Rpb25MZW5ndGg7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgYXV0byBieXRlc1RvTnVsbEluQ3VycmVudENodW5rID0gc3RkOjptaW4oYnl0ZXNMZWZ0SW5DaHVuaywgYnl0ZXNMZWZ0KTsKCiAgICAgICAgICAgICAgICAgICAgLy8gbnVsbCB0aGVzZSBieXRlcwogICAgICAgICAgICAgICAgICAgIHNraXBCeXRlcyhieXRlc1RvTnVsbEluQ3VycmVudENodW5rKTsKCiAgICAgICAgICAgICAgICAgICAgLy8gY2FsY3VsYXRlIGhvdyBtYW55IGJ5dGVzIG11c3QgYmUgbnVsbGVkIGluIGZ1dHVyZSBjaHVua3MKICAgICAgICAgICAgICAgICAgICBieXRlc0xlZnQgLT0gYnl0ZXNUb051bGxJbkN1cnJlbnRDaHVuazsKICAgICAgICAgICAgICAgICAgICBieXRlc1RvU2tpcCA9IGJ5dGVzTGVmdDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfTsKCiAgICAgICAgICAgIC8vIGNoZWNrIHdoZXRoZXIgYnl0ZXMgbXVzdCBiZSBza2lwcGVkIGZyb20gcHJldmlvdXMgc2VjdGlvbnMKICAgICAgICAgICAgaWYgKGJ5dGVzVG9Ta2lwID4gMCkgewogICAgICAgICAgICAgICAgYXV0byBieXRlc1RvU2tpcEluQ3VycmVudENodW5rID0gc3RkOjptaW4oY2h1bmtTaXplLCBieXRlc1RvU2tpcCk7CiAgICAgICAgICAgICAgICBza2lwQnl0ZXMoYnl0ZXNUb1NraXBJbkN1cnJlbnRDaHVuayk7CiAgICAgICAgICAgICAgICBieXRlc1RvU2tpcCAtPSBieXRlc1RvU2tpcEluQ3VycmVudENodW5rOwogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBjaGVjayB3aGV0aGVyIG9uZSBvZiB0aGUgc2VjdGlvbnMgdGhhdCBtdXN0IGJlIHNraXBwZWQgYXJlIGluIHRoZSBjdXJyZW50IGNodW5rLCBhbmQgaWYgdGhleQogICAgICAgICAgICAvLyBhcmUsIHNraXAgdGhvc2Ugc2VjdGlvbnMgaW4gdGhlIGN1cnJlbnQgYW5kIGZ1dHVyZSBzZWN0aW9ucwogICAgICAgICAgICBjaGVja1NraXBTZWN0aW9uKHN0YXRpY19jYXN0PHN0ZDo6c3RyZWFtc2l6ZT4oc2lnT2Zmc2V0KSwgc3RhdGljX2Nhc3Q8c3RkOjpzdHJlYW1zaXplPihzaWdMZW5ndGgpKTsKICAgICAgICAgICAgY2hlY2tTa2lwU2VjdGlvbihzdGF0aWNfY2FzdDxzdGQ6OnN0cmVhbXNpemU+KGtleU9mZnNldCksIHN0YXRpY19jYXN0PHN0ZDo6c3RyZWFtc2l6ZT4oa2V5TGVuZ3RoKSk7CgogICAgICAgICAgICAvLyByZWFkIHJlbWFpbmluZyBieXRlcyBpbiBjaHVuaywgZ2l2ZW4gdGhlIGZpbGUgaGFzIHN0aWxsIGRhdGEgdG8gYmUgcmVhZAogICAgICAgICAgICBpZiAoaWZzICYmIGJ5dGVzTGVmdEluQ2h1bmsgPiAwKSB7CiAgICAgICAgICAgICAgICByZWFkQnl0ZXMoYnl0ZXNMZWZ0SW5DaHVuayk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIG1ha2Ugc3VyZSB0aGUgYnVmZmVyIGhhcyB0aGUgcmlnaHQgc2l6ZQogICAgICAgICAgICBidWZmZXIucmVzaXplKGJ5dGVzUmVhZCk7CgogICAgICAgICAgICAvLyB1cGRhdGUgaGFzaCB3aXRoIGRhdGEgZnJvbSBidWZmZXIKICAgICAgICAgICAgZGlnZXN0LmFkZChidWZmZXIpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGRpZ2VzdC5nZXRIYXNoKCk7CiAgICB9Cn0K
+// library headers
+#include <appimage/appimage_shared.h>
+#include <zshash.h>
+
+// local headers
+#include "updatableappimage.h"
+#include "updateinformation/updateinformation.h"
+#include "util/util.h"
+
+namespace appimage::update {
+    using namespace updateinformation;
+    using namespace util;
+    using namespace zsync2;
+
+    void UpdatableAppImage::assertIfstreamGood(const std::ifstream& ifs) const {
+        if (!ifs || !ifs.good()) {
+            throw AppImageError("Error while opening/accessing/reading from AppImage: " + _path);
+        }
+    }
+
+    std::ifstream UpdatableAppImage::_open() const  {
+        // check whether file exists
+        std::ifstream ifs(_path);
+        assertIfstreamGood(ifs);
+        return ifs;
+    }
+
+    bool UpdatableAppImage::_hasElfMagicValue(std::ifstream& ifs) const {
+        static constexpr int elfMagicPos = 0;
+        static const std::string elfMagicValue = "\7ELF";
+
+        ifs.seekg(elfMagicPos);
+        assertIfstreamGood(ifs);
+
+        std::vector<char> elfMagicPosData(elfMagicValue.size() + 1, '\0');
+
+        ifs.read(elfMagicPosData.data(), elfMagicValue.size());
+        assertIfstreamGood(ifs);
+
+        return elfMagicPosData.data() == elfMagicValue;
+    }
+
+    bool UpdatableAppImage::_hasIsoMagicValue(std::ifstream& ifs) const {
+        static constexpr int isoMagicPos = 32769;
+        static const std::string isoMagicValue = "CD001";
+
+        ifs.seekg(isoMagicPos);
+        assertIfstreamGood(ifs);
+
+        std::vector<char> isoMagicPosData(isoMagicValue.size() + 1, '\0');
+
+        ifs.read(isoMagicPosData.data(), isoMagicValue.size());
+        assertIfstreamGood(ifs);
+
+        return isoMagicPosData.data() == isoMagicValue;
+    }
+
+    UpdatableAppImage::UpdatableAppImage(std::string path) : _path(std::move(path)) {}
+
+    std::string UpdatableAppImage::path() const {
+        return _path;
+    }
+
+    int UpdatableAppImage::appImageType() const {
+        auto ifs = _open();
+
+        // read magic number
+        ifs.seekg(8, std::ios::beg);
+        assertIfstreamGood(ifs);
+
+        std::vector<char> magicByte(4, '\0');
+
+        ifs.read(magicByte.data(), 3);
+        assertIfstreamGood(ifs);
+
+        // validate first two bytes are A and I
+        if (magicByte[0] != 'A' && magicByte[1] != 'I') {
+            std::ostringstream oss;
+            oss << "Invalid magic bytes: " << (int) magicByte[0] << (int) magicByte[1];
+            throw AppImageError(oss.str());
+        }
+
+        // for types 1 and 2, the third byte contains the type ID
+        auto appImageType = magicByte[2];
+
+        if (appImageType >= 1 && appImageType <= 2) {
+            return appImageType;
+        }
+
+        // final try: type 1 AppImages do not have to set the magic bytes, although they should
+        // if the file is both an ELF and an ISO9660 file, we'll suspect it to be a type 1 AppImage, and
+        // proceed with a warning
+        if (_hasElfMagicValue(ifs) && _hasIsoMagicValue(ifs)) {
+            return 1;
+        }
+
+        throw AppImageError("Unknown AppImage type or not an AppImage");
+    }
+
+    std::string UpdatableAppImage::readSignature() const {
+        const auto type = appImageType();
+
+        if (type != 2) {
+            throw AppImageError("Signature reading is not supported for type " + std::to_string(type));
+        }
+
+        return readElfSection(_path, ".sha256_sig");
+    }
+
+    std::string UpdatableAppImage::readSigningKey() const {
+        const auto type = appImageType();
+
+        if (type != 2) {
+            throw AppImageError("Reading signing key is not supported for type " + std::to_string(type));
+        }
+
+        return readElfSection(_path, ".sig_key");
+    }
+
+    std::string UpdatableAppImage::readRawUpdateInformation() const {
+        auto ifs = _open();
+
+        int type;
+        try {
+            type = appImageType();
+        } catch (const AppImageError& e) {
+            // in case the ISO magic bytes can be found, we treat this file like a type 1 AppImage in this
+            // special case
+            // this is legacy behavior adopted from the current AppImageUpdate's predecessor
+            if (_hasIsoMagicValue(ifs)) {
+                type = 1;
+            } else {
+                std::rethrow_exception(std::current_exception());
+            }
+        }
+
+        if (type == 1) {
+            // update information is always at the same position, and has a fixed length
+            static constexpr auto position = 0x8373;
+            static constexpr auto length = 512;
+
+            ifs.seekg(position);
+
+            std::vector<char> rawUpdateInformation(length, 0);
+            ifs.read(rawUpdateInformation.data(), length);
+
+            return rawUpdateInformation.data();
+        }
+
+        if (type == 2) {
+            // try to read ELF section .upd_info
+            return readElfSection(_path, ".upd_info");
+        }
+
+        // should be unreachable
+        throw AppImageError("Reading update information not supported for type " + std::to_string(type));
+    }
+
+    std::string UpdatableAppImage::calculateHash() const {
+        // read offset and length of signature section to skip it later
+        unsigned long sigOffset = 0, sigLength = 0;
+        unsigned long keyOffset = 0, keyLength = 0;
+
+        if (!appimage_get_elf_section_offset_and_length(_path.c_str(), ".sha256_sig", &sigOffset, &sigLength)) {
+            throw AppImageError("Could not find .sha256_sig section in AppImage");
+        }
+
+        if (!appimage_get_elf_section_offset_and_length(_path.c_str(), ".sig_key", &keyOffset, &keyLength)) {
+            throw AppImageError("Could not find .sig_key section in AppImage");
+        }
+
+        auto ifs = _open();
+
+        ZSyncHash<GCRY_MD_SHA256> digest;
+
+        // validate.c uses "offset" as chunk size, but that value might be quite high, and therefore uses
+        // a lot of memory
+        // TODO: use a smaller value (maybe use a prime factorization and use the biggest prime factor?)
+        const std::streamsize chunkSize = 4096;
+
+        std::vector<char> buffer(chunkSize, 0);
+
+        ssize_t totalBytesRead = 0;
+
+        // bytes that should be skipped when reading the next chunk
+        // when e.g., a section that must be ignored spans over more than one chunk, this amount of bytes is
+        // being nulled & skipped before reading data from the file again
+        std::streamsize bytesToSkip = 0;
+
+        ifs.seekg(0, std::ios::end);
+        assertIfstreamGood(ifs);
+        const ssize_t fileSize = ifs.tellg();
+        assertIfstreamGood(ifs);
+        ifs.seekg(0, std::ios::beg);
+        assertIfstreamGood(ifs);
+
+        while (ifs) {
+            // in case we read less bytes than the chunk size, we resize the vector to the number of bytes read
+            // we have to reset this upon the next iteration
+            // this should be a no-op when the size has not changed, and should not be necessary, as the only time
+            // we receive less bytes than requested should be the final read call
+            buffer.resize(chunkSize);
+
+            std::streamsize bytesRead = 0;
+
+            auto bytesLeftInChunk = std::min(chunkSize, (fileSize - totalBytesRead));
+
+            if (bytesLeftInChunk <= 0)
+                break;
+
+            auto skipBytes = [&bytesRead, &bytesLeftInChunk, &buffer, &ifs, &totalBytesRead, this](ssize_t count) {
+                if (count <= 0)
+                    return;
+
+                const auto start = buffer.begin() + static_cast<long>(bytesRead);
+                std::fill_n(start, count, '\0');
+
+                bytesRead += count;
+                totalBytesRead += count;
+                bytesLeftInChunk -= count;
+
+                ifs.seekg(count, std::ios::cur);
+                assertIfstreamGood(ifs);
+            };
+
+            auto readBytes = [&bytesRead, &bytesLeftInChunk, &buffer, &ifs, &totalBytesRead, this](ssize_t count) {
+                if (count <= 0)
+                    return;
+
+                ifs.read(buffer.data() + bytesRead, count);
+
+                bytesRead += ifs.gcount();
+                assertIfstreamGood(ifs);
+
+                totalBytesRead += count;
+                bytesLeftInChunk -= bytesRead;
+            };
+
+            auto checkSkipSection = [&](const std::streamsize sectionOffset, const std::streamsize sectionLength) {
+                // check whether signature starts in current chunk
+                const auto sectionOffsetDelta = sectionOffset - totalBytesRead;
+
+                if (sectionOffsetDelta >= 0 && sectionOffsetDelta < bytesLeftInChunk) {
+                    // read until section begins
+                    readBytes(sectionOffsetDelta);
+
+                    // calculate how many bytes must be nulled in this chunk
+                    // the rest will be nulled in the following chunk(s)
+                    auto bytesLeft = sectionLength;
+                    const auto bytesToNullInCurrentChunk = std::min(bytesLeftInChunk, bytesLeft);
+
+                    // null these bytes
+                    skipBytes(bytesToNullInCurrentChunk);
+
+                    // calculate how many bytes must be nulled in future chunks
+                    bytesLeft -= bytesToNullInCurrentChunk;
+                    bytesToSkip = bytesLeft;
+                }
+            };
+
+            // check whether bytes must be skipped from previous sections
+            if (bytesToSkip > 0) {
+                auto bytesToSkipInCurrentChunk = std::min(chunkSize, bytesToSkip);
+                skipBytes(bytesToSkipInCurrentChunk);
+                bytesToSkip -= bytesToSkipInCurrentChunk;
+            }
+
+            // check whether one of the sections that must be skipped are in the current chunk, and if they
+            // are, skip those sections in the current and future sections
+            checkSkipSection(static_cast<std::streamsize>(sigOffset), static_cast<std::streamsize>(sigLength));
+            checkSkipSection(static_cast<std::streamsize>(keyOffset), static_cast<std::streamsize>(keyLength));
+
+            // read remaining bytes in chunk, given the file has still data to be read
+            if (ifs && bytesLeftInChunk > 0) {
+                readBytes(bytesLeftInChunk);
+            }
+
+            // make sure the buffer has the right size
+            buffer.resize(bytesRead);
+
+            // update hash with data from buffer
+            digest.add(buffer);
+        }
+
+        return digest.getHash();
+    }
+}

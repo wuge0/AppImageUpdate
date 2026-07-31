@@ -1,1 +1,87 @@
-IyBCdWlsZGluZyBBcHBJbWFnZVVwZGF0ZQoKIyMgQnVpbGRpbmcgdGhlIEFwcEltYWdlcyBvZiBBcHBJbWFnZVVwZGF0ZSBhbmQgYXBwaW1hZ2V1cGRhdGV0b29sCgpUaGlzIHNlY3Rpb24gZGVzY3JpYmVzIGhvdyB0byBidWlsZCBgQXBwSW1hZ2VVcGRhdGUuQXBwSW1hZ2VgIGFuZCBgYXBwaW1hZ2V1cGRhdGV0b29sLkFwcEltYWdlYC4gVGhpcyBpbXBsaWVzIHVzaW5nIGFzIGZldyAtZGV2IHBhY2thZ2VzIGZyb20gdGhlIGRpc3RyaWJ1dGlvbiBhcyBwb3NzaWJsZSBhbmQgcHJpdmF0ZWx5IGJ1bmRsaW5nIGV2ZXJ5dGhpbmcgdGhhdCBjYW5ub3QgcmVhc29uYWJseSBiZSBhc3N1bWVkIHRvIGJlIHRoZXJlIGluIHRoZSBkZWZhdWx0IGluc3RhbGxhdGlvbiBvZiBhbGwgdGFyZ2V0IHN5c3RlbXMgKGRpc3RyaWJ1dGlvbnMpLgoKV2UgZ2VuZXJhbGx5IHJlY29tbWVuZCB0byB1c2Ugb3VyIHByZS1idWlsdCBBcHBJbWFnZXMgaWYgcG9zc2libGUuClNlZSBodHRwczovL2dpdGh1Yi5jb20vQXBwSW1hZ2UvQXBwSW1hZ2VVcGRhdGUvYmxvYi9tYWluLy5naXRodWIvd29ya2Zsb3dzL21haW4ueW1sIGZvciBob3cgdGhlc2UgZ2V0IGJ1aWx0LgoKIyMgQnVpbGRpbmcgdGhlIGxpYnJhcmllcwoKVGhpcyBzZWN0aW9uIGRlc2NyaWJlcyBob3cgdG8gYnVpbGQgYGxpYmFwcGltYWdldXBkYXRlYCBhbmQgYGxpYmFwcGltYWdlYCBmb3IgY29uc3VtcHRpb24gaW4gZGlzdHJpYnV0aW9uIHBhY2thZ2luZy4gVGhpcyBpbXBsaWVzIHVzaW5nIGFzIG1hbnkgLWRldiBwYWNrYWdlcyBmcm9tIHRoZSBkaXN0cmlidXRpb24gYXMgcG9zc2libGUuCgojIyMgVWJ1bnR1IDE4LjA0CgpgYGAjIENvbXBpbGUgYW5kIGluc3RhbGwgbGliYXBwaW1hZ2V1cGRhdGUKCnN1ZG8gYXB0IC15IGluc3RhbGwgd2dldCBnaXQgY21ha2UgZysrIGxpYmN1cmw0LW9wZW5zc2wtZGV2IGxpYngxMS1kZXYgbGliei1kZXYgbGliZnVzZS1kZXYgbGlicnN2ZzItZGV2CgpnaXQgY2xvbmUgLS1yZWN1cnNpdmUgaHR0cHM6Ly9naXRodWIuY29tL0FwcEltYWdlL0FwcEltYWdlVXBkYXRlCmNkIEFwcEltYWdlVXBkYXRlLwoKbWtkaXIgYnVpbGQvCmNkIGJ1aWxkLwoKY21ha2UgLURCVUlMRF9RVF9VST1PRkYgLURDTUFLRV9JTlNUQUxMX1BSRUZJWD0vdXNyIC4uCm1ha2UgLWokKG5wcm9jKQoKc3VkbyBtYWtlIGluc3RhbGwKCmNkIC4uCgojIEFsc28gY29tcGlsZSBhbmQgaW5zdGFsbCBsaWJhcHBpbWFnZQoKc3VkbyBhcHQgLXkgaW5zdGFsbCBsaWJzc2wtZGV2IGxpYmlub3RpZnl0b29sczAtZGV2IGxpYmFyY2hpdmUtZGV2IGxpYmZ1c2UtZGV2IGxpYmx6bWEtZGV2IAoKZ2l0IGNsb25lIC0tcmVjdXJzaXZlIGh0dHBzOi8vZ2l0aHViLmNvbS9BcHBJbWFnZS9BcHBJbWFnZUtpdApjZCBBcHBJbWFnZUtpdC8KCm1rZGlyIGJ1aWxkLwpjZCBidWlsZC8KCmNtYWtlIC1EVVNFX1NZU1RFTV9YWj1PTiAtRFVTRV9TWVNURU1fSU5PVElGWV9UT09MUz1PTiAtRFVTRV9TWVNURU1fTElCQVJDSElWRT1PTiAtRFVTRV9TWVNURU1fR1RFU1Q9T0ZGIC1EQ01BS0VfSU5TVEFMTF9QUkVGSVg9L3VzciAuLgptYWtlIC1qJChucHJvYykKCnN1ZG8gbWFrZSBpbnN0YWxsCmBgYAoKIyMjIENlbnRPUyA3CgpgYGAKY2F0IC9ldGMvcmVkaGF0LXJlbGVhc2UgCiMgQ2VudE9TIExpbnV4IHJlbGVhc2UgNy4yLjE1MTEgKENvcmUpIAoKIyBDb21waWxlIGFuZCBpbnN0YWxsIGxpYmFwcGltYWdldXBkYXRlCgp3Z2V0IGh0dHA6Ly9kbC5mZWRvcmFwcm9qZWN0Lm9yZy9wdWIvZXBlbC9lcGVsLXJlbGVhc2UtbGF0ZXN0LTcubm9hcmNoLnJwbQpycG0gLWl2aCBlcGVsLXJlbGVhc2UtbGF0ZXN0LTcubm9hcmNoLnJwbQoKeXVtIGluc3RhbGwgZ2l0IGNtYWtlMyBnY2MtYysrIGN1cmwtZGV2ZWwgbGliWDExLWRldmVsIHpsaWItZGV2ZWwgZnVzZS1kZXZlbCBsaWJyc3ZnMi1kZXZlbCBjYWlyby1kZXZlbAoKZ2l0IGNsb25lIC0tcmVjdXJzaXZlIGh0dHBzOi8vZ2l0aHViLmNvbS9BcHBJbWFnZS9BcHBJbWFnZVVwZGF0ZQpjZCBBcHBJbWFnZVVwZGF0ZS8KCm1rZGlyIGJ1aWxkLwpjZCBidWlsZC8KCmNtYWtlMyAtREJVSUxEX1FUX1VJPU9GRiAtRENNQUtFX0lOU1RBTExfUFJFRklYPS91c3IgLi4KbWFrZSAtaiQobnByb2MpCgpzdWRvIG1ha2UgaW5zdGFsbAoKY2QgLi4KCiMgQWxzbyBjb21waWxlIGxpYmFwcGltYWdlOyB3b3JrIGluIHByb2dyZXNzCgpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL0FwcEltYWdlL0FwcEltYWdlS2l0CmNkIEFwcEltYWdlS2l0LwoKbWtkaXIgYnVpbGQKY2QgYnVpbGQKY21ha2UzIC1EVVNFX1NZU1RFTV9YWj1PTiAtRFVTRV9TWVNURU1fSU5PVElGWV9UT09MUz1PTiAtRFVTRV9TWVNURU1fTElCQVJDSElWRT1PTiAtRFVTRV9TWVNURU1fR1RFU1Q9T04gLi4KbWFrZSAtaiQobnByb2MpCgojIFNlY3Rpb24gdG8gYmUgY29tcGxldGVkCgpgYGAK
+# Building AppImageUpdate
+
+## Building the AppImages of AppImageUpdate and appimageupdatetool
+
+This section describes how to build `AppImageUpdate.AppImage` and `appimageupdatetool.AppImage`. This implies using as few -dev packages from the distribution as possible and privately bundling everything that cannot reasonably be assumed to be there in the default installation of all target systems (distributions).
+
+We generally recommend to use our pre-built AppImages if possible.
+See https://github.com/AppImage/AppImageUpdate/blob/main/.github/workflows/main.yml for how these get built.
+
+## Building the libraries
+
+This section describes how to build `libappimageupdate` and `libappimage` for consumption in distribution packaging. This implies using as many -dev packages from the distribution as possible.
+
+### Ubuntu 18.04
+
+```# Compile and install libappimageupdate
+
+sudo apt -y install wget git cmake g++ libcurl4-openssl-dev libx11-dev libz-dev libfuse-dev librsvg2-dev
+
+git clone --recursive https://github.com/AppImage/AppImageUpdate
+cd AppImageUpdate/
+
+mkdir build/
+cd build/
+
+cmake -DBUILD_QT_UI=OFF -DCMAKE_INSTALL_PREFIX=/usr ..
+make -j$(nproc)
+
+sudo make install
+
+cd ..
+
+# Also compile and install libappimage
+
+sudo apt -y install libssl-dev libinotifytools0-dev libarchive-dev libfuse-dev liblzma-dev 
+
+git clone --recursive https://github.com/AppImage/AppImageKit
+cd AppImageKit/
+
+mkdir build/
+cd build/
+
+cmake -DUSE_SYSTEM_XZ=ON -DUSE_SYSTEM_INOTIFY_TOOLS=ON -DUSE_SYSTEM_LIBARCHIVE=ON -DUSE_SYSTEM_GTEST=OFF -DCMAKE_INSTALL_PREFIX=/usr ..
+make -j$(nproc)
+
+sudo make install
+```
+
+### CentOS 7
+
+```
+cat /etc/redhat-release 
+# CentOS Linux release 7.2.1511 (Core) 
+
+# Compile and install libappimageupdate
+
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -ivh epel-release-latest-7.noarch.rpm
+
+yum install git cmake3 gcc-c++ curl-devel libX11-devel zlib-devel fuse-devel librsvg2-devel cairo-devel
+
+git clone --recursive https://github.com/AppImage/AppImageUpdate
+cd AppImageUpdate/
+
+mkdir build/
+cd build/
+
+cmake3 -DBUILD_QT_UI=OFF -DCMAKE_INSTALL_PREFIX=/usr ..
+make -j$(nproc)
+
+sudo make install
+
+cd ..
+
+# Also compile libappimage; work in progress
+
+git clone https://github.com/AppImage/AppImageKit
+cd AppImageKit/
+
+mkdir build
+cd build
+cmake3 -DUSE_SYSTEM_XZ=ON -DUSE_SYSTEM_INOTIFY_TOOLS=ON -DUSE_SYSTEM_LIBARCHIVE=ON -DUSE_SYSTEM_GTEST=ON ..
+make -j$(nproc)
+
+# Section to be completed
+
+```

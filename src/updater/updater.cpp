@@ -1,1 +1,542 @@
-Ly8gc3lzdGVtIGhlYWRlcnMKI2luY2x1ZGUgPGNzdHJpbmc+CiNpbmNsdWRlIDxkZXF1ZT4KI2luY2x1ZGUgPGlvc3RyZWFtPgojaW5jbHVkZSA8bGliZ2VuLmg+CiNpbmNsdWRlIDxtZW1vcnk+CiNpbmNsdWRlIDxtdXRleD4KI2luY2x1ZGUgPHN0cmluZz4KI2luY2x1ZGUgPHRocmVhZD4KI2luY2x1ZGUgPGFsZ29yaXRobT4KI2luY2x1ZGUgPGF0b21pYz4KI2luY2x1ZGUgPHVuaXN0ZC5oPgoKLy8gbGlicmFyeSBoZWFkZXJzCiNpbmNsdWRlIDx6c2NsaWVudC5oPgojaW5jbHVkZSA8Y3ByL2Nwci5oPgojaW5jbHVkZSA8ZnR3Lmg+CgovLyBsb2NhbCBoZWFkZXJzCiNpbmNsdWRlICJhcHBpbWFnZS91cGRhdGUuaCIKI2luY2x1ZGUgInNpZ25pbmcvc2lnbmF0dXJldmFsaWRhdG9yLmgiCiNpbmNsdWRlICJ1cGRhdGVpbmZvcm1hdGlvbi91cGRhdGVpbmZvcm1hdGlvbi5oIgojaW5jbHVkZSAidXRpbC91cGRhdGFibGVhcHBpbWFnZS5oIgojaW5jbHVkZSAidXRpbC91dGlsLmgiCiNpbmNsdWRlICJ6c3V0aWwuaCIKCi8vIGNvbnZlbmllbmNlIGRlY2xhcmF0aW9uCm5hbWVzcGFjZSB7CiAgICB0eXBlZGVmIHN0ZDo6bG9ja19ndWFyZDxzdGQ6Om11dGV4PiBsb2NrX2d1YXJkOwp9CgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZSB7CiAgICB1c2luZyBuYW1lc3BhY2UgdXRpbDsKICAgIHVzaW5nIG5hbWVzcGFjZSB1cGRhdGVpbmZvcm1hdGlvbjsKICAgIHVzaW5nIG5hbWVzcGFjZSBzaWduaW5nOwoKICAgIGNsYXNzIFVwZGF0ZXI6OlByaXZhdGUgewogICAgcHVibGljOgogICAgICAgIGV4cGxpY2l0IFByaXZhdGUoY29uc3Qgc3RkOjpzdHJpbmcmIHBhdGhUb0FwcEltYWdlKSA6IHN0YXRlKElOSVRJQUxJWkVEKSwKICAgICAgICAgICAgYXBwSW1hZ2UocGF0aFRvQXBwSW1hZ2UpLAogICAgICAgICAgICB6U3luY0NsaWVudChudWxscHRyKSwKICAgICAgICAgICAgdGhyZWFkKG51bGxwdHIpLAogICAgICAgICAgICBtdXRleCgpLAogICAgICAgICAgICBvdmVyd3JpdGUoZmFsc2UpLAogICAgICAgICAgICByYXdVcGRhdGVJbmZvcm1hdGlvbihhcHBJbWFnZS5yZWFkUmF3VXBkYXRlSW5mb3JtYXRpb24oKSkKICAgICAgICB7fTsKCiAgICBwdWJsaWM6CiAgICAgICAgVXBkYXRhYmxlQXBwSW1hZ2UgYXBwSW1hZ2U7CgogICAgICAgIC8vIHdlIGNhbGwgdGhpcyAicmF3IiB1cGRhdGUgaW5mb3JtYXRpb24gdG8gaGlnaGxpZ2h0IHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gc3RyaW5ncyBhbmQgdGhlIG5ldwogICAgICAgIC8vIFVwZGF0ZUluZm9ybWF0aW9uIGluZnJhc3RydWN0dXJlCiAgICAgICAgc3RkOjpzdHJpbmcgcmF3VXBkYXRlSW5mb3JtYXRpb247CgogICAgICAgIC8vIHN0YXRlCiAgICAgICAgU3RhdGUgc3RhdGU7CgogICAgICAgIC8vIFpTeW5jIGNsaWVudCAtLSB3aWxsIGJlIGluc3RhbnRpYXRlZCBvbmx5IGlmIG5lY2Vzc2FyeQogICAgICAgIHN0ZDo6c2hhcmVkX3B0cjx6c3luYzI6OlpTeW5jQ2xpZW50PiB6U3luY0NsaWVudDsKCiAgICAgICAgLy8gdGhyZWFkaW5nCgkJc3RkOjp1bmlxdWVfcHRyPHN0ZDo6dGhyZWFkPiB0aHJlYWQ7CiAgICAgICAgc3RkOjptdXRleCBtdXRleDsKCiAgICAgICAgLy8gc3RhdHVzIG1lc3NhZ2VzCiAgICAgICAgc3RkOjpkZXF1ZTxzdGQ6OnN0cmluZz4gc3RhdHVzTWVzc2FnZXM7CgogICAgICAgIC8vIGRlZmluZXMgd2hldGhlciB0byBvdmVyd3JpdGUgb3JpZ2luYWwgZmlsZQogICAgICAgIGJvb2wgb3ZlcndyaXRlOwoJCXN0ZDo6YXRvbWljPGJvb2w+IHN0b3BSZXF1ZXN0ZWR7ZmFsc2V9OwoKICAgIHB1YmxpYzoKICAgICAgICB2b2lkIGlzc3VlU3RhdHVzTWVzc2FnZShjb25zdCBzdGQ6OnN0cmluZyYgbWVzc2FnZSkgewogICAgICAgICAgICBzdGF0dXNNZXNzYWdlcy5wdXNoX2JhY2sobWVzc2FnZSk7CiAgICAgICAgfQoKICAgICAgICBTdGF0dXNNZXNzYWdlQ2FsbGJhY2sgbWFrZUlzc3VlU3RhdHVzTWVzc2FnZUNhbGxiYWNrKCkgewogICAgICAgICAgICByZXR1cm4gW3RoaXNdKGNvbnN0IHN0ZDo6c3RyaW5nJiBtZXNzYWdlKSB7aXNzdWVTdGF0dXNNZXNzYWdlKG1lc3NhZ2UpO307CiAgICAgICAgfQoKICAgICAgICB2b2lkIHZhbGlkYXRlQXBwSW1hZ2UoKSB7CiAgICAgICAgICAgIC8vIGZpcnN0IGNoZWNrIHdoZXRoZXIgdGhlcmUncyB1cGRhdGUgaW5mb3JtYXRpb24gYXQgYWxsCiAgICAgICAgICAgIC8vIG5vdGUgdGhhdCB3ZSBza2lwIHRoaXMgY2hlY2sgd2hlbiBjdXN0b20gdXBkYXRlIGluZm9ybWF0aW9uIGlzIHNldCBpbnRlbnRpb25hbGx5CiAgICAgICAgICAgIGlmICh0aGlzLT5yYXdVcGRhdGVJbmZvcm1hdGlvbi5lbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBjb25zdCBhdXRvIHJhd1VwZGF0ZUluZm9ybWF0aW9uRnJvbUFwcEltYWdlID0gYXBwSW1hZ2UucmVhZFJhd1VwZGF0ZUluZm9ybWF0aW9uKCk7CgogICAgICAgICAgICAgICAgaWYgKHJhd1VwZGF0ZUluZm9ybWF0aW9uRnJvbUFwcEltYWdlLmVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBzdGQ6Om9zdHJpbmdzdHJlYW0gb3NzOwogICAgICAgICAgICAgICAgICAgIG9zcyA8PCAiQ291bGQgbm90IGZpbmQgdXBkYXRlIGluZm9ybWF0aW9uIGluIHRoZSBBcHBJbWFnZS4gIgogICAgICAgICAgICAgICAgICAgIDw8ICJQbGVhc2UgY29udGFjdCB0aGUgYXV0aG9yIG9mIHRoZSBBcHBJbWFnZSBhbmQgYXNrIHRoZW0gdG8gZW1iZWQgdXBkYXRlIGluZm9ybWF0aW9uLiI7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgQXBwSW1hZ2VFcnJvcihvc3Muc3RyKCkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBjb25zdCBhdXRvIHVwZGF0ZUluZm9ybWF0aW9uUHRyID0gbWFrZVVwZGF0ZUluZm9ybWF0aW9uKHJhd1VwZGF0ZUluZm9ybWF0aW9uKTsKICAgICAgICAgICAgY29uc3QgYXV0byB6c3luY1VybCA9IHVwZGF0ZUluZm9ybWF0aW9uUHRyLT5idWlsZFVybChtYWtlSXNzdWVTdGF0dXNNZXNzYWdlQ2FsbGJhY2soKSk7CgogICAgICAgICAgICAvLyBub3cgY2hlY2sgd2hldGhlciBhIFpTeW5jIFVSTCBjb3VsZCBiZSBjb21wb3NlZCBieSByZWFkQXBwSW1hZ2UKICAgICAgICAgICAgLy8gdGhpcyBpcyB0aGUgb25seSBzdXBwb3J0ZWQgdXBkYXRlIHR5cGUgYXQgdGhlIG1vbWVudAogICAgICAgICAgICBpZiAoenN5bmNVcmwuZW1wdHkoKSkgewogICAgICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIG9zczsKICAgICAgICAgICAgICAgIG9zcyA8PCAiWlN5bmMgVVJMIG5vdCBhdmFpbGFibGUuIFNlZSBwcmV2aW91cyBtZXNzYWdlcyBmb3IgZGV0YWlscy4iOwogICAgICAgICAgICAgICAgdGhyb3cgQXBwSW1hZ2VFcnJvcihvc3Muc3RyKCkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyB0aHJlYWQgcnVubmVyCiAgICAgICAgdm9pZCBydW5VcGRhdGUoKSB7CiAgICAgICAgICAgIC8vIGluaXRpYWxpemF0aW9uCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBsb2NrX2d1YXJkIGd1YXJkKG11dGV4KTsKCQkJCWlmIChzdG9wUmVxdWVzdGVkLmxvYWQoKSkgeyBzdGF0ZSA9IEVSUk9SOyByZXR1cm47IH0KCiAgICAgICAgICAgICAgICAvLyBtYWtlIHN1cmUgaXQgcnVucyBvbmx5IG9uY2UgYXQgYSB0aW1lCiAgICAgICAgICAgICAgICAvLyBzaG91bGQgbmV2ZXIgb2NjdXIsIGJ1dCB5b3UgbmV2ZXIga25vdwogICAgICAgICAgICAgICAgaWYgKHN0YXRlICE9IElOSVRJQUxJWkVEKQogICAgICAgICAgICAgICAgICAgIHJldHVybjsKCiAgICAgICAgICAgICAgICAvLyBpZiB0aGVyZSBpcyBhIFpTeW5jIGNsaWVudCAoZS5nLiwgYmVjYXVzZSBhbiB1cGRhdGUgY2hlY2sgaGFzIGJlZW4gcnVuKSwgY2xlYW4gaXQgdXAKICAgICAgICAgICAgICAgIC8vIHRoaXMgZW5zdXJlcyB0aGF0IGEgZnJlc2ggaW5zdGFuY2Ugd2lsbCBiZSB1c2VkIGZvciB0aGUgdXBkYXRlIHJ1bgogICAgICAgICAgICAgICAgaWYgKHpTeW5jQ2xpZW50ICE9IG51bGxwdHIpIHsKICAgICAgICAgICAgICAgICAgICB6U3luY0NsaWVudC5yZXNldCgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbGlkYXRlQXBwSW1hZ2UoKTsKICAgICAgICAgICAgICAgIGNvbnN0IGF1dG8gdXBkYXRlSW5mb3JtYXRpb25QdHIgPSBtYWtlVXBkYXRlSW5mb3JtYXRpb24ocmF3VXBkYXRlSW5mb3JtYXRpb24pOwoKICAgICAgICAgICAgICAgIGlmICh1cGRhdGVJbmZvcm1hdGlvblB0ci0+dHlwZSgpID09IFpTWU5DX0dJVEhVQl9SRUxFQVNFUykgewogICAgICAgICAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZSgiVXBkYXRpbmcgZnJvbSBHaXRIdWIgUmVsZWFzZXMgdmlhIFpTeW5jIik7CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKHVwZGF0ZUluZm9ybWF0aW9uUHRyLT50eXBlKCkgPT0gWlNZTkNfR0VORVJJQykgewogICAgICAgICAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZSgiVXBkYXRpbmcgZnJvbSBnZW5lcmljIHNlcnZlciB2aWEgWlN5bmMiKTsKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodXBkYXRlSW5mb3JtYXRpb25QdHItPnR5cGUoKSA9PSBaU1lOQ19QTElOR19WMSkgewogICAgICAgICAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZSgiVXBkYXRpbmcgZnJvbSBQbGluZyB2MSBzZXJ2ZXIgdmlhIFpTeW5jIik7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHRocm93IEFwcEltYWdlRXJyb3IoIlVua25vd24gdXBkYXRlIGluZm9ybWF0aW9uIHR5cGUiKTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb25zdCBhdXRvIHpzeW5jVXJsID0gdXBkYXRlSW5mb3JtYXRpb25QdHItPmJ1aWxkVXJsKG1ha2VJc3N1ZVN0YXR1c01lc3NhZ2VDYWxsYmFjaygpKTsKCiAgICAgICAgICAgICAgICAvLyBkb2Vzbid0IG1hdHRlciB3aGljaCB0eXBlIGl0IGlzIGV4YWN0bHksIHRoZXkgYWxsIHdvcmsgbGlrZSB0aGUgc2FtZQogICAgICAgICAgICAgICAgelN5bmNDbGllbnQgPSBzdGQ6Om1ha2Vfc2hhcmVkPHpzeW5jMjo6WlN5bmNDbGllbnQ+KHpzeW5jVXJsLCBhcHBJbWFnZS5wYXRoKCksIG92ZXJ3cml0ZSk7CgogICAgICAgICAgICAgICAgLy8gZW5hYmxlIHJhbmdlcyBvcHRpbWl6YXRpb25zCiAgICAgICAgICAgICAgICB6U3luY0NsaWVudC0+c2V0UmFuZ2VzT3B0aW1pemF0aW9uVGhyZXNob2xkKDY0ICogNDA5Nik7CgogICAgICAgICAgICAgICAgLy8gbWFrZSBzdXJlIHRoZSBuZXcgQXBwSW1hZ2UgZ29lcyBpbnRvIHRoZSBzYW1lIGRpcmVjdG9yeSBhcyB0aGUgb2xkIG9uZQogICAgICAgICAgICAgICAgLy8gdW5mb3J0dW5hdGVseSwgdG8gYmUgYWJsZSB0byB1c2UgZGlybmFtZSgpLCBvbmUgaGFzIHRvIGNvcHkgdGhlIEMgc3RyaW5nIGZpcnN0CiAgICAgICAgICAgICAgICBhdXRvIHBhdGggPSBtYWtlQnVmZmVyKGFwcEltYWdlLnBhdGgoKSk7CiAgICAgICAgICAgICAgICBzdGQ6OnN0cmluZyBkaXJQYXRoID0gZGlybmFtZShwYXRoLmRhdGEoKSk7CgogICAgICAgICAgICAgICAgelN5bmNDbGllbnQtPnNldEN3ZChkaXJQYXRoKTsKCiAgICAgICAgICAgICAgICBzdGF0ZSA9IFJVTk5JTkc7CiAgICAgICAgICAgIH0gY2F0Y2ggKGNvbnN0IEFwcEltYWdlRXJyb3ImIGUpIHsKICAgICAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZSgiRXJyb3IgcmVhZGluZyBBcHBJbWFnZTogIiArIHN0ZDo6c3RyaW5nKGUud2hhdCgpKSk7CiAgICAgICAgICAgICAgICBzdGF0ZSA9IEVSUk9SOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9IGNhdGNoIChjb25zdCBVcGRhdGVJbmZvcm1hdGlvbkVycm9yJiBlKSB7CiAgICAgICAgICAgICAgICBpc3N1ZVN0YXR1c01lc3NhZ2UoIkZhaWxlZCB0byBwYXJzZSB1cGRhdGUgaW5mb3JtYXRpb246ICIgKyBzdGQ6OnN0cmluZyhlLndoYXQoKSkpOwogICAgICAgICAgICAgICAgc3RhdGUgPSBFUlJPUjsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8ga2VlcCBzdGF0ZSAtLSBieSBkZWZhdWx0LCBhbiBlcnJvciAoZmFsc2UpIGlzIGFzc3VtZWQKICAgICAgICAgICAgYm9vbCByZXN1bHQgPSBmYWxzZTsKCiAgICAgICAgICAgIC8vIHJ1biBwaGFzZQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAvLyBjaGVjayB3aGV0aGVyIGl0J3MgYSB6c3luYyBvcGVyYXRpb24KICAgICAgICAgICAgICAgIGlmICh6U3luY0NsaWVudCAhPSBudWxscHRyKSB7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gelN5bmNDbGllbnQtPnJ1bigpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBlbmQgcGhhc2UKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgbG9ja19ndWFyZCBndWFyZChtdXRleCk7CgoJCQkJaWYgKHN0b3BSZXF1ZXN0ZWQubG9hZCgpKSB7CgkJCQkJc3RhdGUgPSBFUlJPUjsKCQkJCX0gZWxzZSBpZiAocmVzdWx0KSB7CiAgICAgICAgICAgICAgICAgICAgc3RhdGUgPSBTVUNDRVNTOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IEVSUk9SOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBib29sIGNoZWNrRm9yQ2hhbmdlcyhib29sJiB1cGRhdGVBdmFpbGFibGUsIGNvbnN0IHVuc2lnbmVkIGludCBtZXRob2QgPSAwKSB7CiAgICAgICAgICAgIGxvY2tfZ3VhcmQgZ3VhcmQobXV0ZXgpOwoKICAgICAgICAgICAgaWYgKHN0YXRlICE9IElOSVRJQUxJWkVEKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwoKICAgICAgICAgICAgLy8gdmFsaWRhdGUgQXBwSW1hZ2UKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbGlkYXRlQXBwSW1hZ2UoKTsKICAgICAgICAgICAgfSBjYXRjaCAoY29uc3QgQXBwSW1hZ2VFcnJvciYgZSkgewogICAgICAgICAgICAgICAgaXNzdWVTdGF0dXNNZXNzYWdlKGUud2hhdCgpKTsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGF1dG8gdXBkYXRlSW5mb3JtYXRpb25QdHIgPSBtYWtlVXBkYXRlSW5mb3JtYXRpb24ocmF3VXBkYXRlSW5mb3JtYXRpb24pOwogICAgICAgICAgICAgICAgY29uc3QgYXV0byB6c3luY1VybCA9IHVwZGF0ZUluZm9ybWF0aW9uUHRyLT5idWlsZFVybChtYWtlSXNzdWVTdGF0dXNNZXNzYWdlQ2FsbGJhY2soKSk7CiAgICAgICAgICAgICAgICB6U3luY0NsaWVudC5yZXNldChuZXcgenN5bmMyOjpaU3luY0NsaWVudCh6c3luY1VybCwgYXBwSW1hZ2UucGF0aCgpKSk7CiAgICAgICAgICAgICAgICByZXR1cm4gelN5bmNDbGllbnQtPmNoZWNrRm9yQ2hhbmdlcyh1cGRhdGVBdmFpbGFibGUsIG1ldGhvZCk7CiAgICAgICAgICAgIH0gY2F0Y2ggKGNvbnN0IFVwZGF0ZUluZm9ybWF0aW9uRXJyb3ImIGUpIHsKICAgICAgICAgICAgICAgIHpTeW5jQ2xpZW50LnJlc2V0KCk7CgogICAgICAgICAgICAgICAgLy8gcmV0dXJuIGVycm9yIGluIGNhc2Ugb2YgdW5rbm93biB1cGRhdGUgaW5mb3JtYXRpb24KICAgICAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZShlLndoYXQoKSk7CiAgICAgICAgICAgICAgICBpc3N1ZVN0YXR1c01lc3NhZ2UoIlVua25vd24gdXBkYXRlIGluZm9ybWF0aW9uIHR5cGUsIGFib3J0aW5nLiIpOwogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfTsKCiAgICBVcGRhdGVyOjpVcGRhdGVyKGNvbnN0IHN0ZDo6c3RyaW5nJiBwYXRoVG9BcHBJbWFnZSwgYm9vbCBvdmVyd3JpdGUpIDogZChuZXcgVXBkYXRlcjo6UHJpdmF0ZShhaWxmc1JlYWxwYXRoKHBhdGhUb0FwcEltYWdlKSkpIHsKICAgICAgICAvLyB3b3JrYXJvdW5kIGZvciBBcHBJbWFnZUxhdW5jaGVyIGZpbGVzeXN0ZW0KICAgICAgICBkLT5vdmVyd3JpdGUgPSBvdmVyd3JpdGU7CgogICAgICAgIC8vIGNoZWNrIHdoZXRoZXIgZmlsZSBleGlzdHMsIG90aGVyd2lzZSB0aHJvdyBleGNlcHRpb24KICAgICAgICBzdGQ6Omlmc3RyZWFtIGYoZC0+YXBwSW1hZ2UucGF0aCgpKTsKCiAgICAgICAgaWYoIWYgfHwgIWYuZ29vZCgpKSB7CiAgICAgICAgICAgIGF1dG8gZXJyb3JNZXNzYWdlID0gc3RkOjpzdHJlcnJvcihlcnJubyk7CiAgICAgICAgICAgIHRocm93IHN0ZDo6aW52YWxpZF9hcmd1bWVudChlcnJvck1lc3NhZ2UgKyBzdGQ6OnN0cmluZygiOiAiKSArIGQtPmFwcEltYWdlLnBhdGgoKSk7CiAgICAgICAgfQogICAgfQoKICAgIFVwZGF0ZXI6On5VcGRhdGVyKCkgbm9leGNlcHQgewoJCXRyeSB7IHN0b3AoKTsgfSBjYXRjaCAoLi4uKSB7fQoJfQoKICAgIHZvaWQgVXBkYXRlcjo6cnVuVXBkYXRlKCkgewogICAgICAgIC8vIGFsaWFzIGZvciBwcml2YXRlIGZ1bmN0aW9uCiAgICAgICAgcmV0dXJuIGQtPnJ1blVwZGF0ZSgpOwogICAgfQoKICAgIGJvb2wgVXBkYXRlcjo6c3RhcnQoKSB7CiAgICAgICAgLy8gbG9jayBtdXRleAogICAgICAgIGxvY2tfZ3VhcmQgZ3VhcmQoZC0+bXV0ZXgpOwoKICAgICAgICAvLyBwcmV2ZW50IG11bHRpcGxlIHN0YXJ0IGNhbGxzCiAgICAgICAgaWYoZC0+c3RhdGUgIT0gSU5JVElBTElaRUQpCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKCiAgICAgICAgLy8gaWYgdGhlcmUncyBhIHRocmVhZCBtYW5hZ2VkIGJ5IHRoaXMgY2xhc3MgYWxyZWFkeSwgc2hvdWxkIG5vdCBzdGFydCBhbm90aGVyIG9uZSBhbmQgbG9zZSBhY2Nlc3MgdG8KICAgICAgICAvLyB0aGlzIG9uZQogICAgICAgIGlmKGQtPnRocmVhZCkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwoKICAgICAgICAvLyBjcmVhdGUgdGhyZWFkCgkJYXV0byBzdGF0ZSA9IGQ7CiAgICAgICAgZC0+dGhyZWFkID0gc3RkOjptYWtlX3VuaXF1ZTxzdGQ6OnRocmVhZD4oW3N0YXRlXSB7IHN0YXRlLT5ydW5VcGRhdGUoKTsgfSk7CgogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIGJvb2wgVXBkYXRlcjo6aXNEb25lKCkgewogICAgICAgIGxvY2tfZ3VhcmQgZ3VhcmQoZC0+bXV0ZXgpOwoKICAgICAgICByZXR1cm4gZC0+c3RhdGUgIT0gSU5JVElBTElaRUQgJiYgZC0+c3RhdGUgIT0gUlVOTklORyAmJiBkLT5zdGF0ZSAhPSBTVE9QUElORzsKICAgIH0KCiAgICBib29sIFVwZGF0ZXI6Omhhc0Vycm9yKCkgewogICAgICAgIGxvY2tfZ3VhcmQgZ3VhcmQoZC0+bXV0ZXgpOwoKICAgICAgICByZXR1cm4gZC0+c3RhdGUgPT0gRVJST1I7CiAgICB9CgogICAgYm9vbCBVcGRhdGVyOjpwcm9ncmVzcyhkb3VibGUmIHByb2dyZXNzKSB7CiAgICAgICAgbG9ja19ndWFyZCBndWFyZChkLT5tdXRleCk7CgogICAgICAgIGlmIChkLT5zdGF0ZSA9PSBJTklUSUFMSVpFRCkgewogICAgICAgICAgICAvLyB0aGlzIHByb3RlY3RzIHVwZGF0ZSBjaGVja3MgZnJvbSByZXR1cm5pbmcgcHJvZ3Jlc3MsIHdoaWNoIHdvdWxkIG9ubHkgb2NjdXIgd2hlbiB1c2luZyBtZXRob2QgMAogICAgICAgICAgICBwcm9ncmVzcyA9IDA7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0gZWxzZSBpZiAoZC0+c3RhdGUgPT0gU1VDQ0VTUyB8fCBkLT5zdGF0ZSA9PSBFUlJPUikgewogICAgICAgICAgICBwcm9ncmVzcyA9IDE7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KCiAgICAgICAgaWYgKGQtPnpTeW5jQ2xpZW50ICE9IG51bGxwdHIpIHsKICAgICAgICAgICAgcHJvZ3Jlc3MgPSBkLT56U3luY0NsaWVudC0+cHJvZ3Jlc3MoKTsKICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgYm9vbCBVcGRhdGVyOjpzdG9wKCkgewoJCXN0ZDo6dW5pcXVlX3B0cjxzdGQ6OnRocmVhZD4gdGhyZWFkOwoJCXsKCQkJc3RkOjpsb2NrX2d1YXJkPHN0ZDo6bXV0ZXg+IGd1YXJkKGQtPm11dGV4KTsKCQkJaWYgKCFkLT50aHJlYWQpIHJldHVybiBmYWxzZTsKCQkJZC0+c3RvcFJlcXVlc3RlZC5zdG9yZSh0cnVlKTsKCQkJaWYgKGQtPnN0YXRlID09IElOSVRJQUxJWkVEIHx8IGQtPnN0YXRlID09IFJVTk5JTkcpIGQtPnN0YXRlID0gU1RPUFBJTkc7CgkJCWlmIChkLT50aHJlYWQtPmdldF9pZCgpID09IHN0ZDo6dGhpc190aHJlYWQ6OmdldF9pZCgpKSB7CgkJCQlkLT50aHJlYWQtPmRldGFjaCgpOwoJCQkJZC0+dGhyZWFkLnJlc2V0KCk7CgkJCQlyZXR1cm4gdHJ1ZTsKCQkJfQoJCQl0aHJlYWQgPSBzdGQ6Om1vdmUoZC0+dGhyZWFkKTsKCQl9CgkJaWYgKHRocmVhZC0+am9pbmFibGUoKSkgdGhyZWFkLT5qb2luKCk7CgkJewoJCQlzdGQ6OmxvY2tfZ3VhcmQ8c3RkOjptdXRleD4gZ3VhcmQoZC0+bXV0ZXgpOwoJCQlpZiAoZC0+c3RhdGUgPT0gU1RPUFBJTkcpIGQtPnN0YXRlID0gRVJST1I7CgkJfQoJCXJldHVybiB0cnVlOwogICAgfQoKICAgIGJvb2wgVXBkYXRlcjo6bmV4dFN0YXR1c01lc3NhZ2Uoc3RkOjpzdHJpbmcmIG1lc3NhZ2UpIHsKICAgICAgICAvLyBmaXJzdCwgY2hlY2sgb3duIG1lc3NhZ2UgcXVldWUKICAgICAgICBpZiAoIWQtPnN0YXR1c01lc3NhZ2VzLmVtcHR5KCkpIHsKICAgICAgICAgICAgbWVzc2FnZSA9IGQtPnN0YXR1c01lc3NhZ2VzLmZyb250KCk7CiAgICAgICAgICAgIGQtPnN0YXR1c01lc3NhZ2VzLnBvcF9mcm9udCgpOwogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CgogICAgICAgIC8vIG5leHQsIGNoZWNrIHpzeW5jIGNsaWVudCBmb3IgYSBtZXNzYWdlCiAgICAgICAgaWYgKGQtPnpTeW5jQ2xpZW50ICE9IG51bGxwdHIpIHsKICAgICAgICAgICAgc3RkOjpzdHJpbmcgenN5bmNNZXNzYWdlOwogICAgICAgICAgICBpZiAoIWQtPnpTeW5jQ2xpZW50LT5uZXh0U3RhdHVzTWVzc2FnZSh6c3luY01lc3NhZ2UpKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICAvLyBzaG93IHRoYXQgdGhlIG1lc3NhZ2UgaXMgY29taW5nIGZyb20genN5bmMyCiAgICAgICAgICAgIG1lc3NhZ2UgPSAienN5bmMyOiAiICsgenN5bmNNZXNzYWdlOwogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBVcGRhdGVyOjpTdGF0ZSBVcGRhdGVyOjpzdGF0ZSgpIHsKICAgICAgICByZXR1cm4gZC0+c3RhdGU7CiAgICB9CgogICAgYm9vbCBVcGRhdGVyOjpjaGVja0ZvckNoYW5nZXMoYm9vbCAmdXBkYXRlQXZhaWxhYmxlLCBjb25zdCB1bnNpZ25lZCBpbnQgbWV0aG9kKSB7CiAgICAgICAgcmV0dXJuIGQtPmNoZWNrRm9yQ2hhbmdlcyh1cGRhdGVBdmFpbGFibGUsIG1ldGhvZCk7CiAgICB9CgogICAgYm9vbCBVcGRhdGVyOjpkZXNjcmliZUFwcEltYWdlKHN0ZDo6c3RyaW5nJiBkZXNjcmlwdGlvbikgY29uc3QgewogICAgICAgIHN0ZDo6b3N0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgYm9vbCBzdWNjZXNzID0gdHJ1ZTsKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgb3NzIDw8ICJQYXJzaW5nIGZpbGU6ICIgPDwgZC0+YXBwSW1hZ2UucGF0aCgpIDw8IHN0ZDo6ZW5kbDsKICAgICAgICAgICAgb3NzIDw8ICJBcHBJbWFnZSB0eXBlOiAiIDw8IGQtPmFwcEltYWdlLmFwcEltYWdlVHlwZSgpIDw8IHN0ZDo6ZW5kbDsKCiAgICAgICAgICAgIGNvbnN0IGF1dG8gcmF3VXBkYXRlSW5mb3JtYXRpb24gPSBkLT5hcHBJbWFnZS5yZWFkUmF3VXBkYXRlSW5mb3JtYXRpb24oKTsKCiAgICAgICAgICAgIG9zcyA8PCAiUmF3IHVwZGF0ZSBpbmZvcm1hdGlvbjogIjsKICAgICAgICAgICAgaWYgKHJhd1VwZGF0ZUluZm9ybWF0aW9uLmVtcHR5KCkpCiAgICAgICAgICAgICAgICBvc3MgPDwgIjxlbXB0eT4iOwogICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgICBvc3MgPDwgcmF3VXBkYXRlSW5mb3JtYXRpb247CiAgICAgICAgICAgIG9zcyA8PCBzdGQ6OmVuZGw7CgogICAgICAgICAgICBhdXRvIHVwZGF0ZUluZm9ybWF0aW9uID0gbWFrZVVwZGF0ZUluZm9ybWF0aW9uKHJhd1VwZGF0ZUluZm9ybWF0aW9uKTsKCiAgICAgICAgICAgIG9zcyA8PCAiVXBkYXRlIGluZm9ybWF0aW9uIHR5cGU6ICI7CgogICAgICAgICAgICBpZiAodXBkYXRlSW5mb3JtYXRpb24tPnR5cGUoKSA9PSBaU1lOQ19HRU5FUklDKQogICAgICAgICAgICAgICAgb3NzIDw8ICJHZW5lcmljIFpTeW5jIFVSTCI7CiAgICAgICAgICAgIGVsc2UgaWYgKHVwZGF0ZUluZm9ybWF0aW9uLT50eXBlKCkgPT0gWlNZTkNfR0lUSFVCX1JFTEVBU0VTKQogICAgICAgICAgICAgICAgb3NzIDw8ICJaU3luYyB2aWEgR2l0SHViIFJlbGVhc2VzIjsKICAgICAgICAgICAgZWxzZSBpZiAodXBkYXRlSW5mb3JtYXRpb24tPnR5cGUoKSA9PSBaU1lOQ19QTElOR19WMSkKICAgICAgICAgICAgICAgIG9zcyA8PCAiWlN5bmMgdmlhIE9DUyI7CiAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHRocm93IHN0ZDo6cnVudGltZV9lcnJvcigidW5zdXBwb3J0ZWQgdXBkYXRlIGluZm9ybWF0aW9uIHR5cGUiKTsKCiAgICAgICAgICAgIG9zcyA8PCBzdGQ6OmVuZGw7CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgYXV0byB1cmwgPSB1cGRhdGVJbmZvcm1hdGlvbi0+YnVpbGRVcmwoZC0+bWFrZUlzc3VlU3RhdHVzTWVzc2FnZUNhbGxiYWNrKCkpOwoKICAgICAgICAgICAgICAgIG9zcyA8PCAiQXNzZW1ibGVkIFpTeW5jIFVSTDogIiA8PCB1cmwgPDwgc3RkOjplbmRsOwoKICAgICAgICAgICAgfSBjYXRjaCAoY29uc3QgVXBkYXRlSW5mb3JtYXRpb25FcnJvciYgZSkgewogICAgICAgICAgICAgICAgb3NzIDw8ICJGYWlsZWQgdG8gYXNzZW1ibGUgWlN5bmMgVVJMLiBBcHBJbWFnZVVwZGF0ZSBjYW4gbm90IGJlIHVzZWQgd2l0aCB0aGlzIEFwcEltYWdlLiAiCiAgICAgICAgICAgICAgICA8PCAiU2VlIGJlbG93IGZvciBtb3JlIGluZm9ybWF0aW9uIgogICAgICAgICAgICAgICAgPDwgc3RkOjplbmRsCiAgICAgICAgICAgICAgICA8PCBlLndoYXQoKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGNvbnN0IFVwZGF0ZUluZm9ybWF0aW9uRXJyb3ImIGUpIHsKICAgICAgICAgICAgb3NzIDw8IGUud2hhdCgpOwogICAgICAgICAgICBzdWNjZXNzID0gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICBkZXNjcmlwdGlvbiA9IG9zcy5zdHIoKTsKCiAgICAgICAgcmV0dXJuIHN1Y2Nlc3M7CiAgICB9CgogICAgYm9vbCBVcGRhdGVyOjpwYXRoVG9OZXdGaWxlKHN0ZDo6c3RyaW5nJiBwYXRoKSBjb25zdCB7CiAgICAgICAgLy8gb25seSBhdmFpbGFibGUgdXBkYXRlIG1ldGhvZCBpcyB2aWEgWlN5bmMKICAgICAgICBpZiAoZC0+elN5bmNDbGllbnQpCiAgICAgICAgICAgIHJldHVybiBkLT56U3luY0NsaWVudC0+cGF0aFRvTmV3RmlsZShwYXRoKTsKCiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGJvb2wgVXBkYXRlcjo6cmVtb3RlRmlsZVNpemUob2ZmX3QmIGZpbGVTaXplKSBjb25zdCB7CiAgICAgICAgLy8gb25seSBhdmFpbGFibGUgdXBkYXRlIG1ldGhvZCBpcyB2aWEgWlN5bmMKICAgICAgICBpZiAoZC0+elN5bmNDbGllbnQgIT0gbnVsbHB0cikKICAgICAgICAgICAgcmV0dXJuIGQtPnpTeW5jQ2xpZW50LT5yZW1vdGVGaWxlU2l6ZShmaWxlU2l6ZSk7CgogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBVcGRhdGVyOjpWYWxpZGF0aW9uU3RhdGUgVXBkYXRlcjo6dmFsaWRhdGVTaWduYXR1cmUoKSB7CiAgICAgICAgc3RkOjpzdHJpbmcgcGF0aFRvTmV3QXBwSW1hZ2U7CiAgICAgICAgaWYgKCF0aGlzLT5wYXRoVG9OZXdGaWxlKHBhdGhUb05ld0FwcEltYWdlKSkgewogICAgICAgICAgICAvLyByZXR1cm4gZ2VuZXJpYyBlcnJvcgogICAgICAgICAgICByZXR1cm4gVkFMSURBVElPTl9GQUlMRUQ7CiAgICAgICAgfQoKICAgICAgICBVcGRhdGFibGVBcHBJbWFnZSBuZXdBcHBJbWFnZShwYXRoVG9OZXdBcHBJbWFnZSk7CgogICAgICAgIGF1dG8gcGF0aFRvT2xkQXBwSW1hZ2UgPSBhYnNwYXRoKGQtPmFwcEltYWdlLnBhdGgoKSk7CiAgICAgICAgaWYgKHBhdGhUb09sZEFwcEltYWdlID09IHBhdGhUb05ld0FwcEltYWdlKSB7CiAgICAgICAgICAgIHBhdGhUb09sZEFwcEltYWdlID0gcGF0aFRvTmV3QXBwSW1hZ2UgKyAiLnpzLW9sZCI7CiAgICAgICAgfQoKICAgICAgICBVcGRhdGFibGVBcHBJbWFnZSBvbGRBcHBJbWFnZShwYXRoVG9PbGRBcHBJbWFnZSk7CgogICAgICAgIGlmIChvbGRBcHBJbWFnZS5yZWFkU2lnbmF0dXJlKCkuZW1wdHkoKSAmJiBuZXdBcHBJbWFnZS5yZWFkU2lnbmF0dXJlKCkuZW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gVkFMSURBVElPTl9OT1RfU0lHTkVEOwogICAgICAgIH0gZWxzZSBpZiAoIW9sZEFwcEltYWdlLnJlYWRTaWduYXR1cmUoKS5lbXB0eSgpICYmIG5ld0FwcEltYWdlLnJlYWRTaWduYXR1cmUoKS5lbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBWQUxJREFUSU9OX05PX0xPTkdFUl9TSUdORUQ7CiAgICAgICAgfQoKICAgICAgICAvLyB3ZSBjYW4gcmUtdXNlIHRoZSBzYW1lIHZhbGlkYXRpb24gY29udGV4dCB0byB2YWxpZGF0ZSB0aGUgc2lnbmF0dXJlcyBvZiBib3RoIEFwcEltYWdlcwogICAgICAgIFNpZ25hdHVyZVZhbGlkYXRvciB2YWxpZGF0b3I7CgogICAgICAgIGNvbnN0IGF1dG8gb2xkQXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0ID0gdmFsaWRhdG9yLnZhbGlkYXRlKG9sZEFwcEltYWdlKTsKICAgICAgICBkLT5pc3N1ZVN0YXR1c01lc3NhZ2UoIk9sZCBBcHBJbWFnZSBzaWduYXR1cmUgdmFsaWRhdGlvbiByZXBvcnQ6XG4iICsgb2xkQXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0Lm1lc3NhZ2UoKSk7CgogICAgICAgIGlmIChvbGRBcHBJbWFnZVZhbGlkYXRpb25SZXN1bHQudHlwZSgpID09IFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OkVSUk9SKSB7CiAgICAgICAgICAgIHJldHVybiBWQUxJREFUSU9OX0JBRF9TSUdOQVRVUkU7CiAgICAgICAgfQoKICAgICAgICBjb25zdCBhdXRvIG5ld0FwcEltYWdlVmFsaWRhdGlvblJlc3VsdCA9IHZhbGlkYXRvci52YWxpZGF0ZShuZXdBcHBJbWFnZSk7CiAgICAgICAgZC0+aXNzdWVTdGF0dXNNZXNzYWdlKCJOZXcgQXBwSW1hZ2Ugc2lnbmF0dXJlIHZhbGlkYXRpb24gcmVwb3J0OlxuIiArIG9sZEFwcEltYWdlVmFsaWRhdGlvblJlc3VsdC5tZXNzYWdlKCkpOwoKICAgICAgICBpZiAobmV3QXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0LnR5cGUoKSA9PSBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0OjpSZXN1bHRUeXBlOjpFUlJPUikgewogICAgICAgICAgICByZXR1cm4gVkFMSURBVElPTl9CQURfU0lHTkFUVVJFOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgYXV0byYgbmV3RnBzID0gbmV3QXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0LmtleUZpbmdlcnByaW50cygpOwoKICAgICAgICBib29sIHNpZ25lZEJ5U2FtZUtleSA9IHN0ZDo6YW55X29mKAogICAgICAgICAgICBuZXdGcHMuYmVnaW4oKSwKICAgICAgICAgICAgbmV3RnBzLmVuZCgpLAogICAgICAgICAgICBbJm9sZEFwcEltYWdlVmFsaWRhdGlvblJlc3VsdF0oY29uc3Qgc3RkOjpzdHJpbmcmIG5ld0tleSkgewogICAgICAgICAgICAgICAgY29uc3QgYXV0byYgb2xkRnBzID0gb2xkQXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0LmtleUZpbmdlcnByaW50cygpOwoKICAgICAgICAgICAgICAgIHJldHVybiBzdGQ6OmZpbmQob2xkRnBzLmJlZ2luKCksIG9sZEZwcy5lbmQoKSwgbmV3S2V5KSAhPSBvbGRGcHMuZW5kKCk7CiAgICAgICAgICAgIH0KICAgICAgICApOwoKICAgICAgICBpZiAoIXNpZ25lZEJ5U2FtZUtleSkgewogICAgICAgICAgICByZXR1cm4gVkFMSURBVElPTl9LRVlfQ0hBTkdFRDsKICAgICAgICB9CgogICAgICAgIGlmICgKICAgICAgICAgICAgb2xkQXBwSW1hZ2VWYWxpZGF0aW9uUmVzdWx0LnR5cGUoKSA9PSBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0OjpSZXN1bHRUeXBlOjpXQVJOSU5HIHx8CiAgICAgICAgICAgIG5ld0FwcEltYWdlVmFsaWRhdGlvblJlc3VsdC50eXBlKCkgPT0gU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6UmVzdWx0VHlwZTo6V0FSTklORwogICAgICAgICkgewogICAgICAgICAgICByZXR1cm4gVkFMSURBVElPTl9XQVJOSU5HOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFZBTElEQVRJT05fUEFTU0VEOwogICAgfQoKICAgIHN0ZDo6c3RyaW5nIFVwZGF0ZXI6OnNpZ25hdHVyZVZhbGlkYXRpb25NZXNzYWdlKGNvbnN0IFVwZGF0ZXI6OlZhbGlkYXRpb25TdGF0ZSYgc3RhdGUpIHsKICAgICAgICBzdGF0aWMgY29uc3Qgc3RkOjptYXA8VmFsaWRhdGlvblN0YXRlLCBzdGQ6OnN0cmluZz4gdmFsaWRhdGlvbk1lc3NhZ2VzID0gewogICAgICAgICAgICB7VkFMSURBVElPTl9QQVNTRUQsICJTaWduYXR1cmUgdmFsaWRhdGlvbiBzdWNjZXNzZnVsIn0sCgogICAgICAgICAgICAvLyB3YXJuaW5nIHN0YXRlcwogICAgICAgICAgICB7VkFMSURBVElPTl9XQVJOSU5HLCAiU2lnbmF0dXJlIHZhbGlkYXRpb24gd2FybmluZyJ9LAogICAgICAgICAgICB7VkFMSURBVElPTl9OT1RfU0lHTkVELCAiQXBwSW1hZ2Ugbm90IHNpZ25lZCJ9LAoKICAgICAgICAgICAgLy8gZXJyb3Igc3RhdGVzCiAgICAgICAgICAgIHtWQUxJREFUSU9OX0ZBSUxFRCwgIlNpZ25hdHVyZSB2YWxpZGF0aW9uIGZhaWxlZCJ9LAogICAgICAgICAgICB7VkFMSURBVElPTl9OT19MT05HRVJfU0lHTkVELCAiQXBwSW1hZ2Ugbm8gbG9uZ2VyIGNvbWVzIHdpdGggc2lnbmF0dXJlIn0sCiAgICAgICAgICAgIHtWQUxJREFUSU9OX0JBRF9TSUdOQVRVUkUsICJCYWQgc2lnbmF0dXJlIn0sCiAgICAgICAgICAgIHtWQUxJREFUSU9OX0tFWV9DSEFOR0VELCAiS2V5IGNoYW5nZWQgZm9yIHNpZ25pbmcgQXBwSW1hZ2VzIn0sCiAgICAgICAgfTsKCiAgICAgICAgaWYgKHZhbGlkYXRpb25NZXNzYWdlcy5jb3VudChzdGF0ZSkgPiAwKSB7CiAgICAgICAgICAgIHJldHVybiB2YWxpZGF0aW9uTWVzc2FnZXMuYXQoc3RhdGUpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuICJVbmtub3duIHZhbGlkYXRpb24gc3RhdGUiOwogICAgfQoKICAgIHZvaWQgVXBkYXRlcjo6cmVzdG9yZU9yaWdpbmFsRmlsZSgpIHsKICAgICAgICBzdGQ6OnN0cmluZyBuZXdGaWxlUGF0aDsKCiAgICAgICAgaWYgKCFwYXRoVG9OZXdGaWxlKG5ld0ZpbGVQYXRoKSkgewogICAgICAgICAgICB0aHJvdyBzdGQ6OnJ1bnRpbWVfZXJyb3IoIkZhaWxlZCB0byBnZXQgcGF0aCB0byBuZXcgZmlsZSIpOwogICAgICAgIH0KCiAgICAgICAgLy8gbWFrZSBzdXJlIHRvIGNvbXBhcmUgYWJzb2x1dGUsIHJlc29sdmVkIHBhdGhzCiAgICAgICAgbmV3RmlsZVBhdGggPSBhYnNwYXRoKG5ld0ZpbGVQYXRoKTsKCiAgICAgICAgY29uc3QgYXV0byYgb2xkRmlsZVBhdGggPSBhYnNwYXRoKGQtPmFwcEltYWdlLnBhdGgoKSk7CgogICAgICAgIC8vIHJlc3RvcmUgb3JpZ2luYWwgZmlsZQogICAgICAgIHN0ZDo6cmVtb3ZlKG5ld0ZpbGVQYXRoLmNfc3RyKCkpOwoKICAgICAgICBpZiAob2xkRmlsZVBhdGggPT0gbmV3RmlsZVBhdGgpIHsKICAgICAgICAgICAgc3RkOjpyZW5hbWUoKG5ld0ZpbGVQYXRoICsgIi56cy1vbGQiKS5jX3N0cigpLCBuZXdGaWxlUGF0aC5jX3N0cigpKTsKICAgICAgICB9CiAgICB9CgogICAgdm9pZCBVcGRhdGVyOjpjb3B5UGVybWlzc2lvbnNUb05ld0ZpbGUoKSB7CiAgICAgICAgc3RkOjpzdHJpbmcgb2xkRmlsZVBhdGggPSBhYnNwYXRoKGQtPmFwcEltYWdlLnBhdGgoKSk7CgogICAgICAgIHN0ZDo6c3RyaW5nIG5ld0ZpbGVQYXRoOwoKICAgICAgICBpZiAoIXBhdGhUb05ld0ZpbGUobmV3RmlsZVBhdGgpKSB7CiAgICAgICAgICAgIHRocm93IHN0ZDo6cnVudGltZV9lcnJvcigiRmFpbGVkIHRvIGdldCBwYXRoIHRvIG5ldyBmaWxlIik7CiAgICAgICAgfQoKICAgICAgICAvLyBtYWtlIHN1cmUgdG8gY29tcGFyZSBhYnNvbHV0ZSwgcmVzb2x2ZWQgcGF0aHMKICAgICAgICBuZXdGaWxlUGF0aCA9IGFic3BhdGgobmV3RmlsZVBhdGgpOwoKICAgICAgICBhcHBpbWFnZTo6dXBkYXRlOjpjb3B5UGVybWlzc2lvbnMob2xkRmlsZVBhdGgsIG5ld0ZpbGVQYXRoKTsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBVcGRhdGVyOjp1cGRhdGVJbmZvcm1hdGlvbigpIGNvbnN0IHsKICAgICAgICByZXR1cm4gZC0+cmF3VXBkYXRlSW5mb3JtYXRpb247CiAgICB9CgogICAgdm9pZCBVcGRhdGVyOjpzZXRVcGRhdGVJbmZvcm1hdGlvbihzdGQ6OnN0cmluZyBuZXdVcGRhdGVJbmZvcm1hdGlvbikgewogICAgICAgIGQtPnJhd1VwZGF0ZUluZm9ybWF0aW9uID0gc3RkOjptb3ZlKG5ld1VwZGF0ZUluZm9ybWF0aW9uKTsKICAgIH0KfQo=
+// system headers
+#include <cstring>
+#include <deque>
+#include <iostream>
+#include <libgen.h>
+#include <memory>
+#include <mutex>
+#include <string>
+#include <thread>
+#include <algorithm>
+#include <atomic>
+#include <unistd.h>
+
+// library headers
+#include <zsclient.h>
+#include <cpr/cpr.h>
+#include <ftw.h>
+
+// local headers
+#include "appimage/update.h"
+#include "signing/signaturevalidator.h"
+#include "updateinformation/updateinformation.h"
+#include "util/updatableappimage.h"
+#include "util/util.h"
+#include "zsutil.h"
+
+// convenience declaration
+namespace {
+    typedef std::lock_guard<std::mutex> lock_guard;
+}
+
+namespace appimage::update {
+    using namespace util;
+    using namespace updateinformation;
+    using namespace signing;
+
+    class Updater::Private {
+    public:
+        explicit Private(const std::string& pathToAppImage) : state(INITIALIZED),
+            appImage(pathToAppImage),
+            zSyncClient(nullptr),
+            thread(nullptr),
+            mutex(),
+            overwrite(false),
+            rawUpdateInformation(appImage.readRawUpdateInformation())
+        {};
+
+    public:
+        UpdatableAppImage appImage;
+
+        // we call this "raw" update information to highlight the difference between strings and the new
+        // UpdateInformation infrastructure
+        std::string rawUpdateInformation;
+
+        // state
+        State state;
+
+        // ZSync client -- will be instantiated only if necessary
+        std::shared_ptr<zsync2::ZSyncClient> zSyncClient;
+
+        // threading
+		std::unique_ptr<std::thread> thread;
+        std::mutex mutex;
+
+        // status messages
+        std::deque<std::string> statusMessages;
+
+        // defines whether to overwrite original file
+        bool overwrite;
+		std::atomic<bool> stopRequested{false};
+
+    public:
+        void issueStatusMessage(const std::string& message) {
+            statusMessages.push_back(message);
+        }
+
+        StatusMessageCallback makeIssueStatusMessageCallback() {
+            return [this](const std::string& message) {issueStatusMessage(message);};
+        }
+
+        void validateAppImage() {
+            // first check whether there's update information at all
+            // note that we skip this check when custom update information is set intentionally
+            if (this->rawUpdateInformation.empty()) {
+                const auto rawUpdateInformationFromAppImage = appImage.readRawUpdateInformation();
+
+                if (rawUpdateInformationFromAppImage.empty()) {
+                    std::ostringstream oss;
+                    oss << "Could not find update information in the AppImage. "
+                    << "Please contact the author of the AppImage and ask them to embed update information.";
+                    throw AppImageError(oss.str());
+                }
+            }
+
+            const auto updateInformationPtr = makeUpdateInformation(rawUpdateInformation);
+            const auto zsyncUrl = updateInformationPtr->buildUrl(makeIssueStatusMessageCallback());
+
+            // now check whether a ZSync URL could be composed by readAppImage
+            // this is the only supported update type at the moment
+            if (zsyncUrl.empty()) {
+                std::ostringstream oss;
+                oss << "ZSync URL not available. See previous messages for details.";
+                throw AppImageError(oss.str());
+            }
+        }
+
+        // thread runner
+        void runUpdate() {
+            // initialization
+            try {
+                lock_guard guard(mutex);
+				if (stopRequested.load()) { state = ERROR; return; }
+
+                // make sure it runs only once at a time
+                // should never occur, but you never know
+                if (state != INITIALIZED)
+                    return;
+
+                // if there is a ZSync client (e.g., because an update check has been run), clean it up
+                // this ensures that a fresh instance will be used for the update run
+                if (zSyncClient != nullptr) {
+                    zSyncClient.reset();
+                }
+
+                validateAppImage();
+                const auto updateInformationPtr = makeUpdateInformation(rawUpdateInformation);
+
+                if (updateInformationPtr->type() == ZSYNC_GITHUB_RELEASES) {
+                    issueStatusMessage("Updating from GitHub Releases via ZSync");
+                } else if (updateInformationPtr->type() == ZSYNC_GENERIC) {
+                    issueStatusMessage("Updating from generic server via ZSync");
+                } else if (updateInformationPtr->type() == ZSYNC_PLING_V1) {
+                    issueStatusMessage("Updating from Pling v1 server via ZSync");
+                } else {
+                    throw AppImageError("Unknown update information type");
+                }
+
+                const auto zsyncUrl = updateInformationPtr->buildUrl(makeIssueStatusMessageCallback());
+
+                // doesn't matter which type it is exactly, they all work like the same
+                zSyncClient = std::make_shared<zsync2::ZSyncClient>(zsyncUrl, appImage.path(), overwrite);
+
+                // enable ranges optimizations
+                zSyncClient->setRangesOptimizationThreshold(64 * 4096);
+
+                // make sure the new AppImage goes into the same directory as the old one
+                // unfortunately, to be able to use dirname(), one has to copy the C string first
+                auto path = makeBuffer(appImage.path());
+                std::string dirPath = dirname(path.data());
+
+                zSyncClient->setCwd(dirPath);
+
+                state = RUNNING;
+            } catch (const AppImageError& e) {
+                issueStatusMessage("Error reading AppImage: " + std::string(e.what()));
+                state = ERROR;
+                return;
+            } catch (const UpdateInformationError& e) {
+                issueStatusMessage("Failed to parse update information: " + std::string(e.what()));
+                state = ERROR;
+                return;
+            }
+
+            // keep state -- by default, an error (false) is assumed
+            bool result = false;
+
+            // run phase
+            {
+                // check whether it's a zsync operation
+                if (zSyncClient != nullptr) {
+                    result = zSyncClient->run();
+                }
+            }
+
+            // end phase
+            {
+                lock_guard guard(mutex);
+
+				if (stopRequested.load()) {
+					state = ERROR;
+				} else if (result) {
+                    state = SUCCESS;
+                } else {
+                    state = ERROR;
+                }
+            }
+        }
+
+        bool checkForChanges(bool& updateAvailable, const unsigned int method = 0) {
+            lock_guard guard(mutex);
+
+            if (state != INITIALIZED)
+                return false;
+
+            // validate AppImage
+            try {
+                validateAppImage();
+            } catch (const AppImageError& e) {
+                issueStatusMessage(e.what());
+                return false;
+            }
+
+            try {
+                auto updateInformationPtr = makeUpdateInformation(rawUpdateInformation);
+                const auto zsyncUrl = updateInformationPtr->buildUrl(makeIssueStatusMessageCallback());
+                zSyncClient.reset(new zsync2::ZSyncClient(zsyncUrl, appImage.path()));
+                return zSyncClient->checkForChanges(updateAvailable, method);
+            } catch (const UpdateInformationError& e) {
+                zSyncClient.reset();
+
+                // return error in case of unknown update information
+                issueStatusMessage(e.what());
+                issueStatusMessage("Unknown update information type, aborting.");
+                return false;
+            }
+        }
+    };
+
+    Updater::Updater(const std::string& pathToAppImage, bool overwrite) : d(new Updater::Private(ailfsRealpath(pathToAppImage))) {
+        // workaround for AppImageLauncher filesystem
+        d->overwrite = overwrite;
+
+        // check whether file exists, otherwise throw exception
+        std::ifstream f(d->appImage.path());
+
+        if(!f || !f.good()) {
+            auto errorMessage = std::strerror(errno);
+            throw std::invalid_argument(errorMessage + std::string(": ") + d->appImage.path());
+        }
+    }
+
+    Updater::~Updater() noexcept {
+		try { stop(); } catch (...) {}
+	}
+
+    void Updater::runUpdate() {
+        // alias for private function
+        return d->runUpdate();
+    }
+
+    bool Updater::start() {
+        // lock mutex
+        lock_guard guard(d->mutex);
+
+        // prevent multiple start calls
+        if(d->state != INITIALIZED)
+            return false;
+
+        // if there's a thread managed by this class already, should not start another one and lose access to
+        // this one
+        if(d->thread)
+            return false;
+
+        // create thread
+		auto state = d;
+        d->thread = std::make_unique<std::thread>([state] { state->runUpdate(); });
+
+        return true;
+    }
+
+    bool Updater::isDone() {
+        lock_guard guard(d->mutex);
+
+        return d->state != INITIALIZED && d->state != RUNNING && d->state != STOPPING;
+    }
+
+    bool Updater::hasError() {
+        lock_guard guard(d->mutex);
+
+        return d->state == ERROR;
+    }
+
+    bool Updater::progress(double& progress) {
+        lock_guard guard(d->mutex);
+
+        if (d->state == INITIALIZED) {
+            // this protects update checks from returning progress, which would only occur when using method 0
+            progress = 0;
+            return true;
+        } else if (d->state == SUCCESS || d->state == ERROR) {
+            progress = 1;
+            return true;
+        }
+
+        if (d->zSyncClient != nullptr) {
+            progress = d->zSyncClient->progress();
+            return true;
+        }
+
+        return false;
+    }
+
+    bool Updater::stop() {
+		std::unique_ptr<std::thread> thread;
+		{
+			std::lock_guard<std::mutex> guard(d->mutex);
+			if (!d->thread) return false;
+			d->stopRequested.store(true);
+			if (d->state == INITIALIZED || d->state == RUNNING) d->state = STOPPING;
+			if (d->thread->get_id() == std::this_thread::get_id()) {
+				d->thread->detach();
+				d->thread.reset();
+				return true;
+			}
+			thread = std::move(d->thread);
+		}
+		if (thread->joinable()) thread->join();
+		{
+			std::lock_guard<std::mutex> guard(d->mutex);
+			if (d->state == STOPPING) d->state = ERROR;
+		}
+		return true;
+    }
+
+    bool Updater::nextStatusMessage(std::string& message) {
+        // first, check own message queue
+        if (!d->statusMessages.empty()) {
+            message = d->statusMessages.front();
+            d->statusMessages.pop_front();
+            return true;
+        }
+
+        // next, check zsync client for a message
+        if (d->zSyncClient != nullptr) {
+            std::string zsyncMessage;
+            if (!d->zSyncClient->nextStatusMessage(zsyncMessage))
+                return false;
+            // show that the message is coming from zsync2
+            message = "zsync2: " + zsyncMessage;
+            return true;
+        }
+
+        return false;
+    }
+
+    Updater::State Updater::state() {
+        return d->state;
+    }
+
+    bool Updater::checkForChanges(bool &updateAvailable, const unsigned int method) {
+        return d->checkForChanges(updateAvailable, method);
+    }
+
+    bool Updater::describeAppImage(std::string& description) const {
+        std::ostringstream oss;
+        bool success = true;
+
+        try {
+            oss << "Parsing file: " << d->appImage.path() << std::endl;
+            oss << "AppImage type: " << d->appImage.appImageType() << std::endl;
+
+            const auto rawUpdateInformation = d->appImage.readRawUpdateInformation();
+
+            oss << "Raw update information: ";
+            if (rawUpdateInformation.empty())
+                oss << "<empty>";
+            else
+                oss << rawUpdateInformation;
+            oss << std::endl;
+
+            auto updateInformation = makeUpdateInformation(rawUpdateInformation);
+
+            oss << "Update information type: ";
+
+            if (updateInformation->type() == ZSYNC_GENERIC)
+                oss << "Generic ZSync URL";
+            else if (updateInformation->type() == ZSYNC_GITHUB_RELEASES)
+                oss << "ZSync via GitHub Releases";
+            else if (updateInformation->type() == ZSYNC_PLING_V1)
+                oss << "ZSync via OCS";
+            else
+                throw std::runtime_error("unsupported update information type");
+
+            oss << std::endl;
+
+            try {
+                auto url = updateInformation->buildUrl(d->makeIssueStatusMessageCallback());
+
+                oss << "Assembled ZSync URL: " << url << std::endl;
+
+            } catch (const UpdateInformationError& e) {
+                oss << "Failed to assemble ZSync URL. AppImageUpdate can not be used with this AppImage. "
+                << "See below for more information"
+                << std::endl
+                << e.what();
+            }
+        } catch (const UpdateInformationError& e) {
+            oss << e.what();
+            success = false;
+        }
+
+        description = oss.str();
+
+        return success;
+    }
+
+    bool Updater::pathToNewFile(std::string& path) const {
+        // only available update method is via ZSync
+        if (d->zSyncClient)
+            return d->zSyncClient->pathToNewFile(path);
+
+        return false;
+    }
+
+    bool Updater::remoteFileSize(off_t& fileSize) const {
+        // only available update method is via ZSync
+        if (d->zSyncClient != nullptr)
+            return d->zSyncClient->remoteFileSize(fileSize);
+
+        return false;
+    }
+
+    Updater::ValidationState Updater::validateSignature() {
+        std::string pathToNewAppImage;
+        if (!this->pathToNewFile(pathToNewAppImage)) {
+            // return generic error
+            return VALIDATION_FAILED;
+        }
+
+        UpdatableAppImage newAppImage(pathToNewAppImage);
+
+        auto pathToOldAppImage = abspath(d->appImage.path());
+        if (pathToOldAppImage == pathToNewAppImage) {
+            pathToOldAppImage = pathToNewAppImage + ".zs-old";
+        }
+
+        UpdatableAppImage oldAppImage(pathToOldAppImage);
+
+        if (oldAppImage.readSignature().empty() && newAppImage.readSignature().empty()) {
+            return VALIDATION_NOT_SIGNED;
+        } else if (!oldAppImage.readSignature().empty() && newAppImage.readSignature().empty()) {
+            return VALIDATION_NO_LONGER_SIGNED;
+        }
+
+        // we can re-use the same validation context to validate the signatures of both AppImages
+        SignatureValidator validator;
+
+        const auto oldAppImageValidationResult = validator.validate(oldAppImage);
+        d->issueStatusMessage("Old AppImage signature validation report:\n" + oldAppImageValidationResult.message());
+
+        if (oldAppImageValidationResult.type() == SignatureValidationResult::ResultType::ERROR) {
+            return VALIDATION_BAD_SIGNATURE;
+        }
+
+        const auto newAppImageValidationResult = validator.validate(newAppImage);
+        d->issueStatusMessage("New AppImage signature validation report:\n" + oldAppImageValidationResult.message());
+
+        if (newAppImageValidationResult.type() == SignatureValidationResult::ResultType::ERROR) {
+            return VALIDATION_BAD_SIGNATURE;
+        }
+
+        const auto& newFps = newAppImageValidationResult.keyFingerprints();
+
+        bool signedBySameKey = std::any_of(
+            newFps.begin(),
+            newFps.end(),
+            [&oldAppImageValidationResult](const std::string& newKey) {
+                const auto& oldFps = oldAppImageValidationResult.keyFingerprints();
+
+                return std::find(oldFps.begin(), oldFps.end(), newKey) != oldFps.end();
+            }
+        );
+
+        if (!signedBySameKey) {
+            return VALIDATION_KEY_CHANGED;
+        }
+
+        if (
+            oldAppImageValidationResult.type() == SignatureValidationResult::ResultType::WARNING ||
+            newAppImageValidationResult.type() == SignatureValidationResult::ResultType::WARNING
+        ) {
+            return VALIDATION_WARNING;
+        }
+
+        return VALIDATION_PASSED;
+    }
+
+    std::string Updater::signatureValidationMessage(const Updater::ValidationState& state) {
+        static const std::map<ValidationState, std::string> validationMessages = {
+            {VALIDATION_PASSED, "Signature validation successful"},
+
+            // warning states
+            {VALIDATION_WARNING, "Signature validation warning"},
+            {VALIDATION_NOT_SIGNED, "AppImage not signed"},
+
+            // error states
+            {VALIDATION_FAILED, "Signature validation failed"},
+            {VALIDATION_NO_LONGER_SIGNED, "AppImage no longer comes with signature"},
+            {VALIDATION_BAD_SIGNATURE, "Bad signature"},
+            {VALIDATION_KEY_CHANGED, "Key changed for signing AppImages"},
+        };
+
+        if (validationMessages.count(state) > 0) {
+            return validationMessages.at(state);
+        }
+
+        return "Unknown validation state";
+    }
+
+    void Updater::restoreOriginalFile() {
+        std::string newFilePath;
+
+        if (!pathToNewFile(newFilePath)) {
+            throw std::runtime_error("Failed to get path to new file");
+        }
+
+        // make sure to compare absolute, resolved paths
+        newFilePath = abspath(newFilePath);
+
+        const auto& oldFilePath = abspath(d->appImage.path());
+
+        // restore original file
+        std::remove(newFilePath.c_str());
+
+        if (oldFilePath == newFilePath) {
+            std::rename((newFilePath + ".zs-old").c_str(), newFilePath.c_str());
+        }
+    }
+
+    void Updater::copyPermissionsToNewFile() {
+        std::string oldFilePath = abspath(d->appImage.path());
+
+        std::string newFilePath;
+
+        if (!pathToNewFile(newFilePath)) {
+            throw std::runtime_error("Failed to get path to new file");
+        }
+
+        // make sure to compare absolute, resolved paths
+        newFilePath = abspath(newFilePath);
+
+        appimage::update::copyPermissions(oldFilePath, newFilePath);
+    }
+
+    std::string Updater::updateInformation() const {
+        return d->rawUpdateInformation;
+    }
+
+    void Updater::setUpdateInformation(std::string newUpdateInformation) {
+        d->rawUpdateInformation = std::move(newUpdateInformation);
+    }
+}

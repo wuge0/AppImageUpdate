@@ -1,1 +1,114 @@
-IyEgL2Jpbi9iYXNoCgpzZXQgLXgKc2V0IC1lCnNldCAtbyBwaXBlZmFpbAoKIyB1c2UgUkFNIGRpc2sgaWYgcG9zc2libGUKaWYgWyAiJENJIiA9PSAiIiBdICYmIFsgLWQgL2Rldi9zaG0gXTsgdGhlbgogICAgVEVNUF9CQVNFPS9kZXYvc2htCmVsc2UKICAgIFRFTVBfQkFTRT0vdG1wCmZpCgpCVUlMRF9ESVI9IiQobWt0ZW1wIC1kIC1wICIkVEVNUF9CQVNFIiBBcHBJbWFnZVVwZGF0ZS1idWlsZC1YWFhYWFgpIgoKY2xlYW51cCAoKSB7CiAgICBpZiBbIC1kICIkQlVJTERfRElSIiBdOyB0aGVuCiAgICAgICAgcm0gLXJmICIkQlVJTERfRElSIgogICAgZmkKfQoKdHJhcCBjbGVhbnVwIEVYSVQKCiMgc3RvcmUgcmVwbyByb290IGFzIHZhcmlhYmxlClJFUE9fUk9PVD0iJChyZWFkbGluayAtZiAiJChkaXJuYW1lICIkKGRpcm5hbWUgIiQwIikiKSIpIgpPTERfQ1dEPSIkKHJlYWRsaW5rIC1mIC4pIgoKcHVzaGQgIiRCVUlMRF9ESVIiCgpleHBvcnQgQVJDSD0ke0FSQ0g6LSIkKHVuYW1lIC1tKSJ9CgppZiBbICIkQVJDSCIgPT0gImkzODYiIF0gJiYgWyAiJERPQ0tFUiIgPT0gIiIgXTsgdGhlbgogICAgRVhUUkFfQ01BS0VfQVJHUz0oIi1EQ01BS0VfVE9PTENIQUlOX0ZJTEU9JFJFUE9fUk9PVC9jbWFrZS90b29sY2hhaW5zL2kzODYtbGludXgtZ251LmNtYWtlIikKZmkKCmNtYWtlICIkUkVQT19ST09UIiBcCiAgICAtREJVSUxEX1FUX1VJPU9OIFwKICAgIC1EQ01BS0VfSU5TVEFMTF9QUkVGSVg9L3VzciBcCiAgICAtRENNQUtFX0JVSUxEX1RZUEU9UmVsV2l0aERlYkluZm8gXAogICAgIiR7RVhUUkFfQ01BS0VfQVJHU1tAXX0iCgojIG5leHQgc3RlcCBpcyB0byBidWlsZCB0aGUgYmluYXJpZXMKbWFrZSAtaiIkKG5wcm9jKSIKCiMgc2V0IHVwIHRoZSBBcHBEaXJzIGluaXRpYWxseQpmb3IgYXBwZGlyIGluIHthcHBpbWFnZXVwZGF0ZXRvb2wsQXBwSW1hZ2VVcGRhdGUsdmFsaWRhdGV9LkFwcERpcjsgZG8KICAgIG1ha2UgaW5zdGFsbCBERVNURElSPSIkYXBwZGlyIgogICAgbWtkaXIgLXAgIiRhcHBkaXIiL3Jlc291cmNlcwogICAgY3AgLXYgIiRSRVBPX1JPT1QiL3Jlc291cmNlcy8qLnhwbSAiJGFwcGRpciIvcmVzb3VyY2VzLwpkb25lCgojIGRldGVybWluZSBHaXQgY29tbWl0IElECiMgYXBwaW1hZ2V0b29sIHVzZXMgdGhpcyBmb3IgbmFtaW5nIHRoZSBmaWxlClZFUlNJT049IiQoY2QgIiRSRVBPX1JPT1QiICYmIGdpdCByZXYtcGFyc2UgLS1zaG9ydCBIRUFEKSIKZXhwb3J0IFZFUlNJT04KCiMgcHJlcGVuZCBHaXRIdWIgcnVuIG51bWJlciBpZiBwb3NzaWJsZQppZiBbICIkR0lUSFVCX1JVTl9OVU1CRVIiICE9ICIiIF07IHRoZW4KICAgIGV4cG9ydCBWRVJTSU9OPSIkR0lUSFVCX1JVTl9OVU1CRVItJFZFUlNJT04iCmZpCgoKIyByZW1vdmUgdW5uZWNlc3NhcnkgYmluYXJpZXMgZnJvbSBBcHBEaXJzCnJtIEFwcEltYWdlVXBkYXRlLkFwcERpci91c3IvYmluL2FwcGltYWdldXBkYXRldG9vbApybSBBcHBJbWFnZVVwZGF0ZS5BcHBEaXIvdXNyL2Jpbi92YWxpZGF0ZQpybSBhcHBpbWFnZXVwZGF0ZXRvb2wuQXBwRGlyL3Vzci9iaW4vQXBwSW1hZ2VVcGRhdGUKcm0gYXBwaW1hZ2V1cGRhdGV0b29sLkFwcERpci91c3IvYmluL3ZhbGlkYXRlCnJtIGFwcGltYWdldXBkYXRldG9vbC5BcHBEaXIvdXNyL2xpYi8qL2xpYmFwcGltYWdldXBkYXRlLXF0Ki5zbyoKcm0gdmFsaWRhdGUuQXBwRGlyL3Vzci9iaW4ve0FwcEltYWdlVXBkYXRlLGFwcGltYWdldXBkYXRldG9vbH0Kcm0gdmFsaWRhdGUuQXBwRGlyL3Vzci9saWIvKi9saWJhcHBpbWFnZXVwZGF0ZSouc28qCgoKIyByZW1vdmUgb3RoZXIgdW5uZWNlc3NhcnkgZGF0YQpmaW5kIHthcHBpbWFnZXVwZGF0ZXRvb2wsQXBwSW1hZ2VVcGRhdGUsdmFsaWRhdGV9LkFwcERpciAtdHlwZSBmIC1pbmFtZSAnKi5hJyAtZGVsZXRlCnJtIC1yZiB7YXBwaW1hZ2V1cGRhdGV0b29sLEFwcEltYWdlVXBkYXRlfS5BcHBEaXIvdXNyL2luY2x1ZGUKCgojIGdldCBsaW51eGRlcGxveSBhbmQgaXRzIHF0IHBsdWdpbgp3Z2V0IGh0dHBzOi8vZ2l0aHViLmNvbS9UaGVBc3Nhc3Npbi9saW51eGRlcGxveS9yZWxlYXNlcy9kb3dubG9hZC9jb250aW51b3VzL2xpbnV4ZGVwbG95LSIkQ01BS0VfQVJDSCIuQXBwSW1hZ2UKd2dldCBodHRwczovL2dpdGh1Yi5jb20vVGhlQXNzYXNzaW4vbGludXhkZXBsb3ktcGx1Z2luLXF0L3JlbGVhc2VzL2Rvd25sb2FkL2NvbnRpbnVvdXMvbGludXhkZXBsb3ktcGx1Z2luLXF0LSIkQ01BS0VfQVJDSCIuQXBwSW1hZ2UKd2dldCBodHRwczovL2dpdGh1Yi5jb20vZGFyZWFsc2hpbmppL2xpbnV4ZGVwbG95LXBsdWdpbi1jaGVja3J0L3JlbGVhc2VzL2Rvd25sb2FkL2NvbnRpbnVvdXMvbGludXhkZXBsb3ktcGx1Z2luLWNoZWNrcnQuc2gKY2htb2QgK3ggbGludXhkZXBsb3kqLkFwcEltYWdlIGxpbnV4ZGVwbG95LXBsdWdpbi1jaGVja3J0LnNoCgpwYXRjaF9hcHBpbWFnZSgpIHsKICAgIHdoaWxlIFtbICIkMSIgIT0gIiIgXV07IGRvCiAgICAgICAgZGQgaWY9L2Rldi96ZXJvIG9mPSIkMSIgY29udj1ub3RydW5jIGJzPTEgY291bnQ9MyBzZWVrPTgKICAgICAgICBzaGlmdAogICAgZG9uZQp9CnBhdGNoX2FwcGltYWdlIGxpbnV4ZGVwbG95Ki5BcHBJbWFnZQoKZm9yIGFwcCBpbiBhcHBpbWFnZXVwZGF0ZXRvb2wgQXBwSW1hZ2VVcGRhdGUgdmFsaWRhdGU7IGRvCiAgICBmaW5kICIkYXBwIi5BcHBEaXIvCgogICAgZXhwb3J0IFVQRF9JTkZPPSJnaC1yZWxlYXNlcy16c3luY3xBcHBJbWFnZXxBcHBJbWFnZVVwZGF0ZXxjb250aW51b3VzfCRhcHAtKiRBUkNILkFwcEltYWdlLnpzeW5jIgoKICAgICMgbm90ZSB0aGF0IHdlIG5lZWQgdG8gb3ZlcndyaXRlIHRoaXMgaW4gZXZlcnkgaXRlcmF0aW9uLCBvdGhlcndpc2UgdGhlIHZhbHVlIHdpbGwgbGVhayBpbnRvIHRoZSBmb2xsb3dpbmcgaXRlcmF0aW9uc28KICAgIGV4dHJhX2ZsYWdzPSgpCiAgICBpZiBbICIkYXBwIiA9PSAiQXBwSW1hZ2VVcGRhdGUiIF07IHRoZW4KICAgICAgICBleHRyYV9mbGFncz0oIi0tcGx1Z2luIiAicXQiKTsKICAgIGZpCgogICAgIyBvdmVyd3JpdGUgQXBwSW1hZ2UgZmlsZW5hbWUgdG8gZ2V0IHN0YXRpYyBmaWxlbmFtZXMKICAgICMgc2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9BcHBJbWFnZS9BcHBJbWFnZVVwZGF0ZS9pc3N1ZXMvODkKICAgIGV4cG9ydCBPVVRQVVQ9IiRhcHAiLSIkQVJDSCIuQXBwSW1hZ2UKCiAgICAjIGJ1bmRsZSBhcHBsaWNhdGlvbgogICAgLi9saW51eGRlcGxveS0iJENNQUtFX0FSQ0giLkFwcEltYWdlIC0tYXBwZGlyICIkYXBwIi5BcHBEaXIgLS1vdXRwdXQgYXBwaW1hZ2UgIiR7ZXh0cmFfZmxhZ3NbQF19IiAtZCAiJFJFUE9fUk9PVCIvcmVzb3VyY2VzLyIkYXBwIi5kZXNrdG9wIC1pICIkUkVQT19ST09UIi9yZXNvdXJjZXMvYXBwaW1hZ2UucG5nIC0tcGx1Z2luIGNoZWNrcnQKZG9uZQoKIyBtb3ZlIEFwcEltYWdlcyB0byBvbGQgY3dkCm12IHthcHBpbWFnZXVwZGF0ZXRvb2wsQXBwSW1hZ2VVcGRhdGUsdmFsaWRhdGV9Ki5BcHBJbWFnZSogIiRPTERfQ1dEIi8KCnBvcGQK
+#! /bin/bash
+
+set -x
+set -e
+set -o pipefail
+
+# use RAM disk if possible
+if [ "$CI" == "" ] && [ -d /dev/shm ]; then
+    TEMP_BASE=/dev/shm
+else
+    TEMP_BASE=/tmp
+fi
+
+BUILD_DIR="$(mktemp -d -p "$TEMP_BASE" AppImageUpdate-build-XXXXXX)"
+
+cleanup () {
+    if [ -d "$BUILD_DIR" ]; then
+        rm -rf "$BUILD_DIR"
+    fi
+}
+
+trap cleanup EXIT
+
+# store repo root as variable
+REPO_ROOT="$(readlink -f "$(dirname "$(dirname "$0")")")"
+OLD_CWD="$(readlink -f .)"
+
+pushd "$BUILD_DIR"
+
+export ARCH=${ARCH:-"$(uname -m)"}
+
+if [ "$ARCH" == "i386" ] && [ "$DOCKER" == "" ]; then
+    EXTRA_CMAKE_ARGS=("-DCMAKE_TOOLCHAIN_FILE=$REPO_ROOT/cmake/toolchains/i386-linux-gnu.cmake")
+fi
+
+cmake "$REPO_ROOT" \
+    -DBUILD_QT_UI=ON \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    "${EXTRA_CMAKE_ARGS[@]}"
+
+# next step is to build the binaries
+make -j"$(nproc)"
+
+# set up the AppDirs initially
+for appdir in {appimageupdatetool,AppImageUpdate,validate}.AppDir; do
+    make install DESTDIR="$appdir"
+    mkdir -p "$appdir"/resources
+    cp -v "$REPO_ROOT"/resources/*.xpm "$appdir"/resources/
+done
+
+# determine Git commit ID
+# appimagetool uses this for naming the file
+VERSION="$(cd "$REPO_ROOT" && git rev-parse --short HEAD)"
+export VERSION
+
+# prepend GitHub run number if possible
+if [ "$GITHUB_RUN_NUMBER" != "" ]; then
+    export VERSION="$GITHUB_RUN_NUMBER-$VERSION"
+fi
+
+
+# remove unnecessary binaries from AppDirs
+rm AppImageUpdate.AppDir/usr/bin/appimageupdatetool
+rm AppImageUpdate.AppDir/usr/bin/validate
+rm appimageupdatetool.AppDir/usr/bin/AppImageUpdate
+rm appimageupdatetool.AppDir/usr/bin/validate
+rm appimageupdatetool.AppDir/usr/lib/*/libappimageupdate-qt*.so*
+rm validate.AppDir/usr/bin/{AppImageUpdate,appimageupdatetool}
+rm validate.AppDir/usr/lib/*/libappimageupdate*.so*
+
+
+# remove other unnecessary data
+find {appimageupdatetool,AppImageUpdate,validate}.AppDir -type f -iname '*.a' -delete
+rm -rf {appimageupdatetool,AppImageUpdate}.AppDir/usr/include
+
+
+# get linuxdeploy and its qt plugin
+wget https://github.com/TheAssassin/linuxdeploy/releases/download/continuous/linuxdeploy-"$CMAKE_ARCH".AppImage
+wget https://github.com/TheAssassin/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-"$CMAKE_ARCH".AppImage
+wget https://github.com/darealshinji/linuxdeploy-plugin-checkrt/releases/download/continuous/linuxdeploy-plugin-checkrt.sh
+chmod +x linuxdeploy*.AppImage linuxdeploy-plugin-checkrt.sh
+
+patch_appimage() {
+    while [[ "$1" != "" ]]; do
+        dd if=/dev/zero of="$1" conv=notrunc bs=1 count=3 seek=8
+        shift
+    done
+}
+patch_appimage linuxdeploy*.AppImage
+
+for app in appimageupdatetool AppImageUpdate validate; do
+    find "$app".AppDir/
+
+    export UPD_INFO="gh-releases-zsync|AppImage|AppImageUpdate|continuous|$app-*$ARCH.AppImage.zsync"
+
+    # note that we need to overwrite this in every iteration, otherwise the value will leak into the following iterationso
+    extra_flags=()
+    if [ "$app" == "AppImageUpdate" ]; then
+        extra_flags=("--plugin" "qt");
+    fi
+
+    # overwrite AppImage filename to get static filenames
+    # see https://github.com/AppImage/AppImageUpdate/issues/89
+    export OUTPUT="$app"-"$ARCH".AppImage
+
+    # bundle application
+    ./linuxdeploy-"$CMAKE_ARCH".AppImage --appdir "$app".AppDir --output appimage "${extra_flags[@]}" -d "$REPO_ROOT"/resources/"$app".desktop -i "$REPO_ROOT"/resources/appimage.png --plugin checkrt
+done
+
+# move AppImages to old cwd
+mv {appimageupdatetool,AppImageUpdate,validate}*.AppImage* "$OLD_CWD"/
+
+popd

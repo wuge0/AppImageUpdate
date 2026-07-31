@@ -1,1 +1,87 @@
-I2luY2x1ZGUgIkdpdGh1YlJlbGVhc2VzWnN5bmNVcGRhdGVJbmZvcm1hdGlvbi5oIgoKbmFtZXNwYWNlIGFwcGltYWdlOjp1cGRhdGU6OnVwZGF0ZWluZm9ybWF0aW9uIHsKCiAgICBHaXRodWJSZWxlYXNlc1VwZGF0ZUluZm9ybWF0aW9uOjpHaXRodWJSZWxlYXNlc1VwZGF0ZUluZm9ybWF0aW9uKAogICAgICAgIGNvbnN0IHN0ZDo6dmVjdG9yPHN0ZDo6c3RyaW5nPiYgdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzKSA6CiAgICAgICAgQWJzdHJhY3RVcGRhdGVJbmZvcm1hdGlvbih1cGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHMsIFpTWU5DX0dJVEhVQl9SRUxFQVNFUykKICAgIHsKICAgICAgICAvLyB2YWxpZGF0aW9uCiAgICAgICAgYXNzZXJ0UGFyYW1ldGVyQ291bnQoX3VwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50cywgNSk7CiAgICB9CgogICAgc3RkOjpzdHJpbmcgR2l0aHViUmVsZWFzZXNVcGRhdGVJbmZvcm1hdGlvbjo6YnVpbGRVcmwoY29uc3QgU3RhdHVzTWVzc2FnZUNhbGxiYWNrJiBpc3N1ZVN0YXR1c01lc3NhZ2UpIGNvbnN0IHsKICAgICAgICBhdXRvIHVzZXJuYW1lID0gX3VwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50c1sxXTsKICAgICAgICBhdXRvIHJlcG9zaXRvcnkgPSBfdXBkYXRlSW5mb3JtYXRpb25Db21wb25lbnRzWzJdOwogICAgICAgIGF1dG8gdGFnID0gX3VwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50c1szXTsKICAgICAgICBhdXRvIGZpbGVuYW1lID0gX3VwZGF0ZUluZm9ybWF0aW9uQ29tcG9uZW50c1s0XTsKCiAgICAgICAgc3RkOjpzdHJpbmdzdHJlYW0gdXJsOwogICAgICAgIHVybCA8PCAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy8iIDw8IHVzZXJuYW1lIDw8ICIvIiA8PCByZXBvc2l0b3J5IDw8ICIvcmVsZWFzZXMvIjsKCiAgICAgICAgaWYgKHRhZy5maW5kKCJsYXRlc3QiKSAhPSBzdGQ6OnN0cmluZzo6bnBvcykgewogICAgICAgICAgICBpc3N1ZVN0YXR1c01lc3NhZ2UoIkZldGNoaW5nIGxhdGVzdCByZWxlYXNlIGluZm9ybWF0aW9uIGZyb20gR2l0SHViIEFQSSIpOwogICAgICAgICAgICB1cmwgPDwgImxhdGVzdCI7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIG9zczsKICAgICAgICAgICAgb3NzIDw8ICJGZXRjaGluZyByZWxlYXNlIGluZm9ybWF0aW9uIGZvciB0YWcgXCIiIDw8IHRhZyA8PCAiXCIgZnJvbSBHaXRIdWIgQVBJLiI7CiAgICAgICAgICAgIGlzc3VlU3RhdHVzTWVzc2FnZShvc3Muc3RyKCkpOwogICAgICAgICAgICB1cmwgPDwgInRhZ3MvIiA8PCB0YWc7CiAgICAgICAgfQoKICAgICAgICBhdXRvIHJlc3BvbnNlID0gY3ByOjpHZXQoY3ByOjpVcmx7dXJsLnN0cigpfSk7CgogICAgICAgIG5sb2htYW5uOjpqc29uIGpzb247CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGpzb24gPSBubG9obWFubjo6anNvbjo6cGFyc2UocmVzcG9uc2UudGV4dCk7CiAgICAgICAgfSBjYXRjaCAoY29uc3Qgc3RkOjpleGNlcHRpb24mIGUpIHsKICAgICAgICAgICAgdGhyb3cgVXBkYXRlSW5mb3JtYXRpb25FcnJvcihzdGQ6OnN0cmluZygiRmFpbGVkIHRvIHBhcnNlIEdpdEh1YiByZXNwb25zZTogIikgKyBlLndoYXQoKSk7CiAgICAgICAgfQogICAgICAgIC8vIGNvbnRpbnVlIG9ubHkgaWYgcmVxdWVzdCB3b3JrZWQKICAgICAgICBpZiAocmVzcG9uc2UuZXJyb3IuY29kZSAhPSBjcHI6OkVycm9yQ29kZTo6T0sgfHwgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPCAyMDAgfHwgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPj0gMzAwKSB7CiAgICAgICAgICAgIHN0ZDo6b3N0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgICAgIG9zcyA8PCAiR2l0SHViIEFQSSByZXF1ZXN0IGZhaWxlZDogSFRUUCBzdGF0dXMgIiA8PCBzdGQ6OnRvX3N0cmluZyhyZXNwb25zZS5zdGF0dXNfY29kZSkKICAgICAgICAgICAgICAgIDw8ICIsIENVUkwgZXJyb3I6ICIgPDwgcmVzcG9uc2UuZXJyb3IubWVzc2FnZTsKICAgICAgICAgICAgdGhyb3cgVXBkYXRlSW5mb3JtYXRpb25FcnJvcihvc3Muc3RyKCkpOwogICAgICAgIH0KCiAgICAgICAgLy8gbm90IGlkZWFsLCBidXQgYWxsb3dzIGZvciByZXR1cm5pbmcgYSBtYXRjaCBmb3IgdGhlIGVudGlyZSBsaW5lCiAgICAgICAgYXV0byBwYXR0ZXJuID0gIioiICsgZmlsZW5hbWU7CgogICAgICAgIGNvbnN0IGF1dG8mIGFzc2V0cyA9IGpzb25bImFzc2V0cyJdOwoKICAgICAgICBpZiAoYXNzZXRzLmVtcHR5KCkpIHsKICAgICAgICAgICAgc3RkOjpvc3RyaW5nc3RyZWFtIG9zczsKICAgICAgICAgICAgb3NzIDw8ICJDb3VsZCBub3QgZmluZCBhbnkgYXJ0aWZhY3RzIGluIHJlbGVhc2UgZGF0YS4gIgogICAgICAgICAgICAgICAgPDwgIlBsZWFzZSBjb250YWN0IHRoZSBhdXRob3Igb2YgdGhlIEFwcEltYWdlIGFuZCB0ZWxsIHRoZW0gdGhlIGZpbGVzIGFyZSBtaXNzaW5nICIKICAgICAgICAgICAgICAgIDw8ICAib24gdGhlIHJlbGVhc2VzIHBhZ2UuIjsKICAgICAgICAgICAgdGhyb3cgVXBkYXRlSW5mb3JtYXRpb25FcnJvcihvc3Muc3RyKCkpOwogICAgICAgIH0KCiAgICAgICAgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+IG1hdGNoaW5nVXJsczsKCiAgICAgICAgZm9yIChjb25zdCBhdXRvJiBhc3NldCA6IGFzc2V0cykgewogICAgICAgICAgICBjb25zdCBhdXRvIGJyb3dzZXJEb3dubG9hZFVybCA9IGFzc2V0WyJicm93c2VyX2Rvd25sb2FkX3VybCJdLmdldDxzdGQ6OnN0cmluZz4oKTsKCiAgICAgICAgICAgIGlmIChmbm1hdGNoKHBhdHRlcm4uY19zdHIoKSwgYnJvd3NlckRvd25sb2FkVXJsLmNfc3RyKCksIDApID09IDApIHsKICAgICAgICAgICAgICAgIG1hdGNoaW5nVXJscy5lbXBsYWNlX2JhY2soYnJvd3NlckRvd25sb2FkVXJsKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKG1hdGNoaW5nVXJscy5lbXB0eSgpKSB7CiAgICAgICAgICAgIHN0ZDo6b3N0cmluZ3N0cmVhbSBvc3M7CiAgICAgICAgICAgIG9zcyA8PCAiTm9uZSBvZiB0aGUgYXJ0aWZhY3RzIG1hdGNoZWQgdGhlIHBhdHRlcm4gaW4gdGhlIHVwZGF0ZSBpbmZvcm1hdGlvbi4gIgogICAgICAgICAgICAgICAgPDwgIlRoZSBwYXR0ZXJuIGlzIG1vc3QgbGlrZWx5IGludmFsaWQsIGUuZy4sIGR1ZSB0byBjaGFuZ2VzIGluIHRoZSBmaWxlbmFtZXMgb2YgIgogICAgICAgICAgICAgICAgPDwgInRoZSBBcHBJbWFnZXMuIFBsZWFzZSBjb250YWN0IHRoZSBhdXRob3Igb2YgdGhlIEFwcEltYWdlIGFuZCBhc2sgdGhlbSB0byAiCiAgICAgICAgICAgICAgICA8PCAicmV2aXNlIHRoZSB1cGRhdGUgaW5mb3JtYXRpb24uIjsKICAgICAgICAgICAgdGhyb3cgVXBkYXRlSW5mb3JtYXRpb25FcnJvcihvc3Muc3RyKCkpOwogICAgICAgIH0KCiAgICAgICAgLy8gdGhpcyBfc2hvdWxkXyBlbnN1cmUgdGhlIGZpcnN0IGVudHJ5IGluIHRoZSB2ZWN0b3IgaXMgdGhlIGxhdGVzdCByZWxlYXNlIGluIGNhc2UgdGhlcmUgaXMgbW9yZSB0aGFuIG9uZSkKICAgICAgICAvLyAodGhpcyBvZiBjb3Vyc2UgZGVwZW5kcyBvbiB0aGUgc3RhYmlsaXR5IG9mIHRoZSBuYW1pbmcgcGF0dGVybiB1c2VkIGJ5IHRoZSBBcHBJbWFnZSB2ZW5kb3JzKQogICAgICAgIHN0ZDo6c29ydChtYXRjaGluZ1VybHMuYmVnaW4oKSwgbWF0Y2hpbmdVcmxzLmVuZCgpLCBzdGQ6OmdyZWF0ZXI8PigpKTsKCiAgICAgICAgcmV0dXJuIG1hdGNoaW5nVXJsc1swXTsKICAgIH0KfQo=
+#include "GithubReleasesZsyncUpdateInformation.h"
+
+namespace appimage::update::updateinformation {
+
+    GithubReleasesUpdateInformation::GithubReleasesUpdateInformation(
+        const std::vector<std::string>& updateInformationComponents) :
+        AbstractUpdateInformation(updateInformationComponents, ZSYNC_GITHUB_RELEASES)
+    {
+        // validation
+        assertParameterCount(_updateInformationComponents, 5);
+    }
+
+    std::string GithubReleasesUpdateInformation::buildUrl(const StatusMessageCallback& issueStatusMessage) const {
+        auto username = _updateInformationComponents[1];
+        auto repository = _updateInformationComponents[2];
+        auto tag = _updateInformationComponents[3];
+        auto filename = _updateInformationComponents[4];
+
+        std::stringstream url;
+        url << "https://api.github.com/repos/" << username << "/" << repository << "/releases/";
+
+        if (tag.find("latest") != std::string::npos) {
+            issueStatusMessage("Fetching latest release information from GitHub API");
+            url << "latest";
+        } else {
+            std::ostringstream oss;
+            oss << "Fetching release information for tag \"" << tag << "\" from GitHub API.";
+            issueStatusMessage(oss.str());
+            url << "tags/" << tag;
+        }
+
+        auto response = cpr::Get(cpr::Url{url.str()});
+
+        nlohmann::json json;
+
+        try {
+            json = nlohmann::json::parse(response.text);
+        } catch (const std::exception& e) {
+            throw UpdateInformationError(std::string("Failed to parse GitHub response: ") + e.what());
+        }
+        // continue only if request worked
+        if (response.error.code != cpr::ErrorCode::OK || response.status_code < 200 || response.status_code >= 300) {
+            std::ostringstream oss;
+            oss << "GitHub API request failed: HTTP status " << std::to_string(response.status_code)
+                << ", CURL error: " << response.error.message;
+            throw UpdateInformationError(oss.str());
+        }
+
+        // not ideal, but allows for returning a match for the entire line
+        auto pattern = "*" + filename;
+
+        const auto& assets = json["assets"];
+
+        if (assets.empty()) {
+            std::ostringstream oss;
+            oss << "Could not find any artifacts in release data. "
+                << "Please contact the author of the AppImage and tell them the files are missing "
+                <<  "on the releases page.";
+            throw UpdateInformationError(oss.str());
+        }
+
+        std::vector<std::string> matchingUrls;
+
+        for (const auto& asset : assets) {
+            const auto browserDownloadUrl = asset["browser_download_url"].get<std::string>();
+
+            if (fnmatch(pattern.c_str(), browserDownloadUrl.c_str(), 0) == 0) {
+                matchingUrls.emplace_back(browserDownloadUrl);
+            }
+        }
+
+        if (matchingUrls.empty()) {
+            std::ostringstream oss;
+            oss << "None of the artifacts matched the pattern in the update information. "
+                << "The pattern is most likely invalid, e.g., due to changes in the filenames of "
+                << "the AppImages. Please contact the author of the AppImage and ask them to "
+                << "revise the update information.";
+            throw UpdateInformationError(oss.str());
+        }
+
+        // this _should_ ensure the first entry in the vector is the latest release in case there is more than one)
+        // (this of course depends on the stability of the naming pattern used by the AppImage vendors)
+        std::sort(matchingUrls.begin(), matchingUrls.end(), std::greater<>());
+
+        return matchingUrls[0];
+    }
+}

@@ -1,1 +1,40 @@
-IyBtYWtlIHN1cmUgQ01ha2Ugd29uJ3QgZXhwb3J0IHRoaXMgcGFja2FnZSBieSBkZWZhdWx0ICh2YWxpZCBmcm9tIDMuMTUgb253YXJkcykKY21ha2VfbWluaW11bV9yZXF1aXJlZChWRVJTSU9OIDMuMTUpCnNldChDTVAwMDkwIE5FVykKCiMgYWxsb3cgaW1wb3J0IGZyb20gY3VycmVudCBidWlsZCB0cmVlCmV4cG9ydCgKICAgIFRBUkdFVFMgbGliYXBwaW1hZ2V1cGRhdGUKICAgIE5BTUVTUEFDRSBBcHBJbWFnZVVwZGF0ZTo6CiAgICBGSUxFICR7UFJPSkVDVF9CSU5BUllfRElSfS9jbWFrZS9BcHBJbWFnZVVwZGF0ZVRhcmdldHMuY21ha2UKKQoKIyBhbGxvdyBpbXBvcnQgZnJvbSBpbnN0YWxsIHRyZWUKIyBub3RlIHRoYXQgdGhlIHRhcmdldHMgbXVzdCBiZSBpbnN0YWxsKC4uLiBFWFBPUlQgenN5bmMpIGluIG9yZGVyIGZvciB0aGlzIHRvIHdvcmsgKGNvbnNpZGVyIGxpYmFwcGltYWdldXBkYXRlIGEgbmFtZXNwYWNlKQppbnN0YWxsKAogICAgRVhQT1JUIEFwcEltYWdlVXBkYXRlVGFyZ2V0cwogICAgREVTVElOQVRJT04gbGliL2NtYWtlL0FwcEltYWdlVXBkYXRlCikKCmluY2x1ZGUoQ01ha2VQYWNrYWdlQ29uZmlnSGVscGVycykKIyBnZW5lcmF0ZSB0aGUgY29uZmlnIGZpbGUgdGhhdCBpcyBpbmNsdWRlcyB0aGUgZXhwb3J0cwpjb25maWd1cmVfcGFja2FnZV9jb25maWdfZmlsZSgKICAgICIke0NNQUtFX0NVUlJFTlRfTElTVF9ESVJ9L0FwcEltYWdlVXBkYXRlQ29uZmlnLmNtYWtlLmluIgogICAgIiR7UFJPSkVDVF9CSU5BUllfRElSfS9jbWFrZS9BcHBJbWFnZVVwZGF0ZUNvbmZpZy5jbWFrZSIKICAgIElOU1RBTExfREVTVElOQVRJT04gImxpYi9jbWFrZS9BcHBJbWFnZVVwZGF0ZSIKICAgIE5PX1NFVF9BTkRfQ0hFQ0tfTUFDUk8KICAgIE5PX0NIRUNLX1JFUVVJUkVEX0NPTVBPTkVOVFNfTUFDUk8KKQoKd3JpdGVfYmFzaWNfcGFja2FnZV92ZXJzaW9uX2ZpbGUoCiAgICAiJHtQUk9KRUNUX0JJTkFSWV9ESVJ9L2NtYWtlL0FwcEltYWdlVXBkYXRlQ29uZmlnVmVyc2lvbi5jbWFrZSIKICAgIFZFUlNJT04gIiR7VkVSU0lPTn0iCiAgICBDT01QQVRJQklMSVRZIEFueU5ld2VyVmVyc2lvbgopCgppbnN0YWxsKAogICAgRklMRVMKICAgICIke1BST0pFQ1RfQklOQVJZX0RJUn0vY21ha2UvQXBwSW1hZ2VVcGRhdGVDb25maWcuY21ha2UiCiAgICAiJHtQUk9KRUNUX0JJTkFSWV9ESVJ9L2NtYWtlL0FwcEltYWdlVXBkYXRlQ29uZmlnVmVyc2lvbi5jbWFrZSIKICAgIERFU1RJTkFUSU9OIGxpYi9jbWFrZS9BcHBJbWFnZVVwZGF0ZQopCg==
+# make sure CMake won't export this package by default (valid from 3.15 onwards)
+cmake_minimum_required(VERSION 3.15)
+set(CMP0090 NEW)
+
+# allow import from current build tree
+export(
+    TARGETS libappimageupdate
+    NAMESPACE AppImageUpdate::
+    FILE ${PROJECT_BINARY_DIR}/cmake/AppImageUpdateTargets.cmake
+)
+
+# allow import from install tree
+# note that the targets must be install(... EXPORT zsync) in order for this to work (consider libappimageupdate a namespace)
+install(
+    EXPORT AppImageUpdateTargets
+    DESTINATION lib/cmake/AppImageUpdate
+)
+
+include(CMakePackageConfigHelpers)
+# generate the config file that is includes the exports
+configure_package_config_file(
+    "${CMAKE_CURRENT_LIST_DIR}/AppImageUpdateConfig.cmake.in"
+    "${PROJECT_BINARY_DIR}/cmake/AppImageUpdateConfig.cmake"
+    INSTALL_DESTINATION "lib/cmake/AppImageUpdate"
+    NO_SET_AND_CHECK_MACRO
+    NO_CHECK_REQUIRED_COMPONENTS_MACRO
+)
+
+write_basic_package_version_file(
+    "${PROJECT_BINARY_DIR}/cmake/AppImageUpdateConfigVersion.cmake"
+    VERSION "${VERSION}"
+    COMPATIBILITY AnyNewerVersion
+)
+
+install(
+    FILES
+    "${PROJECT_BINARY_DIR}/cmake/AppImageUpdateConfig.cmake"
+    "${PROJECT_BINARY_DIR}/cmake/AppImageUpdateConfigVersion.cmake"
+    DESTINATION lib/cmake/AppImageUpdate
+)

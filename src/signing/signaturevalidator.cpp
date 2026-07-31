@@ -1,1 +1,348 @@
-Ly8gc3lzdGVtIGhlYWRlcnMKI2luY2x1ZGUgPGNhc3NlcnQ+CiNpbmNsdWRlIDxjc3RyaW5nPgojaW5jbHVkZSA8ZmlsZXN5c3RlbT4KI2luY2x1ZGUgPGlvc3RyZWFtPgojaW5jbHVkZSA8bWVtb3J5PgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8dmVjdG9yPgojaW5jbHVkZSA8c3N0cmVhbT4KCi8vIGxpYnJhcnkgaGVhZGVycwojaW5jbHVkZSA8Z3BnbWUuaD4KCi8vIGxvY2FsIGhlYWRlcnMKI2luY2x1ZGUgInNpZ25hdHVyZXZhbGlkYXRvci5oIgojaW5jbHVkZSAidXRpbC91dGlsLmgiCgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZTo6c2lnbmluZyB7CiAgICB1c2luZyBuYW1lc3BhY2UgdXRpbDsKCiAgICBjbGFzcyBHcGdtZUluTWVtb3J5RGF0YSB7CiAgICBwcml2YXRlOgogICAgICAgIGdwZ21lX2RhdGFfdCBfZGggPSBudWxscHRyOwoKICAgIHB1YmxpYzoKICAgICAgICBleHBsaWNpdCBHcGdtZUluTWVtb3J5RGF0YShjb25zdCBzdGQ6OnN0cmluZyYgYnVmZmVyKSB7CiAgICAgICAgICAgIGNvbnN0IGF1dG8gZXJyb3IgPSBncGdtZV9kYXRhX25ld19mcm9tX21lbSgmX2RoLCBidWZmZXIuY19zdHIoKSwgYnVmZmVyLnNpemUoKSwgdHJ1ZSk7CiAgICAgICAgICAgIGlmIChlcnJvciAhPSBHUEdfRVJSX05PX0VSUk9SKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBHcGdFcnJvcihlcnJvciwgImZhaWxlZCB0byBpbml0aWFsaXplIGluLW1lbW9yeSBkYXRhIGZvciBncGdtZSIpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB+R3BnbWVJbk1lbW9yeURhdGEoKSBub2V4Y2VwdCB7CiAgICAgICAgICAgIGdwZ21lX2RhdGFfcmVsZWFzZShfZGgpOwogICAgICAgIH0KCiAgICAgICAgW1tub2Rpc2NhcmRdXSBhdXRvIGdldCgpIGNvbnN0IHsKICAgICAgICAgICAgcmV0dXJuIF9kaDsKICAgICAgICB9CiAgICB9OwoKICAgIGNsYXNzIEdwZ21lQ29udGV4dCB7CiAgICBwcml2YXRlOgogICAgICAgIGdwZ21lX2N0eF90IF9jdHggPSBudWxscHRyOwoKICAgICAgICBzdGF0aWMgdm9pZCBncGdtZVRocm93SWZOZWNlc3NhcnkoZ3BnX2Vycl9jb2RlX3QgZXJyb3IsIGNvbnN0IHN0ZDo6c3RyaW5nJiBtZXNzYWdlKSB7CiAgICAgICAgICAgIGlmIChlcnJvciAhPSBHUEdfRVJSX05PX0VSUk9SKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBHcGdFcnJvcihlcnJvciwgbWVzc2FnZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHN0YXRpYyB2b2lkIGdwZ21lVGhyb3dJZk5lY2Vzc2FyeShncGdtZV9lcnJvcl90IGVycm9yLCBjb25zdCBzdGQ6OnN0cmluZyYgbWVzc2FnZSkgewogICAgICAgICAgICByZXR1cm4gZ3BnbWVUaHJvd0lmTmVjZXNzYXJ5KGdwZ21lX2Vycl9jb2RlKGVycm9yKSwgbWVzc2FnZSk7CiAgICAgICAgfQoKICAgIHB1YmxpYzoKICAgICAgICBleHBsaWNpdCBHcGdtZUNvbnRleHQoY29uc3Qgc3RkOjpzdHJpbmcmIGdudXBnSG9tZSkgewogICAgICAgICAgICBzdGF0aWMgY29uc3QgY2hhciBncGdtZV9taW5pbXVtX3JlcXVpcmVkX3ZlcnNpb25bXSA9ICIxLjEwLjAiOwogICAgICAgICAgICBjb25zdCBjaGFyKiBncGdtZV92ZXJzaW9uID0gZ3BnbWVfY2hlY2tfdmVyc2lvbihncGdtZV9taW5pbXVtX3JlcXVpcmVkX3ZlcnNpb24pOwoKICAgICAgICAgICAgaWYgKGdwZ21lX3ZlcnNpb24gPT0gbnVsbHB0cikgewogICAgICAgICAgICAgICAgc3RkOjpzdHJpbmdzdHJlYW0gZXJyb3I7CiAgICAgICAgICAgICAgICBlcnJvciA8PCAiY291bGQgbm90IGluaXRpYWxpemUgZ3BnbWUgKD49ICIgPDwgZ3BnbWVfbWluaW11bV9yZXF1aXJlZF92ZXJzaW9uIDw8ICIpIjsKICAgICAgICAgICAgICAgIHRocm93IEdwZ0Vycm9yKEdQR19FUlJfTk9fRVJST1IsIGVycm9yLnN0cigpKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ3BnbWVUaHJvd0lmTmVjZXNzYXJ5KGdwZ21lX25ldygmX2N0eCksICJmYWlsZWQgdG8gaW5pdGlhbGl6ZSBncGdtZSBjb250ZXh0Iik7CiAgICAgICAgICAgIGFzc2VydChfY3R4ICE9IG51bGxwdHIpOwoKICAgICAgICAgICAgZ3BnbWVUaHJvd0lmTmVjZXNzYXJ5KGdwZ21lX3NldF9jdHhfZmxhZyhfY3R4LCAiZnVsbC1zdGF0dXMiLCAiMSIpLCAiZmFpbGVkIHRvIGluaXRpYWxpemUgZ3BnbWUgY29udGV4dCIpOwogICAgICAgICAgICBncGdtZVRocm93SWZOZWNlc3NhcnkoZ3BnbWVfc2V0X3Byb3RvY29sKF9jdHgsIEdQR01FX1BST1RPQ09MX09wZW5QR1ApLCAiZmFpbGVkIHRvIHNldCBPcGVuUEdQIHByb3RvY29sIik7CgogICAgICAgICAgICBhdXRvIGVuZ2luZV9pbmZvID0gZ3BnbWVfY3R4X2dldF9lbmdpbmVfaW5mbyhfY3R4KTsKCiAgICAgICAgICAgIHdoaWxlIChlbmdpbmVfaW5mbyAmJiBlbmdpbmVfaW5mby0+cHJvdG9jb2wgIT0gZ3BnbWVfZ2V0X3Byb3RvY29sKF9jdHgpKSB7CiAgICAgICAgICAgICAgICBlbmdpbmVfaW5mbyA9IGVuZ2luZV9pbmZvLT5uZXh0OwogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBleHBlcmllbmNlIHdpdGhpbiBBcHBJbWFnZUtpdCBzaG93cyB0aGF0IGdudXBnIHZlcnNpb25zIDw9IDIuMiBhcmUgbGlrZWx5IHRvIGNhdXNlIGlzc3VlcwogICAgICAgICAgICAvLyB0aGVyZWZvcmUsIHdlIHdhcm4gdXNlcnMgaWYgYW4gaW5jb21wYXRpYmxlIHZlcnNpb24gd2FzIGZvdW5kCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGNvbnN0IHN0ZDo6c3RyaW5nIGZvcm1hdCA9ICIlbHUuJWx1IjsKICAgICAgICAgICAgICAgIHVuc2lnbmVkIGxvbmcgbWFqb3JWZXJzaW9uLCBtaW5vclZlcnNpb247CgogICAgICAgICAgICAgICAgaWYgKHNzY2FuZihlbmdpbmVfaW5mby0+dmVyc2lvbiwgZm9ybWF0LmNfc3RyKCksICZtYWpvclZlcnNpb24sICZtaW5vclZlcnNpb24pIDwgMikgewogICAgICAgICAgICAgICAgICAgIHRocm93IEdwZ0Vycm9yKEdQR19FUlJfTk9fRVJST1IsICJmYWlsZWQgdG8gcGFyc2UgZW5naW5lIHZlcnNpb24gbnVtYmVyIik7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKG1ham9yVmVyc2lvbiAhPSAyIHx8IG1pbm9yVmVyc2lvbiA8IDIpIHsKICAgICAgICAgICAgICAgICAgICAvLyBUT0RPOiB1c2UgcmVndWxhciBsb2dnaW5nIHN5c3RlbQogICAgICAgICAgICAgICAgICAgIHN0ZDo6Y2VyciA8PCAiZ3BnIGVuZ2luZSB2ZXJzaW9uICIgPDwgZW5naW5lX2luZm8tPnZlcnNpb24gPDwgIiBpcyBsaWtlbHkgaW5jb21wYXRpYmxlLCAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw8ICJjb25zaWRlciB1c2luZyB2ZXJzaW9uID49IDIuMiIgPDwgc3RkOjplbmRsOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIWdudXBnSG9tZS5lbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAvLyB3ZSByZXVzZSB0aGUgZXhpc3RpbmcgZW5naW5lIGNvbmZpZ3VyYXRpb24sIGJ1dCB1c2UgYSBjdXN0b20gaG9tZSBkaXIKICAgICAgICAgICAgICAgIGdwZ21lVGhyb3dJZk5lY2Vzc2FyeSgKICAgICAgICAgICAgICAgICAgICBncGdtZV9jdHhfc2V0X2VuZ2luZV9pbmZvKF9jdHgsIGVuZ2luZV9pbmZvLT5wcm90b2NvbCwgZW5naW5lX2luZm8tPmZpbGVfbmFtZSwgZ251cGdIb21lLmNfc3RyKCkpLAogICAgICAgICAgICAgICAgICAgICJmYWlsZWQgdG8gc2V0IGVuZ2luZSBpbmZvIgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdm9pZCBpbXBvcnRLZXkoY29uc3Qgc3RkOjpzdHJpbmcmIGtleSkgewogICAgICAgICAgICBHcGdtZUluTWVtb3J5RGF0YSBkYXRhKGtleSk7CgogICAgICAgICAgICBncGdtZVRocm93SWZOZWNlc3NhcnkoZ3BnbWVfb3BfaW1wb3J0KF9jdHgsIGRhdGEuZ2V0KCkpLCAiZmFpbGVkIHRvIGltcG9ydCBrZXkiKTsKCiAgICAgICAgICAgIGF1dG8gcmVzdWx0ID0gZ3BnbWVfb3BfaW1wb3J0X3Jlc3VsdChfY3R4KTsKCiAgICAgICAgICAgIC8vIHNvbWUgImFzc2VydGlvbnMiIHRvIG1ha2Ugc3VyZSBpbXBvcnRpbmcgd29ya2VkCiAgICAgICAgICAgIGlmIChyZXN1bHQtPm5vdF9pbXBvcnRlZCA+IDApIHsKICAgICAgICAgICAgICAgIHN0ZDo6c3RyaW5nc3RyZWFtIGVycm9yTWVzc2FnZTsKICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA8PCByZXN1bHQtPm5vdF9pbXBvcnRlZCA8PCAiIGtleXMgY291bGQgbm90IGJlIGltcG9ydGVkIjsKICAgICAgICAgICAgICAgIHRocm93IEdwZ0Vycm9yKEdQR19FUlJfTk9fRVJST1IsIGVycm9yTWVzc2FnZS5zdHIoKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHJlc3VsdC0+aW1wb3J0ZWQgPCAwKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBHcGdFcnJvcihHUEdfRVJSX05PX0VSUk9SLCAicmVzdWx0IGltcGxpZXMgbm8ga2V5cyB3ZXJlIGltcG9ydGVkIik7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIH5HcGdtZUNvbnRleHQoKSB7CiAgICAgICAgICAgIGdwZ21lX3JlbGVhc2UoX2N0eCk7CiAgICAgICAgfQoKICAgICAgICBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0IHZhbGlkYXRlU2lnbmF0dXJlKGNvbnN0IHN0ZDo6c3RyaW5nJiBzaWduZWREYXRhU3RyaW5nLCBjb25zdCBzdGQ6OnN0cmluZyYgc2lnbmF0dXJlU3RyaW5nKSB7CiAgICAgICAgICAgIEdwZ21lSW5NZW1vcnlEYXRhIHNpZ25lZERhdGFEYXRhKHNpZ25lZERhdGFTdHJpbmcpOwogICAgICAgICAgICBHcGdtZUluTWVtb3J5RGF0YSBzaWduYXR1cmVEYXRhKHNpZ25hdHVyZVN0cmluZyk7CgogICAgICAgICAgICBjb25zdCBhdXRvIGVycm9yID0gZ3BnbWVfZXJyX2NvZGUoZ3BnbWVfb3BfdmVyaWZ5KF9jdHgsIHNpZ25hdHVyZURhdGEuZ2V0KCksIHNpZ25lZERhdGFEYXRhLmdldCgpLCBudWxscHRyKSk7CgogICAgICAgICAgICBzdGQ6OnN0cmluZ3N0cmVhbSBlcnJvck1lc3NhZ2U7CgogICAgICAgICAgICBzd2l0Y2ggKGVycm9yKSB7CiAgICAgICAgICAgICAgICBjYXNlIEdQR19FUlJfTk9fRVJST1I6IHsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNhc2UgR1BHX0VSUl9JTlZfVkFMVUU6IHsKICAgICAgICAgICAgICAgICAgICAvLyB0aGlzIHNob3VsZCBuZXZlciBldmVyIGhhcHBlbiwgYW5kIGltcGxpZXMgYW4gaXNzdWUgd2l0aGluIG91ciBjb2RlCiAgICAgICAgICAgICAgICAgICAgdGhyb3cgR3BnRXJyb3IoZXJyb3IsICJ1bmV4cGVjdGVkIGVycm9yIHdoaWxlIHZhbGlkYXRpbmcgc2lnbmF0dXJlIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZWZhdWx0OiB7CiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlIDw8ICJ1bmV4cGVjdGVkIGVycm9yIjsKICAgICAgICAgICAgICAgICAgICByZXR1cm4ge1NpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OkVSUk9SLCBlcnJvck1lc3NhZ2Uuc3RyKCksIHt9fTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgYXV0byB2ZXJpZmljYXRpb25SZXN1bHQgPSBncGdtZV9vcF92ZXJpZnlfcmVzdWx0KF9jdHgpOwoKICAgICAgICAgICAgYXV0byBzaWduYXR1cmUgPSB2ZXJpZmljYXRpb25SZXN1bHQtPnNpZ25hdHVyZXM7CgogICAgICAgICAgICBpZiAoc2lnbmF0dXJlID09IG51bGxwdHIpIHsKICAgICAgICAgICAgICAgIHJldHVybiB7U2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6UmVzdWx0VHlwZTo6RVJST1IsICJubyBzaWduYXR1cmVzIGZvdW5kIiwge319OwogICAgICAgICAgICB9CgogICAgICAgICAgICBzdGQ6OnN0cmluZ3N0cmVhbSBtZXNzYWdlOwogICAgICAgICAgICBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gZmluZ2VycHJpbnRzOwogICAgICAgICAgICAvLyB3ZSdyZSBvcHRpbWlzdGljOiB3ZSBhc3N1bWUgdGhlIHJlc3VsdCBpcyBnb29kIHVubGVzcyB3ZSBmaW5kIGNsdWVzIGl0J3Mgbm90CiAgICAgICAgICAgIFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGUgcmVzdWx0VHlwZSA9IFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OlNVQ0NFU1M7CgogICAgICAgICAgICAvLyB0aGVyZSBzaG91bGQgbm90IGJlIG1vcmUgdGhhbiBvbmUgc2lnbmF0dXJlLCBidXQgd2UgZG9uJ3Qga25vdyBmb3Igc3VyZQogICAgICAgICAgICBkbyB7CiAgICAgICAgICAgICAgICBmaW5nZXJwcmludHMuZW1wbGFjZV9iYWNrKHNpZ25hdHVyZS0+ZnByKTsKCiAgICAgICAgICAgICAgICBtZXNzYWdlIDw8ICJTaWduYXR1cmUgY2hlY2tlZCBmb3Iga2V5IHdpdGggZmluZ2VycHJpbnQgIiA8PCBzaWduYXR1cmUtPmZwciA8PCAiOiAiOwogICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgIChzaWduYXR1cmUtPnN1bW1hcnkgJiBHUEdNRV9TSUdTVU1fVkFMSUQgfCBzaWduYXR1cmUtPnN1bW1hcnkgJiBHUEdNRV9TSUdTVU1fR1JFRU4pICE9IDAgfHwKCiAgICAgICAgICAgICAgICAgICAgLy8gYWNjb3JkaW5nIHRvIHJwbSwgc2lnbmF0dXJlIGlzIHZhbGlkIGJ1dCB0aGUga2V5IGlzIG5vdCBjZXJ0aWZpZWQgd2l0aCBhIHRydXN0ZWQgc2lnbmF0dXJlCiAgICAgICAgICAgICAgICAgICAgKHNpZ25hdHVyZS0+c3VtbWFyeSA9PSAwICYmIHNpZ25hdHVyZS0+c3RhdHVzID09IEdQR19FUlJfTk9fRVJST1IpCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAvLyB2YWxpZCBzaWduYXR1cmUuIG5vIGNoYW5nZSB0byBzdGF0dXMgcmVxdWlyZWQKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoCiAgICAgICAgICAgICAgICAgICAgLy8gYW4gZXhwaXJlZCBzaWduYXR1cmUgb3Iga2V5IG1heSBoYXBwZW4gYW55IHRpbWUgd2l0aCBBcHBJbWFnZXMKICAgICAgICAgICAgICAgICAgICAvLyBhcyBsb25nIGFzIHRoZSBzaWduYXR1cmUgaXRzZWxmIGlzIHZhbGlkLCB3ZSByZXBvcnQgYSB3YXJuaW5nIHN0YXRlCiAgICAgICAgICAgICAgICAgICAgKHNpZ25hdHVyZS0+c3VtbWFyeSAmIEdQR01FX1NJR1NVTV9LRVlfRVhQSVJFRCB8IHNpZ25hdHVyZS0+c3VtbWFyeSAmIEdQR01FX1NJR1NVTV9LRVlfTUlTU0lORykgPiAwCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlIDw8ICJ3YXJuaW5nIjsKICAgICAgICAgICAgICAgICAgICBpZiAocmVzdWx0VHlwZSA8IFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OldBUk5JTkcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0VHlwZSA9IFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OldBUk5JTkc7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlIDw8ICJlcnJvciI7CiAgICAgICAgICAgICAgICAgICAgLy8gaW52YWxpZCBzaWduYXR1cmUKICAgICAgICAgICAgICAgICAgICByZXN1bHRUeXBlID0gU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6UmVzdWx0VHlwZTo6RVJST1I7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+IHN1bW1hcnlJbmZvczsKCiAgICAgICAgICAgICAgICAvLyBpbmZvcm0gdXNlciBhYm91dCBvdGhlciBpbmZvcm1hdGlvbiB3ZSBjYW4gZ2F0aGVyIGZyb20gdGhlIHN1bW1hcnkKICAgICAgICAgICAgICAgIGlmICgoc2lnbmF0dXJlLT5zdW1tYXJ5ICYgR1BHTUVfU0lHU1VNX0tFWV9SRVZPS0VEKSA+IDApIHsKICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5SW5mb3MuZW1wbGFjZV9iYWNrKCJrZXkgcmV2b2tlZCIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKChzaWduYXR1cmUtPnN1bW1hcnkgJiBHUEdNRV9TSUdTVU1fS0VZX0VYUElSRUQpID4gMCkgewogICAgICAgICAgICAgICAgICAgIHN1bW1hcnlJbmZvcy5lbXBsYWNlX2JhY2soImtleSBleHBpcmVkIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoKHNpZ25hdHVyZS0+c3VtbWFyeSAmIEdQR01FX1NJR1NVTV9TSUdfRVhQSVJFRCkgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgc3VtbWFyeUluZm9zLmVtcGxhY2VfYmFjaygic2lnbmF0dXJlIGV4cGlyZWQiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICgoc2lnbmF0dXJlLT5zdW1tYXJ5ICYgR1BHTUVfU0lHU1VNX0tFWV9NSVNTSU5HKSA+IDApIHsKICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5SW5mb3MuZW1wbGFjZV9iYWNrKCJrZXkgbWlzc2luZyIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKChzaWduYXR1cmUtPnN1bW1hcnkgJiBHUEdNRV9TSUdTVU1fQ1JMX01JU1NJTkcpID4gMCkgewogICAgICAgICAgICAgICAgICAgIHN1bW1hcnlJbmZvcy5lbXBsYWNlX2JhY2soIkNSTCBtaXNzaW5nIik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoKHNpZ25hdHVyZS0+c3VtbWFyeSAmIEdQR01FX1NJR1NVTV9DUkxfVE9PX09MRCkgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgc3VtbWFyeUluZm9zLmVtcGxhY2VfYmFjaygiQ1JMIHRvbyBvbGQiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICgoc2lnbmF0dXJlLT5zdW1tYXJ5ICYgR1BHTUVfU0lHU1VNX0JBRF9QT0xJQ1kpID4gMCkgewogICAgICAgICAgICAgICAgICAgIHN1bW1hcnlJbmZvcy5lbXBsYWNlX2JhY2soImJhZCBwb2xjeSIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKChzaWduYXR1cmUtPnN1bW1hcnkgJiBHUEdNRV9TSUdTVU1fU1lTX0VSUk9SKSA+IDApIHsKICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5SW5mb3MuZW1wbGFjZV9iYWNrKCJzeXN0ZW0gZXJyb3IiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICgoc2lnbmF0dXJlLT5zdW1tYXJ5ICYgR1BHTUVfU0lHU1VNX1RPRlVfQ09ORkxJQ1QpID4gMCkgewogICAgICAgICAgICAgICAgICAgIHN1bW1hcnlJbmZvcy5lbXBsYWNlX2JhY2soIlRPRlUgY29uZmxpY3QiKTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBtZXNzYWdlIDw8IGpvaW4oc3VtbWFyeUluZm9zLCAiLCAiKSA8PCBzdGQ6OmVuZGw7CiAgICAgICAgICAgIH0gd2hpbGUgKHNpZ25hdHVyZS0+bmV4dCAhPSBudWxscHRyKTsKCiAgICAgICAgICAgIHN3aXRjaCAocmVzdWx0VHlwZSkgewogICAgICAgICAgICAgICAgY2FzZSBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0OjpSZXN1bHRUeXBlOjpTVUNDRVNTOiB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA8PCAiVmFsaWRhdGlvbiBzdWNjZXNzZnVsIjsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNhc2UgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6UmVzdWx0VHlwZTo6V0FSTklORzogewogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPDwgIlZhbGlkYXRpb24gcmVzdWx0ZWQgaW4gd2FybmluZyBzdGF0ZSI7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXNlIFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGU6OkVSUk9SOiB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA8PCAiVmFsaWRhdGlvbiBmYWlsZWQiOwogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICByZXR1cm4ge3Jlc3VsdFR5cGUsIG1lc3NhZ2Uuc3RyKCksIGZpbmdlcnByaW50c307CiAgICAgICAgfQogICAgfTsKCiAgICBjbGFzcyBHcGdFcnJvcjo6UHJpdmF0ZSB7CiAgICBwdWJsaWM6CiAgICAgICAgc3RkOjpzdHJpbmcgd2hhdDsKCiAgICAgICAgUHJpdmF0ZShncGdfZXJyb3JfdCBlcnJvciwgY29uc3Qgc3RkOjpzdHJpbmcmIG1lc3NhZ2UpCiAgICAgICAgewogICAgICAgICAgICBzdGQ6Om9zdHJpbmdzdHJlYW0gb3NzOwogICAgICAgICAgICBvc3MgPDwgbWVzc2FnZTsKCiAgICAgICAgICAgIGlmIChlcnJvciAhPSBHUEdfRVJSX05PX0VSUk9SKSB7CiAgICAgICAgICAgICAgICBvc3MgPDwgIiAoZ3BnIGVycm9yOiAiIDw8IGdwZ21lX3N0cmVycm9yKGVycm9yKSA8PCAiKSI7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHdoYXQgPSBvc3Muc3RyKCk7CiAgICAgICAgfQogICAgfTsKCiAgICBHcGdFcnJvcjo6R3BnRXJyb3IoZ3BnX2Vycm9yX3QgZXJyb3IsIGNvbnN0IHN0ZDo6c3RyaW5nJiBtZXNzYWdlKSA6CiAgICAgICAgZChuZXcgUHJpdmF0ZShlcnJvciwgbWVzc2FnZSkpCiAgICB7fQoKICAgIEdwZ0Vycm9yOjp+R3BnRXJyb3IoKSBub2V4Y2VwdCA9IGRlZmF1bHQ7CgogICAgY29uc3QgY2hhciogR3BnRXJyb3I6OndoYXQoKSBjb25zdCBub2V4Y2VwdCB7CiAgICAgICAgcmV0dXJuIGQtPndoYXQuY19zdHIoKTsKICAgIH0KCgogICAgY2xhc3MgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6UHJpdmF0ZSB7CiAgICBwdWJsaWM6CiAgICAgICAgUHJpdmF0ZShSZXN1bHRUeXBlIHR5cGUsIGNvbnN0IHN0ZDo6c3RyaW5nJiBkZXNjcmlwdGlvbiwgY29uc3Qgc3RkOjp2ZWN0b3I8c3RkOjpzdHJpbmc+JiBrZXlGaW5nZXJwcmludHMpIDoKICAgICAgICAgICAgdHlwZSh0eXBlKSwKICAgICAgICAgICAgZGVzY3JpcHRpb24oZGVzY3JpcHRpb24pLAogICAgICAgICAgICBrZXlGaW5nZXJwcmludHMoa2V5RmluZ2VycHJpbnRzKQogICAgICAgIHt9CgogICAgICAgIFJlc3VsdFR5cGUgdHlwZTsKICAgICAgICBzdGQ6OnN0cmluZyBkZXNjcmlwdGlvbjsKICAgICAgICBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4ga2V5RmluZ2VycHJpbnRzOwogICAgfTsKCiAgICBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0OjpTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0KFJlc3VsdFR5cGUgdHlwZSwgY29uc3Qgc3RkOjpzdHJpbmcmIGRlc2NyaXB0aW9uLCBjb25zdCBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4mIGtleUZpbmdlcnByaW50cykgOgogICAgICAgIGQobmV3IFByaXZhdGUodHlwZSwgZGVzY3JpcHRpb24sIGtleUZpbmdlcnByaW50cykpCiAgICB7fQoKICAgIFNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQ6OlJlc3VsdFR5cGUgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6dHlwZSgpIGNvbnN0IHsKICAgICAgICByZXR1cm4gZC0+dHlwZTsKICAgIH0KCiAgICBzdGQ6OnN0cmluZyBTaWduYXR1cmVWYWxpZGF0aW9uUmVzdWx0OjptZXNzYWdlKCkgY29uc3QgewogICAgICAgIHJldHVybiBkLT5kZXNjcmlwdGlvbjsKICAgIH0KCiAgICBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6a2V5RmluZ2VycHJpbnRzKCkgY29uc3QgewogICAgICAgIHJldHVybiBkLT5rZXlGaW5nZXJwcmludHM7CiAgICB9CgogICAgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdDo6flNpZ25hdHVyZVZhbGlkYXRpb25SZXN1bHQoKSA9IGRlZmF1bHQ7CgoKICAgIGNsYXNzIFNpZ25hdHVyZVZhbGlkYXRvcjo6UHJpdmF0ZSB7CiAgICBwdWJsaWM6CiAgICAgICAgLy8gd2Ugd2FudCB0byBpbml0aWFsaXplIHRoaXMgb25seSBvbmNlLCBzaW5jZSB0aGUgY29uc3RydWN0b3IgbWF5IGhhdmUgc2lkZSBlZmZlY3RzIG9uIHRoZSBzeXN0ZW0KICAgICAgICBzdGQ6OnVuaXF1ZV9wdHI8R3BnbWVDb250ZXh0PiBjb250ZXh0ID0gbnVsbHB0cjsKCiAgICAgICAgLy8gd2UgbmVlZCBhIHRlbXBvcmFyeSBrZXlyaW5nIHRvIHdvcmsgd2l0aAogICAgICAgIHN0ZDo6ZmlsZXN5c3RlbTo6cGF0aCB0ZW1wR3BnSG9tZURpcjsKCiAgICAgICAgZXhwbGljaXQgUHJpdmF0ZSgpIHsKICAgICAgICAgICAgc3RkOjpzdHJpbmcgdGVtcEdwZ0hvbWVEaXJUZW1wbGF0ZSA9IHN0ZDo6ZmlsZXN5c3RlbTo6dGVtcF9kaXJlY3RvcnlfcGF0aCgpIC8gImFwcGltYWdldXBkYXRlLVhYWFhYWCI7CiAgICAgICAgICAgIHN0ZDo6dmVjdG9yPGNoYXI+IHRlbXBHcGdIb21lRGlyQ1N0cih0ZW1wR3BnSG9tZURpclRlbXBsYXRlLmJlZ2luKCksIHRlbXBHcGdIb21lRGlyVGVtcGxhdGUuZW5kKCkpOwoKICAgICAgICAgICAgaWYgKG1rZHRlbXAodGVtcEdwZ0hvbWVEaXJDU3RyLmRhdGEoKSkgPT0gbnVsbHB0cikgewogICAgICAgICAgICAgICAgY29uc3QgYXV0byBlcnJvciA9IGVycm5vOwogICAgICAgICAgICAgICAgdGhyb3cgc3RkOjpydW50aW1lX2Vycm9yKAogICAgICAgICAgICAgICAgICAgIHN0ZDo6c3RyaW5nKCJmYWlsZWQgdG8gY3JlYXRlIHRlbXBvcmFyeSBkaXJlY3Rvcnk6ICIpICsgc3RyZXJyb3IoZXJyb3IpCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICB9CgogICAgICAgICAgICB0ZW1wR3BnSG9tZURpciA9IHN0ZDo6c3RyaW5nKHRlbXBHcGdIb21lRGlyQ1N0ci5kYXRhKCkpOwoKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgLy8gY3JlYXRlIGtleXJpbmcgZmlsZSwgb3RoZXJ3aXNlIEdQRyB3aWxsIGxpa2VseSBjb21wbGFpbgogICAgICAgICAgICAgICAgc3RkOjpvZnN0cmVhbSBvZnModGVtcEdwZ0hvbWVEaXIgLyAia2V5cmluZyIpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBjb250ZXh0ID0gc3RkOjptYWtlX3VuaXF1ZTxHcGdtZUNvbnRleHQ+KHRlbXBHcGdIb21lRGlyKTsKICAgICAgICB9CgogICAgICAgIH5Qcml2YXRlKCkgbm9leGNlcHQgewogICAgICAgICAgICAvLyBjbGVhbiB1cCB0ZW1wb3JhcnkgaG9tZQogICAgICAgICAgICBzdGQ6OmZpbGVzeXN0ZW06OnJlbW92ZV9hbGwodGVtcEdwZ0hvbWVEaXIpOwogICAgICAgIH0KICAgIH07CgogICAgU2lnbmF0dXJlVmFsaWRhdG9yOjpTaWduYXR1cmVWYWxpZGF0b3IoKSA6IGQobmV3IFByaXZhdGUpIHt9CgogICAgU2lnbmF0dXJlVmFsaWRhdGlvblJlc3VsdCBTaWduYXR1cmVWYWxpZGF0b3I6OnZhbGlkYXRlKGNvbnN0IFVwZGF0YWJsZUFwcEltYWdlJiBhcHBJbWFnZSkgewogICAgICAgIGQtPmNvbnRleHQtPmltcG9ydEtleShhcHBJbWFnZS5yZWFkU2lnbmluZ0tleSgpKTsKCiAgICAgICAgYXV0byBoYXNoRGF0YSA9IGFwcEltYWdlLmNhbGN1bGF0ZUhhc2goKTsKICAgICAgICBhdXRvIHNpZ25hdHVyZURhdGEgPSBhcHBJbWFnZS5yZWFkU2lnbmF0dXJlKCk7CiAgICAgICAgcmV0dXJuIGQtPmNvbnRleHQtPnZhbGlkYXRlU2lnbmF0dXJlKGhhc2hEYXRhLCBzaWduYXR1cmVEYXRhKTsKICAgIH0KCiAgICBTaWduYXR1cmVWYWxpZGF0b3I6On5TaWduYXR1cmVWYWxpZGF0b3IoKSA9IGRlZmF1bHQ7Cn0K
+// system headers
+#include <cassert>
+#include <cstring>
+#include <filesystem>
+#include <iostream>
+#include <memory>
+#include <string>
+#include <vector>
+#include <sstream>
+
+// library headers
+#include <gpgme.h>
+
+// local headers
+#include "signaturevalidator.h"
+#include "util/util.h"
+
+namespace appimage::update::signing {
+    using namespace util;
+
+    class GpgmeInMemoryData {
+    private:
+        gpgme_data_t _dh = nullptr;
+
+    public:
+        explicit GpgmeInMemoryData(const std::string& buffer) {
+            const auto error = gpgme_data_new_from_mem(&_dh, buffer.c_str(), buffer.size(), true);
+            if (error != GPG_ERR_NO_ERROR) {
+                throw GpgError(error, "failed to initialize in-memory data for gpgme");
+            }
+        }
+
+        ~GpgmeInMemoryData() noexcept {
+            gpgme_data_release(_dh);
+        }
+
+        [[nodiscard]] auto get() const {
+            return _dh;
+        }
+    };
+
+    class GpgmeContext {
+    private:
+        gpgme_ctx_t _ctx = nullptr;
+
+        static void gpgmeThrowIfNecessary(gpg_err_code_t error, const std::string& message) {
+            if (error != GPG_ERR_NO_ERROR) {
+                throw GpgError(error, message);
+            }
+        }
+
+        static void gpgmeThrowIfNecessary(gpgme_error_t error, const std::string& message) {
+            return gpgmeThrowIfNecessary(gpgme_err_code(error), message);
+        }
+
+    public:
+        explicit GpgmeContext(const std::string& gnupgHome) {
+            static const char gpgme_minimum_required_version[] = "1.10.0";
+            const char* gpgme_version = gpgme_check_version(gpgme_minimum_required_version);
+
+            if (gpgme_version == nullptr) {
+                std::stringstream error;
+                error << "could not initialize gpgme (>= " << gpgme_minimum_required_version << ")";
+                throw GpgError(GPG_ERR_NO_ERROR, error.str());
+            }
+
+            gpgmeThrowIfNecessary(gpgme_new(&_ctx), "failed to initialize gpgme context");
+            assert(_ctx != nullptr);
+
+            gpgmeThrowIfNecessary(gpgme_set_ctx_flag(_ctx, "full-status", "1"), "failed to initialize gpgme context");
+            gpgmeThrowIfNecessary(gpgme_set_protocol(_ctx, GPGME_PROTOCOL_OpenPGP), "failed to set OpenPGP protocol");
+
+            auto engine_info = gpgme_ctx_get_engine_info(_ctx);
+
+            while (engine_info && engine_info->protocol != gpgme_get_protocol(_ctx)) {
+                engine_info = engine_info->next;
+            }
+
+            // experience within AppImageKit shows that gnupg versions <= 2.2 are likely to cause issues
+            // therefore, we warn users if an incompatible version was found
+            {
+                const std::string format = "%lu.%lu";
+                unsigned long majorVersion, minorVersion;
+
+                if (sscanf(engine_info->version, format.c_str(), &majorVersion, &minorVersion) < 2) {
+                    throw GpgError(GPG_ERR_NO_ERROR, "failed to parse engine version number");
+                }
+
+                if (majorVersion != 2 || minorVersion < 2) {
+                    // TODO: use regular logging system
+                    std::cerr << "gpg engine version " << engine_info->version << " is likely incompatible, "
+                              << "consider using version >= 2.2" << std::endl;
+                }
+            }
+
+            if (!gnupgHome.empty()) {
+                // we reuse the existing engine configuration, but use a custom home dir
+                gpgmeThrowIfNecessary(
+                    gpgme_ctx_set_engine_info(_ctx, engine_info->protocol, engine_info->file_name, gnupgHome.c_str()),
+                    "failed to set engine info"
+                );
+            }
+        }
+
+        void importKey(const std::string& key) {
+            GpgmeInMemoryData data(key);
+
+            gpgmeThrowIfNecessary(gpgme_op_import(_ctx, data.get()), "failed to import key");
+
+            auto result = gpgme_op_import_result(_ctx);
+
+            // some "assertions" to make sure importing worked
+            if (result->not_imported > 0) {
+                std::stringstream errorMessage;
+                errorMessage << result->not_imported << " keys could not be imported";
+                throw GpgError(GPG_ERR_NO_ERROR, errorMessage.str());
+            }
+            if (result->imported < 0) {
+                throw GpgError(GPG_ERR_NO_ERROR, "result implies no keys were imported");
+            }
+        }
+
+        ~GpgmeContext() {
+            gpgme_release(_ctx);
+        }
+
+        SignatureValidationResult validateSignature(const std::string& signedDataString, const std::string& signatureString) {
+            GpgmeInMemoryData signedDataData(signedDataString);
+            GpgmeInMemoryData signatureData(signatureString);
+
+            const auto error = gpgme_err_code(gpgme_op_verify(_ctx, signatureData.get(), signedDataData.get(), nullptr));
+
+            std::stringstream errorMessage;
+
+            switch (error) {
+                case GPG_ERR_NO_ERROR: {
+                    break;
+                }
+                case GPG_ERR_INV_VALUE: {
+                    // this should never ever happen, and implies an issue within our code
+                    throw GpgError(error, "unexpected error while validating signature");
+                }
+                default: {
+                    errorMessage << "unexpected error";
+                    return {SignatureValidationResult::ResultType::ERROR, errorMessage.str(), {}};
+                }
+            }
+
+            auto verificationResult = gpgme_op_verify_result(_ctx);
+
+            auto signature = verificationResult->signatures;
+
+            if (signature == nullptr) {
+                return {SignatureValidationResult::ResultType::ERROR, "no signatures found", {}};
+            }
+
+            std::stringstream message;
+            std::vector<std::string> fingerprints;
+            // we're optimistic: we assume the result is good unless we find clues it's not
+            SignatureValidationResult::ResultType resultType = SignatureValidationResult::ResultType::SUCCESS;
+
+            // there should not be more than one signature, but we don't know for sure
+            do {
+                fingerprints.emplace_back(signature->fpr);
+
+                message << "Signature checked for key with fingerprint " << signature->fpr << ": ";
+                if (
+                    (signature->summary & GPGME_SIGSUM_VALID | signature->summary & GPGME_SIGSUM_GREEN) != 0 ||
+
+                    // according to rpm, signature is valid but the key is not certified with a trusted signature
+                    (signature->summary == 0 && signature->status == GPG_ERR_NO_ERROR)
+                ) {
+                    // valid signature. no change to status required
+                } else if (
+                    // an expired signature or key may happen any time with AppImages
+                    // as long as the signature itself is valid, we report a warning state
+                    (signature->summary & GPGME_SIGSUM_KEY_EXPIRED | signature->summary & GPGME_SIGSUM_KEY_MISSING) > 0
+                ) {
+                    message << "warning";
+                    if (resultType < SignatureValidationResult::ResultType::WARNING) {
+                        resultType = SignatureValidationResult::ResultType::WARNING;
+                    }
+                } else {
+                    message << "error";
+                    // invalid signature
+                    resultType = SignatureValidationResult::ResultType::ERROR;
+                }
+
+                std::vector<std::string> summaryInfos;
+
+                // inform user about other information we can gather from the summary
+                if ((signature->summary & GPGME_SIGSUM_KEY_REVOKED) > 0) {
+                    summaryInfos.emplace_back("key revoked");
+                }
+                if ((signature->summary & GPGME_SIGSUM_KEY_EXPIRED) > 0) {
+                    summaryInfos.emplace_back("key expired");
+                }
+                if ((signature->summary & GPGME_SIGSUM_SIG_EXPIRED) > 0) {
+                    summaryInfos.emplace_back("signature expired");
+                }
+                if ((signature->summary & GPGME_SIGSUM_KEY_MISSING) > 0) {
+                    summaryInfos.emplace_back("key missing");
+                }
+                if ((signature->summary & GPGME_SIGSUM_CRL_MISSING) > 0) {
+                    summaryInfos.emplace_back("CRL missing");
+                }
+                if ((signature->summary & GPGME_SIGSUM_CRL_TOO_OLD) > 0) {
+                    summaryInfos.emplace_back("CRL too old");
+                }
+                if ((signature->summary & GPGME_SIGSUM_BAD_POLICY) > 0) {
+                    summaryInfos.emplace_back("bad polcy");
+                }
+                if ((signature->summary & GPGME_SIGSUM_SYS_ERROR) > 0) {
+                    summaryInfos.emplace_back("system error");
+                }
+                if ((signature->summary & GPGME_SIGSUM_TOFU_CONFLICT) > 0) {
+                    summaryInfos.emplace_back("TOFU conflict");
+                }
+
+                message << join(summaryInfos, ", ") << std::endl;
+            } while (signature->next != nullptr);
+
+            switch (resultType) {
+                case SignatureValidationResult::ResultType::SUCCESS: {
+                    message << "Validation successful";
+                    break;
+                }
+                case SignatureValidationResult::ResultType::WARNING: {
+                    message << "Validation resulted in warning state";
+                    break;
+                }
+                case SignatureValidationResult::ResultType::ERROR: {
+                    message << "Validation failed";
+                    break;
+                }
+            }
+
+            return {resultType, message.str(), fingerprints};
+        }
+    };
+
+    class GpgError::Private {
+    public:
+        std::string what;
+
+        Private(gpg_error_t error, const std::string& message)
+        {
+            std::ostringstream oss;
+            oss << message;
+
+            if (error != GPG_ERR_NO_ERROR) {
+                oss << " (gpg error: " << gpgme_strerror(error) << ")";
+            }
+
+            what = oss.str();
+        }
+    };
+
+    GpgError::GpgError(gpg_error_t error, const std::string& message) :
+        d(new Private(error, message))
+    {}
+
+    GpgError::~GpgError() noexcept = default;
+
+    const char* GpgError::what() const noexcept {
+        return d->what.c_str();
+    }
+
+
+    class SignatureValidationResult::Private {
+    public:
+        Private(ResultType type, const std::string& description, const std::vector<std::string>& keyFingerprints) :
+            type(type),
+            description(description),
+            keyFingerprints(keyFingerprints)
+        {}
+
+        ResultType type;
+        std::string description;
+        std::vector<std::string> keyFingerprints;
+    };
+
+    SignatureValidationResult::SignatureValidationResult(ResultType type, const std::string& description, const std::vector<std::string>& keyFingerprints) :
+        d(new Private(type, description, keyFingerprints))
+    {}
+
+    SignatureValidationResult::ResultType SignatureValidationResult::type() const {
+        return d->type;
+    }
+
+    std::string SignatureValidationResult::message() const {
+        return d->description;
+    }
+
+    std::vector<std::string> SignatureValidationResult::keyFingerprints() const {
+        return d->keyFingerprints;
+    }
+
+    SignatureValidationResult::~SignatureValidationResult() = default;
+
+
+    class SignatureValidator::Private {
+    public:
+        // we want to initialize this only once, since the constructor may have side effects on the system
+        std::unique_ptr<GpgmeContext> context = nullptr;
+
+        // we need a temporary keyring to work with
+        std::filesystem::path tempGpgHomeDir;
+
+        explicit Private() {
+            std::string tempGpgHomeDirTemplate = std::filesystem::temp_directory_path() / "appimageupdate-XXXXXX";
+            std::vector<char> tempGpgHomeDirCStr(tempGpgHomeDirTemplate.begin(), tempGpgHomeDirTemplate.end());
+
+            if (mkdtemp(tempGpgHomeDirCStr.data()) == nullptr) {
+                const auto error = errno;
+                throw std::runtime_error(
+                    std::string("failed to create temporary directory: ") + strerror(error)
+                );
+            }
+
+            tempGpgHomeDir = std::string(tempGpgHomeDirCStr.data());
+
+            {
+                // create keyring file, otherwise GPG will likely complain
+                std::ofstream ofs(tempGpgHomeDir / "keyring");
+            }
+
+            context = std::make_unique<GpgmeContext>(tempGpgHomeDir);
+        }
+
+        ~Private() noexcept {
+            // clean up temporary home
+            std::filesystem::remove_all(tempGpgHomeDir);
+        }
+    };
+
+    SignatureValidator::SignatureValidator() : d(new Private) {}
+
+    SignatureValidationResult SignatureValidator::validate(const UpdatableAppImage& appImage) {
+        d->context->importKey(appImage.readSigningKey());
+
+        auto hashData = appImage.calculateHash();
+        auto signatureData = appImage.readSignature();
+        return d->context->validateSignature(hashData, signatureData);
+    }
+
+    SignatureValidator::~SignatureValidator() = default;
+}

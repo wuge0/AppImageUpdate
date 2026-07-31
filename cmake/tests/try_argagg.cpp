@@ -1,1 +1,8 @@
-I2luY2x1ZGUgPGFyZ2FnZy9hcmdhZ2cuaHBwPgoKLy8gbmVlZGVkIHRvIG1ha2UgY29tcGlsZXIgaGFwcHksIGRvZXNuJ3QgZG8gYW55dGhpbmcKaW50IG1haW4oKSB7CiAgICBhcmdhZ2c6OnBhcnNlciBhcmdwYXJzZXJ7e319OwogICAgYXJnYWdnOjpwYXJzZXJfcmVzdWx0cyBhcmdzOwogICAgcmV0dXJuIDA7Cn0K
+#include <argagg/argagg.hpp>
+
+// needed to make compiler happy, doesn't do anything
+int main() {
+    argagg::parser argparser{{}};
+    argagg::parser_results args;
+    return 0;
+}

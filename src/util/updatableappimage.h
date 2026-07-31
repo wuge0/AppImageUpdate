@@ -1,1 +1,40 @@
-I3ByYWdtYSBvbmNlCgovLyBzeXN0ZW0gaGVhZGVycwojaW5jbHVkZSA8ZnN0cmVhbT4KI2luY2x1ZGUgPHV0aWxpdHk+CgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZSB7CiAgICBjbGFzcyBBcHBJbWFnZUVycm9yIDogcHVibGljIHN0ZDo6cnVudGltZV9lcnJvciB7CiAgICAgICAgdXNpbmcgc3RkOjpydW50aW1lX2Vycm9yOjpydW50aW1lX2Vycm9yOwogICAgfTsKCiAgICBjbGFzcyBVcGRhdGFibGVBcHBJbWFnZSB7CiAgICBwcml2YXRlOgogICAgICAgIHN0ZDo6c3RyaW5nIF9wYXRoOwoKICAgIHByaXZhdGU6CiAgICAgICAgdm9pZCBhc3NlcnRJZnN0cmVhbUdvb2QoY29uc3Qgc3RkOjppZnN0cmVhbSYgaWZzKSBjb25zdDsKCiAgICAgICAgW1tub2Rpc2NhcmRdXSBzdGQ6Omlmc3RyZWFtIF9vcGVuKCkgY29uc3Q7CgogICAgICAgIGJvb2wgX2hhc0VsZk1hZ2ljVmFsdWUoc3RkOjppZnN0cmVhbSYgaWZzKSBjb25zdDsKCiAgICAgICAgYm9vbCBfaGFzSXNvTWFnaWNWYWx1ZShzdGQ6Omlmc3RyZWFtJiBpZnMpIGNvbnN0OwoKICAgIHB1YmxpYzoKICAgICAgICBleHBsaWNpdCBVcGRhdGFibGVBcHBJbWFnZShzdGQ6OnN0cmluZyBwYXRoKTsKCiAgICAgICAgW1tub2Rpc2NhcmRdXSBzdGQ6OnN0cmluZyBwYXRoKCkgY29uc3Q7CgogICAgICAgIFtbbm9kaXNjYXJkXV0gaW50IGFwcEltYWdlVHlwZSgpIGNvbnN0OwoKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6c3RyaW5nIHJlYWRTaWduYXR1cmUoKSBjb25zdDsKCiAgICAgICAgW1tub2Rpc2NhcmRdXSBzdGQ6OnN0cmluZyByZWFkU2lnbmluZ0tleSgpIGNvbnN0OwoKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6c3RyaW5nIHJlYWRSYXdVcGRhdGVJbmZvcm1hdGlvbigpIGNvbnN0OwoKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6c3RyaW5nIGNhbGN1bGF0ZUhhc2goKSBjb25zdDsKICAgIH07Cn0K
+#pragma once
+
+// system headers
+#include <fstream>
+#include <utility>
+
+namespace appimage::update {
+    class AppImageError : public std::runtime_error {
+        using std::runtime_error::runtime_error;
+    };
+
+    class UpdatableAppImage {
+    private:
+        std::string _path;
+
+    private:
+        void assertIfstreamGood(const std::ifstream& ifs) const;
+
+        [[nodiscard]] std::ifstream _open() const;
+
+        bool _hasElfMagicValue(std::ifstream& ifs) const;
+
+        bool _hasIsoMagicValue(std::ifstream& ifs) const;
+
+    public:
+        explicit UpdatableAppImage(std::string path);
+
+        [[nodiscard]] std::string path() const;
+
+        [[nodiscard]] int appImageType() const;
+
+        [[nodiscard]] std::string readSignature() const;
+
+        [[nodiscard]] std::string readSigningKey() const;
+
+        [[nodiscard]] std::string readRawUpdateInformation() const;
+
+        [[nodiscard]] std::string calculateHash() const;
+    };
+}

@@ -1,1 +1,28 @@
-I3ByYWdtYSBvbmNlCgovLyBzeXN0ZW0gaGVhZGVycwojaW5jbHVkZSA8ZnVuY3Rpb25hbD4KI2luY2x1ZGUgPHN0ZGV4Y2VwdD4KCi8vIGxvY2FsIGhlYWRlcnMKI2luY2x1ZGUgInV0aWwvdXRpbC5oIgoKbmFtZXNwYWNlIGFwcGltYWdlOjp1cGRhdGU6OnVwZGF0ZWluZm9ybWF0aW9uIHsKICAgIGNsYXNzIFVwZGF0ZUluZm9ybWF0aW9uRXJyb3IgOiBwdWJsaWMgc3RkOjpydW50aW1lX2Vycm9yIHsKICAgICAgICB1c2luZyBzdGQ6OnJ1bnRpbWVfZXJyb3I6OnJ1bnRpbWVfZXJyb3I7CiAgICB9OwoKICAgIGVudW0gVXBkYXRlSW5mb3JtYXRpb25UeXBlIHsKICAgICAgICBaU1lOQ19HRU5FUklDID0gMCwKICAgICAgICBaU1lOQ19HSVRIVUJfUkVMRUFTRVMgPSAxLAogICAgICAgIC8vIFpTWU5DX0JJTlRSQVkgaXMgZGVwcmVjYXRlZAogICAgICAgIFpTWU5DX1BMSU5HX1YxID0gMywKICAgIH07CgogICAgdXNpbmcgU3RhdHVzTWVzc2FnZUNhbGxiYWNrID0gc3RkOjpmdW5jdGlvbjx2b2lkKGNvbnN0IHN0ZDo6c3RyaW5nJik+OwoKICAgIC8vIGxpdHRsZSBoZWxwZXIKICAgIGlubGluZSBzdGQ6OnZlY3RvcjxzdGQ6OnN0cmluZz4gc3BsaXRSYXdVcGRhdGVJbmZvcm1hdGlvbkNvbXBvbmVudHMoY29uc3Qgc3RkOjpzdHJpbmcmIHJhd1VwZGF0ZUluZm9ybWF0aW9uKSB7CiAgICAgICAgcmV0dXJuIGFwcGltYWdlOjp1cGRhdGU6OnV0aWw6OnNwbGl0KHJhd1VwZGF0ZUluZm9ybWF0aW9uLCAnfCcpOwogICAgfQp9Cg==
+#pragma once
+
+// system headers
+#include <functional>
+#include <stdexcept>
+
+// local headers
+#include "util/util.h"
+
+namespace appimage::update::updateinformation {
+    class UpdateInformationError : public std::runtime_error {
+        using std::runtime_error::runtime_error;
+    };
+
+    enum UpdateInformationType {
+        ZSYNC_GENERIC = 0,
+        ZSYNC_GITHUB_RELEASES = 1,
+        // ZSYNC_BINTRAY is deprecated
+        ZSYNC_PLING_V1 = 3,
+    };
+
+    using StatusMessageCallback = std::function<void(const std::string&)>;
+
+    // little helper
+    inline std::vector<std::string> splitRawUpdateInformationComponents(const std::string& rawUpdateInformation) {
+        return appimage::update::util::split(rawUpdateInformation, '|');
+    }
+}

@@ -1,1 +1,294 @@
-Ly8gc3lzdGVtIGhlYWRlcnMKI2luY2x1ZGUgPGNocm9ubz4KI2luY2x1ZGUgPGNzdHJpbmc+CiNpbmNsdWRlIDxpb21hbmlwPgojaW5jbHVkZSA8aW9zdHJlYW0+CiNpbmNsdWRlIDx0aHJlYWQ+CiNpbmNsdWRlIDx1bmlzdGQuaD4KI2luY2x1ZGUgPG9wdGlvbmFsPgoKLy8gbGlicmFyeSBoZWFkZXJzCiNpbmNsdWRlIDxhcmdhZ2cvYXJnYWdnLmhwcD4KCi8vIGxvY2FsIGhlYWRlcnMKI2luY2x1ZGUgImFwcGltYWdlL3VwZGF0ZS5oIgojaW5jbHVkZSAidXRpbC91dGlsLmgiCgp1c2luZyBuYW1lc3BhY2Ugc3RkOwp1c2luZyBuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZTsKdXNpbmcgbmFtZXNwYWNlIGFwcGltYWdlOjp1cGRhdGU6OnV0aWw7CgppbnQgbWFpbihjb25zdCBpbnQgYXJnYywgY29uc3QgY2hhcioqIGFyZ3YpIHsKICAgIGFyZ2FnZzo6cGFyc2VyIHBhcnNlcnt7CiAgICAgICAgeyJoZWxwIiwgeyItaCIsICItLWhlbHAifSwgIkRpc3BsYXkgdGhpcyBoZWxwIHRleHQuIn0sCiAgICAgICAgeyJ2ZXJzaW9uIiwgeyItViIsICItLXZlcnNpb24ifSwgIkRpc3BsYXkgdmVyc2lvbiBpbmZvcm1hdGlvbi4ifSwKICAgICAgICB7ImRlc2NyaWJlIiwgeyItZCIsICItLWRlc2NyaWJlIn0sICJQYXJzZSBhbmQgZGVzY3JpYmUgQXBwSW1hZ2UgYW5kIGl0cyB1cGRhdGUgaW5mb3JtYXRpb24gYW5kIGV4aXQuIn0sCiAgICAgICAgeyJjaGVja0ZvclVwZGF0ZSIsIHsiLWoiLCAiLS1jaGVjay1mb3ItdXBkYXRlIn0sICJDaGVjayBmb3IgdXBkYXRlLiBFeGl0cyB3aXRoIGNvZGUgMSBpZiBjaGFuZ2VzIGFyZSBhdmFpbGFibGUsIDAgaWYgdGhlcmUgYXJlIG5vdCwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvdGhlciBub24temVybyBjb2RlIGluIGNhc2Ugb2YgZXJyb3JzLiJ9LAogICAgICAgIHsib3ZlcndyaXRlT2xkRmlsZSIsIHsiLU8iLCAiLS1vdmVyd3JpdGUifSwgIk92ZXJ3cml0ZSBleGlzdGluZyBmaWxlLiBJZiBub3Qgc3BlY2lmaWVkLCBhIG5ldyBmaWxlIHdpbGwgYmUgY3JlYXRlZCwgYW5kIHRoZSBvbGQgb25lIHdpbGwgcmVtYWluIHVudG91Y2hlZC4ifSwKICAgICAgICB7InJlbW92ZU9sZEZpbGUiLCB7Ii1yIiwgIi0tcmVtb3ZlLW9sZCJ9LCAiUmVtb3ZlIG9sZCBBcHBJbWFnZSBhZnRlciBzdWNjZXNzZnVsIHVwZGF0ZS4ifSwKICAgICAgICB7InVwZGF0ZUluZm8iLCB7Ii11IiwgIi0tdXBkYXRlLWluZm8ifSwgIk1hbnVhbGx5IG92ZXJyaWRlIHVwZGF0ZSBpbmZvcm1hdGlvbiBpbiB0aGUgQXBwSW1hZ2UuIiwgMX0sCiAgICAgICAgeyJzZWxmVXBkYXRlIiwgeyItLXNlbGYtdXBkYXRlIn0sICJVcGRhdGUgdGhpcyBBcHBJbWFnZS4ifSwKICAgIH19OwoKICAgIGFyZ2FnZzo6cGFyc2VyX3Jlc3VsdHMgYXJnczsKCiAgICB0cnkgewogICAgICAgIGFyZ3MgPSBwYXJzZXIucGFyc2UoYXJnYywgYXJndik7CiAgICB9IGNhdGNoIChjb25zdCBzdGQ6OmV4Y2VwdGlvbiYgZSkgewogICAgICAgIHN0ZDo6Y2VyciA8PCBlLndoYXQoKSA8PCAnXG4nOwogICAgICAgIHJldHVybiBFWElUX0ZBSUxVUkU7CiAgICB9CgogICAgY29uc3QgYXV0byBzaG93VXNhZ2UgPSBbYXJndiwgJnBhcnNlcl0oKSB7CiAgICAgICAgc3RkOjpjZXJyIDw8ICJBcHBJbWFnZSBjb21wYW5pb24gdG9vbCB0YWtpbmcgY2FyZSBvZiB1cGRhdGVzIGZvciB0aGUgY29tbWFuZGxpbmUuIiA8PCBlbmRsIDw8IGVuZGw7CiAgICAgICAgY2VyciA8PCAiVXNhZ2U6ICIgPDwgYXJndlswXSA8PCAiIFtvcHRpb25zLi4uXSBbPHBhdGggdG8gQXBwSW1hZ2U+XSIgPDwgZW5kbCA8PCBlbmRsOwogICAgICAgIGNlcnIgPDwgcGFyc2VyOwogICAgfTsKCiAgICBpZiAoYXJnc1siaGVscCJdKSB7CiAgICAgICAgc2hvd1VzYWdlKCk7CiAgICAgICAgcmV0dXJuIEVYSVRfU1VDQ0VTUzsKICAgIH0KCiAgICBpZiAoYXJnc1sidmVyc2lvbiJdKSB7CiAgICAgICAgY2VyciA8PCAiYXBwaW1hZ2V1cGRhdGV0b29sIHZlcnNpb24gIiA8PCBBUFBJTUFHRVVQREFURV9WRVJTSU9OCiAgICAgICAgICAgICA8PCAiIChjb21taXQgIiA8PCBBUFBJTUFHRVVQREFURV9HSVRfQ09NTUlUIDw8ICIpLCAiCiAgICAgICAgICAgICA8PCAiYnVpbGQgIiA8PCBCVUlMRF9OVU1CRVIgPDwgIiBidWlsdCBvbiAiIDw8IEJVSUxEX0RBVEUgPDwgZW5kbDsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICBvcHRpb25hbDxzdHJpbmc+IHBhdGhUb0FwcEltYWdlID0gWyZhcmdzXSgpIHsKICAgICAgICBpZiAoIWFyZ3MucG9zLmVtcHR5KCkpIHsKICAgICAgICAgICAgLy8gY2FsY3VsYXRlIGFic29sdXRlIHBhdGggdG8gbm9ybWFsaXplIHRoZSBwYXRoIGZvciB3aGVuIGl0J3MKICAgICAgICAgICAgLy8gY2hlY2tlZCBiYWNrIGZyb20gVXBkYXRlcjo6cGF0aFRvTmV3RmlsZQogICAgICAgICAgICByZXR1cm4gb3B0aW9uYWw8c3RyaW5nPihhYnNwYXRoKGFyZ3MuYXM8c3RyaW5nPigwKSkpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG9wdGlvbmFsPHN0cmluZz4oKTsKICAgIH0oKTsKCiAgICAvLyBpZiBhIHNlbGYtdXBkYXRlIGlzIHJlcXVlc3RlZCwgY2hlY2sgd2hldGhlciB0aGUgcGF0aCBhcmd1bWVudCBoYXMgYmVlbiBwYXNzZWQsIGFuZCBzaG93IGFuIGVycm9yCiAgICAvLyBvdGhlcndpc2UgY2hlY2sgd2hldGhlciBwYXRoIGhhcyBiZWVuIHBhc3NlZCBvbiB0aGUgQ0xJLCBvdGhlcndpc2Ugc2hvdyBmaWxlIGNob29zZXIKICAgIGlmIChhcmdzWyJzZWxmVXBkYXRlIl0pIHsKICAgICAgICBpZiAocGF0aFRvQXBwSW1hZ2UuaGFzX3ZhbHVlKCkpIHsKICAgICAgICAgICAgY2VyciA8PCAiRXJyb3I6IC0tc2VsZi11cGRhdGUgZG9lcyBub3QgdGFrZSBhIHBhdGguIiA8PCBlbmRsOwogICAgICAgICAgICBzaG93VXNhZ2UoKTsKICAgICAgICAgICAgcmV0dXJuIEVYSVRfRkFJTFVSRTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhdXRvKiBBUFBJTUFHRSA9IGdldGVudigiQVBQSU1BR0UiKTsKCiAgICAgICAgICAgIGlmIChBUFBJTUFHRSA9PSBudWxscHRyKSB7CiAgICAgICAgICAgICAgICBjZXJyIDw8ICJFcnJvcjogc2VsZiB1cGRhdGUgcmVxdWVzdGVkIGJ1dCBjb3VsZCBub3QgZGV0ZXJtaW5lIHBhdGggdG8gQXBwSW1hZ2UgIgogICAgICAgICAgICAgICAgICAgICA8PCAiKCRBUFBJTUFHRSBlbnZpcm9ubWVudCB2YXJpYWJsZSBtaXNzaW5nKS4iCiAgICAgICAgICAgICAgICAgICAgIDw8IGVuZGw7CiAgICAgICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKCFpc0ZpbGUoQVBQSU1BR0UpKSB7CiAgICAgICAgICAgICAgICBjZXJyIDw8ICJFcnJvcjogJEFQUElNQUdFIHBvaW50aW5nIHRvIG5vbi1leGlzdGluZyBmaWxlOlxuIgogICAgICAgICAgICAgICAgICAgICA8PCBBUFBJTUFHRSA8PCBlbmRsOwogICAgICAgICAgICAgICAgcmV0dXJuIDE7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHBhdGhUb0FwcEltYWdlID0gQVBQSU1BR0U7CiAgICAgICAgfQogICAgfQogICAgCiAgICBpZiAoIXBhdGhUb0FwcEltYWdlLmhhc192YWx1ZSgpKSB7CiAgICAgICAgc2hvd1VzYWdlKCk7CiAgICAgICAgcmV0dXJuIEVYSVRfRkFJTFVSRTsKICAgIH0KCiAgICAvLyBhZnRlciBjaGVja2luZyB0aGF0IGEgcGF0aCBpcyBnaXZlbiwgY2hlY2sgd2hldGhlciB0aGUgZmlsZSBhY3R1YWxseSBleGlzdHMKICAgIGlmICghaXNGaWxlKHBhdGhUb0FwcEltYWdlLnZhbHVlKCkpKSB7CiAgICAgICAgLy8gY2Fubm90IHRlbGwgd2hldGhlciBpdCBleGlzdHMgb3Igbm90IHdpdGhvdXQgaW5zcGVjdGluZyBlcnJubywgdGhlcmVmb3JlIHVzaW5nIGEgbW9yZSBnZW5lcmljIGVycm9yIG1lc3NhZ2UKICAgICAgICBjZXJyIDw8ICJDb3VsZCBub3QgcmVhZCBmaWxlOiAiIDw8IHBhdGhUb0FwcEltYWdlLnZhbHVlKCk7CiAgICAgICAgcmV0dXJuIDE7CiAgICB9CgogICAgVXBkYXRlciB1cGRhdGVyKHBhdGhUb0FwcEltYWdlLnZhbHVlKCksIGFyZ3NbIm92ZXJ3cml0ZU9sZEZpbGUiXSk7CgogICAgaWYgKGFyZ3NbInVwZGF0ZUluZm8iXSkgewogICAgICAgIHVwZGF0ZXIuc2V0VXBkYXRlSW5mb3JtYXRpb24oYXJnc1sidXBkYXRlSW5mbyJdKTsKICAgIH0KICAgIAogICAgLy8gaWYgdGhlIHVzZXIganVzdCB3YW50cyBhIGRlc2NyaXB0aW9uIG9mIHRoZSBBcHBJbWFnZSwgcGFyc2UgdGhlIEFwcEltYWdlLCBwcmludCB0aGUgZGVzY3JpcHRpb24gYW5kIGV4aXQKICAgIGlmIChhcmdzWyJkZXNjcmliZSJdKSB7CiAgICAgICAgc3RyaW5nIGRlc2NyaXB0aW9uOwoKICAgICAgICBpZiAoIXVwZGF0ZXIuZGVzY3JpYmVBcHBJbWFnZShkZXNjcmlwdGlvbikpIHsKICAgICAgICAgICAgLy8gVE9ETzogYmV0dGVyIGRlc2NyaXB0aW9uIG9mIHdoYXQgd2VudCB3cm9uZwogICAgICAgICAgICBjZXJyIDw8IGRlc2NyaXB0aW9uIDw8IGVuZGw7CiAgICAgICAgICAgIGNlcnIgPDwgIkZhaWxlZCB0byBwYXJzZSBBcHBJbWFnZS4gU2VlIGFib3ZlIGZvciBtb3JlIGluZm9ybWF0aW9uIiA8PCBlbmRsOwogICAgICAgICAgICByZXR1cm4gMTsKICAgICAgICB9CgogICAgICAgIC8vIHBvc3QgYWxsIHN0YXR1cyBtZXNzYWdlcyBvbiBzdGRlcnIuLi4KICAgICAgICB7CiAgICAgICAgICAgIHN0ZDo6c3RyaW5nIG5leHRNZXNzYWdlOwogICAgICAgICAgICB3aGlsZSAodXBkYXRlci5uZXh0U3RhdHVzTWVzc2FnZShuZXh0TWVzc2FnZSkpCiAgICAgICAgICAgICAgICBjZXJyIDw8IG5leHRNZXNzYWdlIDw8IGVuZGw7CiAgICAgICAgfQogICAgICAgIC8vIC4uLiBpbnNlcnQgYW4gZW1wdHkgbGluZSB0byBzZXBhcmF0ZSBkZXNjcmlwdGlvbiBhbmQgbWVzc2FnZXMgdmlzdWFsbHkgLi4uCiAgICAgICAgY2VyciA8PCBlbmRsOwoKICAgICAgICAvLyAuLi4gYW5kIHRoZSBkZXNjcmlwdGlvbiBvbiBzdGRvdXQKICAgICAgICBjb3V0IDw8IGRlc2NyaXB0aW9uOwoKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICBpZiAoYXJnc1siY2hlY2tGb3JVcGRhdGUiXSkgewogICAgICAgIGJvb2wgY2hhbmdlc0F2YWlsYWJsZSA9IGZhbHNlOwoKICAgICAgICBhdXRvIHJlc3VsdCA9IHVwZGF0ZXIuY2hlY2tGb3JDaGFuZ2VzKGNoYW5nZXNBdmFpbGFibGUpOwoKICAgICAgICAvLyBwcmludCBhbGwgbWVzc2FnZXMgdGhhdCBtaWdodCBiZSBhdmFpbGFibGUKICAgICAgICB7CiAgICAgICAgICAgIHN0ZDo6c3RyaW5nIG5leHRNZXNzYWdlOwogICAgICAgICAgICB3aGlsZSAodXBkYXRlci5uZXh0U3RhdHVzTWVzc2FnZShuZXh0TWVzc2FnZSkpCiAgICAgICAgICAgICAgICBjZXJyIDw8IG5leHRNZXNzYWdlIDw8IGVuZGw7CiAgICAgICAgfQoKICAgICAgICBpZiAoIXJlc3VsdCkgewogICAgICAgICAgICBjZXJyIDw8ICJFcnJvciBjaGVja2luZyBmb3IgY2hhbmdlcyEiOwogICAgICAgICAgICByZXR1cm4gMjsKICAgICAgICB9CgogICAgICAgIHJldHVybiBjaGFuZ2VzQXZhaWxhYmxlID8gMSA6IDA7CiAgICB9CgogICAgLy8gZmlyc3Qgb2YgYWxsLCBjaGVjayB3aGV0aGVyIGFuIHVwZGF0ZSBpcyByZXF1aXJlZCBhdCBhbGwKICAgIC8vIHRoaXMgYXZvaWRzIHVubmVjZXNzYXJ5IGZpbGUgSS9PIChhIHJlYWwgdXBkYXRlIHByb2Nlc3Mgd291bGQgY3JlYXRlIGEgY29weSBvZiB0aGUgZmlsZSBhbnl3YXkgaW4gY2FzZSBhbgogICAgLy8gdXBkYXRlIGlzIG5vdCByZXF1aXJlZCkKICAgIGNvdXQgPDwgIkNoZWNraW5nIGZvciB1cGRhdGVzLi4uIiA8PCBlbmRsOwogICAgYm9vbCB1cGRhdGVSZXF1aXJlZCA9IHRydWU7CgogICAgYXV0byB1cGRhdGVDaGVja1N1Y2Nlc3NmdWwgPSB1cGRhdGVyLmNoZWNrRm9yQ2hhbmdlcyh1cGRhdGVSZXF1aXJlZCk7CgogICAgLy8gZmV0Y2ggbWVzc2FnZXMgZnJvbSB1cGRhdGVyIGJlZm9yZSBzaG93aW5nIGFueSBlcnJvciBtZXNzYWdlcywgZ2l2aW5nIHRoZSB1c2VyIGEgY2hhbmNlIHRvIGNoZWNrIGZvciBlcnJvcnMKICAgIHsKICAgICAgICBzdGQ6OnN0cmluZyBuZXh0TWVzc2FnZTsKICAgICAgICB3aGlsZSAodXBkYXRlci5uZXh0U3RhdHVzTWVzc2FnZShuZXh0TWVzc2FnZSkpCiAgICAgICAgICAgIGNvdXQgPDwgbmV4dE1lc3NhZ2UgPDwgZW5kbDsKICAgIH0KCiAgICBpZiAoIXVwZGF0ZUNoZWNrU3VjY2Vzc2Z1bCkgewogICAgICAgIGNlcnIgPDwgIlVwZGF0ZSBjaGVjayBmYWlsZWQsIGV4aXRpbmchIiA8PCBlbmRsOwogICAgICAgIHJldHVybiAyOwogICAgfQoKICAgIGNvdXQgPDwgIi4uLiBkb25lISIgPDwgZW5kbDsKICAgIGlmICghdXBkYXRlUmVxdWlyZWQpIHsKICAgICAgICBjb3V0IDw8ICJVcGRhdGUgbm90IHJlcXVpcmVkLCBleGl0aW5nLiIgPDwgZW5kbDsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICAvLyB0byBiZSBmYWlyLCB0aGlzIGNoZWNrIGlzIG5vdCByZWFsbHkgcmVxdWlyZWQgKHdoeSBzaG91bGQgdGhpcyBmYWlsKSwgYnV0IGZvciB0aGUgc2FrZSBvZiBjb21wbGV0ZW5lc3MsIGl0J3MKICAgIC8vIHByb3ZpZGVkIGhlcmUKICAgIGlmKCF1cGRhdGVyLnN0YXJ0KCkpIHsKICAgICAgICBjZXJyIDw8ICAiU3RhcnQgZmFpbGVkISIgPDwgZW5kbDsKICAgICAgICByZXR1cm4gMTsKICAgIH0KCiAgICBjZXJyIDw8ICJTdGFydGluZyB1cGRhdGUuLi4iIDw8IGVuZGw7CgogICAgd2hpbGUoIXVwZGF0ZXIuaXNEb25lKCkpIHsKICAgICAgICB0aGlzX3RocmVhZDo6c2xlZXBfZm9yKGNocm9ubzo6bWlsbGlzZWNvbmRzKDEwMCkpOwogICAgICAgIGRvdWJsZSBwcm9ncmVzczsKCiAgICAgICAgYm9vbCBmaXJzdE1lc3NhZ2UgPSB0cnVlOwogICAgICAgIHN0ZDo6c3RyaW5nIG5leHRNZXNzYWdlOwogICAgICAgIHdoaWxlICh1cGRhdGVyLm5leHRTdGF0dXNNZXNzYWdlKG5leHRNZXNzYWdlKSkgewogICAgICAgICAgICBpZiAoZmlyc3RNZXNzYWdlKQogICAgICAgICAgICAgICAgY291dCA8PCBlbmRsOwogICAgICAgICAgICBmaXJzdE1lc3NhZ2UgPSBmYWxzZTsKCiAgICAgICAgICAgIGNvdXQgPDwgbmV4dE1lc3NhZ2UgPDwgZW5kbDsKICAgICAgICB9CgogICAgICAgIGlmICghdXBkYXRlci5wcm9ncmVzcyhwcm9ncmVzcykpCiAgICAgICAgICAgIHJldHVybiAxOwoKICAgICAgICBvZmZfdCBmaWxlU2l6ZSA9IDA7CiAgICAgICAgaWYgKCF1cGRhdGVyLnJlbW90ZUZpbGVTaXplKGZpbGVTaXplKSkKICAgICAgICAgICAgZmlsZVNpemUgPSAtMTsKCiAgICAgICAgZG91YmxlIGZpbGVTaXplSW5NaUIgPSBmaWxlU2l6ZSAvIDEwMjQuMGYgLyAxMDI0LjBmOwoKICAgICAgICBjb3V0IDw8ICJcMzNbMktcciIgPDwgKHByb2dyZXNzICogMTAwLjBmKSA8PCAiJSBkb25lIjsKICAgICAgICBpZiAoZmlsZVNpemUgPj0gMCkKICAgICAgICAgICAgY291dCA8PCBmaXhlZCA8PCBzZXRwcmVjaXNpb24oMikgPDwgIiAoIiA8PCBwcm9ncmVzcyAqIGZpbGVTaXplSW5NaUIgPDwgIiBvZiAiIDw8IGZpbGVTaXplSW5NaUIgPDwgIiBNaUIpLi4uIjsKICAgICAgICBjb3V0IDw8IGZsdXNoOwogICAgfQoKICAgIHN0ZDo6c3RyaW5nIG5leHRNZXNzYWdlOwogICAgd2hpbGUgKHVwZGF0ZXIubmV4dFN0YXR1c01lc3NhZ2UobmV4dE1lc3NhZ2UpKQogICAgICAgIGNvdXQgPDwgbmV4dE1lc3NhZ2UgPDwgZW5kbDsKCiAgICBjb3V0IDw8IGVuZGw7CgogICAgaWYodXBkYXRlci5oYXNFcnJvcigpKSB7CiAgICAgICAgY2VyciA8PCAiVXBkYXRlIGZhaWxlZCEiIDw8IGVuZGw7CiAgICAgICAgcmV0dXJuIDE7CiAgICB9CgogICAgc3RyaW5nIG5ld0ZpbGVQYXRoOwoKICAgIC8vIHJlYWxseSBzaG91bGRuJ3QgZmFpbCBoZXJlIGFueSBtb3JlLCBidXQganVzdCBpbiBjYXNlLi4uCiAgICBpZiAoIXVwZGF0ZXIucGF0aFRvTmV3RmlsZShuZXdGaWxlUGF0aCkpIHsKICAgICAgICBjZXJyIDw8ICJGYXRhbCBlcnJvcjogY291bGQgbm90IGRldGVybWluZSBwYXRoIHRvIG5ldyBmaWxlISIgPDwgZW5kbDsKICAgICAgICByZXR1cm4gMTsKICAgIH0KCiAgICAvLyBub3JtYWxpemUgYWdhaW5zdCBwYXRoVG9BcHBJbWFnZSAtIHNvIHRoZXkgZm9sbG93IHRoZSBzYW1lIGZvcm1hdAogICAgbmV3RmlsZVBhdGggPSBhYnNwYXRoKG5ld0ZpbGVQYXRoKTsKCiAgICBhdXRvIHZhbGlkYXRpb25SZXN1bHQgPSB1cGRhdGVyLnZhbGlkYXRlU2lnbmF0dXJlKCk7CgogICAgd2hpbGUgKHVwZGF0ZXIubmV4dFN0YXR1c01lc3NhZ2UobmV4dE1lc3NhZ2UpKQogICAgICAgIGNvdXQgPDwgbmV4dE1lc3NhZ2UgPDwgZW5kbDsKCiAgICBhdXRvIG9sZEZpbGVQYXRoID0gcGF0aFRvT2xkQXBwSW1hZ2UocGF0aFRvQXBwSW1hZ2UudmFsdWUoKSwgbmV3RmlsZVBhdGgpOwoKICAgIGlmICh2YWxpZGF0aW9uUmVzdWx0ID49IFVwZGF0ZXI6OlZBTElEQVRJT05fRkFJTEVEKSB7CiAgICAgICAgLy8gdmFsaWRhdGlvbiBmYWlsZWQsIHJlc3RvcmUgb3JpZ2luYWwgZmlsZSB0byBwcmV2ZW50IGJhZCB0aGluZ3MgZnJvbSBoYXBwZW5pbmcKICAgICAgICB1cGRhdGVyLnJlc3RvcmVPcmlnaW5hbEZpbGUoKTsKCiAgICAgICAgY2VyciA8PCAiVmFsaWRhdGlvbiBlcnJvcjogIiA8PCBVcGRhdGVyOjpzaWduYXR1cmVWYWxpZGF0aW9uTWVzc2FnZSh2YWxpZGF0aW9uUmVzdWx0KSA8PCBlbmRsCiAgICAgICAgICAgICA8PCAiUmVzdG9yaW5nIG9yaWdpbmFsIGZpbGUiIDw8IGVuZGw7CgogICAgICAgIHJldHVybiAxOwogICAgfQoKICAgIGlmICh2YWxpZGF0aW9uUmVzdWx0ID49IFVwZGF0ZXI6OlZBTElEQVRJT05fV0FSTklORykgewogICAgICAgIGlmICh2YWxpZGF0aW9uUmVzdWx0ID09IFVwZGF0ZXI6OlZBTElEQVRJT05fTk9UX1NJR05FRCkgewogICAgICAgICAgICAvLyBjb3B5IHBlcm1pc3Npb25zIG9mIHRoZSBvbGQgQXBwSW1hZ2UgdG8gdGhlIG5ldyB2ZXJzaW9uCiAgICAgICAgICAgIHVwZGF0ZXIuY29weVBlcm1pc3Npb25zVG9OZXdGaWxlKCk7CiAgICAgICAgfQoKICAgICAgICBjZXJyIDw8ICJWYWxpZGF0aW9uIHdhcm5pbmc6ICIgPDwgVXBkYXRlcjo6c2lnbmF0dXJlVmFsaWRhdGlvbk1lc3NhZ2UodmFsaWRhdGlvblJlc3VsdCkgPDwgZW5kbDsKICAgIH0KCiAgICBpZiAodmFsaWRhdGlvblJlc3VsdCA8PSBVcGRhdGVyOjpWQUxJREFUSU9OX1dBUk5JTkcpIHsKICAgICAgICAvLyBjb3B5IHBlcm1pc3Npb25zIG9mIHRoZSBvbGQgQXBwSW1hZ2UgdG8gdGhlIG5ldyB2ZXJzaW9uCiAgICAgICAgdXBkYXRlci5jb3B5UGVybWlzc2lvbnNUb05ld0ZpbGUoKTsKICAgICAgICBjZXJyIDw8ICJTaWduYXR1cmUgdmFsaWRhdGlvbiBwYXNzZWQiIDw8IGVuZGw7CiAgICB9CgogICAgaWYgKGFyZ3NbInJlbW92ZU9sZEZpbGUiXSkgewogICAgICAgIGlmIChpc0ZpbGUob2xkRmlsZVBhdGgpKSB7CiAgICAgICAgICAgIGNlcnIgPDwgIlJlbW92aW5nIG9sZCBBcHBJbWFnZTogIiA8PCBvbGRGaWxlUGF0aCA8PCBlbmRsOwogICAgICAgICAgICB1bmxpbmsob2xkRmlsZVBhdGguY19zdHIoKSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgY2VyciA8PCAiV2FybmluZzogY291bGQgbm90IGZpbmQgb2xkIEFwcEltYWdlOiAiIDw8IG9sZEZpbGVQYXRoIDw8IGVuZGw7CiAgICAgICAgfQogICAgfQoKICAgIGNlcnIgPDwgIlVwZGF0ZSBzdWNjZXNzZnVsLiAiCiAgICAgICAgIDw8IChhcmdzWyJvdmVyd3JpdGVPbGRGaWxlIl0gPyAiVXBkYXRlZCBleGlzdGluZyBmaWxlICIgOiAiTmV3IGZpbGUgY3JlYXRlZDogIikgPDwgbmV3RmlsZVBhdGgKICAgICAgICAgPDwgZW5kbDsKCiAgICByZXR1cm4gMDsKfQo=
+// system headers
+#include <chrono>
+#include <cstring>
+#include <iomanip>
+#include <iostream>
+#include <thread>
+#include <unistd.h>
+#include <optional>
+
+// library headers
+#include <argagg/argagg.hpp>
+
+// local headers
+#include "appimage/update.h"
+#include "util/util.h"
+
+using namespace std;
+using namespace appimage::update;
+using namespace appimage::update::util;
+
+int main(const int argc, const char** argv) {
+    argagg::parser parser{{
+        {"help", {"-h", "--help"}, "Display this help text."},
+        {"version", {"-V", "--version"}, "Display version information."},
+        {"describe", {"-d", "--describe"}, "Parse and describe AppImage and its update information and exit."},
+        {"checkForUpdate", {"-j", "--check-for-update"}, "Check for update. Exits with code 1 if changes are available, 0 if there are not,"
+                                                         "other non-zero code in case of errors."},
+        {"overwriteOldFile", {"-O", "--overwrite"}, "Overwrite existing file. If not specified, a new file will be created, and the old one will remain untouched."},
+        {"removeOldFile", {"-r", "--remove-old"}, "Remove old AppImage after successful update."},
+        {"updateInfo", {"-u", "--update-info"}, "Manually override update information in the AppImage.", 1},
+        {"selfUpdate", {"--self-update"}, "Update this AppImage."},
+    }};
+
+    argagg::parser_results args;
+
+    try {
+        args = parser.parse(argc, argv);
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << '\n';
+        return EXIT_FAILURE;
+    }
+
+    const auto showUsage = [argv, &parser]() {
+        std::cerr << "AppImage companion tool taking care of updates for the commandline." << endl << endl;
+        cerr << "Usage: " << argv[0] << " [options...] [<path to AppImage>]" << endl << endl;
+        cerr << parser;
+    };
+
+    if (args["help"]) {
+        showUsage();
+        return EXIT_SUCCESS;
+    }
+
+    if (args["version"]) {
+        cerr << "appimageupdatetool version " << APPIMAGEUPDATE_VERSION
+             << " (commit " << APPIMAGEUPDATE_GIT_COMMIT << "), "
+             << "build " << BUILD_NUMBER << " built on " << BUILD_DATE << endl;
+        return 0;
+    }
+
+    optional<string> pathToAppImage = [&args]() {
+        if (!args.pos.empty()) {
+            // calculate absolute path to normalize the path for when it's
+            // checked back from Updater::pathToNewFile
+            return optional<string>(abspath(args.as<string>(0)));
+        }
+
+        return optional<string>();
+    }();
+
+    // if a self-update is requested, check whether the path argument has been passed, and show an error
+    // otherwise check whether path has been passed on the CLI, otherwise show file chooser
+    if (args["selfUpdate"]) {
+        if (pathToAppImage.has_value()) {
+            cerr << "Error: --self-update does not take a path." << endl;
+            showUsage();
+            return EXIT_FAILURE;
+        } else {
+            auto* APPIMAGE = getenv("APPIMAGE");
+
+            if (APPIMAGE == nullptr) {
+                cerr << "Error: self update requested but could not determine path to AppImage "
+                     << "($APPIMAGE environment variable missing)."
+                     << endl;
+                return 1;
+            }
+
+            if (!isFile(APPIMAGE)) {
+                cerr << "Error: $APPIMAGE pointing to non-existing file:\n"
+                     << APPIMAGE << endl;
+                return 1;
+            }
+
+            pathToAppImage = APPIMAGE;
+        }
+    }
+    
+    if (!pathToAppImage.has_value()) {
+        showUsage();
+        return EXIT_FAILURE;
+    }
+
+    // after checking that a path is given, check whether the file actually exists
+    if (!isFile(pathToAppImage.value())) {
+        // cannot tell whether it exists or not without inspecting errno, therefore using a more generic error message
+        cerr << "Could not read file: " << pathToAppImage.value();
+        return 1;
+    }
+
+    Updater updater(pathToAppImage.value(), args["overwriteOldFile"]);
+
+    if (args["updateInfo"]) {
+        updater.setUpdateInformation(args["updateInfo"]);
+    }
+    
+    // if the user just wants a description of the AppImage, parse the AppImage, print the description and exit
+    if (args["describe"]) {
+        string description;
+
+        if (!updater.describeAppImage(description)) {
+            // TODO: better description of what went wrong
+            cerr << description << endl;
+            cerr << "Failed to parse AppImage. See above for more information" << endl;
+            return 1;
+        }
+
+        // post all status messages on stderr...
+        {
+            std::string nextMessage;
+            while (updater.nextStatusMessage(nextMessage))
+                cerr << nextMessage << endl;
+        }
+        // ... insert an empty line to separate description and messages visually ...
+        cerr << endl;
+
+        // ... and the description on stdout
+        cout << description;
+
+        return 0;
+    }
+
+    if (args["checkForUpdate"]) {
+        bool changesAvailable = false;
+
+        auto result = updater.checkForChanges(changesAvailable);
+
+        // print all messages that might be available
+        {
+            std::string nextMessage;
+            while (updater.nextStatusMessage(nextMessage))
+                cerr << nextMessage << endl;
+        }
+
+        if (!result) {
+            cerr << "Error checking for changes!";
+            return 2;
+        }
+
+        return changesAvailable ? 1 : 0;
+    }
+
+    // first of all, check whether an update is required at all
+    // this avoids unnecessary file I/O (a real update process would create a copy of the file anyway in case an
+    // update is not required)
+    cout << "Checking for updates..." << endl;
+    bool updateRequired = true;
+
+    auto updateCheckSuccessful = updater.checkForChanges(updateRequired);
+
+    // fetch messages from updater before showing any error messages, giving the user a chance to check for errors
+    {
+        std::string nextMessage;
+        while (updater.nextStatusMessage(nextMessage))
+            cout << nextMessage << endl;
+    }
+
+    if (!updateCheckSuccessful) {
+        cerr << "Update check failed, exiting!" << endl;
+        return 2;
+    }
+
+    cout << "... done!" << endl;
+    if (!updateRequired) {
+        cout << "Update not required, exiting." << endl;
+        return 0;
+    }
+
+    // to be fair, this check is not really required (why should this fail), but for the sake of completeness, it's
+    // provided here
+    if(!updater.start()) {
+        cerr <<  "Start failed!" << endl;
+        return 1;
+    }
+
+    cerr << "Starting update..." << endl;
+
+    while(!updater.isDone()) {
+        this_thread::sleep_for(chrono::milliseconds(100));
+        double progress;
+
+        bool firstMessage = true;
+        std::string nextMessage;
+        while (updater.nextStatusMessage(nextMessage)) {
+            if (firstMessage)
+                cout << endl;
+            firstMessage = false;
+
+            cout << nextMessage << endl;
+        }
+
+        if (!updater.progress(progress))
+            return 1;
+
+        off_t fileSize = 0;
+        if (!updater.remoteFileSize(fileSize))
+            fileSize = -1;
+
+        double fileSizeInMiB = fileSize / 1024.0f / 1024.0f;
+
+        cout << "\33[2K\r" << (progress * 100.0f) << "% done";
+        if (fileSize >= 0)
+            cout << fixed << setprecision(2) << " (" << progress * fileSizeInMiB << " of " << fileSizeInMiB << " MiB)...";
+        cout << flush;
+    }
+
+    std::string nextMessage;
+    while (updater.nextStatusMessage(nextMessage))
+        cout << nextMessage << endl;
+
+    cout << endl;
+
+    if(updater.hasError()) {
+        cerr << "Update failed!" << endl;
+        return 1;
+    }
+
+    string newFilePath;
+
+    // really shouldn't fail here any more, but just in case...
+    if (!updater.pathToNewFile(newFilePath)) {
+        cerr << "Fatal error: could not determine path to new file!" << endl;
+        return 1;
+    }
+
+    // normalize against pathToAppImage - so they follow the same format
+    newFilePath = abspath(newFilePath);
+
+    auto validationResult = updater.validateSignature();
+
+    while (updater.nextStatusMessage(nextMessage))
+        cout << nextMessage << endl;
+
+    auto oldFilePath = pathToOldAppImage(pathToAppImage.value(), newFilePath);
+
+    if (validationResult >= Updater::VALIDATION_FAILED) {
+        // validation failed, restore original file to prevent bad things from happening
+        updater.restoreOriginalFile();
+
+        cerr << "Validation error: " << Updater::signatureValidationMessage(validationResult) << endl
+             << "Restoring original file" << endl;
+
+        return 1;
+    }
+
+    if (validationResult >= Updater::VALIDATION_WARNING) {
+        if (validationResult == Updater::VALIDATION_NOT_SIGNED) {
+            // copy permissions of the old AppImage to the new version
+            updater.copyPermissionsToNewFile();
+        }
+
+        cerr << "Validation warning: " << Updater::signatureValidationMessage(validationResult) << endl;
+    }
+
+    if (validationResult <= Updater::VALIDATION_WARNING) {
+        // copy permissions of the old AppImage to the new version
+        updater.copyPermissionsToNewFile();
+        cerr << "Signature validation passed" << endl;
+    }
+
+    if (args["removeOldFile"]) {
+        if (isFile(oldFilePath)) {
+            cerr << "Removing old AppImage: " << oldFilePath << endl;
+            unlink(oldFilePath.c_str());
+        } else {
+            cerr << "Warning: could not find old AppImage: " << oldFilePath << endl;
+        }
+    }
+
+    cerr << "Update successful. "
+         << (args["overwriteOldFile"] ? "Updated existing file " : "New file created: ") << newFilePath
+         << endl;
+
+    return 0;
+}

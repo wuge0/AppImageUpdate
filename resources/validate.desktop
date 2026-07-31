@@ -1,1 +1,9 @@
-W0Rlc2t0b3AgRW50cnldCk5hbWU9QXBwSW1hZ2VVcGRhdGUKVHlwZT1BcHBsaWNhdGlvbgpJY29uPWFwcGltYWdlCkV4ZWM9dmFsaWRhdGUKQ29tbWVudD1WYWxpZGF0ZSB0aGUgYnVpbHQtaW4gc2lnbmF0dXJlIG9mIEFwcEltYWdlcwpDYXRlZ29yaWVzPVV0aWxpdHk7ClRlcm1pbmFsPXRydWUKTm9EaXNwbGF5PXRydWUK
+[Desktop Entry]
+Name=AppImageUpdate
+Type=Application
+Icon=appimage
+Exec=validate
+Comment=Validate the built-in signature of AppImages
+Categories=Utility;
+Terminal=true
+NoDisplay=true

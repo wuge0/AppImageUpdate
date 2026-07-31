@@ -1,1 +1,130 @@
-I3ByYWdtYSBvbmNlCgovLyBnbG9iYWwgaGVhZGVycwojaW5jbHVkZSA8bWVtb3J5PgojaW5jbHVkZSA8c3RyaW5nPgojaW5jbHVkZSA8c3lzL3R5cGVzLmg+CgpuYW1lc3BhY2UgYXBwaW1hZ2U6OnVwZGF0ZSB7CiAgICAvKioKICAgICAqIFByaW1hcnkgY2xhc3Mgb2YgQXBwSW1hZ2VVcGRhdGUuIEFic3RyYWN0cyBlbnRpcmUgZnVuY3Rpb25hbGl0eS4KICAgICAqCiAgICAgKiBVcGRhdGUgaXMgcnVuIGFzeW5jaHJvbm91c2x5IGluIGEgc2VwYXJhdGUgdGhyZWFkLiBUaGUgb3duZXIgb2YgdGhlIGluc3RhbmNlIGNhbiBxdWVyeSB0aGUgcHJvZ3Jlc3MuCiAgICAgKi8KICAgIGNsYXNzIFVwZGF0ZXIgewogICAgcHVibGljOgogICAgICAgIC8vIFJlcHJlc2VudHMgY3VycmVudCBzdGF0ZSBvZiB0aGUgdXBkYXRlcgogICAgICAgIGVudW0gU3RhdGUgewogICAgICAgICAgICBJTklUSUFMSVpFRCwKICAgICAgICAgICAgUlVOTklORywKICAgICAgICAgICAgU1RPUFBJTkcsCiAgICAgICAgICAgIFNVQ0NFU1MsCiAgICAgICAgICAgIEVSUk9SLAogICAgICAgIH07CgogICAgICAgIC8vIFZhbGlkYXRpb24gc3RhdGVzLiBSZXR1cm5lZCBieSB2YWxpZGF0ZSgpCiAgICAgICAgZW51bSBWYWxpZGF0aW9uU3RhdGUgewogICAgICAgICAgICAvLyB0aGVyZSBpcyBvbmx5IG9uZSBQQVNTRUQgc3RhdGUsIGhlbmNlIGNoZWNrIGxpa2UgPT0gUEFTU0VECiAgICAgICAgICAgIFZBTElEQVRJT05fUEFTU0VEID0gMCwKCiAgICAgICAgICAgIC8vIHdhcm5pbmcgc3RhdGVzIC0tIGNoZWNrIGxpa2UgPj0gV0FSTklORyAmJiA8IEVSUk9SCiAgICAgICAgICAgIFZBTElEQVRJT05fV0FSTklORyA9IDEwMDAsCiAgICAgICAgICAgIFZBTElEQVRJT05fTk9UX1NJR05FRCwKCiAgICAgICAgICAgIC8vIGVycm9yIHN0YXRlcyAtLSBjaGVjayBsaWtlID49IEVSUk9SCiAgICAgICAgICAgIFZBTElEQVRJT05fRkFJTEVEID0gMjAwMCwKICAgICAgICAgICAgVkFMSURBVElPTl9LRVlfQ0hBTkdFRCwKICAgICAgICAgICAgVkFMSURBVElPTl9OT19MT05HRVJfU0lHTkVELAogICAgICAgICAgICBWQUxJREFUSU9OX0JBRF9TSUdOQVRVUkUsCiAgICAgICAgfTsKCiAgICBwcml2YXRlOgogICAgICAgIC8vIG9wYXF1ZSBwcml2YXRlIGNsYXNzCiAgICAgICAgLy8gd2l0aG91dCB0aGlzIHBhdHRlcm4sIHRoZSBoZWFkZXIgd291bGQgcmVxdWlyZSBDKysxMSwgd2hpY2ggaXMgdW5kZXNpcmFibGUKICAgICAgICBjbGFzcyBQcml2YXRlOwogICAgICAgIHN0ZDo6c2hhcmVkX3B0cjxQcml2YXRlPiBkOwoKICAgIHByaXZhdGU6CiAgICAgICAgLy8gdGhyZWFkIHJ1bm5lciAtLSBzaG91bGQgYmUgY2FsbGVkIGZyb20gc3RhcnQoKSBvbmx5CiAgICAgICAgdm9pZCBydW5VcGRhdGUoKTsKCiAgICBwdWJsaWM6CiAgICAgICAgLy8gdGhyb3dzIHN0ZDo6aW52YWxpZF9hcmd1bWVudCBpZiB0aGUgZmlsZSBkb2VzIG5vdCBleGlzdAogICAgICAgIC8vIGlmIG92ZXJ3cml0ZSBpcyBzcGVjaWZpZWQsIG9sZCBmaWxlIHdpbGwgYmUgb3ZlcndyaXR0ZW4sIG90aGVyd2lzZSBpdCB3aWxsIHJlbWFpbiBvbiB0aGUgc3lzdGVtCiAgICAgICAgLy8gYXMtaXMKICAgICAgICBleHBsaWNpdCBVcGRhdGVyKGNvbnN0IHN0ZDo6c3RyaW5nJiBwYXRoVG9BcHBJbWFnZSwgYm9vbCBvdmVyd3JpdGUgPSBmYWxzZSk7CgogICAgICAgIC8vIGRlY2xhcmVkIG1lcmVseSBmb3IgdW5pcXVlX3B0ciB0byB3b3JrCiAgICAgICAgflVwZGF0ZXIoKSBub2V4Y2VwdDsKCiAgICBwdWJsaWM6CiAgICAgICAgLy8gU3RhcnQgdXBkYXRlIHByb2Nlc3MuIElmIHJ1bm5pbmcvZmluaXNoZWQgYWxyZWFkeSwgcmV0dXJucyBmYWxzZSwgb3RoZXJ3aXNlIHRydWUuCiAgICAgICAgYm9vbCBzdGFydCgpOwoKICAgICAgICAvLyBJbnRlcnJ1cHQgdXBkYXRlIHByb2Nlc3MgYXMgc29vbiBhcyBwb3NzaWJsZS4gVGhyb3dzIGV4Y2VwdGlvbiBpZiB0aGUgdXBkYXRlIGhhcyBub3QgYmVlbiBzdGFydGVkLgogICAgICAgIC8vIFJldHVybnMgZmFsc2UgaWYgc3RvcCgpIGhhcyBiZWVuIGNhbGxlZCBhbHJlYWR5LgogICAgICAgIGJvb2wgc3RvcCgpOwoKICAgICAgICAvLyBSZXR1cm5zIGN1cnJlbnQgc3RhdGUgb2YgdGhlIHVwZGF0ZXIuCiAgICAgICAgU3RhdGUgc3RhdGUoKTsKCiAgICAgICAgLy8gQ29udmVuaWVuY2UgZnVuY3Rpb24gcmV0dXJuaW5nIHRydWUgd2hlbiB0aGUgdXBkYXRlIGhhcyBmaW5pc2hlZC4gVXNlcyBzdGF0ZSgpIGludGVybmFsbHkuCiAgICAgICAgLy8gQmV3YXJlIHRoYXQgaXQgd2lsbCByZXR1cm4gdHJ1ZSBpbiBjYXNlIG9mIGVycm9ycywgdG9vISBDb21iaW5lIHdpdGggZWl0aGVyIHN0YXRlKCkgb3IgaGFzRXJyb3IoKSEKICAgICAgICBib29sIGlzRG9uZSgpOwoKICAgICAgICAvLyBDb252ZW5pZW5jZSBmdW5jdGlvbiByZXR1cm5pbmcgd2hldGhlciBhbiBlcnJvciBoYXMgb2NjdXJlZC4gVXNlcyBzdGF0ZSgpIGludGVybmFsbHkuCiAgICAgICAgLy8gQmV3YXJlIHRoYXQgaXQgd2lsbCByZXR1cm4gZmFsc2UgZXZlbiBpZiB0aGUgdXBkYXRlIHByb2Nlc3MgaGFzIG5vdCB5ZXQgYmVndW4sIG9yIGlzIGN1cnJlbnRseSBydW5uaW5nIQogICAgICAgIGJvb2wgaGFzRXJyb3IoKTsKCiAgICAgICAgLy8gU2V0cyBnaXZlbiBwYXJhbWV0ZXIgdG8gY3VycmVudCBwcm9ncmVzcy4gUmV0dXJucyBmYWxzZSBpbiBjYXNlIG9mIGZhaWx1cmUsIGkuZS4sIHRoZSB1cGRhdGUgcHJvY2VzcwogICAgICAgIC8vIGlzIG5vdCBydW5uaW5nIG9yIHRoZSB2ZXJzaW9uIG9mIHRoZSBBcHBJbWFnZSBmb3JtYXQgaXMgbm90IHN1cHBvcnRlZCwgb3RoZXJ3aXNlIHRydWUuCiAgICAgICAgYm9vbCBwcm9ncmVzcyhkb3VibGUmIHByb2dyZXNzKTsKCiAgICAgICAgLy8gRmV0Y2ggYSBzdGF0dXMgbWVzc2FnZSBmcm9tIHRoZSBjbGllbnQgaW4gdXNlIHRoYXQgY2FuIGJlIHVzZWQgdG8gZGlzcGxheSB1cGRhdGVzCiAgICAgICAgYm9vbCBuZXh0U3RhdHVzTWVzc2FnZShzdGQ6OnN0cmluZyYgbWVzc2FnZSk7CgogICAgICAgIC8vIENoZWNrIHdoZXRoZXIgYW4gdXBkYXRlIGlzIGF2YWlsYWJsZQogICAgICAgIC8vIFBsZWFzZSBub3RlIHRoYXQgdGhpcyBtZXRob2QgaXMgKm9ubHkqIGF2YWlsYWJsZSB1bnRpbCB0aGUgdXBkYXRlIGlzIHN0YXJ0ZWQgKGFmdGVyIGNhbGxpbmcgc3RhcnQoKSwKICAgICAgICAvLyB0aGUgbWV0aG9kIHdpbGwgaW5zdGFudGx5IHJldHVybiBmYWxzZSkKICAgICAgICBib29sIGNoZWNrRm9yQ2hhbmdlcyhib29sJiB1cGRhdGVBdmFpbGFibGUsIHVuc2lnbmVkIGludCBtZXRob2QgPSAwKTsKCiAgICAgICAgLy8gUGFyc2VzIEFwcEltYWdlIGZpbGUsIGFuZCByZXR1cm5zIGEgZm9ybWF0dGVkIHN0cmluZyBkZXNjcmliaW5nIGl0CiAgICAgICAgLy8gaW4gY2FzZSBvZiBzdWNjZXNzLCBzZXRzIGRlc2NyaXB0aW9uIGFuZCByZXR1cm5zIHRydWUsIGZhbHNlIG90aGVyd2lzZQogICAgICAgIGJvb2wgZGVzY3JpYmVBcHBJbWFnZShzdGQ6OnN0cmluZyYgZGVzY3JpcHRpb24pIGNvbnN0OwoKICAgICAgICAvLyBTZXRzIHBhdGggdG8gdGhlIHBhdGggb2YgdGhlIGZpbGUgY3JlYXRlZCBieSB0aGUgdXBkYXRlIGFuZCByZXR1cm5zIHRydWUgYXMgc29vbiBhcyB0aGlzIHZhbHVlIGlzCiAgICAgICAgLy8gYXZhaWxhYmxlIChhZnRlciBhIHN1Y2Nlc3NmdWwgdXBkYXRlIGF0IHRoZSBsYXRlc3QpCiAgICAgICAgLy8gUmV0dXJucyBmYWxzZSBpbiBjYXNlIG9mIGVycm9ycywgb3Igd2hlbiB0aGUgcGF0aCBpcyBub3QgYXZhaWxhYmxlIHlldAogICAgICAgIGJvb2wgcGF0aFRvTmV3RmlsZShzdGQ6OnN0cmluZyYgcGF0aCkgY29uc3Q7CgogICAgICAgIC8vIFZhbGlkYXRlIEFwcEltYWdlIHNpZ25hdHVyZQogICAgICAgIC8vIFRPRE86IGRlc2NyaWJlIHByb2Nlc3MKICAgICAgICAvLyBSZXR1cm5zIGEgVmFsaWRhdGlvblN0YXRlIHZhbHVlLiBTZWUgVmFsaWRhdGlvblN0YXRlIGRvY3VtZW50YXRpb24gZm9yIG1vcmUgaW5mb3JtYXRpb24uCiAgICAgICAgVmFsaWRhdGlvblN0YXRlIHZhbGlkYXRlU2lnbmF0dXJlKCk7CgogICAgICAgIC8vIFJldHVybnMgYSBkZXNjcmlwdGlvbiBzdHJpbmcgb2YgdGhlIGdpdmVuIHZhbGlkYXRpb24gc3RhdGUuCiAgICAgICAgc3RhdGljIHN0ZDo6c3RyaW5nIHNpZ25hdHVyZVZhbGlkYXRpb25NZXNzYWdlKGNvbnN0IFZhbGlkYXRpb25TdGF0ZSYgc3RhdGUpOwoKICAgICAgICAvLyBSZXR1cm5zIHRoZSBzaXplIG9mIHRoZSByZW1vdGUgZmlsZSBpbiBieXRlcwogICAgICAgIGJvb2wgcmVtb3RlRmlsZVNpemUob2ZmX3QmIGZpbGVTaXplKSBjb25zdDsKCiAgICAgICAgLy8gUmV0dXJuIHVwZGF0ZSBpbmZvcm1hdGlvbgogICAgICAgIC8vIElmIG5vIGN1c3RvbSB1cGRhdGUgaW5mb3JtYXRpb24gaXMgc2V0LCB0aGUgZnVuY3Rpb24gcmV0dXJucyB0aGUgcmF3IHVwZGF0ZSBpbmZvcm1hdGlvbiBjb250YWluZWQgaW4gdGhlCiAgICAgICAgLy8gQXBwSW1hZ2UKICAgICAgICBbW25vZGlzY2FyZF1dIHN0ZDo6c3RyaW5nIHVwZGF0ZUluZm9ybWF0aW9uKCkgY29uc3Q7CgogICAgICAgIC8vIFNldCBjdXN0b20gdXBkYXRlIGluZm9ybWF0aW9uCiAgICAgICAgLy8gVGhlIGN1c3RvbSB1cGRhdGUgaW5mb3JtYXRpb24gd2lsbCBvdmVyd3JpdGUgdGhlIG9uZSBmZXRjaGVkIGZyb20gdGhlIEFwcEltYWdlCiAgICAgICAgLy8gVGhpcyBmdW5jdGlvbiBpcyBmb3IgYXBwbGljYXRpb25zIHRoYXQgdXNlIGxpYmFwcGltYWdldXBkYXRlLCBlLmcuLCB0byBzZWxmLXVwZGF0ZSwgb3IgaW1wbGVtZW50IGEgY3VzdG9tCiAgICAgICAgLy8gZnJvbnRlbmQgbGlrZSBBcHBJbWFnZUxhdW5jaGVyIGRvZXMsIGV4dGVuZGluZyB0aG9zZSB1c2VycycgcG9zc2liaWxpdGllcwogICAgICAgIC8vIFVzZSBjYXNlcyBpbmNsdWRlIHRoZSB1c2Ugb2YgY3VzdG9tIHVwZGF0ZSBzZXJ2ZXJzIGluc3RlYWQgb2YgcmVseWluZyBvbiBhIGJ1aWx0LWluIHVwZGF0ZSBpbmZvcm1hdGlvbiB0eXBlLAogICAgICAgIC8vIGltcGxlbWVudCBtdWx0aXBsZSB1cGRhdGUgY2hhbm5lbHMsIGV0Yy4KICAgICAgICB2b2lkIHNldFVwZGF0ZUluZm9ybWF0aW9uKHN0ZDo6c3RyaW5nIG5ld1VwZGF0ZUluZm9ybWF0aW9uKTsKCiAgICAgICAgLy8gUmVzdG9yZSBvcmlnaW5hbCBmaWxlLCBlLmcuLCBhZnRlciBhIHNpZ25hdHVyZSB2YWxpZGF0aW9uIGVycm9yCiAgICAgICAgdm9pZCByZXN0b3JlT3JpZ2luYWxGaWxlKCk7CgogICAgICAgIC8vIGNvcHkgcGVybWlzc2lvbnMgb2YgdGhlIG9yaWdpbmFsIEFwcEltYWdlIHRvIHRoZSBuZXcgdmVyc2lvbgogICAgICAgIHZvaWQgY29weVBlcm1pc3Npb25zVG9OZXdGaWxlKCk7CiAgICB9Owp9Cg==
+#pragma once
+
+// global headers
+#include <memory>
+#include <string>
+#include <sys/types.h>
+
+namespace appimage::update {
+    /**
+     * Primary class of AppImageUpdate. Abstracts entire functionality.
+     *
+     * Update is run asynchronously in a separate thread. The owner of the instance can query the progress.
+     */
+    class Updater {
+    public:
+        // Represents current state of the updater
+        enum State {
+            INITIALIZED,
+            RUNNING,
+            STOPPING,
+            SUCCESS,
+            ERROR,
+        };
+
+        // Validation states. Returned by validate()
+        enum ValidationState {
+            // there is only one PASSED state, hence check like == PASSED
+            VALIDATION_PASSED = 0,
+
+            // warning states -- check like >= WARNING && < ERROR
+            VALIDATION_WARNING = 1000,
+            VALIDATION_NOT_SIGNED,
+
+            // error states -- check like >= ERROR
+            VALIDATION_FAILED = 2000,
+            VALIDATION_KEY_CHANGED,
+            VALIDATION_NO_LONGER_SIGNED,
+            VALIDATION_BAD_SIGNATURE,
+        };
+
+    private:
+        // opaque private class
+        // without this pattern, the header would require C++11, which is undesirable
+        class Private;
+        std::shared_ptr<Private> d;
+
+    private:
+        // thread runner -- should be called from start() only
+        void runUpdate();
+
+    public:
+        // throws std::invalid_argument if the file does not exist
+        // if overwrite is specified, old file will be overwritten, otherwise it will remain on the system
+        // as-is
+        explicit Updater(const std::string& pathToAppImage, bool overwrite = false);
+
+        // declared merely for unique_ptr to work
+        ~Updater() noexcept;
+
+    public:
+        // Start update process. If running/finished already, returns false, otherwise true.
+        bool start();
+
+        // Interrupt update process as soon as possible. Throws exception if the update has not been started.
+        // Returns false if stop() has been called already.
+        bool stop();
+
+        // Returns current state of the updater.
+        State state();
+
+        // Convenience function returning true when the update has finished. Uses state() internally.
+        // Beware that it will return true in case of errors, too! Combine with either state() or hasError()!
+        bool isDone();
+
+        // Convenience function returning whether an error has occured. Uses state() internally.
+        // Beware that it will return false even if the update process has not yet begun, or is currently running!
+        bool hasError();
+
+        // Sets given parameter to current progress. Returns false in case of failure, i.e., the update process
+        // is not running or the version of the AppImage format is not supported, otherwise true.
+        bool progress(double& progress);
+
+        // Fetch a status message from the client in use that can be used to display updates
+        bool nextStatusMessage(std::string& message);
+
+        // Check whether an update is available
+        // Please note that this method is *only* available until the update is started (after calling start(),
+        // the method will instantly return false)
+        bool checkForChanges(bool& updateAvailable, unsigned int method = 0);
+
+        // Parses AppImage file, and returns a formatted string describing it
+        // in case of success, sets description and returns true, false otherwise
+        bool describeAppImage(std::string& description) const;
+
+        // Sets path to the path of the file created by the update and returns true as soon as this value is
+        // available (after a successful update at the latest)
+        // Returns false in case of errors, or when the path is not available yet
+        bool pathToNewFile(std::string& path) const;
+
+        // Validate AppImage signature
+        // TODO: describe process
+        // Returns a ValidationState value. See ValidationState documentation for more information.
+        ValidationState validateSignature();
+
+        // Returns a description string of the given validation state.
+        static std::string signatureValidationMessage(const ValidationState& state);
+
+        // Returns the size of the remote file in bytes
+        bool remoteFileSize(off_t& fileSize) const;
+
+        // Return update information
+        // If no custom update information is set, the function returns the raw update information contained in the
+        // AppImage
+        [[nodiscard]] std::string updateInformation() const;
+
+        // Set custom update information
+        // The custom update information will overwrite the one fetched from the AppImage
+        // This function is for applications that use libappimageupdate, e.g., to self-update, or implement a custom
+        // frontend like AppImageLauncher does, extending those users' possibilities
+        // Use cases include the use of custom update servers instead of relying on a built-in update information type,
+        // implement multiple update channels, etc.
+        void setUpdateInformation(std::string newUpdateInformation);
+
+        // Restore original file, e.g., after a signature validation error
+        void restoreOriginalFile();
+
+        // copy permissions of the original AppImage to the new version
+        void copyPermissionsToNewFile();
+    };
+}
